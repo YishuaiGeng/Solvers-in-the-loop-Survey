@@ -1,0 +1,9 @@
+topic,label,ancillary_experiment,boundary_diagnostic,comparison_only,core_evaluation,generic_training_or_background,loop_supporting_resource,solver_supervised_transfer,solver_supervision_data,unclear_relation
+logical_reasoning,Logical and rule reasoning,2,6,3,213,1,49,23,25,0
+constraint_optimization,Constraint and optimization modeling,0,2,0,73,0,12,2,10,0
+formal_proof,Formal proof construction,1,17,0,237,4,42,0,76,1
+formalization_translation,Formalization and translation,0,157,1,99,2,43,2,14,1
+program_spec_verification,Program and specification verification,0,25,0,268,0,48,7,24,1
+planning_behavior,Planning and constrained behavior,0,7,0,217,0,26,11,9,0
+safety_policy,Safety and policy compliance,0,6,0,47,0,6,1,2,0
+verification_diagnostics,Verification and interface diagnostics,0,113,0,23,0,9,1,1,0

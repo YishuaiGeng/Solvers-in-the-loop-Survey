@@ -1,0 +1,24 @@
+name: Correct metadata or classification
+description: Report a sourced correction to a released record or analysis.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Study ID or file / section
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Current value and proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public source and evidence locator
+      description: Include the relevant report version and page/section. For role changes, explain how the solver signal is used.
+    validations:
+      required: true

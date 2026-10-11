@@ -1,0 +1,31 @@
+name: Suggest a paper or report version
+description: Propose a sourced study or update to an existing report.
+title: "[Paper] "
+labels: [paper-suggestion]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Public paper URL, DOI or arXiv identifier
+    validations:
+      required: true
+  - type: input
+    id: identity
+    attributes:
+      label: Title, authors, year and existing study ID (if known)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Proposal type
+      options:
+        - New study candidate
+        - New report version of an existing study
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Relevant solver interaction and evidence
+      description: Identify the formal object, query/check and use of the returned signal. Include page or section locators; explain any version relationship and earliest public date. Link sources rather than attaching copyrighted full texts.
+    validations:
+      required: true

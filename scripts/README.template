@@ -1,0 +1,78 @@
+<div align="center">
+
+# Solvers in the Loop
+
+### A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models
+
+Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
+
+[![Validation](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml/badge.svg)](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml)
+![Studies](https://img.shields.io/badge/studies-1301-286b75)
+![Eligibility](https://img.shields.io/badge/eligibility-through_Aug_2026-64748b)
+
+**[Paper catalogue](papers/README.md) · [Taxonomy](docs/taxonomy.md) · [Benchmarks & analysis](analysis/README.md) · [Bibliography](references/README.md) · [Suggest a paper](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose)**
+
+<img src="assets/figures/overview.png" alt="Language models interact with symbolic solvers; returned signals support five distinct roles." width="100%">
+
+</div>
+
+Language models propose representations, candidates, and actions; symbolic solvers return answers, verdicts, counterexamples, or other structured feedback. This survey organizes these interactions by **how the solver signal is used**, and examines what the resulting evidence establishes about the encoded problem and the intended task.
+
+This repository is the survey's public companion: a classified literature catalogue, reusable bibliographic records, selected illustrations, and analysis summaries. **The manuscript PDF and arXiv link will be added after the paper is finalized or posted.**
+
+## Explore the five solver roles
+
+| Role | How the signal is used | Studies |
+| --- | --- | --- |
+@ROLE_ROWS@
+
+Roles overlap. The counts describe the confirmed corpus's stored role annotations, not disjoint method families or quality scores. [Unassigned labels](papers/roles/unassigned.md) remain explicit. For finer groupings, browse the [representative method index](docs/method-index.md).
+
+## What the collection covers
+
+| Resource | Snapshot |
+| --- | --- |
+| Included corpus | **@STUDIES@ studies / @REPORTS@ reports** |
+| Eligibility classes | @CORE@ core-method studies; @DIAGNOSTIC@ evaluation/diagnostic studies |
+| Research eligibility | Earliest evaluable public report: **1 Jan 2020 – 31 Aug 2026** |
+| Report versions used in the review | Available through **9 Oct 2026** |
+| Manuscript bibliography | **@REFERENCES@ cited entries**, including background and resources |
+| First public companion release | **12 Oct 2026 · v0.1.0** |
+
+The eligibility cutoff, actual search dates, and report-version cutoff describe different things. The first public release reuses existing records; it does not extend the literature search. See [methodology and limitations](docs/methodology.md).
+
+## Read, compare, and reuse the records
+
+- **Browse:** [by role or citation year](papers/README.md), with source links and stable study IDs.
+- **Understand the framework:** [role definitions and verification boundaries](docs/taxonomy.md), illustrated with figures from the manuscript.
+- **Compare evaluation settings:** [benchmark and protocol guide](analysis/benchmarks.md), with resource and solver-use citations kept separate.
+- **Inspect the summaries:** [task and metric analysis](analysis/README.md), with units, overlapping labels, and coding limits explained.
+- **Download:** [CSV](data/papers.csv), [JSON](data/papers.json), [BibTeX](references/references.bib), and the [data dictionary](data/schema.md).
+
+## What does a successful check establish?
+
+<img src="assets/figures/assurance-scope.png" alt="Formalization, checking, recording, returning and later deployment require different evidence." width="100%">
+
+A solver result is conditional on the formal object, assumptions, checker, and checked obligation. A successful check alone does not establish that the formalization captures the intended task, that an explanation faithfully reports the result, or that later outputs of a solver-supervised model receive the same guarantee. [Read the framework](docs/taxonomy.md).
+
+## Updates and contributions
+
+**2026-10-12:** Initial public companion release: classified corpus, manuscript references, seven existing illustrations, and evaluation summaries. [Change log](CHANGELOG.md).
+
+Suggestions for new papers, version updates, and metadata or classification corrections are welcome through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose) or pull requests. Please include a public source and explain the relevant solver interaction. Suggestions are reviewed before entering a released corpus. See [contribution guidance](CONTRIBUTING.md) and the [maintenance policy](docs/maintenance.md).
+
+## Citation and rights
+
+Until a public paper citation is available, cite the companion repository and specify the release you used. GitHub's **Cite this repository** button reads [CITATION.cff](CITATION.cff).
+
+```bibtex
+@misc{geng2026solvers_companion,
+  author = {Yishuai Geng},
+  title = {Solvers in the Loop: Survey Companion Repository},
+  year = {2026},
+  howpublished = {GitHub repository, version v0.1.0},
+  url = {https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey}
+}
+```
+
+Copyright is retained; no open-source or open-content license is granted at this stage. Bibliographic records identify works owned by their respective rights holders. See [LICENSE](LICENSE) and [figure credits](assets/README.md).

@@ -1,0 +1,122 @@
+{
+  "version": "v0.1.0",
+  "release_date": "2026-10-12",
+  "eligibility_start": "2020-01-01",
+  "eligibility_end": "2026-08-31",
+  "evidence_snapshot_date": "2026-10-09",
+  "historical_search_dates": [
+    "2026-09-09",
+    "2026-09-10"
+  ],
+  "studies": 1301,
+  "reports": 1587,
+  "manuscript_references": 418,
+  "literature_classes": {
+    "core_method": 1129,
+    "evaluation_diagnostic": 172
+  },
+  "roles": {
+    "R1": 559,
+    "R2": 931,
+    "R3": 512,
+    "R4": 228,
+    "R5": 234
+  },
+  "role_status": {
+    "classified": 1242,
+    "not_applicable": 25,
+    "unclear": 34
+  },
+  "citation_years": {
+    "2020": 2,
+    "2021": 2,
+    "2022": 10,
+    "2023": 56,
+    "2024": 185,
+    "2025": 460,
+    "2026": 584,
+    "2027": 2
+  },
+  "missing_source_links": 0,
+  "manuscript_citation_snapshot": {
+    "git_commit": "84583f0e2243de9320daf07135c4bcad13194086",
+    "bibliography_sha256": "c701797d7f7edba9da9a8e00569726eab47cef72bde5ae8585bb71c489cde028",
+    "active_keys_sha256": "e26486e6e51b11ee01f59bbafeec4ed25c56bebb2978fa45e0f445436bfaebc2",
+    "basis": "committed manuscript snapshot; concurrent working edits excluded"
+  },
+  "source_snapshots": [
+    {
+      "name": "confirmed_studies",
+      "sha256": "28fc69bc55d4fa7c403b33a029077ba487f8fc44a076fb62192badb8c379f6a6"
+    },
+    {
+      "name": "citation_versions",
+      "sha256": "998597c25f8c86920018a1b91c2c3d2ae8117cc69561e3198f49ae1c19aae586"
+    },
+    {
+      "name": "study_key_register",
+      "sha256": "b10e15a7f001c7e677ec864f1034d4bca317a4fd9add8d9981b0a2d6078bbad8"
+    },
+    {
+      "name": "report_metadata",
+      "sha256": "63be67d754375cedb1ee08a28c7ea802bd3fc9d1146ad50f1412f26e66b8b3c3"
+    },
+    {
+      "name": "library_metadata",
+      "sha256": "038f8c41e1886ecdee54bc28a5c602cc819994fd651cea95003de8f3cd0ad226"
+    },
+    {
+      "name": "taxonomy_map",
+      "sha256": "3abd384c88295b92044c4b8f894f2080d4baf58802f7dadb98c99c1744763ab3"
+    },
+    {
+      "name": "benchmark_overview",
+      "sha256": "9032fcae204eb722761be7c6551ea326a75fb83bda65b3d387e6236c0bf83833"
+    },
+    {
+      "name": "task_relevance",
+      "sha256": "78bfec6ee48022ec78b2529d3e0053097ed7ab3fb26f8f4799549a958262e9c2"
+    },
+    {
+      "name": "task_metric_matrix",
+      "sha256": "4067a28b24e2e14762b39d962c6f4802d1284243c13fca4f1f993dea4dfa747e"
+    }
+  ],
+  "figures": [
+    {
+      "asset": "assets/figures/overview.png",
+      "source_sha256": "c5d0ee48198a798a333420ceac616971e84f2c371ab944b7852d791b41416b86",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/symbolic-solving.png",
+      "source_sha256": "37790ceb8cec4d6f7799afc7d017a6dbf78e576690c96631872ff9fc4470b6fc",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/verification.png",
+      "source_sha256": "cbec13d19267ea1a75e9b7c3ada3be79a573dac168427ccec3af2a0434fe7b17",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/diagnosis-repair.png",
+      "source_sha256": "8281d1897d8a013f5b52527156121b6feb69dc85e0307199aa3e417750d25238",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/search-control.png",
+      "source_sha256": "caa09ab644bd4402f84a6a141ac87a463f5e3af56f65b348ae25baa40fe64952",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/learning-supervision.png",
+      "source_sha256": "c946f0c713ad7c145576799127bcf82655a68aafd6a030c80883c62d2f8357d1",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/assurance-scope.png",
+      "source_sha256": "75ffe01b9dd42f43332920cd0ed948422da67ba4474250fb7b346571130d4cc5",
+      "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    }
+  ]
+}

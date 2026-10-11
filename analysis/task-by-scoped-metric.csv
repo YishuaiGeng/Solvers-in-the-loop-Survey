@@ -1,0 +1,9 @@
+topic,surface_correspondence,coverage_completeness,auxiliary_quality,task_correctness,executability,formal_validity,semantic_fidelity,verification_coverage,diagnosis_repair,robustness_generalization,efficiency_cost,safety_compliance
+logical_reasoning,4,3,7,181,5,29,8,2,11,20,46,0
+constraint_optimization,1,1,1,55,4,12,1,1,8,3,33,1
+formal_proof,1,1,8,13,0,224,3,2,11,4,90,0
+formalization_translation,41,12,14,57,47,55,134,0,24,3,21,0
+program_spec_verification,2,16,12,45,29,186,27,13,79,3,135,8
+planning_behavior,5,11,4,158,18,32,4,1,19,2,96,14
+safety_policy,1,0,2,15,1,12,3,2,8,3,17,22
+verification_diagnostics,10,21,38,33,74,68,47,19,63,8,22,6
