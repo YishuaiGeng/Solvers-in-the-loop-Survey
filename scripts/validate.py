@@ -113,6 +113,11 @@ def validate_files():
 
 def main():
     papers,snap = load('data/papers.json'),load('data/snapshot.json')
+    links = load('manuscript/links.json')
+    require(set(links)=={'status','arxiv_url','pdf_url','doi_url'}, 'Unexpected manuscript link fields')
+    require(links['status'] in ('in_preparation','preprint','published'), 'Unknown manuscript status')
+    require(all(valid_url(links[k]) for k in ('arxiv_url','pdf_url','doi_url')), 'Unsafe manuscript URL')
+    require(links['status']=='in_preparation' or any(links[k]!='not_reported' for k in ('arxiv_url','pdf_url','doi_url')), 'Public manuscript status requires a source link')
     validate_papers(papers,snap)
     validate_csv(papers,ROOT/'data/papers.csv')
     ids = {p['study_id'] for p in papers}

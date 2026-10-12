@@ -90,11 +90,35 @@ def render():
         f"- {snap['missing_source_links']} studies have no recoverable public source URL in the exported local metadata; these appear as plain text.\n"
         '- The selected report can be later than the eligibility cutoff; see [methodology](../docs/methodology.md).\n')
 
+    links = load('manuscript/links.json')
+    link_labels = [('arxiv_url','arXiv'),('pdf_url','Paper PDF'),('doi_url','Publication / DOI')]
+    paper_links = [f'[{label}](<{links[key]}>)' for key,label in link_labels if links[key]!='not_reported']
+    paper_status = {
+        'in_preparation':'Manuscript in preparation · Public paper links will be added when available.',
+        'preprint':'Preprint available · See the paper links above for the current public version.',
+        'published':'Published paper · See the paper links above for the publication and available versions.',
+    }[links['status']]
+    paper_nav = ' · '.join(paper_links + ['[Paper status](manuscript/README.md)',
+        '[Latest release](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/releases/latest)'])
+    citation_status = ('Until a public paper citation is available, cite the companion repository and specify the release you used.'
+        if not paper_links else 'For the paper, use the citation provided by its public record. For companion data and resources, also cite this repository and specify the release used.')
+    manuscript = ['# Manuscript','',
+        '**Solvers in the Loop: A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**','',
+        'Yishuai Geng, Guohui Xiao, Guilin Qi, Huajun Chen, and Haofen Wang.','',paper_status,'']
+    if paper_links:
+        manuscript += [' · '.join(paper_links),'']
+    else:
+        manuscript += ['The manuscript PDF and a verified arXiv or publication link will be added after finalization or public posting.','']
+    manuscript += [citation_status,'',
+        'Repository citation: [CITATION.cff](../CITATION.cff). Manuscript references: [bibliography](../references/README.md).','']
+    outputs['manuscript/README.md'] = '\n'.join(manuscript)
+
     template = (ROOT/'scripts/README.template').read_text(encoding='utf-8')
     for key,val in {'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}',
                     'REPORTS':f"{snap['reports']:,}",'REFERENCES':str(len(refs)),
                     'CORE':f"{snap['literature_classes']['core_method']:,}",
-                    'DIAGNOSTIC':str(snap['literature_classes']['evaluation_diagnostic'])}.items():
+                    'DIAGNOSTIC':str(snap['literature_classes']['evaluation_diagnostic']),
+                    'PAPER_LINKS':paper_nav,'PAPER_STATUS':paper_status,'CITATION_STATUS':citation_status}.items():
         template = template.replace('@'+key+'@',val)
     outputs['README.md'] = template
     ref_lookup = {r['key']:r for r in refs}

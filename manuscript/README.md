@@ -4,6 +4,10 @@
 
 Yishuai Geng, Guohui Xiao, Guilin Qi, Huajun Chen, and Haofen Wang.
 
-The manuscript is being finalized. The PDF and a verified arXiv or publication link will be added once available. This repository's initial release contains companion resources and selected illustrations; it does not contain the draft PDF or a paper DOI.
+Manuscript in preparation · Public paper links will be added when available.
 
-Until then, use the repository citation in [CITATION.cff](../CITATION.cff) and specify the release. The [manuscript reference list](../references/README.md) is available separately.
+The manuscript PDF and a verified arXiv or publication link will be added after finalization or public posting.
+
+Until a public paper citation is available, cite the companion repository and specify the release you used.
+
+Repository citation: [CITATION.cff](../CITATION.cff). Manuscript references: [bibliography](../references/README.md).

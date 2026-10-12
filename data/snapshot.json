@@ -89,6 +89,11 @@
       "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
     },
     {
+      "asset": "assets/figures/solver-evolution.png",
+      "source_sha256": "de92c6be32f1b70e78007955d529f2043a324dfbf0f83ea4b3f9f1c1bc121f88",
+      "operation": "Existing standalone PDF rendered to RGB PNG; aspect ratio preserved; maximum dimension 3200 px"
+    },
+    {
       "asset": "assets/figures/symbolic-solving.png",
       "source_sha256": "37790ceb8cec4d6f7799afc7d017a6dbf78e576690c96631872ff9fc4470b6fc",
       "operation": "RGB PNG; aspect ratio preserved; maximum dimension 2000 px"

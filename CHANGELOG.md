@@ -1,5 +1,12 @@
 # Change log
 
+## Homepage update — 2026-10-12
+
+- Added the existing Solver development tree as a full-resolution PNG and featured it on the homepage.
+- Reorganized the homepage around paper links, overview, development tree, role navigation and resource downloads; the assurance illustration remains in the taxonomy guide.
+- Centralized arXiv, PDF and publication destinations in `manuscript/links.json`; the homepage and manuscript page derive their links and status from it.
+- Retained the v0.1.0 corpus and bibliography snapshot. No paper links have been asserted before public availability.
+
 ## v0.1.0 — 2026-10-12
 
 Initial public companion release, based on the existing author-confirmed review corpus.
