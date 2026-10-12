@@ -52,6 +52,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Constraint Solving | AutoOR | [motwani2026autoor](../references/README.md#motwani2026autoor) | `STUDY-4d67c8f471e5286f06e17703` |
 | Symbolic Solving | delegated problem | Constraint Solving | CP-Agent | [szeider2026cpagent](../references/README.md#szeider2026cpagent) | `STUDY-2a05d8189414fb22c1b30ed8` |
 | Symbolic Solving | delegated problem | Constraint Solving | SMT-LLM | [taxonomya0142026](../references/README.md#taxonomya0142026) | `STUDY-11f172cfe105a9de6ca52d8c` |
+| Symbolic Solving | delegated problem | Constraint Solving | LLMCG+CPA,S | [taxonomya0342026](../references/README.md#taxonomya0342026) | `STUDY-bd5c042be07c3bbe534b136a` |
 | Symbolic Solving | delegated problem | Symbolic Planning | LLM+P | [liu2023llmp](../references/README.md#liu2023llmp) | `STUDY-a063f7f81a37bbcc90a629ca` |
 | Symbolic Solving | delegated problem | Symbolic Planning | NL2Plan | [gestrin2024nl2plan](../references/README.md#gestrin2024nl2plan) | `STUDY-233280405fb347c431411b48` |
 | Symbolic Solving | delegated problem | Symbolic Planning | AutoTAMP | [chen2024autotamp](../references/README.md#chen2024autotamp) | `STUDY-4f65327fef5ba7fc6a8fa03e` |
@@ -74,7 +75,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Symbolic Planning | CLMASP | [lin2024clmasp](../references/README.md#lin2024clmasp) | `STUDY-7e8f909c4580ca01a127bea4` |
 | Symbolic Solving | delegated problem | Symbolic Planning | SCALAR | [zabounidis2026scalar](../references/README.md#zabounidis2026scalar) | `STUDY-0fda50af06a52ccebf631587` |
 | Verification | object of checking | Proof Checking | Baldur | [first2023baldur](../references/README.md#first2023baldur) | `STUDY-08baa11210398c534d44a40b` |
-| Verification | object of checking | Proof Checking | LOGICGUIDE | [poesia2023certified](../references/README.md#poesia2023certified) | `STUDY-091b6d350b2808f25320cbb1` |
+| Verification | object of checking | Proof Checking | LogicGuide | [poesia2023certified](../references/README.md#poesia2023certified) | `STUDY-091b6d350b2808f25320cbb1` |
 | Verification | object of checking | Proof Checking | Diproche | [carl2023improving](../references/README.md#carl2023improving) | `STUDY-f00d9a57a0b8f3b979a407c1` |
 | Verification | object of checking | Proof Checking | LLMSTEP | [welleck2023llmstep](../references/README.md#welleck2023llmstep) | `STUDY-4e87edc712925359c8038339` |
 | Verification | object of checking | Proof Checking | DTV | [zhou2024dont](../references/README.md#zhou2024dont) | `STUDY-03c7e06faa733f57dc801077` |
@@ -187,14 +188,11 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Search Control | search intervention | Candidate Pruning | D&P | [ni2026draft](../references/README.md#ni2026draft) | `STUDY-2f64acf4553e451a1409e3dc` |
 | Search Control | search intervention | Candidate Pruning | Hypothesis Frontier | [batzoglou2026hypothesis](../references/README.md#batzoglou2026hypothesis) | `STUDY-becbb9d37a89713107ec11dc` |
 | Search Control | search intervention | Candidate Pruning | Expecto | [lee2026expecto](../references/README.md#lee2026expecto) | `STUDY-cd3dd5957737fe6ff2a1cfd3` |
-| Search Control | search intervention | Constrained Generation | LOGICGUIDE | [poesia2023certified](../references/README.md#poesia2023certified) | `STUDY-091b6d350b2808f25320cbb1` |
+| Search Control | search intervention | Constrained Generation | LogicGuide | [poesia2023certified](../references/README.md#poesia2023certified) | `STUDY-091b6d350b2808f25320cbb1` |
 | Search Control | search intervention | Constrained Generation | Agent-C | [kamath2025enforcing](../references/README.md#kamath2025enforcing) | `STUDY-062bd1fda8f15c7b94545174` |
 | Search Control | search intervention | Constrained Generation | DECIDER | [xu2025decider](../references/README.md#xu2025decider) | `STUDY-b1c242ae74a06f64dd5b8e2b` |
-| Search Control | search intervention | Constrained Generation | LeJIT | [he2025lejit](../references/README.md#he2025lejit) | `STUDY-901714c56e30d5e9ab957017` |
-| Search Control | search intervention | Constrained Generation | Logically Constrained Decoding | [ma2025logicallyconstraineddecoding](../references/README.md#ma2025logicallyconstraineddecoding) | `STUDY-8db44c9bd39ae9dd36af4c8d` |
 | Search Control | search intervention | Constrained Generation | ChopChop | [nagy2026chopchop](../references/README.md#nagy2026chopchop) | `STUDY-48f22d29e0c871bce0ffd8ee` |
 | Search Control | search intervention | Constrained Generation | Syntropy | [li2026specification](../references/README.md#li2026specification) | `STUDY-00e63ba74309c80f2c9e2234` |
-| Search Control | search intervention | Constrained Generation | Projectional Decoding | [taxexp20261006a168](../references/README.md#taxexp20261006a168) | `STUDY-169c72169ee41f4eb6769ddb` |
 | Search Control | search intervention | State-Space Exploration | GPT-f | [polu2020generative](../references/README.md#polu2020generative) | `STUDY-f5cdd766589a7ebf284582a2` |
 | Search Control | search intervention | State-Space Exploration | Thor | [jiang2022thor](../references/README.md#jiang2022thor) | `STUDY-17af4ef559d1b970eb9c95c9` |
 | Search Control | search intervention | State-Space Exploration | HTPS | [lample2022hypertree](../references/README.md#lample2022hypertree) | `STUDY-523fa3c6299d61d3f96aece6` |

@@ -12,9 +12,12 @@ The catalogue contains **1,429 studies / 1,715 reports**: **1,235 core-method st
 | --- | --- |
 | 1 January 2020–30 September 2026 | Eligibility window for the earliest assessable public report |
 | 9 September 2026; 11 October 2026 | Principal source searches; final arXiv search |
-| 12 October 2026 | Evidence-version cutoff and current companion snapshot |
+| 12 October 2026 | Retained evidence-version cutoff |
+| 13 October 2026 | Current manuscript and companion snapshot |
 
 The September-window extension adds 128 author-confirmed studies, including boundary recoveries. It is not a list restricted to papers first published in September. A selected citation report can postdate the eligibility window. Catalogue metadata follows the author-confirmed selected-report register; the bibliography follows the editions cited in the manuscript, which can differ in year or venue.
+
+The current manuscript cites 479 references. Removing a citation or a method from its diagram changes the selected presentation, while the confirmed eligibility catalogue retains the underlying study records.
 
 ## Classification and analysis
 

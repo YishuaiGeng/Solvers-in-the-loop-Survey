@@ -462,6 +462,16 @@
   {
     "role": "Symbolic Solving",
     "grouping_axis": "delegated problem",
+    "direction": "Constraint Solving",
+    "method": "LLMCG+CPA,S",
+    "bibtex_key": "taxonomya0342026",
+    "study_id": "STUDY-bd5c042be07c3bbe534b136a",
+    "report_id": "RPT-175957b9c87a50ed8da79dd4",
+    "label_type": "original_paper_name"
+  },
+  {
+    "role": "Symbolic Solving",
+    "grouping_axis": "delegated problem",
     "direction": "Symbolic Planning",
     "method": "LLM+P",
     "bibtex_key": "liu2023llmp",
@@ -683,7 +693,7 @@
     "role": "Verification",
     "grouping_axis": "object of checking",
     "direction": "Proof Checking",
-    "method": "LOGICGUIDE",
+    "method": "LogicGuide",
     "bibtex_key": "poesia2023certified",
     "study_id": "STUDY-091b6d350b2808f25320cbb1",
     "report_id": "RPT-1d31bdf56a12a35bc322e80e",
@@ -1813,7 +1823,7 @@
     "role": "Search Control",
     "grouping_axis": "search intervention",
     "direction": "Constrained Generation",
-    "method": "LOGICGUIDE",
+    "method": "LogicGuide",
     "bibtex_key": "poesia2023certified",
     "study_id": "STUDY-091b6d350b2808f25320cbb1",
     "report_id": "RPT-1d31bdf56a12a35bc322e80e",
@@ -1843,26 +1853,6 @@
     "role": "Search Control",
     "grouping_axis": "search intervention",
     "direction": "Constrained Generation",
-    "method": "LeJIT",
-    "bibtex_key": "he2025lejit",
-    "study_id": "STUDY-901714c56e30d5e9ab957017",
-    "report_id": "RPT-a8ebf367cca3a7bb8e337bf2",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Constrained Generation",
-    "method": "Logically Constrained Decoding",
-    "bibtex_key": "ma2025logicallyconstraineddecoding",
-    "study_id": "STUDY-8db44c9bd39ae9dd36af4c8d",
-    "report_id": "RPT-bc0794df3f3603471a7c287f",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Constrained Generation",
     "method": "ChopChop",
     "bibtex_key": "nagy2026chopchop",
     "study_id": "STUDY-48f22d29e0c871bce0ffd8ee",
@@ -1877,16 +1867,6 @@
     "bibtex_key": "li2026specification",
     "study_id": "STUDY-00e63ba74309c80f2c9e2234",
     "report_id": "RPT-77ac224b5a93c8ef297253f3",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Constrained Generation",
-    "method": "Projectional Decoding",
-    "bibtex_key": "taxexp20261006a168",
-    "study_id": "STUDY-169c72169ee41f4eb6769ddb",
-    "report_id": "RPT-93820bc99666f0ce4f39eafd",
     "label_type": "original_paper_name"
   },
   {

@@ -5,8 +5,8 @@ title: "Solvers in the Loop: Survey Companion Repository"
 authors:
   - family-names: Geng
     given-names: Yishuai
-version: v0.2.0
-date-released: 2026-10-12
+version: v0.2.1
+date-released: 2026-10-13
 repository-code: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
 url: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
 abstract: "Classified literature, manuscript references, illustrations, and descriptive evaluation summaries accompanying the Solvers in the Loop survey."

@@ -21,7 +21,7 @@
 
 `url_basis` is one of `citation_version`, `citation_doi`, `citation_arxiv`, `canonical_report_catalogue`, `canonical_report_library`, or `not_reported`. Fallback links are joined by exact report ID, not by a title-similarity guess. A fallback source can identify a related report version; consult the identifiers before selecting a version to cite. Missing metadata and URLs are preserved, never manufactured.
 
-`snapshot.json` records the eligibility window, evidence-version date, counts, and SHA-256 fingerprints of local source snapshots under semantic names. Those hashes identify the inputs; they do not make private source ledgers publicly reconstructible. `release-manifest.json` fingerprints every released file except itself.
+`snapshot.json` records the eligibility window, evidence-version date, manuscript snapshot date, counts, and SHA-256 fingerprints of local source snapshots under semantic names. The manuscript refresh and release dates can advance while the evidence-version cutoff remains unchanged. `taxonomy_method_placements` counts the rows exported from the current diagram. Those hashes identify the inputs; they do not make private source ledgers publicly reconstructible. `release-manifest.json` fingerprints every released file except itself.
 
 `taxonomy-methods.json` is a separate placement table: `role`, `grouping_axis`, `direction`, `method`, `bibtex_key`, `study_id`, `report_id`, and `label_type`. It preserves the manuscript's analytical grouping. Multiple rows may concern one study, role names are spelled out, and historical section numbers are omitted. It is not a second eligibility ledger.
 

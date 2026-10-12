@@ -2,7 +2,7 @@
 
 [BibTeX](references.bib) · [JSON](references.json) · [Included studies](../papers/README.md)
 
-486 entries cited by the current manuscript snapshot. This includes background, resources and related surveys, so it differs from the 1,429-study eligibility corpus. An absent study link does not establish exclusion.
+479 entries cited by the current manuscript snapshot. This includes background, resources and related surveys, so it differs from the 1,429-study eligibility corpus. An absent study link does not establish exclusion.
 
 Bibliographic fields are exported from the manuscript library; study associations use retained key mappings and exact arXiv identifiers. Aliases can map to several study IDs and are preserved without merging. Online availability and publication status have not been rechecked for this release.
 
@@ -90,38 +90,31 @@ Eiter, Thomas and Higuera Ruiz, Nelson and Oetsch, Johannes. 2026. Theory and Pr
 
 Study association: `not_reported`.
 
-<a id="audit20261009s0b7b1f30b9f6"></a>
-**audit20261009s0b7b1f30b9f6** · Integrating ensemble learning and Large Language Models for efficient formal verification of IP-based aerospace systems
-
-Ma, Zhi and Wen, Cheng and Yu, Bin and Su, Jie. 2026. Information Fusion.
-
-Study association: `not_reported`.
-
 <a id="audit20261009s20c5d22edf0c"></a>
 **audit20261009s20c5d22edf0c** · Leveraging Natural Language Processing for a Consistency Checking Toolchain of Automotive Requirements
 
-Bertram, Vincent and Kausch, Hendrik and Kusmenko, Evgeny and Nqiri, Haron and Rumpe, Bernhard and Venhoff, Constantin. 2023. 31st IEEE International Requirements Engineering Conference (RE).
+Bertram, Vincent and Kausch, Hendrik and Kusmenko, Evgeny and Nqiri, Haron and Rumpe, Bernhard and Venhoff, Constantin. 2023. IEEE International Requirements Engineering Conference (RE).
 
 Study association: `not_reported`.
 
 <a id="audit20261009s2f27baec85ac"></a>
 **audit20261009s2f27baec85ac** · MisCC: Misinformation Detection on Counterfactual Claims
 
-Li, Xue and Belle, Vaishak and Ross, Björn. 2026. 4th International Joint Conference on Learning and Reasoning, IJCLR 2024, and 33rd International Conference on Inductive Logic Programming (ILP).
+Li, Xue and Belle, Vaishak and Ross, Björn. 2026. International Joint Conference on Learning and Reasoning (IJCLR).
 
 Study association: `not_reported`.
 
 <a id="audit20261009s46607e3093f3"></a>
 **audit20261009s46607e3093f3** · Shift-Left Requirements Verification: Integrating LLMs and Formal Methods for Automotive Systems
 
-Lim, Zipong and Wu, Bozhi and Teo, Yon Shin and Lin, Shang-wei and Li, Yi. 2026. 27th International Symposium on Formal Methods (FM).
+Lim, Zipong and Wu, Bozhi and Teo, Yon Shin and Lin, Shang-wei and Li, Yi. 2026. International Symposium on Formal Methods (FM).
 
 Study association: `not_reported`.
 
 <a id="audit20261009s617229b662c6"></a>
 **audit20261009s617229b662c6** · Synthesizing Inline Security Monitors for ICS Using Generative AI and FormalBench
 
-Raptis, George E. and Khan, Muhammad Taimoor and Koulamas, Christos and Serpanos, Dimitrios. 2025. 51st Annual Conference of the IEEE Industrial Electronics Society (IECON).
+Raptis, George E. and Khan, Muhammad Taimoor and Koulamas, Christos and Serpanos, Dimitrios. 2025. Annual Conference of the IEEE Industrial Electronics Society (IECON).
 
 Study association: `not_reported`.
 
@@ -135,14 +128,7 @@ Study association: `not_reported`.
 <a id="audit20261009sa86cc4cfb6ae"></a>
 **audit20261009sa86cc4cfb6ae** · The Next Frontier for AI-Generated Kernels: Correctness
 
-Martínez, Guido and Sorensen, Tyler. 2026. 1st Workshop on Principles of Agentic Engineering (PAgE).
-
-Study association: `not_reported`.
-
-<a id="audit20261009sbacabc794d32"></a>
-**audit20261009sbacabc794d32** · [Seeking Specifications: The Case for Neuro-Symbolic Specification Synthesis](<https://doi.org/10.1145/3785411>)
-
-Granberry, George and Ahrendt, Wolfgang and Johansson, Moa. 2026. Formal Aspects of Computing.
+Martínez, Guido and Sorensen, Tyler. 2026. Workshop on Principles of Agentic Engineering (PAgE).
 
 Study association: `not_reported`.
 
@@ -198,7 +184,7 @@ Study IDs: `STUDY-696c08a8474f06a05f919a8b`
 <a id="bansal2025nscot"></a>
 **bansal2025nscot** · [Robustness of Neurosymbolic Reasoners on First-Order Logic Problems](<https://aclanthology.org/2025.alta-main.1/>)
 
-Hannah Bansal and  Kemal Kurniawan and  Lea Frermann. 2025. Proceedings of the 23rd Annual Workshop of the Australasian Language Technology Association (ALTA).
+Hannah Bansal and Kemal Kurniawan and Lea Frermann. 2025. Annual Workshop of the Australasian Language Technology Association (ALTA).
 
 Study IDs: `STUDY-0e0bd26b88c3eb20fd643774`
 
@@ -261,7 +247,7 @@ Study IDs: `STUDY-0696070111f8867a02447d73`
 <a id="belcamino2026generalization"></a>
 **belcamino2026generalization** · [On the Generalization Gap in LLM Planning: Tests and Verifier-Reward RL](<https://arxiv.org/abs/2601.14456>)
 
-Valerio Belcamino and Nicholas Attolino and Alessio Capitanelli and Fulvio Mastrogiovanni. 2026. 2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM).
+Valerio Belcamino and Nicholas Attolino and Alessio Capitanelli and Fulvio Mastrogiovanni. 2026. IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM).
 
 Study IDs: `STUDY-0c8b34345332aad90d7229ed`
 
@@ -322,7 +308,7 @@ Pauline Bourigault. 2026. not\_reported.
 Study IDs: `STUDY-SEP26-2609.38384`
 
 <a id="bourigault2026risk"></a>
-**bourigault2026risk** · [Risk-Controlled Lean-as-Judge for Natural-Language Mathematical Reasoning.](<https://arxiv.org/abs/2605.28365>)
+**bourigault2026risk** · [Risk-Controlled Lean-as-Judge for Natural-Language Mathematical Reasoning](<https://arxiv.org/abs/2605.28365>)
 
 Pauline Bourigault and Xiaotong Ji and Matthieu Zimmer and Rasul Tutunov and Haitham Bou-Ammar. 2026. not\_reported.
 
@@ -352,7 +338,7 @@ Study IDs: `STUDY-93036466fde8ff77dc2c02f8`
 <a id="bui2025textjepa"></a>
 **bui2025textjepa** · [Speaking in Words, Thinking in Logic: A Dual-Process Framework in QA Systems](<https://doi.org/10.1109/ijcnn64981.2025.11229117>)
 
-Tuan Bui and  Trong Le and  Phat Thai and  Sang Nguyen and  Minh Hua and  Ngan Pham and  Thang Bui and  Tho Quan. 2025. International Joint Conference on Neural Networks (IJCNN).
+Tuan Bui and Trong Le and Phat Thai and Sang Nguyen and Minh Hua and Ngan Pham and Thang Bui and Tho Quan. 2025. International Joint Conference on Neural Networks (IJCNN).
 
 Study IDs: `STUDY-512e7d003c098335620ace8a`
 
@@ -436,7 +422,7 @@ Study IDs: `STUDY-SEP26-2609.00859`
 <a id="cheng2025empowering"></a>
 **cheng2025empowering** · Empowering LLMs with Logical Reasoning: A Comprehensive Survey
 
-Cheng, Fengxiang and Li, Haoxuan and Liu, Fenrong and others. 2025. Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, Survey Track (IJCAI).
+Cheng, Fengxiang and Li, Haoxuan and Liu, Fenrong and others. 2025. International Joint Conference on Artificial Intelligence (IJCAI), Survey Track.
 
 Study association: `not_reported`.
 
@@ -455,9 +441,9 @@ Chervonyi, Yuri and Trinh, Trieu H. and Olšák, Miroslav and Yang, Xiaomeng and
 Study IDs: `STUDY-1ebbd5e44d7d5bf0f9a90296`
 
 <a id="choi2025nesyc"></a>
-**choi2025nesyc** · [NESYC: A NEURO-SYMBOLIC CONTINUAL LEARNER FOR COMPLEX EMBODIED TASKS IN OPEN DOMAINS](<https://www.scopus.com/pages/publications/105010273779?origin=resultslist>)
+**choi2025nesyc** · [NeSyC: A Neuro-Symbolic Continual Learner for Complex Embodied Tasks in Open Domains](<https://www.scopus.com/pages/publications/105010273779?origin=resultslist>)
 
-Wonje Choi and  Jinwoo Park and  Sanghyun Ahn and  Daehee Lee and  Honguk Woo. 2025. International Conference on Learning Representations (ICLR).
+Wonje Choi and Jinwoo Park and Sanghyun Ahn and Daehee Lee and Honguk Woo. 2025. International Conference on Learning Representations (ICLR).
 
 Study IDs: `STUDY-2e47e68aebbfd0a81497f329`
 
@@ -520,7 +506,7 @@ Study association: `not_reported`.
 <a id="cok2014openjml"></a>
 **cok2014openjml** · OpenJML: Software Verification for Java 7 Using JML, OpenJDK, and Eclipse
 
-David R. Cok. 2014. Formal Integrated Development Environment 2014 (F-IDE).
+David R. Cok. 2014. Formal Integrated Development Environment (F-IDE).
 
 Study association: `not_reported`.
 
@@ -534,7 +520,7 @@ Study IDs: `STUDY-282b11221fe39ce533f054e9`
 <a id="cordeiro2010continuous"></a>
 **cordeiro2010continuous** · Continuous Verification of Large Embedded Software Using SMT-Based Bounded Model Checking
 
-Lucas C. Cordeiro and Bernd Fischer and João Marques-Silva. 2010. 17th IEEE International Conference and Workshops on the Engineering of Computer-Based Systems (ECBS).
+Lucas C. Cordeiro and Bernd Fischer and João Marques-Silva. 2010. IEEE International Conference and Workshops on the Engineering of Computer-Based Systems (ECBS).
 
 Study association: `not_reported`.
 
@@ -555,12 +541,12 @@ Study IDs: `STUDY-23fb540e46cd72432f61aacc`
 <a id="corpus2026100909aeb4cdcaf0"></a>
 **corpus2026100909aeb4cdcaf0** · Language Models Can Infer Action Semantics for Symbolic Planners from Environment Feedback
 
-Zhu, W.B. and Singh, I. and Jia, R. and Thomason, J.. 2025. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) (NAACL).
+Zhu, W.B. and Singh, I. and Jia, R. and Thomason, J.. 2025. Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL).
 
 Study association: `not_reported`.
 
 <a id="corpus202610090bdcc220448a"></a>
-**corpus202610090bdcc220448a** · MUSTARD: MASTERING UNIFORM SYNTHESIS OF THEOREM AND PROOF DATA
+**corpus202610090bdcc220448a** · MUSTARD: Mastering Uniform Synthesis of Theorem and Proof Data
 
 Huang, Y. and Lin, X. and Liu, Z. and Cao, Q. and Xin, H. and Wang, H. and Li, Z. and Song, L. and Liang, X.. 2024. International Conference on Learning Representations (ICLR).
 
@@ -569,7 +555,7 @@ Study association: `not_reported`.
 <a id="corpus202610091ff1c0579982"></a>
 **corpus202610091ff1c0579982** · Theorem Prover as a Judge for Synthetic Data Generation
 
-Leang, Joshua Ong Jun and Hong, Giwon and Li, Wenda and Cohen, Shay B.. 2025. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Leang, Joshua Ong Jun and Hong, Giwon and Li, Wenda and Cohen, Shay B.. 2025. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
@@ -583,14 +569,14 @@ Study association: `not_reported`.
 <a id="corpus202610093199a3cc7885"></a>
 **corpus202610093199a3cc7885** · Autoformalizing Euclidean Geometry
 
-Murphy, L. and Yang, K. and Sun, J. and Li, Z. and Anandkumar, A. and Si, X.. 2024. Proceedings of the International Conference on Machine Learning (ICML).
+Murphy, L. and Yang, K. and Sun, J. and Li, Z. and Anandkumar, A. and Si, X.. 2024. International Conference on Machine Learning (ICML).
 
 Study association: `not_reported`.
 
 <a id="corpus2026100944182dba981e"></a>
 **corpus2026100944182dba981e** · PDDLEGO: Iterative Planning in Textual Environments
 
-Zhang, L. and Jansen, P. and Zhang, T. and Clark, P. and Callison-Burch, C. and Tandon, N.. 2024. Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (\*SEM).
+Zhang, L. and Jansen, P. and Zhang, T. and Clark, P. and Callison-Burch, C. and Tandon, N.. 2024. Joint Conference on Lexical and Computational Semantics (\*SEM).
 
 Study association: `not_reported`.
 
@@ -618,28 +604,28 @@ Study association: `not_reported`.
 <a id="corpus20261009682dc78bec8b"></a>
 **corpus20261009682dc78bec8b** · Efficient PRM Training Data Synthesis via Formal Verification
 
-Kamoi, Ryo and Zhang, Yusen and Zhang, Nan and Das, Sarkar Snigdha Sarathi and Zhang, Ranran Haoran and Yin, Wenpeng and Zhang, Rui. 2026. Findings of the Association for Computational Linguistics 2026 (ACL).
+Kamoi, Ryo and Zhang, Yusen and Zhang, Nan and Das, Sarkar Snigdha Sarathi and Zhang, Ranran Haoran and Yin, Wenpeng and Zhang, Rui. 2026. Findings of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
 <a id="corpus2026100972411bf5a019"></a>
 **corpus2026100972411bf5a019** · EconProver: Towards More Economical Test-Time Scaling for Automated Theorem Proving
 
-Li, Mukai and Song, Linfeng and Liang, Zhenwen and Xu, Jiahao and Gong, Shansan and Liu, Qi and Mi, Haitao and Yu, Dong. 2026. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Li, Mukai and Song, Linfeng and Liang, Zhenwen and Xu, Jiahao and Gong, Shansan and Liu, Qi and Mi, Haitao and Yu, Dong. 2026. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
 <a id="corpus202610097355665b4953"></a>
 **corpus202610097355665b4953** · BFS-Prover: Scalable Best-First Tree Search for LLM-based Automatic Theorem Proving
 
-Xin, R. and Xi, C. and Yang, J. and Chen, F. and Wu, H. and Xiao, X. and Sun, Y. and Zheng, S. and Shen, K.. 2025. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Xin, R. and Xi, C. and Yang, J. and Chen, F. and Wu, H. and Xiao, X. and Sun, Y. and Zheng, S. and Shen, K.. 2025. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
 <a id="corpus202610098a9db1df66a3"></a>
 **corpus202610098a9db1df66a3** · Are LLMs Stable Formal Logic Translators in Logical Reasoning Across Linguistically Diversified Texts?
 
-Li, Q. and Li, J. and Liu, Z. and Cheng, M. and Zhou, Y. and Zeng, Y. and Liu, Q. and Liu, T.. 2026. 35th ACM Web Conference (WWW).
+Li, Q. and Li, J. and Liu, Z. and Cheng, M. and Zhou, Y. and Zeng, Y. and Liu, Q. and Liu, T.. 2026. ACM Web Conference (WWW).
 
 Study association: `not_reported`.
 
@@ -653,14 +639,14 @@ Study association: `not_reported`.
 <a id="corpus202610099d0d88ee902b"></a>
 **corpus202610099d0d88ee902b** · SpecGen: Automated Generation of Formal Program Specifications via Large Language Models
 
-Ma, L. and Liu, S. and Li, Y. and Xie, X. and Bu, L.. 2025. 47th IEEE/ACM International Conference on Software Engineering (ICSE).
+Ma, L. and Liu, S. and Li, Y. and Xie, X. and Bu, L.. 2025. IEEE/ACM International Conference on Software Engineering (ICSE).
 
 Study association: `not_reported`.
 
 <a id="corpus20261009d728294efd40"></a>
 **corpus20261009d728294efd40** · Bridging LLM Planning Agents and Formal Methods: A Case Study in Plan Verification
 
-Ramani, K. and Tawosi, V. and Alamir, S. and Borrajo, D.. 2025. 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW).
+Ramani, K. and Tawosi, V. and Alamir, S. and Borrajo, D.. 2025. IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW).
 
 Study association: `not_reported`.
 
@@ -709,14 +695,14 @@ Study association: `not_reported`.
 <a id="coverage20261009s235"></a>
 **coverage20261009s235** · CNnotator: LLM-Guided Memory Safety Annotation Synthesis
 
-Twain Byrnes and Mike Dodds. 2026. Proceedings - 2026 1st International Workshop on Code Translation, Transformation, and Modernization (ReCode).
+Twain Byrnes and Mike Dodds. 2026. International Workshop on Code Translation, Transformation, and Modernization (ReCode).
 
 Study association: `not_reported`.
 
 <a id="coverage20261009s236"></a>
 **coverage20261009s236** · LLM-Assisted Cause-Effect Graph Generation for Requirements-Based Test Design
 
-Hiroyuki Kirinuki. 2026. Proceedings - 2026 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).
+Hiroyuki Kirinuki. 2026. IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).
 
 Study association: `not_reported`.
 
@@ -731,13 +717,6 @@ Study association: `not_reported`.
 **coverage20261009s239** · ChatGPT in the Loop: A Natural Language Extension for Domain-Specific Modeling Languages
 
 Daniel Busch and Gerrit Nolte and Alexander Bainczyk and Bernhard Steffen. 2024. Bridging the Gap Between AI and Reality (AISoLA).
-
-Study association: `not_reported`.
-
-<a id="coverage20261009s240"></a>
-**coverage20261009s240** · [LLM+Reasoning+Planning for Supporting Incomplete User Queries in Presence of APIs](<https://doi.org/10.4204/eptcs.416.3>)
-
-Sudhir Agarwal and Anu Sreepathy and David H. Alonso and Prarit Lamba. 2025. Electronic Proceedings in Theoretical Computer Science.
 
 Study association: `not_reported`.
 
@@ -758,7 +737,7 @@ Study association: `not_reported`.
 <a id="coverage20261009s246"></a>
 **coverage20261009s246** · Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference
 
-Thanh Le-Cong and Bach Le and Toby Murray. 2025. Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL).
+Thanh Le-Cong and Bach Le and Toby Murray. 2025. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
@@ -793,14 +772,14 @@ Study association: `not_reported`.
 <a id="coverage20261009s256"></a>
 **coverage20261009s256** · Hybrid Models for Natural Language Reasoning: The Case of Syllogistic Logic
 
-Vargas Guzmán, Manuel and Szymanik, Jakub and Malicki, Maciej. 2026. Proceedings of the 23rd International Conference on Principles of Knowledge Representation and Reasoning (KR).
+Vargas Guzmán, Manuel and Szymanik, Jakub and Malicki, Maciej. 2026. International Conference on Principles of Knowledge Representation and Reasoning (KR).
 
 Study association: `not_reported`.
 
 <a id="coverage20261009s257"></a>
 **coverage20261009s257** · Generating SysML Behavior Models via Large Language Models: an Empirical Study
 
-Yuan Wang and Ning Ge and Jiangxi Liu and Zhilong Cao and Zheping Chen and Chunming Hu. 2025. 16th International Conference on Internetware, Internetware 2025 - Proceedings.
+Yuan Wang and Ning Ge and Jiangxi Liu and Zhilong Cao and Zheping Chen and Chunming Hu. 2025. International Conference on Internetware (Internetware).
 
 Study association: `not_reported`.
 
@@ -902,13 +881,6 @@ Xueying Du and Kai Yu and Chong Wang and Yi Zou and Wentai Deng and Zuoyu Ou and
 
 Study IDs: `STUDY-9755324478174154b04092d3`
 
-<a id="dubray2026can"></a>
-**dubray2026can** · [Can Code Specify a System Precisely Enough to Formally Verify It?](<https://arxiv.org/abs/2607.05076>)
-
-Jean-Jacques Dubray. 2026. not\_reported.
-
-Study IDs: `STUDY-b4df100c3ae4a6ddb6b474f1`
-
 <a id="een2003extensible"></a>
 **een2003extensible** · An Extensible SAT-Solver
 
@@ -933,7 +905,7 @@ Study IDs: `STUDY-SEP26-2609.10537`
 <a id="feng2024raincoat"></a>
 **feng2024raincoat** · [Normative Requirements Operationalization with Large Language Models](<https://doi.org/10.1109/re59067.2024.00022>)
 
-Nick Feng and  Lina Marsso and  Sinem Getir Yaman and  Isobel Standen and  Yesugen Baatartogtokh and  Reem Ayad and  Victória Oldemburgo de Mello and  Beverley Townsend and  Hanne Bartels and  Ana Cavalcanti and  Radu Calinescu and  Marsha Chechik. 2024. IEEE International Requirements Engineering Conference (RE).
+Nick Feng and Lina Marsso and Sinem Getir Yaman and Isobel Standen and Yesugen Baatartogtokh and Reem Ayad and Victória Oldemburgo de Mello and Beverley Townsend and Hanne Bartels and Ana Cavalcanti and Radu Calinescu and Marsha Chechik. 2024. IEEE International Requirements Engineering Conference (RE).
 
 Study IDs: `STUDY-30688a2f814c2ef4af42fa4d`
 
@@ -961,7 +933,7 @@ Study IDs: `STUDY-08baa11210398c534d44a40b`
 <a id="freedman2025argumentative"></a>
 **freedman2025argumentative** · [Argumentative Large Language Models for Explainable and Contestable Claim Verification](<https://doi.org/10.1609/aaai.v39i14.33637>)
 
-Freedman, Gabriel and Dejl, Adam and Gorur, Deniz and Yin, Xiang and Rago, Antonio and Toni, Francesca. 2025. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI).
+Freedman, Gabriel and Dejl, Adam and Gorur, Deniz and Yin, Xiang and Rago, Antonio and Toni, Francesca. 2025. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study IDs: `STUDY-a956caa5203553a63921356f`
 
@@ -975,7 +947,7 @@ Study association: `not_reported`.
 <a id="gelfond1988stable"></a>
 **gelfond1988stable** · The Stable Model Semantics for Logic Programming
 
-Gelfond, Michael and Lifschitz, Vladimir. 1988. Proceedings of the Fifth International Conference and Symposium on Logic Programming (ICLP/SLP).
+Gelfond, Michael and Lifschitz, Vladimir. 1988. International Conference and Symposium on Logic Programming (ICLP/SLP).
 
 Study association: `not_reported`.
 
@@ -1008,7 +980,7 @@ Harrison Green and Claire Le Goues and Fraser Brown. 2026. not\_reported.
 Study IDs: `STUDY-SEP26-2609.14836`
 
 <a id="guo2025castl"></a>
-**guo2025castl** · [CaStL: Constraints as Specifications Through Llm Translation for Long-Horizon Task and Motion Planning](<https://doi.org/10.1109/icra55743.2025.11127555>)
+**guo2025castl** · [CaStL: Constraints as Specifications Through LLM Translation for Long-Horizon Task and Motion Planning](<https://doi.org/10.1109/icra55743.2025.11127555>)
 
 Weihang Guo and Zachary Kingston and Lydia E. Kavraki. 2025. IEEE International Conference on Robotics and Automation (ICRA).
 
@@ -1045,7 +1017,7 @@ Study IDs: `STUDY-458f420b3cddce5d538841e7`
 <a id="han2024folio"></a>
 **han2024folio** · FOLIO: Natural Language Reasoning with First-Order Logic
 
-Han, Simeng and Schoelkopf, Hailey and Zhao, Yilun and others. 2024. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Han, Simeng and Schoelkopf, Hailey and Zhao, Yilun and others. 2024. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study association: `not_reported`.
 
@@ -1069,13 +1041,6 @@ Study IDs: `STUDY-16a244c09b618a06ee81d011`
 Yiming He and Jia Zou and Xiaokai Zhang and Na Zhu and Tuo Leng. 2024. not\_reported.
 
 Study IDs: `STUDY-ec76921e511384814a75bdb6`
-
-<a id="he2025lejit"></a>
-**he2025lejit** · [Just-in-Time Logic Enforcement: A new paradigm of combining statistical and symbolic reasoning for network management](<https://doi.org/10.1145/3772356.3772406>)
-
-Hongyu Hè and  Maria Apostolaki. 2025. The 24th ACM Workshop on Hot Topics in Networks (HotNets).
-
-Study IDs: `STUDY-901714c56e30d5e9ab957017`
 
 <a id="he2025symbolicsolvers"></a>
 **he2025symbolicsolvers** · [When Do Symbolic Solvers Enhance Reasoning in Large Language Models?](<https://arxiv.org/abs/2512.03272>)
@@ -1101,7 +1066,7 @@ Study IDs: `STUDY-SEP26-2609.23954`
 <a id="herzog2025dcsgg"></a>
 **herzog2025dcsgg** · [Domain-Conditioned Scene Graphs for State-Grounded Task Planning](<https://doi.org/10.1109/iros60139.2025.11247213>)
 
-Jonas Herzog and  Jiangpin Liu and  Yue Wang. 2025. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+Jonas Herzog and Jiangpin Liu and Yue Wang. 2025. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
 
 Study IDs: `STUDY-489c117f1b96aba96a1a310f`
 
@@ -1157,7 +1122,7 @@ Study IDs: `STUDY-7876dde037218cc4643b7474`
 <a id="howey2004val"></a>
 **howey2004val** · VAL: Automatic Plan Validation, Continuous Effects and Mixed Initiative Planning Using PDDL
 
-Howey, Richard and Long, Derek and Fox, Maria. 2004. Proceedings of the 16th IEEE International Conference on Tools with Artificial Intelligence (ICTAI).
+Howey, Richard and Long, Derek and Fox, Maria. 2004. IEEE International Conference on Tools with Artificial Intelligence (ICTAI).
 
 Study association: `not_reported`.
 
@@ -1178,7 +1143,7 @@ Study IDs: `STUDY-SEP26-2609.21492`
 <a id="huang2025limit"></a>
 **huang2025limit** · [On the Limit of Language Models as Planning Formalizers](<https://doi.org/10.18653/v1/2025.acl-long.242>)
 
-Cassie Huang and Li Zhang. 2025. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Cassie Huang and Li Zhang. 2025. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-49ff7bc1fcb3ba7c1dd72d75`
 
@@ -1192,7 +1157,7 @@ Study IDs: `STUDY-b6782ae91ebd190259b7285c`
 <a id="huang2026cope"></a>
 **huang2026cope** · [Language Model as Planner and Formalizer under Constraints](<https://doi.org/10.18653/v1/2026.acl-long.624>)
 
-Cassie Huang and Stuti Mohan and Ziyi Yang and Stefanie Tellex and Li Zhang. 2026. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Cassie Huang and Stuti Mohan and Ziyi Yang and Stefanie Tellex and Li Zhang. 2026. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-394e81dfc793a3fb1a943da9`
 
@@ -1206,7 +1171,7 @@ Study IDs: `STUDY-15bd81d2a935ebe00c259582`
 <a id="huang2026guesscheckcritiquegcc"></a>
 **huang2026guesscheckcritiquegcc** · [Neuro-symbolic Hierarchical Learning for Long-Horizon Robotic Tasks](<https://doi.org/10.1145/3808338>)
 
-Yu Huang and  Ziji Wu and  Zhengyi Ma and  Kexin Ma and  Ji Wang. 2026. Proceedings of the ACM on Programming Languages.
+Yu Huang and Ziji Wu and Zhengyi Ma and Kexin Ma and Ji Wang. 2026. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-0fafb15e569a89e4c2dfacfb`
 
@@ -1255,7 +1220,7 @@ Study IDs: `STUDY-SEP26-2609.10057`
 <a id="ishay2025llmal"></a>
 **ishay2025llmal** · [LLM+AL: Bridging Large Language Models and Action Languages for Complex Reasoning About Actions](<https://doi.org/10.1609/aaai.v39i23.34597>)
 
-Adam Ishay and Joohyung Lee. 2025. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI).
+Adam Ishay and Joohyung Lee. 2025. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study IDs: `STUDY-29bb305bfa2abbec3162793d`
 
@@ -1276,7 +1241,7 @@ Study IDs: `STUDY-4274bf5e0123522b14b0d921`
 <a id="jha2025preface"></a>
 **jha2025preface** · [PREFACE - A Reinforcement Learning Framework for Code Verification via LLM Prompt Repair](<https://doi.org/10.1145/3716368.3735300>)
 
-Manvi Jha and  Jiaxin Wan and  Huan Zhang and  Deming Chen. 2025. Great Lakes Symposium on VLSI 2025 (GLSVLSI).
+Manvi Jha and Jiaxin Wan and Huan Zhang and Deming Chen. 2025. Great Lakes Symposium on VLSI (GLSVLSI).
 
 Study IDs: `STUDY-4a12cea38363bb19859e0899`
 
@@ -1304,7 +1269,7 @@ Study IDs: `STUDY-042889d57b0399ec57d6a33f`
 <a id="jiang2024leanreasoner"></a>
 **jiang2024leanreasoner** · [LeanReasoner: Boosting Complex Logical Reasoning with Lean](<https://doi.org/10.18653/v1/2024.naacl-long.416>)
 
-Jiang, Dongwei and Fonseca, Marcio and Cohen, Shay B.. 2024. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL).
+Jiang, Dongwei and Fonseca, Marcio and Cohen, Shay B.. 2024. Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).
 
 Study IDs: `STUDY-32094bb032a5346a1eb3643d`
 
@@ -1318,7 +1283,7 @@ Study IDs: `STUDY-SEP26-2609.34205`
 <a id="jiang2026saircomb"></a>
 **jiang2026saircomb** · [SAIR-Comb : A Structure-Aware Iterative Refinement Framework for Combinatorics Autoformalization](<https://doi.org/10.18653/v1/2026.acl-long.1075>)
 
-Weijie Jiang and  Gaolei He and  Beibei Xiong and  Jianlin Wang and  Zhengfeng Yang. 2026. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Weijie Jiang and Gaolei He and Beibei Xiong and Jianlin Wang and Zhengfeng Yang. 2026. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-38045b7eb88ef91b085100e7`
 
@@ -1332,7 +1297,7 @@ Study IDs: `STUDY-SEP26-2609.32491`
 <a id="jung2022maieutic"></a>
 **jung2022maieutic** · [Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations](<https://doi.org/10.18653/v1/2022.emnlp-main.82>)
 
-Jung, Jaehun and Qin, Lianhui and Welleck, Sean and Brahman, Faeze and Bhagavatula, Chandra and Le Bras, Ronan and Choi, Yejin. 2022. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Jung, Jaehun and Qin, Lianhui and Welleck, Sean and Brahman, Faeze and Bhagavatula, Chandra and Le Bras, Ronan and Choi, Yejin. 2022. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-244d1f898f8d1823873b07ca`
 
@@ -1367,7 +1332,7 @@ Study IDs: `STUDY-062bd1fda8f15c7b94545174`
 <a id="kassner2021beliefbank"></a>
 **kassner2021beliefbank** · [BeliefBank: Adding Memory to a Pre-Trained Language Model for a Systematic Notion of Belief](<https://doi.org/10.18653/v1/2021.emnlp-main.697>)
 
-Kassner, Nora and Tafjord, Oyvind and Schütze, Hinrich and Clark, Peter. 2021. Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Kassner, Nora and Tafjord, Oyvind and Schütze, Hinrich and Clark, Peter. 2021. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-76474ea0d32dbef7b767531a`
 
@@ -1430,7 +1395,7 @@ Study association: `not_reported`.
 <a id="kirtania2024logiclmpp"></a>
 **kirtania2024logiclmpp** · [LOGIC-LM++: Multi-Step Refinement for Symbolic Formulations](<https://www.scopus.com/pages/publications/85205108527?origin=resultslist>)
 
-Kirtania, Shashank and Gupta, Priyanshu and Radhakrishna, Arjun. 2024. Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations at ACL 2024.
+Kirtania, Shashank and Gupta, Priyanshu and Radhakrishna, Arjun. 2024. Workshop on Natural Language Reasoning and Structured Explanations (NLRSE).
 
 Study IDs: `STUDY-bd25cd82d1b2187aa753d0b1`
 
@@ -1465,7 +1430,7 @@ Study IDs: `STUDY-SEP26-2609.34619`
 <a id="kovacs2013vampire"></a>
 **kovacs2013vampire** · First-Order Theorem Proving and Vampire
 
-Laura Kovács and Andrei Voronkov. 2013. Proceedings of the 25th International Conference on Computer Aided Verification (CAV).
+Laura Kovács and Andrei Voronkov. 2013. Computer Aided Verification (CAV).
 
 Study association: `not_reported`.
 
@@ -1479,7 +1444,7 @@ Study association: `not_reported`.
 <a id="lam2024closer"></a>
 **lam2024closer** · A Closer Look at Tool-based Logical Reasoning with LLMs: The Choice of Tool Matters
 
-Long Hei Matthew Lam and Ramya Keerthy Thatikonda and Ehsan Shareghi. 2024. Proceedings of the 22nd Annual Workshop of the Australasian Language Technology Association (ALTA).
+Long Hei Matthew Lam and Ramya Keerthy Thatikonda and Ehsan Shareghi. 2024. Annual Workshop of the Australasian Language Technology Association (ALTA).
 
 Study IDs: `STUDY-9eb004c42cc66e2bc7523e51`, `STUDY-b74dccd2250d32000fef5563`
 
@@ -1507,7 +1472,7 @@ Study IDs: `STUDY-SEP26-2609.11319`
 <a id="lee2026expecto"></a>
 **lee2026expecto** · [Expecto: Extracting Formal Specifications from Natural Language Description for Trustworthy Oracles](<https://doi.org/10.1145/3808332>)
 
-Dongjae Lee and  Kihong Heo. 2026. Proceedings of the ACM on Programming Languages.
+Dongjae Lee and Kihong Heo. 2026. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-cd3dd5957737fe6ff2a1cfd3`
 
@@ -1549,7 +1514,7 @@ Study association: `not_reported`.
 <a id="li2025patchpilot"></a>
 **li2025patchpilot** · [PatchPilot: A Cost-Efficient Software Engineering Agent with Early Attempts on Formal Verification](<https://www.scopus.com/pages/publications/105023828073?origin=resultslist>)
 
-Hongwei Li and  Yuheng Tang and  Shiqi Wang and  Wenbo Guo. 2025. Proceedings of Machine Learning Research.
+Hongwei Li and Yuheng Tang and Shiqi Wang and Wenbo Guo. 2025. Proceedings of Machine Learning Research.
 
 Study IDs: `STUDY-101a5da72ce9ec71489dc309`
 
@@ -1584,7 +1549,7 @@ Study IDs: `STUDY-520484d4ccc84c479f59cb7c`
 <a id="li2026osvbench"></a>
 **li2026osvbench** · OSVBench: Benchmarking LLMs on Specification Generation Tasks for Operating System Verification
 
-Shangyu Li and Juyong Jiang and Tiancheng Zhao and Jiasi Shen. 2026. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI).
+Shangyu Li and Juyong Jiang and Tiancheng Zhao and Jiasi Shen. 2026. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study IDs: `STUDY-0b3d336380512dd1420faa5e`, `STUDY-bdc306d45c107f7a1f13924c`
 
@@ -1605,7 +1570,7 @@ Study IDs: `STUDY-00e63ba74309c80f2c9e2234`
 <a id="li2026symbolicreasoningsurvey"></a>
 **li2026symbolicreasoningsurvey** · A Survey on LLM Symbolic Reasoning
 
-Jindong Li and Yali Fu and Yang Yang and Jiahong Liu and Hongce Zhang and Haoxuan Li and Yutao Yue and Menglin Yang. 2026. Logical and Symbolic Reasoning in Language Models @ AAAI 2026.
+Jindong Li and Yali Fu and Yang Yang and Jiahong Liu and Hongce Zhang and Haoxuan Li and Yutao Yue and Menglin Yang. 2026. Workshop on Logical and Symbolic Reasoning in Language Models (LaSR), co-located with AAAI.
 
 Study association: `not_reported`.
 
@@ -1654,28 +1619,28 @@ Study association: `not_reported`.
 <a id="localverify3_26"></a>
 **localverify3_26** · Agentic Taxation Optimization via LLM SMT-Constraint Reasoning
 
-Ting-Chien Hwang and Fang Yu and Jie-Hong Roland Jiang. 2026. 48th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP).
+Ting-Chien Hwang and Fang Yu and Jie-Hong Roland Jiang. 2026. IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP).
 
 Study association: `not_reported`.
 
 <a id="localverify3_36"></a>
 **localverify3_36** · Training Language Models to Use Prolog as a Tool
 
-Niklas Mellgren and Peter Schneider-Kamp and Lukas Galke Poech. 2026. Findings of the Association for Computational Linguistics 2026 (ACL).
+Niklas Mellgren and Peter Schneider-Kamp and Lukas Galke Poech. 2026. Findings of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 
 <a id="localverify3_38"></a>
 **localverify3_38** · LLM-Based Grid-World Path Planning With Probabilistic Model Checking
 
-Asher Tempest Arya and Aren A. Babikian and Sophia Jit and Marsha Chechik. 2026. Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering: Companion (FSE).
+Asher Tempest Arya and Aren A. Babikian and Sophia Jit and Marsha Chechik. 2026. ACM International Conference on the Foundations of Software Engineering, Companion (FSE Companion).
 
 Study association: `not_reported`.
 
 <a id="localverify3_40"></a>
 **localverify3_40** · CLEVR-POC: Reasoning-Intensive Visual Question Answering in Partially Observable Environments
 
-Savitha Sam Abraham and Marjan Alirezaie and Luc De Raedt. 2024. Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING).
+Savitha Sam Abraham and Marjan Alirezaie and Luc De Raedt. 2024. Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING).
 
 Study association: `not_reported`.
 
@@ -1689,14 +1654,14 @@ Study association: `not_reported`.
 <a id="localverify3_48"></a>
 **localverify3_48** · A Hierarchical Hybrid-Intelligence Architecture with Consensus, Debate, and Reflection for High-Fidelity NL-to-PPTL Conversion
 
-Tianchi Zhang and Jinhui Lyu and Yong Cai. 2025. 32nd Asia-Pacific Software Engineering Conference (APSEC).
+Tianchi Zhang and Jinhui Lyu and Yong Cai. 2025. Asia-Pacific Software Engineering Conference (APSEC).
 
 Study association: `not_reported`.
 
 <a id="localverify3_49"></a>
 **localverify3_49** · Towards a Trustworthy Co-pilot for IEC 61499 Function Block Composition
 
-Polina Ovsiannikova and Bianca Wiesmayr and Tatiana Liakh and Valeriy Vyatkin. 2026. 15th International Workshop on Service Oriented, Holonic and Multi-Agent Manufacturing Systems for Industry of the Future (SOHOMA).
+Polina Ovsiannikova and Bianca Wiesmayr and Tatiana Liakh and Valeriy Vyatkin. 2026. International Workshop on Service Oriented, Holonic and Multi-Agent Manufacturing Systems for Industry of the Future (SOHOMA).
 
 Study association: `not_reported`.
 
@@ -1710,14 +1675,14 @@ Study association: `not_reported`.
 <a id="localverify3_55"></a>
 **localverify3_55** · Automated Repair of Totally-Ordered Hierarchical Task Network Domains via Context-Free Grammars with Large Language Model Support
 
-Daniel Lutalo and Pascal Bercher. 2026. 40th AAAI Conference on Artificial Intelligence (AAAI).
+Daniel Lutalo and Pascal Bercher. 2026. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study association: `not_reported`.
 
 <a id="localverify3_56"></a>
 **localverify3_56** · NL2CSP: Towards Automated CSP Code Generation with Large Language Models
 
-Chenhui Wang and Nuowei Liu and Han Bao and Di Wu and Huiying Liu and Jiaqi Yin and Huibiao Zhu. 2025. 31st IEEE International Conference on Parallel and Distributed Systems (ICPADS).
+Chenhui Wang and Nuowei Liu and Han Bao and Di Wu and Huiying Liu and Jiaqi Yin and Huibiao Zhu. 2025. IEEE International Conference on Parallel and Distributed Systems (ICPADS).
 
 Study association: `not_reported`.
 
@@ -1745,23 +1710,16 @@ Study IDs: `STUDY-SEP26-2609.19814`
 <a id="lv2026smtguided"></a>
 **lv2026smtguided** · [LLM-Guided Quantified SMT Solving over Uninterpreted Functions](<https://doi.org/10.1609/aaai.v40i17.38445>)
 
-Lv, Kunhang and Dong, Yuhang and Han, Rui and Jia, Fuqi and Ma, Feifei and Zhang, Jian. 2026. Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (AAAI).
+Lv, Kunhang and Dong, Yuhang and Han, Rui and Jia, Fuqi and Ma, Feifei and Zhang, Jian. 2026. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study IDs: `STUDY-aa918f80fdd53af2092194ae`
 
 <a id="lyu2023faithful"></a>
 **lyu2023faithful** · [Faithful Chain-of-Thought Reasoning](<https://doi.org/10.18653/v1/2023.ijcnlp-main.20>)
 
-Lyu, Qing and Havaldar, Shreya and Stein, Adam and others. 2023. Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL).
+Lyu, Qing and Havaldar, Shreya and Stein, Adam and others. 2023. International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL).
 
 Study IDs: `STUDY-d33df1e17bc568e8b52fccf2`
-
-<a id="ma2025logicallyconstraineddecoding"></a>
-**ma2025logicallyconstraineddecoding** · [Logically Constrained Decoding](<https://doi.org/10.18653/v1/2025.mathnlp-main.11>)
-
-Franklin Ma and  Alan J. Hu. 2025. Proceedings of the 3rd Workshop on Mathematical Natural Language Processing (MathNLP).
-
-Study IDs: `STUDY-8db44c9bd39ae9dd36af4c8d`
 
 <a id="ma2026swe"></a>
 **ma2026swe** · [SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](<https://arxiv.org/abs/2609.21190>)
@@ -1794,7 +1752,7 @@ Study IDs: `STUDY-5cab4d9c20cbe0207150d817`
 <a id="mandel2026ppdl"></a>
 **mandel2026ppdl** · [PPDL: LLM-Based Flows as Probabilistic Programs](<https://arxiv.org/abs/2608.05234>)
 
-Louis Mandel and Guillaume Baudart and Mandana Vaziri and Martin Hirzel. 2026. Proceedings of the International Conference on Machine Learning (ICML).
+Louis Mandel and Guillaume Baudart and Mandana Vaziri and Martin Hirzel. 2026. International Conference on Machine Learning (ICML).
 
 Study IDs: `STUDY-0d6461f5e9b655b694352a29`
 
@@ -1829,7 +1787,7 @@ Study IDs: `STUDY-1c5d962a390eb9ef5a3798ac`
 <a id="michailidis2025cpbench"></a>
 **michailidis2025cpbench** · CP-Bench: Evaluating Large Language Models for Constraint Modelling
 
-Michailidis, Kostis and Tsouros, Dimos and Guns, Tias. 2025. Proceedings of the 28th European Conference on Artificial Intelligence (ECAI).
+Michailidis, Kostis and Tsouros, Dimos and Guns, Tias. 2025. European Conference on Artificial Intelligence (ECAI).
 
 Study association: `not_reported`.
 
@@ -1878,7 +1836,7 @@ Study IDs: `STUDY-SEP26-2609.15318`
 <a id="munozavila2025chathtn"></a>
 **munozavila2025chathtn** · [ChatHTN: Interleaving Approximate (LLM) and Symbolic HTN Planning](<https://dblp.org/rec/conf/neus/MunozAvilaAR25>)
 
-Muñoz-Avila, Héctor and Aha, David W. and Rizzo, Paola. 2025. Proceedings of the 2nd International Conference on Neuro-symbolic Systems (NeuS).
+Muñoz-Avila, Héctor and Aha, David W. and Rizzo, Paola. 2025. International Conference on Neuro-symbolic Systems (NeuS).
 
 Study IDs: `STUDY-6b70538d297ecd70c5a9aff2`
 
@@ -1920,7 +1878,7 @@ Study association: `not_reported`.
 <a id="nguyen2023lawgiba"></a>
 **nguyen2023lawgiba** · [LawGiBa – Combining GPT, Knowledge Bases, and Logic Programming in a Legal Assistance System](<https://doi.org/10.3233/faia230991>)
 
-Ha Thanh Nguyen and  Randy Goebel and  Francesca Toni and  Kostas Stathis and  Ken Satoh. 2023. Legal Knowledge and Information Systems.
+Ha Thanh Nguyen and Randy Goebel and Francesca Toni and Kostas Stathis and Ken Satoh. 2023. Legal Knowledge and Information Systems.
 
 Study IDs: `STUDY-e313b17b8fa44d493fa105e8`
 
@@ -1955,7 +1913,7 @@ Study association: `not_reported`.
 <a id="olausson2023linc"></a>
 **olausson2023linc** · [LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers](<https://doi.org/10.18653/v1/2023.emnlp-main.313>)
 
-Olausson, Theo X. and Gu, Alex and Lipkin, Benjamin and Zhang, Cedegao E. and Solar-Lezama, Armando and Tenenbaum, Joshua B. and Levy, Roger. 2023. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Olausson, Theo X. and Gu, Alex and Lipkin, Benjamin and Zhang, Cedegao E. and Solar-Lezama, Armando and Tenenbaum, Joshua B. and Levy, Roger. 2023. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-275920288634f70bdf643f92`
 
@@ -1990,7 +1948,7 @@ Study association: `not_reported`.
 <a id="pan2023logiclm"></a>
 **pan2023logiclm** · [Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](<https://doi.org/10.18653/v1/2023.findings-emnlp.248>)
 
-Pan, Liangming and Albalak, Alon and Wang, Xinyi and Wang, William Yang. 2023. Findings of the Association for Computational Linguistics 2023 (EMNLP).
+Pan, Liangming and Albalak, Alon and Wang, Xinyi and Wang, William Yang. 2023. Findings of the Association for Computational Linguistics (EMNLP).
 
 Study IDs: `STUDY-1f45d418806390828504d62d`
 
@@ -2018,7 +1976,7 @@ Study IDs: `STUDY-SEP26-2609.19545`
 <a id="paulson2010three"></a>
 **paulson2010three** · Three Years of Experience with Sledgehammer, a Practical Link between Automatic and Interactive Theorem Provers
 
-Paulson, Lawrence C. and Blanchette, Jasmin Christian. 2012. Proceedings of the 8th International Workshop on the Implementation of Logics (IWIL).
+Paulson, Lawrence C. and Blanchette, Jasmin Christian. 2012. International Workshop on the Implementation of Logics (IWIL).
 
 Study association: `not_reported`.
 
@@ -2032,7 +1990,7 @@ Study IDs: `STUDY-c6d9a67e6b1fb415429561c6`
 <a id="perron2023cpsatlp"></a>
 **perron2023cpsatlp** · The CP-SAT-LP Solver
 
-Perron, Laurent and Didier, Frédéric and Gay, Steven. 2023. 29th International Conference on Principles and Practice of Constraint Programming (CP).
+Perron, Laurent and Didier, Frédéric and Gay, Steven. 2023. International Conference on Principles and Practice of Constraint Programming (CP).
 
 Study association: `not_reported`.
 
@@ -2053,7 +2011,7 @@ Study IDs: `STUDY-091b6d350b2808f25320cbb1`
 <a id="poiroux2406reliable"></a>
 **poiroux2406reliable** · [Reliable Evaluation and Benchmarks for Statement Autoformalization](<https://doi.org/10.18653/v1/2025.emnlp-main.907>)
 
-Auguste Poiroux and Gail Weiss and Viktor Kunčak and Antoine Bosselut. 2025. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Auguste Poiroux and Gail Weiss and Viktor Kunčak and Antoine Bosselut. 2025. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-ce11ce4d5d217fdd518100d2`
 
@@ -2088,7 +2046,7 @@ Study IDs: `STUDY-SEP26-2609.31874`
 <a id="puig2018virtualhome"></a>
 **puig2018virtualhome** · VirtualHome: Simulating Household Activities via Programs
 
-Puig, X. and Ra, K. and Boben, M. and Li, J. and Wang, T. and Fidler, S. and Torralba, A.. 2018. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+Puig, X. and Ra, K. and Boben, M. and Li, J. and Wang, T. and Fidler, S. and Torralba, A.. 2018. IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
 
 Study association: `not_reported`.
 
@@ -2109,14 +2067,14 @@ Study IDs: `STUDY-SEP26-2609.16991`
 <a id="rajasekharan2026regal"></a>
 **rajasekharan2026regal** · [REGAL: Extracting Implicit Rules in Text Using LLMs with Logic Program Feedback](<https://doi.org/10.1007/978-3-032-15981-6_10>)
 
-Abhiramon Rajasekharan and  Gopal Gupta. 2026. Practical Aspects of Declarative Languages (PADL).
+Abhiramon Rajasekharan and Gopal Gupta. 2026. Practical Aspects of Declarative Languages (PADL).
 
 Study IDs: `STUDY-33da121c8be5a5b8c3f67c31`
 
 <a id="ramamonjison2023nl4opt"></a>
 **ramamonjison2023nl4opt** · NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions
 
-Ramamonjison, Rindranirina and Yu, Timothy T. and Li, Raymond and others. 2023. Proceedings of the NeurIPS 2022 Competitions Track (NeurIPS).
+Ramamonjison, Rindranirina and Yu, Timothy T. and Li, Raymond and others. 2023. Advances in Neural Information Processing Systems, Competitions Track (NeurIPS).
 
 Study association: `not_reported`.
 
@@ -2130,7 +2088,7 @@ Study association: `not_reported`.
 <a id="raza2025instantiation"></a>
 **raza2025instantiation** · [Instantiation-based Formalization of Logical Reasoning Tasks using Language Models and Logical Solvers](<https://doi.org/10.24963/ijcai.2025/516>)
 
-Raza, Mohammad and Milic-Frayling, Natasa. 2025. Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI).
+Raza, Mohammad and Milic-Frayling, Natasa. 2025. International Joint Conference on Artificial Intelligence (IJCAI).
 
 Study IDs: `STUDY-097feb3df63d5182e3d27aea`
 
@@ -2207,21 +2165,21 @@ Study association: `not_reported`.
 <a id="schrader2026solverloop"></a>
 **schrader2026solverloop** · [A Solver-in-the-Loop Framework for Improving LLMs on Answer Set Programming for Logic Puzzle Solving](<https://doi.org/10.1609/aaai.v40i30.39714>)
 
-Schrader, Timo Pierre and Lange, Lukas and Kaminski, Tobias and Razniewski, Simon and Friedrich, Annemarie. 2026. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI).
+Schrader, Timo Pierre and Lange, Lukas and Kaminski, Tobias and Razniewski, Simon and Friedrich, Annemarie. 2026. AAAI Conference on Artificial Intelligence (AAAI).
 
 Study IDs: `STUDY-08d05a53e4aca0137ed9bdaa`
 
 <a id="shao2024reinforcedplanning"></a>
 **shao2024reinforcedplanning** · [Breaking the Self-Evaluation Barrier: Reinforced Neuro-Symbolic Planning with Large Language Models](<https://doi.org/10.24963/ijcai.2025/682>)
 
-Jie-Jing Shao and Hong-Jie You and Guohao Cai and Quanyu Dai and Zhenhua Dong and Lan-Zhe Guo. 2025. Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI).
+Jie-Jing Shao and Hong-Jie You and Guohao Cai and Quanyu Dai and Zhenhua Dong and Lan-Zhe Guo. 2025. International Joint Conference on Artificial Intelligence (IJCAI).
 
 Study IDs: `STUDY-3e56e4b8340dcb69b480d730`
 
 <a id="shi2025constraintllm"></a>
 **shi2025constraintllm** · [ConstraintLLM: A Neuro-Symbolic Framework for Industrial-Level Constraint Programming](<https://doi.org/10.18653/v1/2025.emnlp-main.809>)
 
-Shi, Weichun and Liu, Minghao and Zhang, Wanting and Shi, Langchen and Jia, Fuqi and Ma, Feifei and Zhang, Jian. 2025. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Shi, Weichun and Liu, Minghao and Zhang, Wanting and Shi, Langchen and Jia, Fuqi and Ma, Feifei and Zhang, Jian. 2025. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-322915a72846617a9a3ad436`
 
@@ -2277,14 +2235,14 @@ Study IDs: `STUDY-SEP26-2609.11085`
 <a id="sinha2019clutrr"></a>
 **sinha2019clutrr** · CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text
 
-Sinha, Koustuv and Sodhani, Shagun and Dong, Jin and others. 2019. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Sinha, Koustuv and Sodhani, Shagun and Dong, Jin and others. 2019. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study association: `not_reported`.
 
 <a id="solarlezama2006combinatorial"></a>
 **solarlezama2006combinatorial** · Combinatorial Sketching for Finite Programs
 
-Solar-Lezama, Armando and Tancau, Liviu and Bodik, Rastislav and Seshia, Sanjit and Saraswat, Vijay. 2006. Proceedings of the 12th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS).
+Solar-Lezama, Armando and Tancau, Liviu and Bodik, Rastislav and Seshia, Sanjit and Saraswat, Vijay. 2006. ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS).
 
 Study association: `not_reported`.
 
@@ -2310,7 +2268,7 @@ Katharina Stein and Chaahat Jain and Jörg Hoffmann and Alexander Koller. 2026. 
 Study IDs: `STUDY-SEP26-2609.27105`
 
 <a id="stevanovic2026automating"></a>
-**stevanovic2026automating** · [Automating Attack Graph Construction for Agentic Pentesting. Towards Neuro-Symbolic Vulnerability Hunting.](<https://arxiv.org/abs/2609.15523>)
+**stevanovic2026automating** · [Automating Attack Graph Construction for Agentic Pentesting: Towards Neuro-Symbolic Vulnerability Hunting](<https://arxiv.org/abs/2609.15523>)
 
 Oliver Stevanovic and Jasmin Wachter. 2026. not\_reported.
 
@@ -2368,7 +2326,7 @@ Study IDs: `STUDY-345c891c3c552860c47d5de2`
 <a id="tafjord2021proofwriter"></a>
 **tafjord2021proofwriter** · ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language
 
-Tafjord, Oyvind and Dalvi, Bhavana and Clark, Peter. 2021. Findings of the Association for Computational Linguistics 2021 (ACL-IJCNLP).
+Tafjord, Oyvind and Dalvi, Bhavana and Clark, Peter. 2021. Findings of the Association for Computational Linguistics (ACL-IJCNLP).
 
 Study association: `not_reported`.
 
@@ -2396,42 +2354,42 @@ Study IDs: `STUDY-d6ff245c835dfd3d8af159e8`
 <a id="taxexp20261006a119"></a>
 **taxexp20261006a119** · [Event-B Agent: Towards LLM Agent for Formal Model Synthesis and Repair](<https://doi.org/10.1145/3808218>)
 
-Hongshu Wang and  Xinyue Zuo and  Yuhan Sun and  Qin Li and  Yamine Ait Ameur and  Jin Song Dong. 2026. Proceedings of the ACM on Software Engineering.
+Hongshu Wang and Xinyue Zuo and Yuhan Sun and Qin Li and Yamine Ait Ameur and Jin Song Dong. 2026. Proceedings of the ACM on Software Engineering.
 
 Study IDs: `STUDY-838674a271cec68ae974b09d`
 
 <a id="taxexp20261006a122"></a>
 **taxexp20261006a122** · [Fighting AI with AI: Leveraging Foundation Models for Assuring AI-Enabled Safety-Critical Systems](<https://doi.org/10.1145/3793656.3793697>)
 
-Anastasia Mavridou and  Divya Gopinath and  Corina S. Păsăreanu. 2026. IEEE/ACM International Conference on Formal Methods in Software Engineering (FormaliSE).
+Anastasia Mavridou and Divya Gopinath and Corina S. Păsăreanu. 2026. IEEE/ACM International Conference on Formal Methods in Software Engineering (FormaliSE).
 
 Study IDs: `STUDY-9a9e5f76fd36b7b3c7bde9ea`
 
 <a id="taxexp20261006a123"></a>
 **taxexp20261006a123** · [FoVer: First-Order Logic Verification for Natural Language Reasoning](<https://doi.org/10.1162/tacl.a.41>)
 
-Yu Pei and  Yongping Du and  Xingnan Jin. 2025. Transactions of the Association for Computational Linguistics.
+Yu Pei and Yongping Du and Xingnan Jin. 2025. Transactions of the Association for Computational Linguistics.
 
 Study IDs: `STUDY-ebae976931cea391a4936b98`
 
 <a id="taxexp20261006a127"></a>
 **taxexp20261006a127** · [HBTP: Heuristic Behavior Tree Planning with Large Language Model Reasoning](<https://doi.org/10.1109/icra55743.2025.11127999>)
 
-Yishuai Cai and  Xinglin Chen and  Yunxin Mao and  Minglong Li and  Shaowu Yang and  Wenjing Yang and  Ji Wang. 2025. IEEE International Conference on Robotics and Automation (ICRA).
+Yishuai Cai and Xinglin Chen and Yunxin Mao and Minglong Li and Shaowu Yang and Wenjing Yang and Ji Wang. 2025. IEEE International Conference on Robotics and Automation (ICRA).
 
 Study IDs: `STUDY-dfee0eadff134b69ca93094d`
 
 <a id="taxexp20261006a128"></a>
 **taxexp20261006a128** · [Heuristically motivating large language models for task planning](<https://doi.org/10.1016/j.knosys.2026.115725>)
 
-Chao Wang and  Longhui Cao and  Juntong Qi and  Linqi Ye. 2026. Knowledge-Based Systems.
+Chao Wang and Longhui Cao and Juntong Qi and Linqi Ye. 2026. Knowledge-Based Systems.
 
 Study IDs: `STUDY-37eea1ae4a167f1ddeef7316`
 
 <a id="taxexp20261006a134"></a>
 **taxexp20261006a134** · [Language Models with Rationality](<https://doi.org/10.18653/v1/2023.emnlp-main.877>)
 
-Nora Kassner and  Oyvind Tafjord and  Ashish Sabharwal and  Kyle Richardson and  Hinrich Schütze and  Peter Clark. 2023. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Nora Kassner and Oyvind Tafjord and Ashish Sabharwal and Kyle Richardson and Hinrich Schütze and Peter Clark. 2023. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-46bd4c75486051b2ed419b9d`
 
@@ -2445,364 +2403,357 @@ Study IDs: `STUDY-87c97d7512b0122f0742cc53`
 <a id="taxexp20261006a145"></a>
 **taxexp20261006a145** · [LoRP: LLM-based Logical Reasoning via Prolog](<https://doi.org/10.1016/j.knosys.2025.114140>)
 
-Zhengkun Di and  Chaoli Zhang and  Hongtao Lv and  Lizhen Cui and  Lei Liu. 2025. Knowledge-Based Systems.
+Zhengkun Di and Chaoli Zhang and Hongtao Lv and Lizhen Cui and Lei Liu. 2025. Knowledge-Based Systems.
 
 Study IDs: `STUDY-3d1d0d85c6fc8976eb95b0db`
 
 <a id="taxexp20261006a152"></a>
 **taxexp20261006a152** · [MoVer: Motion Verification for Motion Graphics Animations](<https://doi.org/10.1145/3731209>)
 
-Jiaju Ma and  Maneesh Agrawala. 2025. ACM Transactions on Graphics.
+Jiaju Ma and Maneesh Agrawala. 2025. ACM Transactions on Graphics.
 
 Study IDs: `STUDY-4e7d3e324930ea3a2af58ca7`
 
 <a id="taxexp20261006a156"></a>
 **taxexp20261006a156** · [NSF-CoT: Neuro-Symbolic Formal Verification of Chain-of-Thought Faithfulness in Contextual Question Answering](<https://doi.org/10.18653/v1/2026.findings-acl.516>)
 
-Vishal Pramanik and  Maisha Maliha and  Nathaniel D. Bastian and  Alvaro Velasquez and  Susmit Jha and  Sumit Kumar Jha. 2026. Findings of the Association for Computational Linguistics 2026 (ACL).
+Vishal Pramanik and Maisha Maliha and Nathaniel D. Bastian and Alvaro Velasquez and Susmit Jha and Sumit Kumar Jha. 2026. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-55b0bab62963265261dbfa87`
 
 <a id="taxexp20261006a162"></a>
 **taxexp20261006a162** · [Plansformer Tool: Demonstrating Generation of Symbolic Plans Using Transformers](<https://doi.org/10.24963/ijcai.2023/839>)
 
-Vishal Pallagani and  Bharath Muppasani and  Biplav Srivastava and  Francesca Rossi and  Lior Horesh and  Keerthiram Murugesan and  Andrea Loreggia and  Francesco Fabiano and  Rony Joseph and  Yathin Kethepalli. 2023. Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, Demonstrations Track (IJCAI).
+Vishal Pallagani and Bharath Muppasani and Biplav Srivastava and Francesca Rossi and Lior Horesh and Keerthiram Murugesan and Andrea Loreggia and Francesco Fabiano and Rony Joseph and Yathin Kethepalli. 2023. International Joint Conference on Artificial Intelligence (IJCAI), Demonstrations Track.
 
 Study IDs: `STUDY-ab86bfd7dd75a9d6e63e32fc`
 
 <a id="taxexp20261006a163"></a>
 **taxexp20261006a163** · [Plug in the Safety Chip: Enforcing Constraints for LLM-driven Robot Agents](<https://doi.org/10.1109/icra57147.2024.10611447>)
 
-Ziyi Yang and  Shreyas S. Raman and  Ankit Shah and  Stefanie Tellex. 2024. IEEE International Conference on Robotics and Automation (ICRA).
+Ziyi Yang and Shreyas S. Raman and Ankit Shah and Stefanie Tellex. 2024. IEEE International Conference on Robotics and Automation (ICRA).
 
 Study IDs: `STUDY-adca60971ad1c804b30888f9`
 
 <a id="taxexp20261006a165"></a>
 **taxexp20261006a165** · [PolyVer: A Compositional Approach for Polyglot System Modeling and Verification](<https://doi.org/10.34727/2025/isbn.978-3-85448-084-6-10>)
 
-Pei-Wei Chen and  Shaokai Lin and  Adwait Godbole and  Ramneet Singh and  Elizabeth Polgreen and  Edward A. Lee and  Sanjit A. Seshia. 2025. Formal Methods in Computer-Aided Design 2025 (FMCAD).
+Pei-Wei Chen and Shaokai Lin and Adwait Godbole and Ramneet Singh and Elizabeth Polgreen and Edward A. Lee and Sanjit A. Seshia. 2025. Formal Methods in Computer-Aided Design (FMCAD).
 
 Study IDs: `STUDY-b1a39db0918cbca08e86ba1a`
 
 <a id="taxexp20261006a166"></a>
 **taxexp20261006a166** · [PrefRAG: Correcting Semantic Errors in Auto-Formalization for Logical Reasoning with Program Preference RAG](<https://doi.org/10.18653/v1/2026.findings-acl.795>)
 
-Yuyin Zhou and  Yongmei Liu. 2026. Findings of the Association for Computational Linguistics 2026 (ACL).
+Yuyin Zhou and Yongmei Liu. 2026. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-05e48c4108967648065f13a8`
 
 <a id="taxexp20261006a167"></a>
 **taxexp20261006a167** · [Probabilistic Mission Design for Neuro-Symbolic Unmanned Aircraft Systems](<https://doi.org/10.1109/tits.2025.3609835>)
 
-Simon Kohaut and  Benedict Flade and  Daniel Ochs and  Devendra Singh Dhami and  Julian Eggert and  Kristian Kersting. 2025. IEEE Transactions on Intelligent Transportation Systems.
+Simon Kohaut and Benedict Flade and Daniel Ochs and Devendra Singh Dhami and Julian Eggert and Kristian Kersting. 2025. IEEE Transactions on Intelligent Transportation Systems.
 
 Study IDs: `STUDY-889d80c4fd409d411f20d36e`
-
-<a id="taxexp20261006a168"></a>
-**taxexp20261006a168** · [Projectional Decoding: Towards Semantic-Aware LLM Generation](<https://doi.org/10.1145/3803437.3805571>)
-
-Boqi Chen and  José Antonio Hernández López and  Aren A. Babikian. 2026. Companion Proceedings of the ACM International Conference on the Foundations of Software Engineering (FSE Companion).
-
-Study IDs: `STUDY-169c72169ee41f4eb6769ddb`
 
 <a id="taxexp20261006a171"></a>
 **taxexp20261006a171** · [RunbookFX: Type- and Effect-Safe LLM Synthesis for Executable Incident Diagnosis and Mitigation](<https://doi.org/10.1145/3828675>)
 
-Yifan Xiao and  Shijie Li and  Yuhao Ge. 2026. Proceedings of the ACM on Programming Languages.
+Yifan Xiao and Shijie Li and Yuhao Ge. 2026. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-272072053cfac5b1eb0d0133`
 
 <a id="taxexp20261006a174"></a>
 **taxexp20261006a174** · [SHIELDAGENT: Shielding Agents via Verifiable Safety Policy Reasoning](<https://www.webofscience.com/wos/woscc/full-record/WOS:001693104000015>)
 
-Zhaorun Chen and  Mintong Kang and  Bo Li. 2025. Proceedings of the International Conference on Machine Learning (ICML).
+Zhaorun Chen and Mintong Kang and Bo Li. 2025. International Conference on Machine Learning (ICML).
 
 Study IDs: `STUDY-5b0bb90bcd952c644b0f4ddd`
 
 <a id="taxexp20261006a176"></a>
 **taxexp20261006a176** · [ShZZaM: An LLM+ATP Natural Language to Logic Translator](<https://doi.org/10.32473/flairs.39.1.141689>)
 
-Geoff Sutcliffe and  Danial Haroon. 2026. 39th International Florida Artificial Intelligence Research Society Conference (FLAIRS).
+Geoff Sutcliffe and Danial Haroon. 2026. International Florida Artificial Intelligence Research Society Conference (FLAIRS).
 
 Study IDs: `STUDY-b5e0c26d8811802066e07038`
 
 <a id="taxexp20261006a186"></a>
 **taxexp20261006a186** · [TerraFormer: Automated Infrastructure-as-Code with LLMs Fine-Tuned via Policy-Guided Verifier Feedback](<https://doi.org/10.1145/3786583.3786898>)
 
-Prithwish Jana and  Sam Davidson and  Bhavana Bhasker and  Andrey Kan and  Anoop Deoras and  Laurent Callot. 2026. 2026 IEEE/ACM 48th International Conference on Software Engineering, Software Engineering in Practice (ICSE-SEIP).
+Prithwish Jana and Sam Davidson and Bhavana Bhasker and Andrey Kan and Anoop Deoras and Laurent Callot. 2026. IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP).
 
 Study IDs: `STUDY-a59c1f08a690fe456ef1de7c`
 
 <a id="taxexp20261006a194"></a>
 **taxexp20261006a194** · [Veritas: Structuring and verifying LLM knowledge for logically consistent behavior tree generation in LLM-based agents](<https://doi.org/10.1016/j.ipm.2026.104830>)
 
-Hao Tang and  Feng Zhang and  Kejia Wan and  Songyi Lu and  Xi Zhang and  Yiping Yao and  Xinhai Xu. 2026. Information Processing & Management.
+Hao Tang and Feng Zhang and Kejia Wan and Songyi Lu and Xi Zhang and Yiping Yao and Xinhai Xu. 2026. Information Processing & Management.
 
 Study IDs: `STUDY-10cde0e13d5c5a6f6a5d013b`
 
 <a id="taxexp20261006a200"></a>
 **taxexp20261006a200** · [Augmenting Smart Contract Decompiler Output Through Fine-Grained Dependency Analysis and LLM-Facilitated Semantic Recovery](<https://doi.org/10.1109/tse.2025.3623325>)
 
-Zeqin Liao and  Yuhong Nan and  Zixu Gao and  Henglong Liang and  Sicheng Hao and  Peifan Ren and  Zibin Zheng. 2025. IEEE Transactions on Software Engineering.
+Zeqin Liao and Yuhong Nan and Zixu Gao and Henglong Liang and Sicheng Hao and Peifan Ren and Zibin Zheng. 2025. IEEE Transactions on Software Engineering.
 
 Study IDs: `STUDY-1a759258f0d085cbcc5203da`
 
 <a id="taxexp20261006a209"></a>
 **taxexp20261006a209** · [Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference](<https://doi.org/10.18653/v1/2022.emnlp-main.115>)
 
-Eric Mitchell and  Joseph J. Noh and  Siyan Li and  William S. Armstrong and  Ananth Agarwal and  Patrick Liu and  Chelsea Finn and  Christopher D. Manning. 2022. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Eric Mitchell and Joseph J. Noh and Siyan Li and William S. Armstrong and Ananth Agarwal and Patrick Liu and Chelsea Finn and Christopher D. Manning. 2022. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-4ac1e1ae2906a6ba6ff2f56d`
 
 <a id="taxexp20261006a218"></a>
 **taxexp20261006a218** · [LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability](<https://doi.org/10.1007/978-3-032-22774-4_4>)
 
-Yili Jiang and  Zhuoran Yan and  Ning Ge and  Yuan Wang and  Jiahao Weng and  Chunming Hu. 2026. Fundamental Approaches to Software Engineering (FASE).
+Yili Jiang and Zhuoran Yan and Ning Ge and Yuan Wang and Jiahao Weng and Chunming Hu. 2026. Fundamental Approaches to Software Engineering (FASE).
 
 Study IDs: `STUDY-3d34db079c6804f415319450`
 
 <a id="taxexp20261006a220"></a>
 **taxexp20261006a220** · [MENTOR: Fixing introductory programming assignments with formula-based fault localization and LLM-driven program repair](<https://doi.org/10.1016/j.jss.2025.112690>)
 
-Pedro Orvalho and  Mikoláš Janota and  Vasco Manquinho. 2026. The Journal of Systems and Software.
+Pedro Orvalho and Mikoláš Janota and Vasco Manquinho. 2026. The Journal of Systems and Software.
 
 Study IDs: `STUDY-0df22b37a9a58e70d65b321c`
 
 <a id="taxonomya0062026"></a>
 **taxonomya0062026** · [ALEXChat: a Generative - Symbolic Approach to Legal eXplainability](<https://doi.org/10.1145/3769126.3769234>)
 
-Marco Billi and  Alessandro Parenti and  Giuseppe Pisano and  Marco Sanchi. 2025. 20th International Conference on Artificial Intelligence and Law (ICAIL).
+Marco Billi and Alessandro Parenti and Giuseppe Pisano and Marco Sanchi. 2025. International Conference on Artificial Intelligence and Law (ICAIL).
 
 Study IDs: `STUDY-839db24f520af9a1ad901be0`
 
 <a id="taxonomya0102025"></a>
 **taxonomya0102025** · [Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus](<https://doi.org/10.1145/3704905>)
 
-Yufan Cai and  Zhe Hou and  David Sanan and  Xiaokun Luan and  Yun Lin and  Jun Sun and  Jin Song Dong. 2025. Proceedings of the ACM on Programming Languages.
+Yufan Cai and Zhe Hou and David Sanan and Xiaokun Luan and Yun Lin and Jun Sun and Jin Song Dong. 2025. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-0ff1f72abf62b009df470941`
 
 <a id="taxonomya0142026"></a>
 **taxonomya0142026** · [Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation](<https://doi.org/10.1145/3803437.3808241>)
 
-Kowshik Chowdhury and  Dipayan Banik and  Shazibul Islam Shamim. 2026. Companion Proceedings of the ACM International Conference on the Foundations of Software Engineering (FSE Companion).
+Kowshik Chowdhury and Dipayan Banik and Shazibul Islam Shamim. 2026. ACM International Conference on the Foundations of Software Engineering, Companion (FSE Companion).
 
 Study IDs: `STUDY-11f172cfe105a9de6ca52d8c`
 
 <a id="taxonomya0202026"></a>
 **taxonomya0202026** · [DeepConfig: A verifiable configuration generation framework for MAN overlays using LLMs](<https://doi.org/10.1016/j.comnet.2026.112177>)
 
-Chuan Lin and  Longlong Zhu and  Hongyan Liu and  Dong Zhang and  Jiashuo Yu and  Lida Liao. 2026. Computer Networks.
+Chuan Lin and Longlong Zhu and Hongyan Liu and Dong Zhang and Jiashuo Yu and Lida Liao. 2026. Computer Networks.
 
 Study IDs: `STUDY-940143091c9143413d39ad5e`
 
 <a id="taxonomya0262026"></a>
 **taxonomya0262026** · [Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution](<https://doi.org/10.1145/3793655.3793740>)
 
-Chengyan Ma and  Jieke Shi and  Ruidong Han and  Ye Liu and  Yuqing Niu and  David Lo. 2026. IEEE/ACM International Conference on AI Foundation Models and Software Engineering (Forge).
+Chengyan Ma and Jieke Shi and Ruidong Han and Ye Liu and Yuqing Niu and David Lo. 2026. IEEE/ACM International Conference on AI Foundation Models and Software Engineering (Forge).
 
 Study IDs: `STUDY-6973628da869e47525fb2228`
 
 <a id="taxonomya0272025"></a>
 **taxonomya0272025** · [Formal Reasoning for Intelligent QA Systems: A Case Study in the Educational Domain](<https://doi.org/10.1145/3746274.3760392>)
 
-Tuan Bui and  An Nguyen and  Phat Thai and  Minh Hua and  Ngan Pham L.N. and  Ngan Pham T.B. and  Dung Le and  Long Nguyen and  Thanh-Tung Tran and  Thang Bui and  Tho Quan. 2025. Proceedings of the 2nd ACM Workshop in AI-powered Question & Answering Systems (AIQAM).
+Tuan Bui and An Nguyen and Phat Thai and Minh Hua and Ngan Pham L.N. and Ngan Pham T.B. and Dung Le and Long Nguyen and Thanh-Tung Tran and Thang Bui and Tho Quan. 2025. ACM Workshop in AI-powered Question & Answering Systems (AIQAM).
 
 Study IDs: `STUDY-46826f4f7837f0e8e76d223d`
 
 <a id="taxonomya0302025"></a>
-**taxonomya0302025** · [FROM AN LLM SWARM TO A PDDL-EMPOWERED HIVE: PLANNING SELF-EXECUTED INSTRUCTIONS IN A MULTI-MODAL JUNGLE](<https://www.scopus.com/pages/publications/105010244573?origin=resultslist>)
+**taxonomya0302025** · [From an LLM Swarm to a PDDL-Empowered HIVE: Planning Self-Executed Instructions in a Multi-Modal Jungle](<https://www.scopus.com/pages/publications/105010244573?origin=resultslist>)
 
-Kaustubh Vyas and  Damien Graux and  Yijun Yang and  Sébastien Montella and  Chenxin Diao and  Wendi Zhou and  Pavlos Vougiouklis and  Ruofei Lai and  Yang Ren and  Keshuang Li and  Jeff Z. Pan. 2025. International Conference on Learning Representations (ICLR).
+Kaustubh Vyas and Damien Graux and Yijun Yang and Sébastien Montella and Chenxin Diao and Wendi Zhou and Pavlos Vougiouklis and Ruofei Lai and Yang Ren and Keshuang Li and Jeff Z. Pan. 2025. International Conference on Learning Representations (ICLR).
 
 Study IDs: `STUDY-00ef6da98cd868ad88e131f5`
 
 <a id="taxonomya0312026"></a>
 **taxonomya0312026** · [From Sands to Mansions: Actionable, Customizable and Causality-Preserving Cyberattack Emulation with LLM-Powered Symbolic Planning](<https://doi.org/10.1007/978-3-032-32578-5_3>)
 
-Lingzhi Wang and  Zhenyuan Li and  Yi Jiang and  Zhengkai Wang and  Xiangmin Shen and  Wei Ruan and  Yan Chen. 2026. Applied Cryptography and Network Security (ACNS).
+Lingzhi Wang and Zhenyuan Li and Yi Jiang and Zhengkai Wang and Xiangmin Shen and Wei Ruan and Yan Chen. 2026. Applied Cryptography and Network Security (ACNS).
 
 Study IDs: `STUDY-a530be496a5692c7a90d5f2c`
 
 <a id="taxonomya0322025"></a>
 **taxonomya0322025** · [Generative Agents for Multi-Agent Autoformalization of Interaction Scenarios](<https://doi.org/10.3233/faia251256>)
 
-Agnieszka Mensfelt and  Kostas Stathis and  Vince Trencsenyi. 2025. Frontiers in Artificial Intelligence and Applications.
+Agnieszka Mensfelt and Kostas Stathis and Vince Trencsenyi. 2025. Frontiers in Artificial Intelligence and Applications.
 
 Study IDs: `STUDY-b84cdd2505ccc00624683b1d`
 
 <a id="taxonomya0332026"></a>
 **taxonomya0332026** · [GeoTree: A Dynamic Tree-Based Geometry Problem Solver Through LLM-Symbolic Reasoning](<https://doi.org/10.1109/tmm.2026.3651076>)
 
-Yaxian Wang and  Bifan Wei and  Yinghong Ma and  Lingling Zhang and  Xudong Jiang and  Henghui Ding and  Jun Liu. 2026. IEEE Transactions on Multimedia.
+Yaxian Wang and Bifan Wei and Yinghong Ma and Lingling Zhang and Xudong Jiang and Henghui Ding and Jun Liu. 2026. IEEE Transactions on Multimedia.
 
 Study IDs: `STUDY-351e9c30a7b656e4951bb838`
 
 <a id="taxonomya0342026"></a>
 **taxonomya0342026** · [Hybrid task planning and scheduling in heterogeneous multi-agent systems based on LLMs and constraint programming](<https://doi.org/10.1016/j.robot.2026.105480>)
 
-Jozsef Palmieri and  Martina Lippi and  Alessandro Marino. 2026. Robotics and Autonomous Systems.
+Jozsef Palmieri and Martina Lippi and Alessandro Marino. 2026. Robotics and Autonomous Systems.
 
 Study IDs: `STUDY-bd5c042be07c3bbe534b136a`
 
 <a id="taxonomya0442025"></a>
 **taxonomya0442025** · [LiP-LLM: Integrating Linear Programming and Dependency Graph With Large Language Models for Multi-Robot Task Planning](<https://doi.org/10.1109/lra.2024.3518105>)
 
-Kazuma Obata and  Tatsuya Aoki and  Takato Horii and  Tadahiro Taniguchi and  Takayuki Nagai. 2025. IEEE Robotics and Automation Letters.
+Kazuma Obata and Tatsuya Aoki and Takato Horii and Tadahiro Taniguchi and Takayuki Nagai. 2025. IEEE Robotics and Automation Letters.
 
 Study IDs: `STUDY-8548d836fd589763b69ec3bf`
 
 <a id="taxonomya0502025"></a>
 **taxonomya0502025** · [LTLCodeGen: Code Generation of Syntactically Correct Temporal Logic for Robot Task Planning](<https://doi.org/10.1109/iros60139.2025.11246351>)
 
-Behrad Rabiei and  Mahesh Kumar A.R. and  Zhirui Dai and  Surya L.S.R. Pilla and  Qiyue Dong and  Nikolay Atanasov. 2025. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+Behrad Rabiei and Mahesh Kumar A.R. and Zhirui Dai and Surya L.S.R. Pilla and Qiyue Dong and Nikolay Atanasov. 2025. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
 
 Study IDs: `STUDY-36d082ff124aac91f69078ff`
 
 <a id="taxonomya0512025"></a>
 **taxonomya0512025** · [LTRAG: Enhancing Autoformalization and Self-refinement for Logical Reasoning with Thought-Guided RAG](<https://doi.org/10.18653/v1/2025.findings-acl.126>)
 
-Ruikang Hu and  Shaoyu Lin and  Yeliang Xiu and  Yongmei Liu. 2025. Findings of the Association for Computational Linguistics 2025 (ACL).
+Ruikang Hu and Shaoyu Lin and Yeliang Xiu and Yongmei Liu. 2025. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-b2764309b743aa0e64004783`
 
 <a id="taxonomya0532025"></a>
 **taxonomya0532025** · [Memory-Safety Verification of Open Programs with Angelic Assumptions](<https://doi.org/10.1145/3763090>)
 
-Gourav Takhar and  Baldip Bijlani and  Prantik Chatterjee and  Akash Lal and  Subhajit Roy. 2025. Proceedings of the ACM on Programming Languages.
+Gourav Takhar and Baldip Bijlani and Prantik Chatterjee and Akash Lal and Subhajit Roy. 2025. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-f40156d2385cb1310f1046c3`
 
 <a id="taxonomya0562025"></a>
 **taxonomya0562025** · [On LLM-generated Logic Programs and their Inference Execution Methods](<https://doi.org/10.4204/eptcs.416.1>)
 
-Paul Tarau. 2025. 40th International Conference on Logic Programming (ICLP).
+Paul Tarau. 2025. International Conference on Logic Programming (ICLP).
 
 Study IDs: `STUDY-07c97d0ff15acadb5a38d65c`
 
 <a id="taxonomya0572026"></a>
 **taxonomya0572026** · [Open-World Task and Motion Planning via Vision-Language Model Generated Constraints](<https://doi.org/10.1109/lra.2026.3656799>)
 
-Nishanth Kumar and  William Shen and  Fabio Ramos and  Dieter Fox and  Tomás Lozano-Pérez and  Leslie Pack Kaelbling and  Caelan Reed Garrett. 2026. IEEE Robotics and Automation Letters.
+Nishanth Kumar and William Shen and Fabio Ramos and Dieter Fox and Tomás Lozano-Pérez and Leslie Pack Kaelbling and Caelan Reed Garrett. 2026. IEEE Robotics and Automation Letters.
 
 Study IDs: `STUDY-17275f58b91fef6845e072ee`
 
 <a id="taxonomya0602026"></a>
 **taxonomya0602026** · [Proposing and solving olympiad geometry with guided tree search](<https://doi.org/10.1038/s42256-025-01164-x>)
 
-Chi Zhang and  Jiajun Song and  Siyu Li and  Yitao Liang and  Yuxi Ma and  Wei Wang and  Yixin Zhu and  Song-Chun Zhu. 2026. Nature Machine Intelligence.
+Chi Zhang and Jiajun Song and Siyu Li and Yitao Liang and Yuxi Ma and Wei Wang and Yixin Zhu and Song-Chun Zhu. 2026. Nature Machine Intelligence.
 
 Study IDs: `STUDY-2ecc23c28ef0113a6e98aeea`
 
 <a id="taxonomya0622025"></a>
 **taxonomya0622025** · [ReasonAlign: A Prompt-Based Framework for Zero-Shot Schema Alignment Across Data Sources](<https://doi.org/10.1109/bigdata66926.2025.11401798>)
 
-Jiutao Zhou and  Chenyu Zhang and  Peirong Ma and  Weiguang Qu and  Masaru Kitsuregawa and  Yanhui Gu. 2025. 2025 IEEE International Conference on Big Data (Big Data).
+Jiutao Zhou and Chenyu Zhang and Peirong Ma and Weiguang Qu and Masaru Kitsuregawa and Yanhui Gu. 2025. IEEE International Conference on Big Data (Big Data).
 
 Study IDs: `STUDY-d0bcaf5b1eb2664110e93934`
 
 <a id="taxonomya0662026"></a>
 **taxonomya0662026** · [SR-RAG: Verifiable Multi-Hop Reasoning via On-the-fly Symbolic Graph Construction](<https://doi.org/10.18653/v1/2026.findings-acl.1922>)
 
-Zehua Wang and  Zhaojing Zhang and  Boyu Qiu and  Xiaolong Weng and  Ying Xiong and  Buzhou Tang and  Min Zhang. 2026. Findings of the Association for Computational Linguistics 2026 (ACL).
+Zehua Wang and Zhaojing Zhang and Boyu Qiu and Xiaolong Weng and Ying Xiong and Buzhou Tang and Min Zhang. 2026. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-2bb196cb295835e41ce9ae22`
 
 <a id="taxonomya0682025"></a>
 **taxonomya0682025** · [SYSTEM-1.x: LEARNING TO BALANCE FAST AND SLOW PLANNING WITH LANGUAGE MODELS](<https://www.scopus.com/pages/publications/105010273439?origin=resultslist>)
 
-Swarnadeep Saha and  Archiki Prasad and  Justin Chih-Yao Chen and  Peter Hase and  Elias Stengel-Eskin and  Mohit Bansal. 2025. International Conference on Learning Representations (ICLR).
+Swarnadeep Saha and Archiki Prasad and Justin Chih-Yao Chen and Peter Hase and Elias Stengel-Eskin and Mohit Bansal. 2025. International Conference on Learning Representations (ICLR).
 
 Study IDs: `STUDY-4075d006bd9206a2a482e306`
 
 <a id="taxonomya0742025"></a>
 **taxonomya0742025** · [Unreasonable effectiveness of LLM reasoning: a doubly cautionary tale of temporal question-answering](<https://www.scopus.com/pages/publications/105028789181?origin=resultslist>)
 
-Dagmara Panas and  Ali Payani and  Vaishak Belle. 2025. Transactions on Machine Learning Research.
+Dagmara Panas and Ali Payani and Vaishak Belle. 2025. Transactions on Machine Learning Research.
 
 Study IDs: `STUDY-b5e007101282bc9db1a56d51`
 
 <a id="taxonomya0762025"></a>
 **taxonomya0762025** · [VCSearch: Bridging the Gap Between Well-Defined and Ill-Defined Problems in Mathematical Reasoning](<https://doi.org/10.18653/v1/2025.emnlp-main.642>)
 
-Shi-Yu Tian and  Zhi Zhou and  Kun-Yang Yu and  Ming Yang and  Lin-Han Jia and  Lan-Zhe Guo and  Yu-Feng Li. 2025. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Shi-Yu Tian and Zhi Zhou and Kun-Yang Yu and Ming Yang and Lin-Han Jia and Lan-Zhe Guo and Yu-Feng Li. 2025. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-2f8043493ce674c1695f7987`
 
 <a id="taxonomya0782025"></a>
 **taxonomya0782025** · [VerifiAgent: a Unified Verification Agent in Language Model Reasoning](<https://doi.org/10.18653/v1/2025.findings-emnlp.891>)
 
-Jiuzhou Han and  Wray Buntine and  Ehsan Shareghi. 2025. Findings of the Association for Computational Linguistics 2025 (EMNLP).
+Jiuzhou Han and Wray Buntine and Ehsan Shareghi. 2025. Findings of the Association for Computational Linguistics (EMNLP).
 
 Study IDs: `STUDY-130bc28f82f3c1be92a23399`
 
 <a id="taxonomya0852026"></a>
 **taxonomya0852026** · [A Tale of 1001 LoC: Potential Runtime Error-Guided Specification Synthesis for Verifying Large-Scale Programs](<https://doi.org/10.1145/3798268>)
 
-Zhongyi Wang and  Tengjie Lin and  Mingshuai Chen and  Haokun Li and  Mingqi Yang and  Xiao Yi and  Shengchao Qin and  Yixing Luo and  Xiaofeng Li and  Bin Gu and  Liqiang Lu and  Jianwei Yin. 2026. Proceedings of the ACM on Programming Languages.
+Zhongyi Wang and Tengjie Lin and Mingshuai Chen and Haokun Li and Mingqi Yang and Xiao Yi and Shengchao Qin and Yixing Luo and Xiaofeng Li and Bin Gu and Liqiang Lu and Jianwei Yin. 2026. Proceedings of the ACM on Programming Languages.
 
 Study IDs: `STUDY-088012d175df9cc0109bf0c0`
 
 <a id="taxonomya0882026"></a>
 **taxonomya0882026** · [Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems Using LLM-Based Agents](<https://doi.org/10.1109/tse.2026.3667895>)
 
-Zihan Liu and  Ruinan Zeng and  Dongxia Wang and  Gengyun Peng and  Jingyi Wang and  Qiang Liu and  Peiyu Liu and  Wenhai Wang. 2026. IEEE Transactions on Software Engineering.
+Zihan Liu and Ruinan Zeng and Dongxia Wang and Gengyun Peng and Jingyi Wang and Qiang Liu and Peiyu Liu and Wenhai Wang. 2026. IEEE Transactions on Software Engineering.
 
 Study IDs: `STUDY-52c85f2c41de91c5e43d2703`
 
 <a id="taxonomya0922026"></a>
 **taxonomya0922026** · [Autofy: Automated Synthesis of Formally Verified Code](<https://doi.org/10.1145/3793656.3793688>)
 
-Nils Purschke and  André Schamschurko and  Sven Kirchner and  Chengdong Wu and  Alois Knoll. 2026. IEEE/ACM International Conference on Formal Methods in Software Engineering (FormaliSE).
+Nils Purschke and André Schamschurko and Sven Kirchner and Chengdong Wu and Alois Knoll. 2026. IEEE/ACM International Conference on Formal Methods in Software Engineering (FormaliSE).
 
 Study IDs: `STUDY-671cc8b859c8165a3b22a82a`
 
 <a id="taxonomya0932025"></a>
 **taxonomya0932025** · [AutoIoT: Automated IoT Platform Using Large Language Models](<https://doi.org/10.1109/jiot.2024.3523907>)
 
-Ye Cheng and  Minghui Xu and  Yue Zhang and  Kun Li and  Ruoxi Wang and  Lian Yang. 2025. IEEE Internet of Things Journal.
+Ye Cheng and Minghui Xu and Yue Zhang and Kun Li and Ruoxi Wang and Lian Yang. 2025. IEEE Internet of Things Journal.
 
 Study IDs: `STUDY-7a815687bd9588be2045c2db`
 
 <a id="taxonomya0942026"></a>
 **taxonomya0942026** · [AutoLegal: Toward Universal Traffic Compliance for Autonomous Vehicles Through Knowledge-Enhanced Language Models and Signal Temporal Logic](<https://doi.org/10.1109/tits.2026.3688663>)
 
-Shunran Zhang and  Huiyun Li and  Zhengmin Jiang and  Ming Sang and  Jindai Liu and  Leong Hou U. 2026. IEEE Transactions on Intelligent Transportation Systems.
+Shunran Zhang and Huiyun Li and Zhengmin Jiang and Ming Sang and Jindai Liu and Leong Hou U. 2026. IEEE Transactions on Intelligent Transportation Systems.
 
 Study IDs: `STUDY-dcbaf83689a80266ad8b54b0`
 
 <a id="taxonomya0952025"></a>
-**taxonomya0952025** · [AUTOMATED PROOF GENERATION FOR RUST CODE VIA SELF-EVOLUTION](<https://www.scopus.com/pages/publications/105010213814?origin=resultslist>)
+**taxonomya0952025** · [Automated Proof Generation for Rust Code via Self-Evolution](<https://www.scopus.com/pages/publications/105010213814?origin=resultslist>)
 
-Tianyu Chen and  Shuai Lu and  Shan Lu and  Yeyun Gong and  Chenyuan Yang and  Xuheng Li and  Md Rakib Hossain Misu and  Hao Yu and  Nan Duan and  Peng Cheng and  Fan Yang and  Shuvendu K Lahiri and  Tao Xie and  Lidong Zhou. 2025. International Conference on Learning Representations (ICLR).
+Tianyu Chen and Shuai Lu and Shan Lu and Yeyun Gong and Chenyuan Yang and Xuheng Li and Md Rakib Hossain Misu and Hao Yu and Nan Duan and Peng Cheng and Fan Yang and Shuvendu K Lahiri and Tao Xie and Lidong Zhou. 2025. International Conference on Learning Representations (ICLR).
 
 Study IDs: `STUDY-2365b32d4c3316b57eee408f`
 
 <a id="taxonomya1042026"></a>
 **taxonomya1042026** · [Breaking the Illusion: Automated Reasoning of GDPR Consent Violations](<https://doi.org/10.1109/sp63933.2026.00040>)
 
-Ying Li and  Wenjun Qiu and  Faysal Hossain Shezan and  Kunlin Cai and  Michelangelo van Dam and  Lisa Austin and  David Lie and  Yuan Tian. 2026. IEEE Symposium on Security and Privacy (S&P).
+Ying Li and Wenjun Qiu and Faysal Hossain Shezan and Kunlin Cai and Michelangelo van Dam and Lisa Austin and David Lie and Yuan Tian. 2026. IEEE Symposium on Security and Privacy (S&P).
 
 Study IDs: `STUDY-0327f7fb8b16d98ae1e19517`
 
 <a id="taxonomya1062025"></a>
 **taxonomya1062025** · [Can large language models correctly interpret equations with errors?](<https://doi.org/10.1103/v8f8-s11v>)
 
-Lachlan McGinness and  Peter Baumgartner. 2025. Physical Review Physics Education Research.
+Lachlan McGinness and Peter Baumgartner. 2025. Physical Review Physics Education Research.
 
 Study IDs: `STUDY-298471f957a988c926bba2f7`
 
 <a id="thakur2026proofwala"></a>
 **thakur2026proofwala** · [ProofWala: A Framework for Multilingual Proof Data Synthesis and Theorem-Proving](<https://doi.org/10.4230/lipics.itp.2026.24>)
 
-Amitayush Thakur and  George Tsoukalas and  Greg Durrett and  Swarat Chaudhuri. 2026. 17th International Conference on Interactive Theorem Proving (ITP).
+Amitayush Thakur and George Tsoukalas and Greg Durrett and Swarat Chaudhuri. 2026. International Conference on Interactive Theorem Proving (ITP).
 
 Study IDs: `STUDY-60aa39b081ac2f5ccb515efd`
 
 <a id="toledo2025monitoring"></a>
 **toledo2025monitoring** · [Monitoring Safety Properties for Autonomous Driving Systems with Vision-Language Models](<https://doi.org/10.1109/eras63351.2025.11135768>)
 
-Felipe Toledo and Sebastian Elbaum and Divya Gopinath and Ramneet Kaur and Ravi Mangal and Corina S. Păsăreanu and Anirban Roy and Susmit Jha. 2025. 2025 IEEE Engineering Reliable Autonomous Systems (ERAS).
+Felipe Toledo and Sebastian Elbaum and Divya Gopinath and Ramneet Kaur and Ravi Mangal and Corina S. Păsăreanu and Anirban Roy and Susmit Jha. 2025. IEEE Engineering Reliable Autonomous Systems (ERAS).
 
 Study IDs: `STUDY-1dede68dd93f66e378f552b3`
 
@@ -2816,7 +2767,7 @@ Study association: `not_reported`.
 <a id="tudor2026counterfactualgenerationcg"></a>
 **tudor2026counterfactualgenerationcg** · [Automatic Knowledge Gap Detection and Plan Validation Using Counterfactual Justifications](<https://doi.org/10.1007/978-981-92-0184-6_13>)
 
-Alexis R. Tudor and  Joaquín Arias and  Gopal Gupta. 2026. Functional and Logic Programming (FLOPS).
+Alexis R. Tudor and Joaquín Arias and Gopal Gupta. 2026. Functional and Logic Programming (FLOPS).
 
 Study IDs: `STUDY-41ea8641235824eb1d6d4339`
 
@@ -2851,7 +2802,7 @@ Study IDs: `STUDY-SEP26-2609.05221`
 <a id="wang2024chatlogic"></a>
 **wang2024chatlogic** · [ChatLogic: Integrating Logic Programming with Large Language Models for Multi-Step Reasoning](<https://doi.org/10.1109/ijcnn60899.2024.10650138>)
 
-Zhongsheng Wang and Jiamou Liu and Qiming Bao and Hongfei Rong and Jingfeng Zhang. 2024. 2024 International Joint Conference on Neural Networks (IJCNN).
+Zhongsheng Wang and Jiamou Liu and Qiming Bao and Hongfei Rong and Jingfeng Zhang. 2024. International Joint Conference on Neural Networks (IJCNN).
 
 Study IDs: `STUDY-045fe8667b2602c1a0fceac0`
 
@@ -2914,7 +2865,7 @@ Study IDs: `STUDY-4e87edc712925359c8038339`
 <a id="wen2025logicthinker"></a>
 **wen2025logicthinker** · [Logic-Thinker: Teaching Large Language Models to Think More Logically](<https://doi.org/10.18653/v1/2025.findings-emnlp.696>)
 
-Chengyao Wen and Qiang Cheng and Shaofei Wang and Zhizhen Liu and Deng Zhao and Lei Liang. 2025. Findings of the Association for Computational Linguistics 2025 (EMNLP).
+Chengyao Wen and Qiang Cheng and Shaofei Wang and Zhizhen Liu and Deng Zhao and Lei Liang. 2025. Findings of the Association for Computational Linguistics (EMNLP).
 
 Study IDs: `STUDY-be383c8729c6b515f314a834`
 
@@ -2935,14 +2886,14 @@ Study IDs: `STUDY-15d35383f54e7346b424bfd1`
 <a id="wray2025pave"></a>
 **wray2025pave** · PAVE-MAVLink: Formal Verification of MAVLink 2 for Secure UAV Communications
 
-Tom Wray and Ying Wang. 2025. 2025 IEEE Military Communications Conference (MILCOM).
+Tom Wray and Ying Wang. 2025. IEEE Military Communications Conference (MILCOM).
 
 Study association: `not_reported`.
 
 <a id="wu2024internlm"></a>
 **wu2024internlm** · [InternLM2.5-StepProver: Advancing Automated Theorem Proving via Critic-Guided Search](<https://arxiv.org/abs/2410.15700>)
 
-Wu, Zijian and Huang, Suozhi and Zhou, Zhejian and Ying, Huaiyuan and Yuan, Zheng and Zhang, Wenwei and Lin, Dahua and Chen, Kai. 2025. Proceedings of the International Conference on Machine Learning (ICML).
+Wu, Zijian and Huang, Suozhi and Zhou, Zhejian and Ying, Huaiyuan and Yuan, Zheng and Zhang, Wenwei and Lin, Dahua and Chen, Kai. 2025. International Conference on Machine Learning (ICML).
 
 Study IDs: `STUDY-b0f6b4389d7a6b8b8db535aa`
 
@@ -3033,21 +2984,21 @@ Study IDs: `STUDY-4d81eb1c2d7eb88da3a89459`
 <a id="xu2025decider"></a>
 **xu2025decider** · [Decider: A Dual-System Rule-Controllable Decoding Framework for Language Generation](<https://doi.org/10.1109/tkde.2025.3554819>)
 
-Chen Xu and  Tian Lan and  Yu Ji and  Changlong Yu and  Wei Wang and  Jun Gao and  Qunxi Dong and  Kun Qian and  Piji Li and  Wei Bi and  Bin Hu. 2025. IEEE Transactions on Knowledge and Data Engineering.
+Chen Xu and Tian Lan and Yu Ji and Changlong Yu and Wei Wang and Jun Gao and Qunxi Dong and Kun Qian and Piji Li and Wei Bi and Bin Hu. 2025. IEEE Transactions on Knowledge and Data Engineering.
 
 Study IDs: `STUDY-b1c242ae74a06f64dd5b8e2b`
 
 <a id="xu2026adaptive"></a>
 **xu2026adaptive** · [Adaptive LLM-Symbolic Reasoning via Dynamic Logical Solver Composition](<https://doi.org/10.18653/v1/2026.eacl-long.54>)
 
-Xu, Lei and Beckmann, Pierre and Valentino, Marco and Freitas, André. 2026. Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers) (EACL).
+Xu, Lei and Beckmann, Pierre and Valentino, Marco and Freitas, André. 2026. Conference of the European Chapter of the Association for Computational Linguistics (EACL).
 
 Study IDs: `STUDY-dd057132c0c20c5dc18bd9c2`
 
 <a id="xu2026lpo"></a>
 **xu2026lpo** · [LPO: Discovering Missed Peephole Optimizations with Large Language Models](<https://doi.org/10.1145/3779212.3790184>)
 
-Xu, Zhenyang and Xu, Hongxu and Tian, Yongqiang and Zhou, Xintong and Sun, Chengnian. 2026. Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS).
+Xu, Zhenyang and Xu, Hongxu and Tian, Yongqiang and Zhou, Xintong and Sun, Chengnian. 2026. ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS).
 
 Study IDs: `STUDY-880e1e02dd72701d3496dade`
 
@@ -3075,7 +3026,7 @@ Study IDs: `STUDY-SEP26-2609.37175`
 <a id="yang2023coupling"></a>
 **yang2023coupling** · [Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text](<https://doi.org/10.18653/v1/2023.findings-acl.321>)
 
-Yang, Zhun and Ishay, Adam and Lee, Joohyung. 2023. Findings of the Association for Computational Linguistics 2023 (ACL).
+Yang, Zhun and Ishay, Adam and Lee, Joohyung. 2023. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-05845ed7de18b842303bad7d`
 
@@ -3103,7 +3054,7 @@ Study association: `not_reported`.
 <a id="yang2025vert"></a>
 **yang2025vert** · [VERT: Polyglot Verified Equivalent Rust Transpilation with Large Language Models](<https://doi.org/10.1109/ase63991.2025.00123>)
 
-Yang, Aidan Z. H. and Takashima, Yoshiki and Paulsen, Brandon and Dodds, Josiah and Kroening, Daniel. 2025. 2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE).
+Yang, Aidan Z. H. and Takashima, Yoshiki and Paulsen, Brandon and Dodds, Josiah and Kroening, Daniel. 2025. IEEE/ACM International Conference on Automated Software Engineering (ASE).
 
 Study IDs: `STUDY-1178a0012aa04e677cb23c1e`
 
@@ -3138,7 +3089,7 @@ Study IDs: `STUDY-864377c65f4fef23490b7855`
 <a id="yao2025fans"></a>
 **yao2025fans** · [FANS: Formal Answer Selection for LLM Natural Language Math Reasoning Using Lean4](<https://doi.org/10.18653/v1/2025.emnlp-main.158>)
 
-Yao, Jiarui and Wang, Ruida and Zhang, Tong. 2025. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Yao, Jiarui and Wang, Ruida and Zhang, Tong. 2025. Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 Study IDs: `STUDY-55195154fee000218b0f5352`
 
@@ -3208,14 +3159,14 @@ Study IDs: `STUDY-2957ef293342bb10c1a118e5`
 <a id="zhang2025building"></a>
 **zhang2025building** · [Building A Proof-Oriented Programmer That Is 64% Better Than GPT-4o Under Data Scarcity](<https://doi.org/10.18653/v1/2025.findings-acl.1186>)
 
-Dylan Zhang and Justin Wang and Tianran Sun. 2025. Findings of the Association for Computational Linguistics: ACL 2025.
+Dylan Zhang and Justin Wang and Tianran Sun. 2025. Findings of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-002cc9da69ce730f0d401bff`, `STUDY-a726f4f56350970ac320592f`
 
 <a id="zhang2025masa"></a>
 **zhang2025masa** · [MASA: LLM-Driven Multi-Agent Systems for Autoformalization](<https://doi.org/10.18653/v1/2025.emnlp-demos.44>)
 
-Lan Zhang and Marco Valentino and Andre Freitas. 2025. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP).
+Lan Zhang and Marco Valentino and Andre Freitas. 2025. Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP).
 
 Study IDs: `STUDY-8f6a199ede466e1712e4e24f`
 
@@ -3306,7 +3257,7 @@ Study IDs: `STUDY-SEP26-2609.34455`
 <a id="zhao2026satquest"></a>
 **zhao2026satquest** · [SATQuest: A Verifier for Logical Reasoning Evaluation and Reinforcement Fine-Tuning of LLMs](<https://doi.org/10.18653/v1/2026.acl-long.96>)
 
-Yanxiao Zhao and  Yaqian Li and  Zihao Bo and  Rinyoichi Takezoe and  Haojia Hui and  Mo Guang and  Lei Ren and  Xiaolin Qin and  Kaiwen Long. 2026. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Yanxiao Zhao and Yaqian Li and Zihao Bo and Rinyoichi Takezoe and Haojia Hui and Mo Guang and Lei Ren and Xiaolin Qin and Kaiwen Long. 2026. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study IDs: `STUDY-19e1726bfa9b803272d41c16`
 
@@ -3334,7 +3285,7 @@ Study association: `not_reported`.
 <a id="zhong2022analytical"></a>
 **zhong2022analytical** · Analytical Reasoning of Text
 
-Zhong, Wanjun and Wang, Siyuan and Tang, Duyu and others. 2022. Findings of the Association for Computational Linguistics 2022 (NAACL).
+Zhong, Wanjun and Wang, Siyuan and Tang, Duyu and others. 2022. Findings of the Association for Computational Linguistics (NAACL).
 
 Study association: `not_reported`.
 
@@ -3348,7 +3299,7 @@ Study IDs: `STUDY-03c7e06faa733f57dc801077`
 <a id="zhou2025rulearena"></a>
 **zhou2025rulearena** · RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios
 
-Zhou, Ruiwen and Hua, Wenyue and Pan, Liangming and Cheng, Sitao and Wu, Xiaobao and Yu, En and Wang, William Yang. 2025. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL).
+Zhou, Ruiwen and Hua, Wenyue and Pan, Liangming and Cheng, Sitao and Wu, Xiaobao and Yu, En and Wang, William Yang. 2025. Annual Meeting of the Association for Computational Linguistics (ACL).
 
 Study association: `not_reported`.
 

@@ -55,7 +55,7 @@ Representative resources from the manuscript evaluation table. The solver column
 | --- | --- | --- | --- |
 | ProofNet# [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Statement formalization | Lean statements  | Reference statements; equivalence assessment |
 | RLM25 [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Statement formalization | Lean statements  | Reference statements; equivalence assessment |
-| Beyond Compilation (v1) [zhang2026beyond2](../references/README.md#zhang2026beyond2) | Statement formalization | Lean compilation  | Semantic judges; strict consensus |
+| Beyond Compilation [zhang2026beyond2](../references/README.md#zhang2026beyond2) | Statement formalization | Lean compilation  | Semantic judges; strict consensus |
 | ITPEval [wu2026itpeval](../references/README.md#wu2026itpeval) | Cross-prover translation | Lean; Rocq; Isabelle; HOL Light  | Native acceptance; BEq |
 | ProofNetVerif [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Metric calibration | BEqL / BEq+ assessment  | Human semantic labels; precision/recall |
 | FaithformBench [cornish2026faithformbench](../references/README.md#cornish2026faithformbench) | Validity preservation | Formal validity checks  | Error induction; correction |

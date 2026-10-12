@@ -1,5 +1,15 @@
 # Release changes
 
+## v0.2.1 — 2026-10-13
+
+- Synchronized the bibliography with the revised manuscript: 479 cited references, seven fewer than v0.2.0.
+- Carried over the manuscript's normalized author spacing, titles, and venue names.
+- Aligned the benchmark resource labels with the current evaluation table.
+- Updated the taxonomy index and illustration after removing LeJIT, Logically Constrained Decoding, and Projectional Decoding from the manuscript diagram.
+- Restored an existing constraint-planning method omitted by the previous exporter's handling of subscripted labels; the index now covers all 240 diagram placements.
+- Refreshed display figures from the vector artwork used by the manuscript, updated fingerprints, and separated the companion refresh date from the retained evidence-version cutoff.
+- Retained the 1,429-study / 1,715-report catalogue, eligibility window, stable identities, and detailed analysis populations.
+
 ## v0.2.0 — 2026-10-12
 
 - Extended coverage through September 2026: 1,429 studies and 1,715 reports, including 128 author-confirmed additions.

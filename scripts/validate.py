@@ -134,9 +134,12 @@ def main():
         require(set(r['study_ids'])<=ids and valid_url(r['url']), 'Invalid reference association / URL')
     bib = (ROOT/'references/references.bib').read_text(encoding='utf-8')
     require(set(re.findall(r'@\w+\s*\{\s*([^,]+),',bib))=={r['key'] for r in refs}, 'BibTeX/JSON key mismatch')
-    for m in load('data/taxonomy-methods.json'):
+    methods = load('data/taxonomy-methods.json')
+    require(len(methods)==snap['taxonomy_method_placements'], 'Taxonomy placement count differs')
+    for m in methods:
         require(set(m)=={'role','grouping_axis','direction','method','bibtex_key','study_id','report_id','label_type'}, 'Unknown taxonomy fields')
         require(m['study_id'] in ids, 'Taxonomy references absent study')
+        require(m['bibtex_key'] in {r['key'] for r in refs}, 'Taxonomy references absent manuscript citation')
     for b in load('analysis/benchmarks.json'):
         require(set(b)=={'part','name','category','source','modality','citations','protocols'}, 'Unknown benchmark fields')
         require(set(b['citations']) <= {r['key'] for r in refs}, 'Absent resource citation')

@@ -647,7 +647,7 @@
   },
   {
     "part": "Correspondence and verifier diagnostics",
-    "name": "Beyond Compilation (v1)",
+    "name": "Beyond Compilation",
     "category": "Statement formalization",
     "source": "Lean compilation",
     "modality": "Semantic judges; strict consensus",
