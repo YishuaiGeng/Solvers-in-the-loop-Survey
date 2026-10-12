@@ -29,7 +29,3 @@ No automated literature searches or unattended inclusion decisions are enabled b
 Maintain public paper destinations in [`manuscript/links.json`](../manuscript/links.json). Use `not_reported` until a verified URL exists. Set `status` to `in_preparation`, `preprint`, or `published` as appropriate, and fill `arxiv_url`, `pdf_url`, and/or `doi_url` with the actual public destinations. Never guess an arXiv ID or DOI.
 
 Run `python3 -B scripts/render.py --refresh-manifest` and `python3 -B scripts/validate.py` after editing. The homepage's paper links and status, its citation guidance, and the manuscript page update together. For a paper release, also add the verified paper citation to `CITATION.cff` and update the change log.
-
-## Repository design references
-
-The organization was informed by [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) (illustrated overview, topic navigation and update log) and [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List) (taxonomy-aligned paper lists and citation entry). Their prose, data, code and figures were not copied. This repository uses its own corpus and solver-role framework.

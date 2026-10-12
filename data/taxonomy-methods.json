@@ -462,26 +462,6 @@
   {
     "role": "Symbolic Solving",
     "grouping_axis": "delegated problem",
-    "direction": "Constraint Solving",
-    "method": "LLMCG+CPA,S",
-    "bibtex_key": "taxonomya0342026",
-    "study_id": "STUDY-bd5c042be07c3bbe534b136a",
-    "report_id": "RPT-175957b9c87a50ed8da79dd4",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Symbolic Solving",
-    "grouping_axis": "delegated problem",
-    "direction": "Constraint Solving",
-    "method": "MIPA",
-    "bibtex_key": "yang2026mipa",
-    "study_id": "STUDY-0201e710e93cb2abd957e698",
-    "report_id": "RPT-5d514eb0bff2f8bf4cca82bf",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Symbolic Solving",
-    "grouping_axis": "delegated problem",
     "direction": "Symbolic Planning",
     "method": "LLM+P",
     "bibtex_key": "liu2023llmp",
@@ -637,16 +617,6 @@
     "bibtex_key": "jeong2026tape",
     "study_id": "STUDY-eaf54e9444ebbfa4015fb4c2",
     "report_id": "RPT-37b75a97fd33bc4bfdd2d5c9",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Symbolic Solving",
-    "grouping_axis": "delegated problem",
-    "direction": "Symbolic Planning",
-    "method": "FIDES",
-    "bibtex_key": "taxonomya0252026",
-    "study_id": "STUDY-1000d1186a9221506d34c362",
-    "report_id": "RPT-47701137eb5d8432ab8237f3",
     "label_type": "original_paper_name"
   },
   {
@@ -893,16 +863,6 @@
     "role": "Verification",
     "grouping_axis": "object of checking",
     "direction": "Formalization Validation",
-    "method": "StoryLogic",
-    "bibtex_key": "taxonomya0802025",
-    "study_id": "STUDY-04eb4d2407031fd71ea654ae",
-    "report_id": "RPT-f8ce348793ab4fdfd1301995",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Verification",
-    "grouping_axis": "object of checking",
-    "direction": "Formalization Validation",
     "method": "AlphaPhysics",
     "bibtex_key": "taxonomya1062025",
     "study_id": "STUDY-298471f957a988c926bba2f7",
@@ -982,6 +942,26 @@
   {
     "role": "Verification",
     "grouping_axis": "object of checking",
+    "direction": "Formalization Validation",
+    "method": "SOVER",
+    "bibtex_key": "bhattacharyya2026sover",
+    "study_id": "STUDY-SEP26-2609.00728",
+    "report_id": "SEP26-ARXIV-2609.00728v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Verification",
+    "grouping_axis": "object of checking",
+    "direction": "Formalization Validation",
+    "method": "CPUNeSy",
+    "bibtex_key": "li2026cpunesy",
+    "study_id": "STUDY-SEP26-2609.37490",
+    "report_id": "SEP26-ARXIV-2609.37490v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Verification",
+    "grouping_axis": "object of checking",
     "direction": "Program Verification",
     "method": "LEMUR",
     "bibtex_key": "wu2024lemur",
@@ -997,16 +977,6 @@
     "bibtex_key": "sun2024clover",
     "study_id": "STUDY-1ca3ab314b174df940bbcc87",
     "report_id": "RPT-736002e4b155313a7e389177",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Verification",
-    "grouping_axis": "object of checking",
-    "direction": "Program Verification",
-    "method": "SELLM",
-    "bibtex_key": "taxonomya0642024",
-    "study_id": "STUDY-c475944be98a846da5366537",
-    "report_id": "RPT-1339268f7fb5637af3b662e1",
     "label_type": "original_paper_name"
   },
   {
@@ -1217,16 +1187,6 @@
     "bibtex_key": "banerjee2026severa",
     "study_id": "STUDY-696c08a8474f06a05f919a8b",
     "report_id": "RPT-f4f90b91567fb8cf5a8edef0",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Verification",
-    "grouping_axis": "object of checking",
-    "direction": "Program Verification",
-    "method": "MPC-Coder",
-    "bibtex_key": "zhang2026mpccoder",
-    "study_id": "STUDY-024ce2b893d4adf3d4afcae9",
-    "report_id": "RPT-5b754a1aa142fe37cc63c7aa",
     "label_type": "original_paper_name"
   },
   {
@@ -1623,21 +1583,31 @@
     "role": "Diagnosis and Repair",
     "grouping_axis": "revised object",
     "direction": "Representation Repair",
-    "method": "@DTDL/Debug",
-    "bibtex_key": "taxexp20261006a181",
-    "study_id": "STUDY-1428293692af537ccd2a00d5",
-    "report_id": "RPT-4a6a6758e227f103a2138788",
+    "method": "REGAL",
+    "bibtex_key": "rajasekharan2026regal",
+    "study_id": "STUDY-33da121c8be5a5b8c3f67c31",
+    "report_id": "RPT-17c56b7384520d61d7b33b55",
     "label_type": "original_paper_name"
   },
   {
     "role": "Diagnosis and Repair",
     "grouping_axis": "revised object",
     "direction": "Representation Repair",
-    "method": "REGAL",
-    "bibtex_key": "rajasekharan2026regal",
-    "study_id": "STUDY-33da121c8be5a5b8c3f67c31",
-    "report_id": "RPT-17c56b7384520d61d7b33b55",
-    "label_type": "original_paper_name"
+    "method": "NeuroSTAR",
+    "bibtex_key": "saha2026neurostar",
+    "study_id": "STUDY-SEP26-2609.03161",
+    "report_id": "SEP26-ARXIV-2609.03161v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Diagnosis and Repair",
+    "grouping_axis": "revised object",
+    "direction": "Representation Repair",
+    "method": "TACIT",
+    "bibtex_key": "bouscary2026tacit",
+    "study_id": "STUDY-SEP26-2609.38434",
+    "report_id": "SEP26-ARXIV-2609.38434v1",
+    "label_type": "author_designated_method_name"
   },
   {
     "role": "Diagnosis and Repair",
@@ -1712,6 +1682,26 @@
   {
     "role": "Diagnosis and Repair",
     "grouping_axis": "revised object",
+    "direction": "Proof Repair",
+    "method": "SLED-IFV",
+    "bibtex_key": "dai2026sled",
+    "study_id": "STUDY-SEP26-2609.25637",
+    "report_id": "SEP26-ARXIV-2609.25637v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Diagnosis and Repair",
+    "grouping_axis": "revised object",
+    "direction": "Proof Repair",
+    "method": "MAGENTA",
+    "bibtex_key": "leang2026magenta",
+    "study_id": "STUDY-SEP26-2609.11319",
+    "report_id": "SEP26-ARXIV-2609.11319v2",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Diagnosis and Repair",
+    "grouping_axis": "revised object",
     "direction": "Program Repair",
     "method": "SmartHalo",
     "bibtex_key": "taxexp20261006a200",
@@ -1738,6 +1728,26 @@
     "study_id": "STUDY-0df22b37a9a58e70d65b321c",
     "report_id": "RPT-0f60caaeb722ba6b56e66981",
     "label_type": "original_paper_name"
+  },
+  {
+    "role": "Diagnosis and Repair",
+    "grouping_axis": "revised object",
+    "direction": "Program Repair",
+    "method": "Schwarz",
+    "bibtex_key": "ke2026schwarz",
+    "study_id": "STUDY-SEP26-2608.30803",
+    "report_id": "SEP26-ARXIV-2608.30803v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Diagnosis and Repair",
+    "grouping_axis": "revised object",
+    "direction": "Program Repair",
+    "method": "MAGS",
+    "bibtex_key": "wu2026mags",
+    "study_id": "STUDY-SEP26-2609.19391",
+    "report_id": "SEP26-ARXIV-2609.19391v1",
+    "label_type": "author_designated_method_name"
   },
   {
     "role": "Diagnosis and Repair",
@@ -2063,16 +2073,6 @@
     "role": "Search Control",
     "grouping_axis": "search intervention",
     "direction": "State-Space Exploration",
-    "method": "FGeo-ISRL",
-    "bibtex_key": "taxonomya0242026",
-    "study_id": "STUDY-60b03a7c7e7ee33472a99515",
-    "report_id": "RPT-4a2e7febd47d6ee6b81d43da",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "State-Space Exploration",
     "method": "TongGeometry",
     "bibtex_key": "taxonomya0602026",
     "study_id": "STUDY-2ecc23c28ef0113a6e98aeea",
@@ -2098,6 +2098,16 @@
     "study_id": "STUDY-60aa39b081ac2f5ccb515efd",
     "report_id": "RPT-2133e4426fb3c2d2ef65033d",
     "label_type": "original_paper_name"
+  },
+  {
+    "role": "Search Control",
+    "grouping_axis": "search intervention",
+    "direction": "State-Space Exploration",
+    "method": "Agentic-IC3",
+    "bibtex_key": "fan2026agentic",
+    "study_id": "STUDY-SEP26-2609.27162",
+    "report_id": "SEP26-ARXIV-2609.27162v1",
+    "label_type": "author_designated_method_name"
   },
   {
     "role": "Learning Supervision",
@@ -2272,6 +2282,26 @@
   {
     "role": "Learning Supervision",
     "grouping_axis": "training procedure",
+    "direction": "Supervised Training",
+    "method": "LeanPolish",
+    "bibtex_key": "bourigault2026leanpolish",
+    "study_id": "STUDY-SEP26-2609.38384",
+    "report_id": "SEP26-ARXIV-2609.38384v1",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Learning Supervision",
+    "grouping_axis": "training procedure",
+    "direction": "Supervised Training",
+    "method": "GenV",
+    "bibtex_key": "singh2026solver",
+    "study_id": "STUDY-SEP26-2609.11085",
+    "report_id": "SEP26-ARXIV-2609.11085v2",
+    "label_type": "author_designated_method_name"
+  },
+  {
+    "role": "Learning Supervision",
+    "grouping_axis": "training procedure",
     "direction": "Reinforcement Learning",
     "method": "DeepSeek-Prover-V1.5",
     "bibtex_key": "xin2024deepseekprover",
@@ -2378,5 +2408,15 @@
     "study_id": "STUDY-6649cdc7e3ec87cfff344e21",
     "report_id": "RPT-a651e45c7485c764ddff7653",
     "label_type": "original_paper_name"
+  },
+  {
+    "role": "Learning Supervision",
+    "grouping_axis": "training procedure",
+    "direction": "On-Policy Distillation",
+    "method": "SOLID",
+    "bibtex_key": "zhu2026verified",
+    "study_id": "STUDY-SEP26-2609.09957",
+    "report_id": "SEP26-ARXIV-2609.09957v1",
+    "label_type": "author_designated_method_name"
   }
 ]

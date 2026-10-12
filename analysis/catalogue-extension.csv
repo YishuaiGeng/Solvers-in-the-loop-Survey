@@ -1,0 +1,13 @@
+dimension,category,studies
+population,all_studies,128
+year,2026,128
+literature_class,core_method,106
+literature_class,evaluation_diagnostic,22
+role_status,classified,127
+role_status,unclear,1
+report_type,preprint,128
+solver_role,R1,47
+solver_role,R2,112
+solver_role,R3,62
+solver_role,R4,47
+solver_role,R5,28

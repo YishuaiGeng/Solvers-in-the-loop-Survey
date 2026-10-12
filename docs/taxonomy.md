@@ -12,6 +12,12 @@ The taxonomy follows the **consumer of the solver signal**. The same symbolic en
 | R4 · Search Control | Solver feedback guides expansion, pruning or selection | [Illustration and papers](../papers/roles/search-control.md) |
 | R5 · Learning Supervision | Solver outcomes supply or filter training material, rewards or targets | [Illustration and papers](../papers/roles/learning-supervision.md) |
 
+## Role taxonomy
+
+[![Full role taxonomy](../assets/figures/taxonomy.png)](../assets/figures/taxonomy.png)
+
+[Open the taxonomy at full resolution](../assets/figures/taxonomy.png). Representative methods follow the current manuscript diagram.
+
 ## From a formal check to a claim about a task
 
 ![Stages and assurance scope](../assets/figures/assurance-scope.png)

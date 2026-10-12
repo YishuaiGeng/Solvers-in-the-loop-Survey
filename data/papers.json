@@ -1699,11 +1699,11 @@
     "title": "On the Generalization Gap in LLM Planning: Tests and Verifier-Reward RL",
     "authors": "Valerio Belcamino; Nicholas Attolino; Alessio Capitanelli; Fulvio Mastrogiovanni",
     "year": 2026,
-    "venue": "2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
-    "doi": "10.1109/AIM65483.2026.11657905",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2601.14456",
     "arxiv_id": "2601.14456",
-    "url": "https://ieeexplore.ieee.org/document/11657905",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2601.14456",
+    "url_basis": "citation_arxiv",
     "literature_class": "evaluation_diagnostic",
     "solver_roles": [
       "R2",
@@ -1714,7 +1714,7 @@
     "bibtex_keys": [
       "belcamino2026generalization"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-0ccaee399d49568ee893db94",
@@ -1813,12 +1813,12 @@
     "report_id": "RPT-f6c125080d9e2ceb2d916b30",
     "title": "Doubly Saturated Ramsey Graphs: A Case Study in Computer-Assisted Mathematical Discovery",
     "authors": "Benjamin Przybocki; John Mackey; Marijn J. H. Heule; Bernardo Subercaseaux",
-    "year": 2027,
-    "venue": "Intelligent Computer Mathematics",
-    "doi": "10.1007/978-3-032-38214-6_18",
+    "year": 2026,
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2604.21187",
-    "url": "https://link.springer.com/chapter/10.1007/978-3-032-38214-6_18",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2604.21187",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1",
@@ -1827,9 +1827,10 @@
     "role_status": "classified",
     "report_type": "publication",
     "bibtex_keys": [
+      "przybocki2026doublyarxiv",
       "przybocki2027doubly"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-0d6461f5e9b655b694352a29",
@@ -6445,11 +6446,11 @@
     "title": "Planning to Hammer: Difficulty-Aware Decomposition for Automating Rocq Proofs",
     "authors": "Ning Zhang; Nongyu Di; Zenan Li; Yuan Yao; Xiaoxing Ma",
     "year": 2026,
-    "venue": "Proceedings of the ACM on Programming Languages",
-    "doi": "10.1145/3839497",
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2606.17981",
-    "url": "https://dl.acm.org/doi/10.1145/3839497",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2606.17981",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -6459,7 +6460,7 @@
     "bibtex_keys": [
       "zhang2026planning"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-329dba26a45c2c8166fcd3c7",
@@ -6881,11 +6882,11 @@
     "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
     "authors": "Md Rakib Hossain Misu; Cristina V. Lopes; Iris Ma; James Noble",
     "year": 2024,
-    "venue": "Proceedings of the ACM on Software Engineering",
-    "doi": "10.1145/3643763",
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2402.00247",
-    "url": "https://dl.acm.org/doi/10.1145/3643763",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2402.00247",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -6895,7 +6896,7 @@
     "bibtex_keys": [
       "misu2024dafny"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-3707c5aa79ca7d4c9624b73e",
@@ -7429,14 +7430,14 @@
   {
     "study_id": "STUDY-3be580023fe0066d36d219f7",
     "report_id": "RPT-03eeab7993b0b23e0c99b421",
-    "title": "Mapping LLM Capability Frontiers via Formalized and Calibrated Probes",
+    "title": "X-RAY: Mapping LLM Reasoning Capability via Formalized and Calibrated Probes",
     "authors": "Tianxi Gao; Yufan Cai; Yusi Yuan; Jin Song Dong",
     "year": 2026,
-    "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
-    "doi": "10.1145/3770855.3818029",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2603.05290",
     "arxiv_id": "2603.05290",
-    "url": "https://dl.acm.org/doi/10.1145/3770855.3818029",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2603.05290",
+    "url_basis": "citation_arxiv",
     "literature_class": "evaluation_diagnostic",
     "solver_roles": [
       "R2"
@@ -7447,7 +7448,7 @@
       "gao2026mapping",
       "gao2026mapping2"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-3bff1d3d15b559b6d16e0554",
@@ -7934,11 +7935,11 @@
     "title": "ASP-Bench: From Natural Language to Logic Programs.",
     "authors": "Stefan Szeider",
     "year": 2026,
-    "venue": "Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering",
-    "doi": "10.1145/3786168.3788402",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2602.01171",
     "arxiv_id": "2602.01171",
-    "url": "https://dl.acm.org/doi/10.1145/3786168.3788402",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2602.01171",
+    "url_basis": "citation_arxiv",
     "literature_class": "evaluation_diagnostic",
     "solver_roles": [
       "R2",
@@ -7951,7 +7952,7 @@
     "bibtex_keys": [
       "szeider2026asp"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-4274bf5e0123522b14b0d921",
@@ -8732,12 +8733,12 @@
     "report_id": "RPT-16c9aa944dc030e8a3b1a218",
     "title": "ChopChop: a Programmable Framework for Semantically Constraining the Output of Language Models",
     "authors": "Shaan Nagy; Timothy Zhou; Nadia Polikarpova; Loris D'Antoni",
-    "year": 2026,
-    "venue": "Proceedings of the ACM on Programming Languages",
-    "doi": "10.1145/3776708",
+    "year": 2025,
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2509.00360",
-    "url": "https://dl.acm.org/doi/10.1145/3776708",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2509.00360",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1",
@@ -8751,7 +8752,7 @@
     "bibtex_keys": [
       "nagy2026chopchop"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-4910aa6824831775319352dd",
@@ -9347,14 +9348,14 @@
   {
     "study_id": "STUDY-4eb95ec4f40a3e06424ef499",
     "report_id": "RPT-54b7b3492d8d9a3a1d622229",
-    "title": "LLM-Powered Automatic Theorem Proving and Synthesis for Hybrid Systems and Games",
+    "title": "LLM-Powered Automatic Theorem Proving and Synthesis for Hybrid Systems and Game",
     "authors": "Aditi Kabra; Jonathan Laurent; Ruben Martins; Stefan Mitsch; André Platzer",
     "year": 2026,
-    "venue": "Proceedings of the 26th Conference on Formal Methods in Computer-Aided Design",
-    "doi": "10.34727/2026/isbn.978-3-85448-093-8_71",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2603.00737",
     "arxiv_id": "2603.00737",
-    "url": "https://repositum.tuwien.at/handle/20.500.12708/230566",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2603.00737",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -9364,7 +9365,7 @@
     "bibtex_keys": [
       "kabra2026llm"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-4efd4f45f8a35629be2aabd3",
@@ -11099,13 +11100,13 @@
     "study_id": "STUDY-5f3faae2fae16832183e4e8c",
     "report_id": "RPT-79e50ff99a7eafffe58bea70",
     "title": "TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation",
-    "authors": "Eric Spencer; Arslan Bisharat; Brian Ortiz; Mujtaba Nazari; Khushboo Bhadauria; TaiNing Wang; George K. Thiruvathukal; Konstantin Läufer; Mohammed Abuhamad",
+    "authors": "Eric Spencer; Arslan Bisharat; Brian Ortiz; Khushboo Bhadauria; Mujtaba Nazari; TaiNing Wang; George K. Thiruvathukal; Konstantin Laufer; Mohammed Abuhamad",
     "year": 2026,
-    "venue": "Proceedings of the 21st International Conference on Software Technologies - ICSOFT",
-    "doi": "10.5220/0015234600004088",
+    "venue": "ICSOFT 2026, pp. 627-636, 2026",
+    "doi": "not_reported",
     "arxiv_id": "2606.06133",
-    "url": "https://www.scitepress.org/Link.aspx?doi=10.5220/0015234600004088",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2606.06133",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R3",
@@ -11117,7 +11118,7 @@
     "bibtex_keys": [
       "spencer2026tla"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-5f8187392286d2ba77767a76",
@@ -14799,14 +14800,14 @@
   {
     "study_id": "STUDY-8217346313d10b9a497bf504",
     "report_id": "RPT-55bb8176d4254a32edbe5b45",
-    "title": "On the Planning Abilities of Large Language Models - A Critical Investigation",
+    "title": "On the Planning Abilities of Large Language Models (A Critical Investigation with a Proposed Benchmark)",
     "authors": "Karthik Valmeekam; Sarath Sreedharan; Matthew Marquez; Alberto Olmo; Subbarao Kambhampati",
     "year": 2023,
-    "venue": "Advances in Neural Information Processing Systems 36",
-    "doi": "10.52202/075280-3320",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2302.06706",
     "arxiv_id": "2302.06706",
-    "url": "https://www.proceedings.com/075280-3320.html",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2302.06706",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1"
@@ -14817,7 +14818,7 @@
       "valmeekam2023planning",
       "valmeekam2023planning2"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-825456abe18664648f0b3c09",
@@ -14866,13 +14867,13 @@
     "study_id": "STUDY-835652403583f4357f265002",
     "report_id": "RPT-900f7e53a44114ba79a1bfa0",
     "title": "Cobblestone: A Divide-and-Conquer Approach for Automating Formal Verification",
-    "authors": "Saketh Ram Kasibatla; Arpan Agrawal; Yuriy Brun; Sorin Lerner; Talia Ringer; Emily First",
-    "year": 2026,
-    "venue": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
-    "doi": "10.1145/3744916.3773178",
+    "authors": "Saketh Ram Kasibatla; Arpan Agarwal; Yuriy Brun; Sorin Lerner; Talia Ringer; Emily First",
+    "year": 2024,
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2410.19940",
-    "url": "https://dl.acm.org/doi/10.1145/3744916.3773178",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2410.19940",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -14882,7 +14883,7 @@
     "bibtex_keys": [
       "kasibatla2026cobblestone"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-8384df4bda17130b9c4abdab",
@@ -16794,14 +16795,14 @@
   {
     "study_id": "STUDY-9489e1b814147353f0145f6a",
     "report_id": "RPT-8fe69e9d6b8ac31f65735a29",
-    "title": "Online Learning of HTN Methods for integrated LLM HTN Planning",
+    "title": "Online Learning of HTN Methods for integrated LLM-HTN Planning",
     "authors": "Yuesheng Xu; Hector Munoz-Avila",
     "year": 2025,
-    "venue": "Proceedings of the Twelfth Annual Conference on Advances in Cognitive Systems",
-    "doi": "not_reported",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2511.12901",
     "arxiv_id": "2511.12901",
-    "url": "http://www.cogsys.org/proceedings/2025/",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2511.12901",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -16811,7 +16812,7 @@
     "bibtex_keys": [
       "xu2025online"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-948bd9d495f1e6638d7e9d20",
@@ -16924,14 +16925,14 @@
   {
     "study_id": "STUDY-94e4dc84bb22b4d5a83896ec",
     "report_id": "RPT-6442b7adbc5736f8eecc09b2",
-    "title": "Constrained natural language action planning for resilient embodied systems",
+    "title": "Constrained Natural Language Action Planning for Resilient Embodied Systems",
     "authors": "Grayson Byrd; Corban Rivera; Bethany Kemp; Meghan Booker; Aurora Schmidt; Celso M de Melo; Lalithkumar Seenivasan; Mathias Unberath",
-    "year": 2026,
-    "venue": "npj Artificial Intelligence",
-    "doi": "10.1038/s44387-026-00117-y",
+    "year": 2025,
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2510.06357",
     "arxiv_id": "2510.06357",
-    "url": "https://www.nature.com/articles/s44387-026-00117-y",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2510.06357",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1"
@@ -16941,7 +16942,7 @@
     "bibtex_keys": [
       "byrd2026constrained"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-9519fafd004ad63df096bec8",
@@ -17036,12 +17037,12 @@
     "report_id": "RPT-197fba5b2c8302de6bd20b37",
     "title": "Imbuing Large Language Models with Bidirectional Logic for Robust Chain Repair",
     "authors": "Zehua Cheng; Wei Dai; Jiahao Sun; Thomas Lukasiewicz",
-    "year": 2027,
-    "venue": "Machine Learning and Knowledge Discovery in Databases. Research Track",
-    "doi": "10.1007/978-3-032-37670-1_34",
+    "year": 2026,
+    "venue": "In Proceedings of European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2026",
+    "doi": "10.48550/arxiv.2606.05030",
     "arxiv_id": "2606.05030",
-    "url": "https://link.springer.com/chapter/10.1007/978-3-032-37670-1_34",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2606.05030",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -17051,7 +17052,7 @@
     "bibtex_keys": [
       "cheng2027imbuing"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-972a00894568c929c148c28a",
@@ -18132,6 +18133,2895 @@
     "record_version": 1
   },
   {
+    "study_id": "STUDY-SEP26-2608.25194",
+    "report_id": "SEP26-ARXIV-2608.25194v1",
+    "title": "Designability of RNA Targets with Up to Two Length-2 Helices",
+    "authors": "Ashutosh S. Jogalekar",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.25194",
+    "url": "https://arxiv.org/abs/2608.25194",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.25803",
+    "report_id": "SEP26-ARXIV-2608.25803v1",
+    "title": "Generative AI-Enabled Mission-Aware Radio Orchestration for RIS-Assisted LEO Satellite ISAC Systems",
+    "authors": "Fitsum Debebe Tilahun; Chung G. Kang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.25803",
+    "url": "https://arxiv.org/abs/2608.25803",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.26334",
+    "report_id": "SEP26-ARXIV-2608.26334v1",
+    "title": "ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving",
+    "authors": "Wenqian Ye; Ziwei Guan; Eric Xie; Bohan Liu; Shivani Modi; Buyun Zhang; Ellie Dingqiao Wen; Henry Kautz; Aidong Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.26334",
+    "url": "https://arxiv.org/abs/2608.26334",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.28433",
+    "report_id": "SEP26-ARXIV-2608.28433v2",
+    "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
+    "authors": "Shuze Chen; Kunal Marwaha; Xiaoyang Lu; Henry Yuen; Tianyi Peng",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.28433",
+    "url": "https://arxiv.org/abs/2608.28433",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.28997",
+    "report_id": "SEP26-ARXIV-2608.28997v1",
+    "title": "Verification abundance, adjudication scarcity: what happens to mathematical knowledge when proof checking becomes free",
+    "authors": "Maher Kallel; Mohamed El Louadi",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.28997",
+    "url": "https://arxiv.org/abs/2608.28997",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "unclear",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.29270",
+    "report_id": "SEP26-ARXIV-2608.29270v3",
+    "title": "SHADOWBENCH: Toward Reliable Automatic Evaluation of Semantic Alignment in Autoformalization",
+    "authors": "Hojae Han; Jongyoon Kim; Sanghyeok Park; Dongwook Cheon; Yeachan Park; Myeong Jae Jeon; Sunjong Choe; Soonho Kong; Wonseok Hur; Seung-won Hwang; Donghoon Hyeon",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.29270",
+    "url": "https://arxiv.org/abs/2608.29270",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.29716",
+    "report_id": "SEP26-ARXIV-2608.29716v1",
+    "title": "Agent-Driven Verification of Memory Safety for liblzma Decoder Components with VST",
+    "authors": "Prokhor Shlyakhtun; Alexander Gryzlov; Vladimir Kukharenko; Vasilii Nesterov; Nikolai Vasiliev; Kirill Ziborov; Eugene Zolotarev; Alex Pokras",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.29716",
+    "url": "https://arxiv.org/abs/2608.29716",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.29841",
+    "report_id": "SEP26-ARXIV-2608.29841v1",
+    "title": "SKILLFORGE: Compositional Skill Synthesis with Verification-in-the-Loop for Generating Formally Verified Dafny Programs",
+    "authors": "Yanming Liu; Xinyue Peng; Jiannan Cao; Xinyi Wang; Jinbo Su",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.29841",
+    "url": "https://arxiv.org/abs/2608.29841",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.30803",
+    "report_id": "SEP26-ARXIV-2608.30803v1",
+    "title": "Schwarz: Solver-Aware Agentic Program Verification",
+    "authors": "Jingyu Ke; Ling-I Wu; Guoqiang Li",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.30803",
+    "url": "https://arxiv.org/abs/2608.30803",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "ke2026schwarz"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2608.30818",
+    "report_id": "SEP26-ARXIV-2608.30818v1",
+    "title": "ProofPulse: Interactive Proof Coverage Analysis for Dafny",
+    "authors": "Álvaro F. Silva; Ruben Martins; Alexandra Mendes",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2608.30818",
+    "url": "https://arxiv.org/abs/2608.30818",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "silva2026proofpulse"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.00728",
+    "report_id": "SEP26-ARXIV-2609.00728v1",
+    "title": "SOVER: Formal Certification of Optimization Reformulations via LLM-Assisted SMT Verification",
+    "authors": "Swapnil Bhattacharyya; Mayank Baranwal",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.00728",
+    "url": "https://arxiv.org/abs/2609.00728",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "bhattacharyya2026sover"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.00838",
+    "report_id": "SEP26-ARXIV-2609.00838v1",
+    "title": "Probabilistic Model Checking of Autoregressive Neural Sequence Models",
+    "authors": "Helge Spieker; Dennis Gross; Arnaud Gotlieb",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.00838",
+    "url": "https://arxiv.org/abs/2609.00838",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.00859",
+    "report_id": "SEP26-ARXIV-2609.00859v1",
+    "title": "Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems",
+    "authors": "Yi Chen; Zikang Yu; Jiahai Wang; Jinbiao Chen; Jianpeng Zhou; Zizhen Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.00859",
+    "url": "https://arxiv.org/abs/2609.00859",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "chen2026reinforcement"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.02322",
+    "report_id": "SEP26-ARXIV-2609.02322v1",
+    "title": "What Is Worth Representing? Representational Empowerment for Continual Model Construction",
+    "authors": "Fei Dai; Hanqi Zhou; Alison Gopnik; Charley Wu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.02322",
+    "url": "https://arxiv.org/abs/2609.02322",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "dai2026worth"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.03161",
+    "report_id": "SEP26-ARXIV-2609.03161v1",
+    "title": "NeuroSTAR: Automata-guided Neuro-symbolic Specification Formalization",
+    "authors": "Joy Saha; Trey Woodlief; Sebastian Elbaum; Matthew B. Dwyer",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.03161",
+    "url": "https://arxiv.org/abs/2609.03161",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "saha2026neurostar"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.03366",
+    "report_id": "SEP26-ARXIV-2609.03366v1",
+    "title": "Accountable AI with Grounded, Faithful, Consistent, Actionable Rationales: A Case Study in Clinical Trial Matching with VERDICT",
+    "authors": "Zikai Zhou; Yufei Jin; Yilin Xu; Yu-Chiang Wang; Chieh-Ju Chao; Monica S. Lam",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.03366",
+    "url": "https://arxiv.org/abs/2609.03366",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhou2026accountable"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.03478",
+    "report_id": "SEP26-ARXIV-2609.03478v1",
+    "title": "AutoGraphForge: Towards Automated Graph Theory Discovery",
+    "authors": "Ján Pastorek",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.03478",
+    "url": "https://arxiv.org/abs/2609.03478",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.04481",
+    "report_id": "SEP26-ARXIV-2609.04481v1",
+    "title": "Statistical Theory in the Age of Machine-Assisted Mathematics: Rethinking How Theory Is Made and Taught",
+    "authors": "Pietro Coretto",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.04481",
+    "url": "https://arxiv.org/abs/2609.04481",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "coretto2026statistical"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.05093",
+    "report_id": "SEP26-ARXIV-2609.05093v1",
+    "title": "LLM-Guided Program Evolution for Circle Packing: Breaking 10 Packomania Records for $28",
+    "authors": "Wes Sander",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.05093",
+    "url": "https://arxiv.org/abs/2609.05093",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "sander2026llm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.05157",
+    "report_id": "SEP26-ARXIV-2609.05157v1",
+    "title": "AxQM: A Textbook-Scale Benchmark for Formal Proof Synthesis in a Library of Finite-Dimensional Quantum Mechanics",
+    "authors": "Weichen Winston Yin; Jacob M. Taylor; Dirk R. Englund; Frank H. L. Koppens",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.05157",
+    "url": "https://arxiv.org/abs/2609.05157",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.05221",
+    "report_id": "SEP26-ARXIV-2609.05221v1",
+    "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+    "authors": "Thi Kim Trang Vo; Nam Tien Le; Thi Kim Nguyet Vo; Minh Khang Tran; Duy Phuong Tran",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.05221",
+    "url": "https://arxiv.org/abs/2609.05221",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "vo2026verifier"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.06071",
+    "report_id": "SEP26-ARXIV-2609.06071v1",
+    "title": "Generating Instance Generators in PDDL Planning",
+    "authors": "Nicola J. Müller; Naya Rudolph; Katharina Stein; Jörg Hoffmann; Ayal Taitler; Timo P. Gros",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.06071",
+    "url": "https://arxiv.org/abs/2609.06071",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "muller2026generating"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.06226",
+    "report_id": "SEP26-ARXIV-2609.06226v1",
+    "title": "Scratchy: Visual-Scratchpad Multimodal Reasoning for Cryptographic Proof Generation in EasyCrypt",
+    "authors": "Yupeng Ren; Zhaoxuan Li; Rui Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.06226",
+    "url": "https://arxiv.org/abs/2609.06226",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "ren2026scratchy"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.07111",
+    "report_id": "SEP26-ARXIV-2609.07111v1",
+    "title": "From LLM-Generated Specifications to Learned Quadruped Locomotion",
+    "authors": "Merve Atasever; Keyan Azbijari; Cagan Bakirci; Alfredo Reina Corona; Tolga Izdas; Richard Yang; Erdem Biyik; Jyotirmoy V. Deshmukh",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.07111",
+    "url": "https://arxiv.org/abs/2609.07111",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.07910",
+    "report_id": "SEP26-ARXIV-2609.07910v1",
+    "title": "PRIMUS: Identity, Governance, and Verification for Multi-Agent Federations",
+    "authors": "Sasank Annapureddy; Anjaneya Prasad Thamatani",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.07910",
+    "url": "https://arxiv.org/abs/2609.07910",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "annapureddy2026primus"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.09264",
+    "report_id": "SEP26-ARXIV-2609.09264v1",
+    "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
+    "authors": "Idan Davidovich; Debargha Ganguly; Vikash Singh; Vipin Chaudhary",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.09264",
+    "url": "https://arxiv.org/abs/2609.09264",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.09898",
+    "report_id": "SEP26-ARXIV-2609.09898v1",
+    "title": "Grounded Evaluation and Repair for NL-to-PDDL Problem Generation",
+    "authors": "Joana Rosa; Pedro Santos; Valdemar Oliveira; Romão Silva; L. Miguel Silveira; Bruno Martins",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.09898",
+    "url": "https://arxiv.org/abs/2609.09898",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "rosa2026grounded"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.09957",
+    "report_id": "SEP26-ARXIV-2609.09957v1",
+    "title": "Beyond Verified Answers: Solver-Informed Self-Distillation for Bootstrapping Operations Research Language Models",
+    "authors": "Rui Zhu; Minglong Cao; Chenyu Zhou; Jianghao Lin; Dongdong Ge",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.09957",
+    "url": "https://arxiv.org/abs/2609.09957",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhu2026verified"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.10057",
+    "report_id": "SEP26-ARXIV-2609.10057v1",
+    "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
+    "authors": "Sharjeel Imtiaz; Uljana Reinsalu; Tara Ghasempouri",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.10057",
+    "url": "https://arxiv.org/abs/2609.10057",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "imtiaz2026autotrans"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.10335",
+    "report_id": "SEP26-ARXIV-2609.10335v1",
+    "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+    "authors": "Weichen Dai; Rafael Medeiros Cabral; Ziyi Shou; Yan Cao; Xin Shen; Dongcai Lu; Yi Zhou",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.10335",
+    "url": "https://arxiv.org/abs/2609.10335",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "dai2026symbolic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.10520",
+    "report_id": "SEP26-ARXIV-2609.10520v1",
+    "title": "Private communication via zero-private-capacity quantum channels",
+    "authors": "Chengkai Zhu; Xin Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.10520",
+    "url": "https://arxiv.org/abs/2609.10520",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.10537",
+    "report_id": "SEP26-ARXIV-2609.10537v1",
+    "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+    "authors": "Yiwei Fang; Yichen Liu; Ze Jin; Haoqiang Wang; Qixu Liu; Luyi Xing",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.10537",
+    "url": "https://arxiv.org/abs/2609.10537",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "fang2026tackling"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.10579",
+    "report_id": "SEP26-ARXIV-2609.10579v1",
+    "title": "A machine-checked proof of the Dong–Yang classification of optimal (n, 4) binary codes for BSCs",
+    "authors": "Shenghao Yang; Yanyan Dong",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.10579",
+    "url": "https://arxiv.org/abs/2609.10579",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.11076",
+    "report_id": "SEP26-ARXIV-2609.11076v2",
+    "title": "SaltBench: A Referee-Gated Protocol for Measuring Method Effects in Machine-Checked Software Work",
+    "authors": "Jason Hickey",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.11076",
+    "url": "https://arxiv.org/abs/2609.11076",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "hickey2026saltbench"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.11085",
+    "report_id": "SEP26-ARXIV-2609.11085v2",
+    "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+    "authors": "Vikash Singh; Debargha Ganguly; Aman Goel; Ali Torkamani; Xiaoxue Han; Joseph Lilien; Ferhat Erata; Vipin Chaudhary",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.11085",
+    "url": "https://arxiv.org/abs/2609.11085",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "singh2026solver"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.11319",
+    "report_id": "SEP26-ARXIV-2609.11319v2",
+    "title": "MAGENTA: Closing the Loop Between Mathematical Reasoning and Lean Verification",
+    "authors": "Joshua Ong Jun Leang; Haonan Li; Zheng Zhao; Xinyi Shang; Wenda Li; Zhengzhong Liu; Eric Xing; Shay Cohen; Eleonora Giunchiglia",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.11319",
+    "url": "https://arxiv.org/abs/2609.11319",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "leang2026magenta"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.11636",
+    "report_id": "SEP26-ARXIV-2609.11636v1",
+    "title": "MAPLE: Memory-Augmented Planning with Language and Evolution",
+    "authors": "Kesheng Chen; Yamin Hu; Wenjian Luo",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.11636",
+    "url": "https://arxiv.org/abs/2609.11636",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.12863",
+    "report_id": "SEP26-ARXIV-2609.12863v1",
+    "title": "GenOR-Twin: A Semantic Middleware for Integrating Operational Discourse with Mathematical Optimization",
+    "authors": "Rahimeh Neamatian Monemi; Shahin Gelareh; Lubin Cui; Nelson Maculan",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.12863",
+    "url": "https://arxiv.org/abs/2609.12863",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.13359",
+    "report_id": "SEP26-ARXIV-2609.13359v1",
+    "title": "Medvedev logic is undecidable",
+    "authors": "Rodrigo Nicolau Almeida; Søren Brinck Knudstorp",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.13359",
+    "url": "https://arxiv.org/abs/2609.13359",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.13641",
+    "report_id": "SEP26-ARXIV-2609.13641v1",
+    "title": "Four-arm polyominoes in Golomb’s hierarchy: A complete classification with Lean verification",
+    "authors": "Angel Ivanov Raychev",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.13641",
+    "url": "https://arxiv.org/abs/2609.13641",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.13945",
+    "report_id": "SEP26-ARXIV-2609.13945v1",
+    "title": "SAILOR: Solver-Assisted Interactive LLM-based Optimization Recovery",
+    "authors": "Shaghayegh Sadeghi; Stephen L. Smith; David C. Del Rey Fernández",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.13945",
+    "url": "https://arxiv.org/abs/2609.13945",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "sadeghi2026sailor"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.14188",
+    "report_id": "SEP26-ARXIV-2609.14188v1",
+    "title": "Golden-ratio growth of Conway’s subprime closure",
+    "authors": "Romain Popescu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.14188",
+    "url": "https://arxiv.org/abs/2609.14188",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.14741",
+    "report_id": "SEP26-ARXIV-2609.14741v1",
+    "title": "A property-registry contract for retrieve-or-refuse thermal–mechanical lattice search",
+    "authors": "Shaoliang Yang; Henry Chu; Zu Yashengjiang; Jun Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.14741",
+    "url": "https://arxiv.org/abs/2609.14741",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yang2026property"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.14836",
+    "report_id": "SEP26-ARXIV-2609.14836v1",
+    "title": "The Case for Automated Hyperspecialization: Evidence from SAT",
+    "authors": "Harrison Green; Claire Le Goues; Fraser Brown",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.14836",
+    "url": "https://arxiv.org/abs/2609.14836",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "green2026case"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.15318",
+    "report_id": "SEP26-ARXIV-2609.15318v1",
+    "title": "LLM-enabled Behavior Driven Development Workflow for Formally Verified Hardware Designs",
+    "authors": "Luca Müller; Qian Liu; Rolf Drechsler",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.15318",
+    "url": "https://arxiv.org/abs/2609.15318",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "muller2026llm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.15523",
+    "report_id": "SEP26-ARXIV-2609.15523v1",
+    "title": "Automating Attack Graph Construction for Agentic Pentesting. Towards Neuro-Symbolic Vulnerability Hunting.",
+    "authors": "Oliver Stevanovic; Jasmin Wachter",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.15523",
+    "url": "https://arxiv.org/abs/2609.15523",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "stevanovic2026automating"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.15533",
+    "report_id": "SEP26-ARXIV-2609.15533v1",
+    "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+    "authors": "Tobias Ladner; Matthias Althoff",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.15533",
+    "url": "https://arxiv.org/abs/2609.15533",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.15648",
+    "report_id": "SEP26-ARXIV-2609.15648v1",
+    "title": "Scaling Verification of Cryptographic Software with Aeneas, Rust, and Lean",
+    "authors": "Son Ho; Cédric Fournet; Jonathan Protzenko; Michael Naehrig; Joshua Clune; Patrick Longa; Guillaume Boisseau; Fernando Leal Sánchez; Aymeric Fromherz; Antoine Delignat-Lavaud",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.15648",
+    "url": "https://arxiv.org/abs/2609.15648",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.16027",
+    "report_id": "SEP26-ARXIV-2609.16027v1",
+    "title": "Formalization of Sullivan's No Wandering Domains Theorem in Lean",
+    "authors": "Ziang Li; Yusheng Luo",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.16027",
+    "url": "https://arxiv.org/abs/2609.16027",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.16884",
+    "report_id": "SEP26-ARXIV-2609.16884v1",
+    "title": "Bridging Learned Visual Perception and Symbolic Belief-Space Planning via Probabilistic Grounding",
+    "authors": "Guy Azran; Michael Navat; Sarah Keren",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.16884",
+    "url": "https://arxiv.org/abs/2609.16884",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "azran2026bridging"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.16991",
+    "report_id": "SEP26-ARXIV-2609.16991v1",
+    "title": "Autoformalizing Argumentative Material Inferences",
+    "authors": "Xin Quan; Reto Gubelmann; André Freitas",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.16991",
+    "url": "https://arxiv.org/abs/2609.16991",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "quan2026autoformalizing"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.18669",
+    "report_id": "SEP26-ARXIV-2609.18669v1",
+    "title": "M3P-R1: Reinforcement Learning for Large Language Model Guided Multi-Modal Motion Planning via MIP Code Generation",
+    "authors": "Xingpeng Sun; Zherong Pan; Kai Cheng; Xindi Tang; Syed Talha Bukhari; Aniket Bera",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.18669",
+    "url": "https://arxiv.org/abs/2609.18669",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.18722",
+    "report_id": "SEP26-ARXIV-2609.18722v1",
+    "title": "A Structural Proof of the Lower Bound 21 for 3 × 3 Matrix Multiplication over F₂",
+    "authors": "Shuxing Yang; Rui Zhao; Junyao Wu; Yize Wang; Wenhao Li; Fujia Chen; Taowen Deng; Shenzhan Hong; Yaqi Li; Zichen Li; Jincheng Mi; Yuang Pan; Kaihao Zhu; Junjie Yang; Hongsheng Chen; Yihao Yang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.18722",
+    "url": "https://arxiv.org/abs/2609.18722",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.19391",
+    "report_id": "SEP26-ARXIV-2609.19391v1",
+    "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+    "authors": "Albert Wu; Nicholas Roberts; Tzu-Heng Huang; Haoran Lin; Gil Friedman; Sungjun Cho; Gabriel Orlanski; Frederic Sala",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.19391",
+    "url": "https://arxiv.org/abs/2609.19391",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "wu2026mags"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.19545",
+    "report_id": "SEP26-ARXIV-2609.19545v1",
+    "title": "Where the LLM Ends and Reliable Decisions Begin",
+    "authors": "Priyadarshan Patil; Abhishek Basu; Vikas Reddy; Abhinav Gupta",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.19545",
+    "url": "https://arxiv.org/abs/2609.19545",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "patil2026where"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.19583",
+    "report_id": "SEP26-ARXIV-2609.19583v1",
+    "title": "LLVM Translation Validation Automated with Large Language Models and Lean",
+    "authors": "Chunhao Liao; Hongxu Xu; Xintong Zhou; Yizhou Zhang; Chengnian Sun",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.19583",
+    "url": "https://arxiv.org/abs/2609.19583",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "liao2026llvm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.19728",
+    "report_id": "SEP26-ARXIV-2609.19728v1",
+    "title": "Paths maximize the expected range of graph-indexed random walks",
+    "authors": "Yinfeng Zhu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.19728",
+    "url": "https://arxiv.org/abs/2609.19728",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.19814",
+    "report_id": "SEP26-ARXIV-2609.19814v2",
+    "title": "Long-horizon autoformalization of a core theorem underlying MIP*=RE",
+    "authors": "Sirui Lu; Ruixuan Deng; David Zhu; Zhengfeng Ji",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.19814",
+    "url": "https://arxiv.org/abs/2609.19814",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "lu2026long"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.20334",
+    "report_id": "SEP26-ARXIV-2609.20334v1",
+    "title": "Structured Four-Stage Legal Translation: From Natural-Language Traffic Rules to PROLOG",
+    "authors": "May Myo Zin; Wachara Fungwacharakorn; Ken Satoh; Katsumi Nitta",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.20334",
+    "url": "https://arxiv.org/abs/2609.20334",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.20396",
+    "report_id": "SEP26-ARXIV-2609.20396v1",
+    "title": "Imagine-TAMP: Imagination-Guided Task and Motion Planning in Partial Observability",
+    "authors": "Antareep Singha; Shivaram Kumar; Yoonwoo Kim; Yoonchang Sung",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.20396",
+    "url": "https://arxiv.org/abs/2609.20396",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.20752",
+    "report_id": "SEP26-ARXIV-2609.20752v1",
+    "title": "Large Language Models as Falsifiers for Cyber-Physical Systems",
+    "authors": "Ali ArjomandBigdeli; Jiawei Zhou; Stanley Bak",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.20752",
+    "url": "https://arxiv.org/abs/2609.20752",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "arjomandbigdeli2026large"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.21190",
+    "report_id": "SEP26-ARXIV-2609.21190v2",
+    "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
+    "authors": "George Ma; Benjamin Mikek; Haoyu Li; Ferhat Erata; Yuhao Zhang; Zeren Shui; Behrooz Omidvar Tehrani; Jun Huan; Murali Krishna Ramanathan; Somayeh Sojoudi; Hao Zhou; Anoop Deoras",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.21190",
+    "url": "https://arxiv.org/abs/2609.21190",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "ma2026swe"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.21492",
+    "report_id": "SEP26-ARXIV-2609.21492v1",
+    "title": "LogicTrack: Auditing Reasoning Trajectories of Large Language Models with Formal Logic Solvers",
+    "authors": "Jingyu Hu; Shu Yang; Weiru Liu; Di Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.21492",
+    "url": "https://arxiv.org/abs/2609.21492",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "hu2026logictrack"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.22987",
+    "report_id": "SEP26-ARXIV-2609.22987v1",
+    "title": "OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling",
+    "authors": "Ruiqing Zhao; Rui Liu; Yuan Zuo; Huarong Zhang; Xiao Han; Junjie Wu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.22987",
+    "url": "https://arxiv.org/abs/2609.22987",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhao2026optiskill"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.23015",
+    "report_id": "SEP26-ARXIV-2609.23015v1",
+    "title": "An exponential lower bound for the bit pigeonhole principle in resolution over parities",
+    "authors": "Kamil Braun",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.23015",
+    "url": "https://arxiv.org/abs/2609.23015",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.23802",
+    "report_id": "SEP26-ARXIV-2609.23802v1",
+    "title": "Distance and resistance on random series-parallel graphs: logarithmic speeds and near-critical asymptotics",
+    "authors": "Ruiqi Ding; Zehua He; Yutao Liang; Yushu Zheng",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.23802",
+    "url": "https://arxiv.org/abs/2609.23802",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.23954",
+    "report_id": "SEP26-ARXIV-2609.23954v1",
+    "title": "Djinnlang: Higher-Level Programming by Unambiguous Specification with an LLM in the Compiler",
+    "authors": "Simon Henniger; Stephen Chong; Nada Amin",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.23954",
+    "url": "https://arxiv.org/abs/2609.23954",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "henniger2026djinnlang"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.24446",
+    "report_id": "SEP26-ARXIV-2609.24446v2",
+    "title": "ActGov: Governing LLM Agent Actions via Policy-Constrained Validation",
+    "authors": "Kaiyuan Zhang; Yuke Peng; Ke Jiang; Yinqian Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.24446",
+    "url": "https://arxiv.org/abs/2609.24446",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhang2026actgov"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.24631",
+    "report_id": "SEP26-ARXIV-2609.24631v2",
+    "title": "From Semantic Decisions to Feasible Trajectories: Self-Evolving LLM-Guided Optimal Control for Narrow-Space Parking",
+    "authors": "Zhengbao Yao; Yuanfu Luo; Kehan Xue",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.24631",
+    "url": "https://arxiv.org/abs/2609.24631",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yao2026semantic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.25050",
+    "report_id": "SEP26-ARXIV-2609.25050v1",
+    "title": "FrontierMath Erdős",
+    "authors": "Tom Adamczewski; Thomas F. Bloom",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.25050",
+    "url": "https://arxiv.org/abs/2609.25050",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.25199",
+    "report_id": "SEP26-ARXIV-2609.25199v1",
+    "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+    "authors": "Vasily Ilin",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.25199",
+    "url": "https://arxiv.org/abs/2609.25199",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.25575",
+    "report_id": "SEP26-ARXIV-2609.25575v1",
+    "title": "Direct Optimization of Generators for Search in Automated Theorem Proving",
+    "authors": "Adam Ousherovitch; Ambuj Tewari",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.25575",
+    "url": "https://arxiv.org/abs/2609.25575",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "ousherovitch2026direct"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.25637",
+    "report_id": "SEP26-ARXIV-2609.25637v1",
+    "title": "SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification",
+    "authors": "Liangtao Dai; Yimin Gao; Melika Morsali; Mircea Stan",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.25637",
+    "url": "https://arxiv.org/abs/2609.25637",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "dai2026sled"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.27105",
+    "report_id": "SEP26-ARXIV-2609.27105v1",
+    "title": "Provably Complete Generalized Planning with LLMs",
+    "authors": "Katharina Stein; Chaahat Jain; Jörg Hoffmann; Alexander Koller",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.27105",
+    "url": "https://arxiv.org/abs/2609.27105",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "stein2026provably"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.27162",
+    "report_id": "SEP26-ARXIV-2609.27162v1",
+    "title": "Agentic-IC3: Enabling Semantic Proof Search in IC3 Model Checking",
+    "authors": "Yu-Wei Fan; SooHyuk Cho; Aarti Gupta; Sharad Malik",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.27162",
+    "url": "https://arxiv.org/abs/2609.27162",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "fan2026agentic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.27517",
+    "report_id": "SEP26-ARXIV-2609.27517v1",
+    "title": "Not What You Meant: Can LLMs Follow a Specified Negation Semantics?",
+    "authors": "Qiming Bao; Agnieszka Mensfelt; Michael J. Witbrock; Kostas Stathis",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.27517",
+    "url": "https://arxiv.org/abs/2609.27517",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R1",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "bao2026not"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.27991",
+    "report_id": "SEP26-ARXIV-2609.27991v1",
+    "title": "Three Conjectures on Binary Channels for the Doubly Symmetric Binary Source",
+    "authors": "Georg Pichler",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.27991",
+    "url": "https://arxiv.org/abs/2609.27991",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.28314",
+    "report_id": "SEP26-ARXIV-2609.28314v1",
+    "title": "TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning",
+    "authors": "Samrat Sahoo; Liang Ji; Tom Silver; Yixuan Huang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.28314",
+    "url": "https://arxiv.org/abs/2609.28314",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "sahoo2026tandem"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.28447",
+    "report_id": "SEP26-ARXIV-2609.28447v1",
+    "title": "A Spectral Proof of Khachiyan’s Ellipsoid Conjecture",
+    "authors": "Zhou Longfei; Haijun Zou; Tianhao Liu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.28447",
+    "url": "https://arxiv.org/abs/2609.28447",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.28603",
+    "report_id": "SEP26-ARXIV-2609.28603v1",
+    "title": "Learning to Discover Interesting Mathematics",
+    "authors": "Niket Patel; Ahmad Rammal; Amaury Hayat; Remi Munos; Julia Kempe",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.28603",
+    "url": "https://arxiv.org/abs/2609.28603",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "patel2026learning"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.28724",
+    "report_id": "SEP26-ARXIV-2609.28724v1",
+    "title": "The Canonical Parallel Form as a Substrate for Parallelizing Compilers and Agentic Optimizers",
+    "authors": "Yakup Koray Budanaz; Pratyai Mazumder; Alexandru Calotoiu; Torsten Hoefler",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.28724",
+    "url": "https://arxiv.org/abs/2609.28724",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.29296",
+    "report_id": "SEP26-ARXIV-2609.29296v1",
+    "title": "ProofGap: Benchmarking Step-Level Formal Reasoning with Local Obligations Derived from Natural-Language Solutions",
+    "authors": "Lihan Xie; Zhicheng Hui; Yingjun Lan; Zhehao Li; Xingzhi Qi; Siyue Huang; Jirui Liu; Chuxiao Zeng; Bohan Zhao; Qinxiang Cao",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.29296",
+    "url": "https://arxiv.org/abs/2609.29296",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "xie2026proofgap"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.29870",
+    "report_id": "SEP26-ARXIV-2609.29870v1",
+    "title": "Formal Model Construction Guided by Model-Based Proof Sketches",
+    "authors": "Hongshu Wang; Xinyue Zuo; Yufan Cai; Neeraj Kumar Singh; Yamine Ait Ameur; Jin Song Dong",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.29870",
+    "url": "https://arxiv.org/abs/2609.29870",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "wang2026formal"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.30131",
+    "report_id": "SEP26-ARXIV-2609.30131v1",
+    "title": "Enhancing Word-Level Property Directed Reachability with LLM-Driven Semantic Guidance",
+    "authors": "Guangyu Hu; Mingkai Miao; Zhiyuan Yan; Xiaofeng Zhou; Wei Zhang; Hongce Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.30131",
+    "url": "https://arxiv.org/abs/2609.30131",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "hu2026enhancing"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.30144",
+    "report_id": "SEP26-ARXIV-2609.30144v1",
+    "title": "EnigmaForge: The Question Is Hidden in the Story",
+    "authors": "Daniel Eisner",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.30144",
+    "url": "https://arxiv.org/abs/2609.30144",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.30178",
+    "report_id": "SEP26-ARXIV-2609.30178v1",
+    "title": "NeuroTestGen: Neuro-Symbolic Guided Test Generation with Large Language Models",
+    "authors": "Ruixin Zhang; Jiho Shin; Hung Viet Pham; Song Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.30178",
+    "url": "https://arxiv.org/abs/2609.30178",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.31874",
+    "report_id": "SEP26-ARXIV-2609.31874v1",
+    "title": "CounterMem: World-Model-Verified Counterfactual Memory for Language Agents",
+    "authors": "Hongji Pu; Ruixiang Tang; Yongfeng Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.31874",
+    "url": "https://arxiv.org/abs/2609.31874",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "pu2026countermem"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.31903",
+    "report_id": "SEP26-ARXIV-2609.31903v1",
+    "title": "Choir: An Open Protocol for Distributed Multi-Agent Autoformalization",
+    "authors": "Yidi Qi; Melanie Weber",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.31903",
+    "url": "https://arxiv.org/abs/2609.31903",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32201",
+    "report_id": "SEP26-ARXIV-2609.32201v2",
+    "title": "Instruct, Not Answer: Using Instruction Privileges in On-Policy Context Distillation",
+    "authors": "Hantao Yu; Xiaoxue Han; Udaya Ghai; Ferhat Erata; Joseph Lilien; Aman Goel; Ali Torkamani",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32201",
+    "url": "https://arxiv.org/abs/2609.32201",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yu2026instruct"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32228",
+    "report_id": "SEP26-ARXIV-2609.32228v1",
+    "title": "CompassPlay: Rewarding the Proposer for Where It Moves the Solver",
+    "authors": "Sophia Xiao Pu; Ximeng Sun; Jiang Liu; Jialian Wu; Emad Barsoum; Zicheng Liu; William Yang Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32228",
+    "url": "https://arxiv.org/abs/2609.32228",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32431",
+    "report_id": "SEP26-ARXIV-2609.32431v1",
+    "title": "DualGuard: Dual-Mode Quality Control for Logic-Preserving Data Augmentation",
+    "authors": "Shenghao Li; Lin Zhao",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32431",
+    "url": "https://arxiv.org/abs/2609.32431",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "li2026dualguard"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32491",
+    "report_id": "SEP26-ARXIV-2609.32491v1",
+    "title": "Explaining Textual Entailment with Lexical Entailments: Using LLMs to Supply Lexical Relations for Formal Proofs",
+    "authors": "Jorryt de Jong; Stefan Morača; Ettore Cesari; Lasha Abzianidze",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32491",
+    "url": "https://arxiv.org/abs/2609.32491",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "jong2026explaining"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32643",
+    "report_id": "SEP26-ARXIV-2609.32643v1",
+    "title": "Business Compromise Detection with Agentic AI and LLM-driven Knowledge Discovery",
+    "authors": "Diego Palma; Kyu Bin Kim; Zhen Han; Allbright Dsouza; Zhiyuan Liu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32643",
+    "url": "https://arxiv.org/abs/2609.32643",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32908",
+    "report_id": "SEP26-ARXIV-2609.32908v1",
+    "title": "Predicting the Next State Is Not Enough: JEPA Representations for Lean Theorem Proving",
+    "authors": "Aarnav Choudhary",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32908",
+    "url": "https://arxiv.org/abs/2609.32908",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "choudhary2026predicting"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.32924",
+    "report_id": "SEP26-ARXIV-2609.32924v1",
+    "title": "Diagnosing Sampled LLM Reasoning in Formal Geometry: Coverage, Realization, and Validity Evidence",
+    "authors": "Xiao Yue; Guangzhi Qu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.32924",
+    "url": "https://arxiv.org/abs/2609.32924",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R1"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yue2026diagnosing"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.33043",
+    "report_id": "SEP26-ARXIV-2609.33043v1",
+    "title": "More than 83.69% of the zeros of the Riemann zeta function are distinct",
+    "authors": "Kristian Muri Knausgård",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.33043",
+    "url": "https://arxiv.org/abs/2609.33043",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.33438",
+    "report_id": "SEP26-ARXIV-2609.33438v1",
+    "title": "Path2Spec: Path-Aware Specification Generation via Large Language Models",
+    "authors": "Dan Huang; Zhensu Sun; Huihui Huang; Jinfeng Jiang; Xiaofei Xie; Yintong Huo; David Lo",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.33438",
+    "url": "https://arxiv.org/abs/2609.33438",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "huang2026path2spec"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.33612",
+    "report_id": "SEP26-ARXIV-2609.33612v1",
+    "title": "Quizzing the Translation: A Prover-Grounded Evaluation Metric for NL→FOL",
+    "authors": "Pu Suo; Ali Emami",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.33612",
+    "url": "https://arxiv.org/abs/2609.33612",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "suo2026quizzing"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.33796",
+    "report_id": "SEP26-ARXIV-2609.33796v1",
+    "title": "RAISE: Reinforcing Access Control Policy Synthesis in LLMs via Symbolic Evaluation",
+    "authors": "Yingming Zhou; Adarsh Vatsa; William Eiers",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.33796",
+    "url": "https://arxiv.org/abs/2609.33796",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhou2026raise"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34205",
+    "report_id": "SEP26-ARXIV-2609.34205v1",
+    "title": "Learning to Optimize through Solver-Grounded Self-Play",
+    "authors": "Xia Jiang; Yaoxin Wu; Chenyu Zhou; Mengzhu Xu; Wim P.M. Nuijten; Yingqian Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34205",
+    "url": "https://arxiv.org/abs/2609.34205",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "jiang2026learning"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34270",
+    "report_id": "SEP26-ARXIV-2609.34270v1",
+    "title": "Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning",
+    "authors": "Huao Li; Carson Sobolewski; Augustinos Saravanos; William Tan; John Karigiannis; Chuchu Fan",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34270",
+    "url": "https://arxiv.org/abs/2609.34270",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "li2026bayesian"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34427",
+    "report_id": "SEP26-ARXIV-2609.34427v1",
+    "title": "LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization",
+    "authors": "Shihao Zhang; Weiting Liu; Siyu Shao; Yitian Chen; Jianfeng Feng; Dongdong Ge; Yinyu Ye",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34427",
+    "url": "https://arxiv.org/abs/2609.34427",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhang2026llms"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34455",
+    "report_id": "SEP26-ARXIV-2609.34455v1",
+    "title": "RGDT-Bench: Benchmarking LLM Reasoning for Rule-Governed Decisions and Their Justifications",
+    "authors": "Jianpeng Zhao; Haihua Xu; Haoyang Zhang; Shuang Qian; Yixiang Tang; Xintao Wang; Kun Sun; Pei Wu; Shuhan Zhong; Pengyang Wang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34455",
+    "url": "https://arxiv.org/abs/2609.34455",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhao2026rgdt"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34460",
+    "report_id": "SEP26-ARXIV-2609.34460v1",
+    "title": "When Does Structured Knowledge Help Neural Theorem Proving?",
+    "authors": "Sareh Nabi; Roland Vogl; Marzieh Nabi",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34460",
+    "url": "https://arxiv.org/abs/2609.34460",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "nabi2026structured"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34619",
+    "report_id": "SEP26-ARXIV-2609.34619v1",
+    "title": "LLMs for Executable Multi-Agent System Specification Generation",
+    "authors": "Andreas Kouvaras; Periklis Mantenoglou; Alexander Artikis",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34619",
+    "url": "https://arxiv.org/abs/2609.34619",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "kouvaras2026llms"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34660",
+    "report_id": "SEP26-ARXIV-2609.34660v1",
+    "title": "Rewarding Novel Deductions: Solver-guided Process Rewards for Logical Reasoning",
+    "authors": "Muhammad Asif Ali; Wenqing Wang; Huan Wang; Mohammad Raza",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34660",
+    "url": "https://arxiv.org/abs/2609.34660",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "ali2026rewarding"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34661",
+    "report_id": "SEP26-ARXIV-2609.34661v1",
+    "title": "Codoku: Renewable Program-Reasoning Challenges for Frontier Coding Agents",
+    "authors": "Cong Li; Hao Sun; Zenan Li; Zhendong Su",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34661",
+    "url": "https://arxiv.org/abs/2609.34661",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34785",
+    "report_id": "SEP26-ARXIV-2609.34785v1",
+    "title": "BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification",
+    "authors": "Yuheng Wu; Berk Gokmen; Sujeeth Jinesh; Lauren McLane; Aarav Wattal; Qi Yang Huang; Zhaozhuo Xu; Thierry Tambe",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34785",
+    "url": "https://arxiv.org/abs/2609.34785",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "wu2026behave"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34886",
+    "report_id": "SEP26-ARXIV-2609.34886v1",
+    "title": "Fewer Assumptions by Design: A Reusable Skill for LLM-Assisted Verus Verification",
+    "authors": "Andrada-Livia Antoneac; Dorel Lucanu; Dragoş Teodor Gavriluţ",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34886",
+    "url": "https://arxiv.org/abs/2609.34886",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "antoneac2026fewer"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.34960",
+    "report_id": "SEP26-ARXIV-2609.34960v1",
+    "title": "ProofLoom: Proof-Obligation-Driven Theory Construction for Autoformalizing Research-Level Stochastic Optimization",
+    "authors": "Feiming Wang; Daibo Li; Kun Yuan",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.34960",
+    "url": "https://arxiv.org/abs/2609.34960",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "wang2026proofloom"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.35571",
+    "report_id": "SEP26-ARXIV-2609.35571v1",
+    "title": "Representation Alignment as a Bottleneck in LLM-Based Retrosynthesis Planning",
+    "authors": "Hyunwoo Yoo; Cassie Huang; Haebin Shin; Li Zhang; Gail L. Rosen",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.35571",
+    "url": "https://arxiv.org/abs/2609.35571",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yoo2026representation"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.35719",
+    "report_id": "SEP26-ARXIV-2609.35719v1",
+    "title": "AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",
+    "authors": "Sergey Gusev; David E. Bernal Neira",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.35719",
+    "url": "https://arxiv.org/abs/2609.35719",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "gusev2026ai"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.35790",
+    "report_id": "SEP26-ARXIV-2609.35790v2",
+    "title": "Sage: Formalization with Semantic Correction",
+    "authors": "Thomas Hirtz; Farzad Jafarrahmani; Abdelmouksit Sagueni; Xiang Zhou; Wenping Deng; Liang Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.35790",
+    "url": "https://arxiv.org/abs/2609.35790",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "hirtz2026sage"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.35833",
+    "report_id": "SEP26-ARXIV-2609.35833v1",
+    "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+    "authors": "Avyay Sadhu; Alvaro Velasquez; Lekai Chen",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.35833",
+    "url": "https://arxiv.org/abs/2609.35833",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.36303",
+    "report_id": "SEP26-ARXIV-2609.36303v1",
+    "title": "HeurEvo: Agentic Evolution of Hybrid Solver-Augmented Heuristics for Time-Critical Mathematical Optimization",
+    "authors": "Feijie Wu; Hugo Barbalho; Konstantina Mellou; Marco Molinaro; Jing Gao; Ishai Menache; Xinzhi Zhang; Sirui Li",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.36303",
+    "url": "https://arxiv.org/abs/2609.36303",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "wu2026heurevo"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.36437",
+    "report_id": "SEP26-ARXIV-2609.36437v1",
+    "title": "Bits Under ZK-LLM: Evaluating Zero-Knowledge-Friendly Quantization for Verifiable Private LLM Inference",
+    "authors": "Taeung Yoon; Yupeng Zhang; Xiaojing Liao",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.36437",
+    "url": "https://arxiv.org/abs/2609.36437",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.36663",
+    "report_id": "SEP26-ARXIV-2609.36663v1",
+    "title": "GenLimitLib: A Formal Library for Language Generation in the Limit and AI-Assisted Mathematical Research",
+    "authors": "Shuangping Li; Peng Zhang",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.36663",
+    "url": "https://arxiv.org/abs/2609.36663",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.36735",
+    "report_id": "SEP26-ARXIV-2609.36735v1",
+    "title": "BiFE: Search-Efficient Discovery of CPU-Only Branching Policies via LLM-based Bi-Fidelity Evolution",
+    "authors": "Ce Zhang; Bin Zhang; Zhiwei Xu; Hao Chen; Xinyue Lu; Shanwei Fan; Yingxuan Teng; Guoliang Fan",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.36735",
+    "url": "https://arxiv.org/abs/2609.36735",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhang2026bife"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.37175",
+    "report_id": "SEP26-ARXIV-2609.37175v1",
+    "title": "VLM Fine-Tuning for End-to-End Combinatorial Optimization",
+    "authors": "Qingsong Yan; Xia Jiang; Yaoxin Wu; Wen Song; Lu Zhang; Yingjie Zhou",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.37175",
+    "url": "https://arxiv.org/abs/2609.37175",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "yan2026vlm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.37203",
+    "report_id": "SEP26-ARXIV-2609.37203v1",
+    "title": "Learning to Prove, Not Just to Answer: Reinforcement Learning from Formal Verification for Natural-Language Logical Reasoning",
+    "authors": "Qili Zhang; Qianren Mao; Hanze Cai; Kaiming Zhao; Yuening He; Xihan Lei; Yashuo Luo; Hanwen Hao; Yutong Gu; Likang Xiao; Zhijun Chen; Weifeng Jiang; Haoyi Zhou; Jianxin Li",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.37203",
+    "url": "https://arxiv.org/abs/2609.37203",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhang2026learningprove"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.37356",
+    "report_id": "SEP26-ARXIV-2609.37356v1",
+    "title": "Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback",
+    "authors": "Jitin Singla; Parikshit Pareek; Pratik Jawanpuria; Parag Singla",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.37356",
+    "url": "https://arxiv.org/abs/2609.37356",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.37361",
+    "report_id": "SEP26-ARXIV-2609.37361v1",
+    "title": "SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search",
+    "authors": "Zetong Zhou; Wentao Zhang; Jingyuan Wang; Yifan Yang; Zizhuo Wang; Shixi Hu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.37361",
+    "url": "https://arxiv.org/abs/2609.37361",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "zhou2026semopt"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.37490",
+    "report_id": "SEP26-ARXIV-2609.37490v1",
+    "title": "CPUNeSy: Controlling Model Writes for Reliable Neuro-Symbolic Reasoning",
+    "authors": "Zeyan Li; Siyuan Qiu; Shuai Zhao; Jianfeng Xu",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.37490",
+    "url": "https://arxiv.org/abs/2609.37490",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "li2026cpunesy"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.38384",
+    "report_id": "SEP26-ARXIV-2609.38384v1",
+    "title": "LeanPolish: Verified Supervision for Lean Proof Compression",
+    "authors": "Pauline Bourigault",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.38384",
+    "url": "https://arxiv.org/abs/2609.38384",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4",
+      "R5"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "bourigault2026leanpolish"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.38409",
+    "report_id": "SEP26-ARXIV-2609.38409v1",
+    "title": "ArgGYM: A Procedural, Engine-Verified Benchmark for Structured Defeasible Reasoning",
+    "authors": "İbrahim Ethem Deveci; Funda Tan Çalık; Barış Deniz Sağlam; Duygu Ataman",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.38409",
+    "url": "https://arxiv.org/abs/2609.38409",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "deveci2026arggym"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.38420",
+    "report_id": "SEP26-ARXIV-2609.38420v1",
+    "title": "What Was Said, Not What Was ‘Thought’: Type-6 Logic for CoT Verification",
+    "authors": "Adrian de Wynter",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.38420",
+    "url": "https://arxiv.org/abs/2609.38420",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.38434",
+    "report_id": "SEP26-ARXIV-2609.38434v1",
+    "title": "TACIT: Optimization Models that Learn from Their Mistakes",
+    "authors": "Maxime Bouscary; Marco Molinaro; Sirui Li; Saurabh Amin; Ishai Menache; Konstantina Mellou",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.38434",
+    "url": "https://arxiv.org/abs/2609.38434",
+    "url_basis": "citation_arxiv",
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "bouscary2026tacit"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-SEP26-2609.38884",
+    "report_id": "SEP26-ARXIV-2609.38884v1",
+    "title": "Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling",
+    "authors": "Zhong Li; Xin Huang; Jinhui Wan; Xiangyi Wang; Shenkai Zhang; Ruiqi Chen; Wenyu Liu; Zaiwen Wen; Ziyan Luo",
+    "year": 2026,
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2609.38884",
+    "url": "https://arxiv.org/abs/2609.38884",
+    "url_basis": "citation_arxiv",
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [
+      "R1",
+      "R2"
+    ],
+    "role_status": "classified",
+    "report_type": "preprint",
+    "bibtex_keys": [
+      "li2026right"
+    ],
+    "record_version": 1
+  },
+  {
     "study_id": "STUDY-a0314af41cf0061d5af5aae9",
     "report_id": "RPT-8566428ac094f9860bdb3728",
     "title": "Optimizing the Cost-Quality Tradeoff of Agentic Theorem Provers in Lean",
@@ -18719,11 +21609,11 @@
     "title": "HarnessLLM: Rust Verification Harness Generation with Large Language Models",
     "authors": "Minghua Wang; Yuwei Liu; Lin Huang",
     "year": 2026,
-    "venue": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
-    "doi": "10.1145/3744916.3773122",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2607.22161",
     "arxiv_id": "2607.22161",
-    "url": "https://dl.acm.org/doi/10.1145/3744916.3773122",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2607.22161",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1",
@@ -18734,7 +21624,7 @@
     "bibtex_keys": [
       "wang2026harnessllm"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-a726f4f56350970ac320592f",
@@ -21566,11 +24456,11 @@
     "title": "Consolidating Trees of Robotic Plans Generated Using Large Language Models to Improve Reliability",
     "authors": "Md Sadman Sakib; Yu Sun",
     "year": 2024,
-    "venue": "International Journal of Artificial Intelligence and Robotics Research",
-    "doi": "10.1142/S2972335324500029",
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2401.07868",
-    "url": "https://www.worldscientific.com/doi/10.1142/S2972335324500029",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2401.07868",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1"
@@ -21580,7 +24470,7 @@
     "bibtex_keys": [
       "sakib2024consolidating"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-bfbc897b7e8584a2ba777bab",
@@ -23438,11 +26328,11 @@
     "title": "Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go Wrong",
     "authors": "Khouloud Gaaloul; Zaid Ghazal; Madhu Latha Pulimi; Sam Emmanuel Kathiravan",
     "year": 2026,
-    "venue": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
-    "doi": "10.1145/3788550.3794884",
+    "venue": "Proc. 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2026), ACM, 2026, 6 pages",
+    "doi": "not_reported",
     "arxiv_id": "2604.23523",
-    "url": "https://dl.acm.org/doi/10.1145/3788550.3794884",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2604.23523",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -23452,7 +26342,7 @@
     "bibtex_keys": [
       "gaaloul2026grammar"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-d1c6c95cb03f16d74a0d0b6d",
@@ -26638,12 +29528,12 @@
     "report_id": "RPT-3959ffbbbc69a90e2169e3eb",
     "title": "Agentic Verification of Software Systems",
     "authors": "Haoxin Tu; Huan Zhao; Yahui Song; Mehtab Zafar; Ruijie Meng; Abhik Roychoudhury",
-    "year": 2026,
-    "venue": "Proceedings of the ACM on Software Engineering",
-    "doi": "10.1145/3808164",
+    "year": 2025,
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2511.17330",
-    "url": "https://dl.acm.org/doi/10.1145/3808164",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2511.17330",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2",
@@ -26655,7 +29545,7 @@
     "bibtex_keys": [
       "tu2026agentic"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-edc629d70df9689f3edba6d3",
@@ -26915,11 +29805,11 @@
     "title": "IsabeLLM: Automated Theorem Proving Applied to Formally Verifying Consensus",
     "authors": "Elliot Jones; William Knottenbelt",
     "year": 2026,
-    "venue": "Distributed Ledger Technologies: Research and Practice",
-    "doi": "10.1145/3822513",
+    "venue": "not_reported",
+    "doi": "not_reported",
     "arxiv_id": "2606.18098",
-    "url": "https://dl.acm.org/doi/10.1145/3822513",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2606.18098",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R1",
@@ -26930,7 +29820,7 @@
     "bibtex_keys": [
       "jones2026isabellm"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-efccf8995ae2a422bf61b02a",
@@ -27781,11 +30671,11 @@
     "title": "SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification",
     "authors": "Wenyao Cui; Huaping Zhang; Yongyi Huang; Qiuchi Li; Jian Xu; Cheng-Lin Liu; Chunxiao Gao; Juan Wang; Baohua Zhang",
     "year": 2026,
-    "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
-    "doi": "10.1145/3770855.3818004",
+    "venue": "CoRR",
+    "doi": "10.48550/arxiv.2608.08786",
     "arxiv_id": "2608.08786",
-    "url": "https://dl.acm.org/doi/10.1145/3770855.3818004",
-    "url_basis": "citation_version",
+    "url": "https://arxiv.org/abs/2608.08786",
+    "url_basis": "citation_arxiv",
     "literature_class": "core_method",
     "solver_roles": [
       "R2"
@@ -27795,7 +30685,7 @@
     "bibtex_keys": [
       "cui2026symdiag"
     ],
-    "record_version": 1
+    "record_version": 2
   },
   {
     "study_id": "STUDY-f886e81cdbc716069b5b04b3",

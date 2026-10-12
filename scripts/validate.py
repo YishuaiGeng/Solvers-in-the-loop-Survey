@@ -38,8 +38,8 @@ def validate_papers(papers, snap):
     for p in papers:
         sid = p['study_id']
         require(set(p) == set(FIELDS), f'{sid}: unexpected or missing public fields')
-        require(re.fullmatch(r'STUDY-[a-f0-9]{24}',sid), f'{sid}: malformed study ID')
-        require(re.fullmatch(r'RPT-[a-f0-9]{24}',p['report_id']), f'{sid}: malformed report ID')
+        require(re.fullmatch(r'(?:STUDY-[a-f0-9]{24}|STUDY-SEP26-\d{4}\.\d{4,5})',sid), f'{sid}: malformed study ID')
+        require(re.fullmatch(r'(?:RPT-[a-f0-9]{24}|SEP26-ARXIV-\d{4}\.\d{4,5}v\d+)',p['report_id']), f'{sid}: malformed report ID')
         require(all(isinstance(p[k],str) and p[k].strip() for k in ('title','authors','venue')), f'{sid}: empty metadata')
         require(isinstance(p['year'],int) and 1900 <= p['year'] <= 2100, f'{sid}: invalid year')
         require(isinstance(p['solver_roles'],list) and set(p['solver_roles']) <= set(ROLES), f'{sid}: unknown role')
@@ -121,6 +121,11 @@ def main():
     validate_papers(papers,snap)
     validate_csv(papers,ROOT/'data/papers.csv')
     ids = {p['study_id'] for p in papers}
+    coverage = load('analysis/coverage.json')
+    extension = coverage['extension_study_ids']
+    require(len(extension)==len(set(extension)) and set(extension)<=ids, 'Invalid extension cohort')
+    require(coverage['catalogue_studies']==len(papers), 'Stale analysis catalogue count')
+    require(coverage['task_metric_aggregate_studies']+len(extension)==len(papers), 'Analysis population mismatch')
     refs = load('references/references.json')
     require(len(refs)==snap['manuscript_references'], 'Reference count differs')
     require(len({r['key'] for r in refs})==len(refs),'Duplicate reference key')
@@ -141,7 +146,7 @@ def main():
         with (ROOT/'analysis'/name).open(encoding='utf-8',newline='') as f:
             rows = list(csv.DictReader(f))
         require(len(rows)==8 and len({r['topic'] for r in rows})==8, 'Unexpected task aggregate shape')
-        require(all(v.isdigit() and 0 <= int(v) <= len(papers) for r in rows for k,v in r.items() if k not in ('topic','label')), 'Invalid aggregate count')
+        require(all(v.isdigit() and 0 <= int(v) <= coverage['task_metric_aggregate_studies'] for r in rows for k,v in r.items() if k not in ('topic','label')), 'Invalid aggregate count')
     for name,content in render().items():
         require((ROOT/name).read_text(encoding='utf-8')==content, f'Stale generated view: {name}')
     files=validate_files()

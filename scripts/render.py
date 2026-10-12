@@ -90,6 +90,26 @@ def render():
         f"- {snap['missing_source_links']} studies have no recoverable public source URL in the exported local metadata; these appear as plain text.\n"
         '- The selected report can be later than the eligibility cutoff; see [methodology](../docs/methodology.md).\n')
 
+    coverage = load('analysis/coverage.json')
+    added_ids = set(coverage['extension_study_ids'])
+    added = [p for p in papers if p['study_id'] in added_ids]
+    outputs['papers/updates/2026-09.md'] = ('# Papers added in the September-window update\n\n'
+        '[All papers](../README.md) · [Scope](../../docs/methodology.md)\n\n'
+        f'{len(added)} author-confirmed additions. This cohort includes boundary recoveries; '
+        'it is not restricted to studies first made public in September. Role annotations overlap.\n\n' + table(added))
+    outputs['papers/README.md'] += f'\n[Browse the {len(added)} studies added in this update](updates/2026-09.md).\n'
+    for filename, cohort in [('corpus-summary.csv', papers), ('catalogue-extension.csv', added)]:
+        buf = io.StringIO(newline='')
+        writer = csv.writer(buf, lineterminator='\n')
+        writer.writerow(['dimension', 'category', 'studies'])
+        writer.writerow(['population', 'all_studies', len(cohort)])
+        for field in ['year', 'literature_class', 'role_status', 'report_type']:
+            for category, count in sorted(Counter(str(p[field]) for p in cohort).items()):
+                writer.writerow([field, category, count])
+        for role, count in sorted(Counter(r for p in cohort for r in p['solver_roles']).items()):
+            writer.writerow(['solver_role', role, count])
+        outputs['analysis/' + filename] = buf.getvalue()
+
     links = load('manuscript/links.json')
     link_labels = [('arxiv_url','arXiv'),('pdf_url','Paper PDF'),('doi_url','Publication / DOI')]
     paper_links = [f'[{label}](<{links[key]}>)' for key,label in link_labels if links[key]!='not_reported']
@@ -114,7 +134,7 @@ def render():
     outputs['manuscript/README.md'] = '\n'.join(manuscript)
 
     template = (ROOT/'scripts/README.template').read_text(encoding='utf-8')
-    for key,val in {'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}',
+    for key,val in {'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}','STUDIES_RAW':str(len(papers)),'VERSION':snap['version'],
                     'REPORTS':f"{snap['reports']:,}",'REFERENCES':str(len(refs)),
                     'CORE':f"{snap['literature_classes']['core_method']:,}",
                     'DIAGNOSTIC':str(snap['literature_classes']['evaluation_diagnostic']),
@@ -124,8 +144,8 @@ def render():
     ref_lookup = {r['key']:r for r in refs}
     ref_lines = ['# Manuscript references','', '[BibTeX](references.bib) · [JSON](references.json) · [Included studies](../papers/README.md)', '',
         f'{len(refs)} entries cited by the current manuscript snapshot. This includes background, resources and related surveys, '
-        'so it differs from the 1,301-study eligibility corpus. An absent study link does not establish exclusion.', '',
-        'Bibliographic fields are exported from the manuscript library; study associations come from the existing key register. '
+        f"so it differs from the {len(papers):,}-study eligibility corpus. An absent study link does not establish exclusion.", '',
+        'Bibliographic fields are exported from the manuscript library; study associations use retained key mappings and exact arXiv identifiers. '
         'Aliases can map to several study IDs and are preserved without merging. Online availability and publication status have not been rechecked for this release.', '']
     for r in refs:
         ref_lines += [f'<a id="{r["key"]}"></a>', f'**{r["key"]}** · {source_link(r["title"],r["url"])}', '',
@@ -137,7 +157,7 @@ def render():
         return f'[{md(key)}](../references/README.md#{key})' if key in ref_lookup else md(key)
     mlines = ['# Taxonomy method index','', '[Role definitions](taxonomy.md) · [Literature catalogue](../papers/README.md)', '',
         'Representative method placements from the manuscript taxonomy source. A study may have multiple placements; '
-        'these rows are analytical groupings, not a performance ranking. Names and associations are retained from the source map.', '',
+        'these rows are analytical groupings, not a performance ranking. Names and placements follow the current diagram; study links preserve source identities.', '',
         '| Role | Grouping axis | Direction | Method | Reference | Study |', '| --- | --- | --- | --- | --- | --- |']
     for m in methods:
         mlines.append('| ' + ' | '.join([md(m[k]) for k in ('role','grouping_axis','direction','method')] +

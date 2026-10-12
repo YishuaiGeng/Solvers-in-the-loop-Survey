@@ -2,7 +2,7 @@
 
 [Role definitions](taxonomy.md) · [Literature catalogue](../papers/README.md)
 
-Representative method placements from the manuscript taxonomy source. A study may have multiple placements; these rows are analytical groupings, not a performance ranking. Names and associations are retained from the source map.
+Representative method placements from the manuscript taxonomy source. A study may have multiple placements; these rows are analytical groupings, not a performance ranking. Names and placements follow the current diagram; study links preserve source identities.
 
 | Role | Grouping axis | Direction | Method | Reference | Study |
 | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Symbolic Inference | DSP | [jiang2023draft](../references/README.md#jiang2023draft) | `STUDY-042889d57b0399ec57d6a33f` |
 | Symbolic Solving | delegated problem | Symbolic Inference | Faithful CoT | [lyu2023faithful](../references/README.md#lyu2023faithful) | `STUDY-d33df1e17bc568e8b52fccf2` |
 | Symbolic Solving | delegated problem | Symbolic Inference | LeanReasoner | [jiang2024leanreasoner](../references/README.md#jiang2024leanreasoner) | `STUDY-32094bb032a5346a1eb3643d` |
-| Symbolic Solving | delegated problem | Symbolic Inference | Cora | kalyanpur2024multi | `STUDY-20d264609766d6e787f8f66d` |
+| Symbolic Solving | delegated problem | Symbolic Inference | Cora | [kalyanpur2024multi](../references/README.md#kalyanpur2024multi) | `STUDY-20d264609766d6e787f8f66d` |
 | Symbolic Solving | delegated problem | Symbolic Inference | ChatLogic | [wang2024chatlogic](../references/README.md#wang2024chatlogic) | `STUDY-045fe8667b2602c1a0fceac0` |
 | Symbolic Solving | delegated problem | Symbolic Inference | ToM-LM | [tang2024tomlm](../references/README.md#tang2024tomlm) | `STUDY-d6ff245c835dfd3d8af159e8` |
 | Symbolic Solving | delegated problem | Symbolic Inference | LLM+AL | [ishay2025llmal](../references/README.md#ishay2025llmal) | `STUDY-29bb305bfa2abbec3162793d` |
@@ -30,7 +30,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Symbolic Inference | AIR | [taxonomya0742025](../references/README.md#taxonomya0742025) | `STUDY-b5e007101282bc9db1a56d51` |
 | Symbolic Solving | delegated problem | Symbolic Inference | VerifiAgent | [taxonomya0782025](../references/README.md#taxonomya0782025) | `STUDY-130bc28f82f3c1be92a23399` |
 | Symbolic Solving | delegated problem | Symbolic Inference | LLMASP | [taxexp20261006a143](../references/README.md#taxexp20261006a143) | `STUDY-87c97d7512b0122f0742cc53` |
-| Symbolic Solving | delegated problem | Symbolic Inference | LoRP | taxexp20261006a145 | `STUDY-3d1d0d85c6fc8976eb95b0db` |
+| Symbolic Solving | delegated problem | Symbolic Inference | LoRP | [taxexp20261006a145](../references/README.md#taxexp20261006a145) | `STUDY-3d1d0d85c6fc8976eb95b0db` |
 | Symbolic Solving | delegated problem | Symbolic Inference | ProMis | [taxexp20261006a167](../references/README.md#taxexp20261006a167) | `STUDY-889d80c4fd409d411f20d36e` |
 | Symbolic Solving | delegated problem | Symbolic Inference | NSCoT | [bansal2025nscot](../references/README.md#bansal2025nscot) | `STUDY-0e0bd26b88c3eb20fd643774` |
 | Symbolic Solving | delegated problem | Symbolic Inference | Text-JEPA | [bui2025textjepa](../references/README.md#bui2025textjepa) | `STUDY-512e7d003c098335620ace8a` |
@@ -38,7 +38,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Symbolic Inference | PACS | [cotnareanu2026abductive2](../references/README.md#cotnareanu2026abductive2) | `STUDY-dd67fd51fb18ebec28582955` |
 | Symbolic Solving | delegated problem | Symbolic Inference | Logitext | [oh2026logitext](../references/README.md#oh2026logitext) | `STUDY-13d1b91308bf6e8f584a1c25` |
 | Symbolic Solving | delegated problem | Symbolic Inference | AquaForte | [lv2026smtguided](../references/README.md#lv2026smtguided) | `STUDY-aa918f80fdd53af2092194ae` |
-| Symbolic Solving | delegated problem | Symbolic Inference | Aethis Eligibility Module | simpson2026confidently | `STUDY-26468343541d5cfab84e0682` |
+| Symbolic Solving | delegated problem | Symbolic Inference | Aethis Eligibility Module | [simpson2026confidently](../references/README.md#simpson2026confidently) | `STUDY-26468343541d5cfab84e0682` |
 | Symbolic Solving | delegated problem | Symbolic Inference | GeoTree | [taxonomya0332026](../references/README.md#taxonomya0332026) | `STUDY-351e9c30a7b656e4951bb838` |
 | Symbolic Solving | delegated problem | Symbolic Inference | SR-RAG | [taxonomya0662026](../references/README.md#taxonomya0662026) | `STUDY-2bb196cb295835e41ce9ae22` |
 | Symbolic Solving | delegated problem | Symbolic Inference | CodeLogician | [lin2026imandra](../references/README.md#lin2026imandra) | `STUDY-4b6356a21c8797c9b41347dc` |
@@ -52,8 +52,6 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Constraint Solving | AutoOR | [motwani2026autoor](../references/README.md#motwani2026autoor) | `STUDY-4d67c8f471e5286f06e17703` |
 | Symbolic Solving | delegated problem | Constraint Solving | CP-Agent | [szeider2026cpagent](../references/README.md#szeider2026cpagent) | `STUDY-2a05d8189414fb22c1b30ed8` |
 | Symbolic Solving | delegated problem | Constraint Solving | SMT-LLM | [taxonomya0142026](../references/README.md#taxonomya0142026) | `STUDY-11f172cfe105a9de6ca52d8c` |
-| Symbolic Solving | delegated problem | Constraint Solving | LLMCG+CPA,S | [taxonomya0342026](../references/README.md#taxonomya0342026) | `STUDY-bd5c042be07c3bbe534b136a` |
-| Symbolic Solving | delegated problem | Constraint Solving | MIPA | [yang2026mipa](../references/README.md#yang2026mipa) | `STUDY-0201e710e93cb2abd957e698` |
 | Symbolic Solving | delegated problem | Symbolic Planning | LLM+P | [liu2023llmp](../references/README.md#liu2023llmp) | `STUDY-a063f7f81a37bbcc90a629ca` |
 | Symbolic Solving | delegated problem | Symbolic Planning | NL2Plan | [gestrin2024nl2plan](../references/README.md#gestrin2024nl2plan) | `STUDY-233280405fb347c431411b48` |
 | Symbolic Solving | delegated problem | Symbolic Planning | AutoTAMP | [chen2024autotamp](../references/README.md#chen2024autotamp) | `STUDY-4f65327fef5ba7fc6a8fa03e` |
@@ -70,10 +68,9 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Symbolic Solving | delegated problem | Symbolic Planning | HBTP | [taxexp20261006a127](../references/README.md#taxexp20261006a127) | `STUDY-dfee0eadff134b69ca93094d` |
 | Symbolic Solving | delegated problem | Symbolic Planning | DC-SGG | [herzog2025dcsgg](../references/README.md#herzog2025dcsgg) | `STUDY-489c117f1b96aba96a1a310f` |
 | Symbolic Solving | delegated problem | Symbolic Planning | TAPE | [jeong2026tape](../references/README.md#jeong2026tape) | `STUDY-eaf54e9444ebbfa4015fb4c2` |
-| Symbolic Solving | delegated problem | Symbolic Planning | FIDES | taxonomya0252026 | `STUDY-1000d1186a9221506d34c362` |
 | Symbolic Solving | delegated problem | Symbolic Planning | Aurora | [taxonomya0312026](../references/README.md#taxonomya0312026) | `STUDY-a530be496a5692c7a90d5f2c` |
-| Symbolic Solving | delegated problem | Symbolic Planning | OWL-TAMP | taxonomya0572026 | `STUDY-17275f58b91fef6845e072ee` |
-| Symbolic Solving | delegated problem | Symbolic Planning | HSP | taxexp20261006a128 | `STUDY-37eea1ae4a167f1ddeef7316` |
+| Symbolic Solving | delegated problem | Symbolic Planning | OWL-TAMP | [taxonomya0572026](../references/README.md#taxonomya0572026) | `STUDY-17275f58b91fef6845e072ee` |
+| Symbolic Solving | delegated problem | Symbolic Planning | HSP | [taxexp20261006a128](../references/README.md#taxexp20261006a128) | `STUDY-37eea1ae4a167f1ddeef7316` |
 | Symbolic Solving | delegated problem | Symbolic Planning | CLMASP | [lin2024clmasp](../references/README.md#lin2024clmasp) | `STUDY-7e8f909c4580ca01a127bea4` |
 | Symbolic Solving | delegated problem | Symbolic Planning | SCALAR | [zabounidis2026scalar](../references/README.md#zabounidis2026scalar) | `STUDY-0fda50af06a52ccebf631587` |
 | Verification | object of checking | Proof Checking | Baldur | [first2023baldur](../references/README.md#first2023baldur) | `STUDY-08baa11210398c534d44a40b` |
@@ -92,21 +89,21 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Verification | object of checking | Proof Checking | COVCAL | [bourigault2026risk](../references/README.md#bourigault2026risk) | `STUDY-06ca6400cfe934e423e1efcb` |
 | Verification | object of checking | Formalization Validation | LLM-ARC | [kalyanpur2024llm](../references/README.md#kalyanpur2024llm) | `STUDY-35c0386efa20b3d0a0a2701e` |
 | Verification | object of checking | Formalization Validation | RAINCOAT | [feng2024raincoat](../references/README.md#feng2024raincoat) | `STUDY-30688a2f814c2ef4af42fa4d` |
-| Verification | object of checking | Formalization Validation | LLASP | coppolillo2024llasp | `STUDY-282b11221fe39ce533f054e9` |
+| Verification | object of checking | Formalization Validation | LLASP | [coppolillo2024llasp](../references/README.md#coppolillo2024llasp) | `STUDY-282b11221fe39ce533f054e9` |
 | Verification | object of checking | Formalization Validation | SSV | [raza2025instantiation](../references/README.md#raza2025instantiation) | `STUDY-097feb3df63d5182e3d27aea` |
 | Verification | object of checking | Formalization Validation | SPAR | [huang2025spar](../references/README.md#huang2025spar) | `STUDY-b6782ae91ebd190259b7285c` |
-| Verification | object of checking | Formalization Validation | StoryLogic | [taxonomya0802025](../references/README.md#taxonomya0802025) | `STUDY-04eb4d2407031fd71ea654ae` |
 | Verification | object of checking | Formalization Validation | AlphaPhysics | [taxonomya1062025](../references/README.md#taxonomya1062025) | `STUDY-298471f957a988c926bba2f7` |
 | Verification | object of checking | Formalization Validation | REACT | [taxexp20261006a122](../references/README.md#taxexp20261006a122) | `STUDY-9a9e5f76fd36b7b3c7bde9ea` |
-| Verification | object of checking | Formalization Validation | L4L | chen2025towards2 | `STUDY-949dc07d61871c8366bd72bc` |
+| Verification | object of checking | Formalization Validation | L4L | [chen2025towards2](../references/README.md#chen2025towards2) | `STUDY-949dc07d61871c8366bd72bc` |
 | Verification | object of checking | Formalization Validation | CP-SynC | [song2605cpsync](../references/README.md#song2605cpsync) | `STUDY-ab1213bdb3402db26451914a` |
 | Verification | object of checking | Formalization Validation | SCD | [hou2026stratified](../references/README.md#hou2026stratified) | `STUDY-7876dde037218cc4643b7474` |
 | Verification | object of checking | Formalization Validation | SIRNA | [tafese2026verifiable](../references/README.md#tafese2026verifiable) | `STUDY-345c891c3c552860c47d5de2` |
 | Verification | object of checking | Formalization Validation | COINS | [yang2026how](../references/README.md#yang2026how) | `STUDY-189c67813168149dbd2e3566` |
 | Verification | object of checking | Formalization Validation | Expecto | [lee2026expecto](../references/README.md#lee2026expecto) | `STUDY-cd3dd5957737fe6ff2a1cfd3` |
+| Verification | object of checking | Formalization Validation | SOVER | [bhattacharyya2026sover](../references/README.md#bhattacharyya2026sover) | `STUDY-SEP26-2609.00728` |
+| Verification | object of checking | Formalization Validation | CPUNeSy | [li2026cpunesy](../references/README.md#li2026cpunesy) | `STUDY-SEP26-2609.37490` |
 | Verification | object of checking | Program Verification | LEMUR | [wu2024lemur](../references/README.md#wu2024lemur) | `STUDY-3a97c7724652653173849b11` |
 | Verification | object of checking | Program Verification | Clover | [sun2024clover](../references/README.md#sun2024clover) | `STUDY-1ca3ab314b174df940bbcc87` |
-| Verification | object of checking | Program Verification | SELLM | [taxonomya0642024](../references/README.md#taxonomya0642024) | `STUDY-c475944be98a846da5366537` |
 | Verification | object of checking | Program Verification | Agents4PLC | [taxonomya0882026](../references/README.md#taxonomya0882026) | `STUDY-52c85f2c41de91c5e43d2703` |
 | Verification | object of checking | Program Verification | AutoVerus | [yang2025autoverus](../references/README.md#yang2025autoverus) | `STUDY-d01e4f8d849c19d31b877a5c` |
 | Verification | object of checking | Program Verification | Laurel | [mugnier2025laurel](../references/README.md#mugnier2025laurel) | `STUDY-887fa036a7bc10e3b198595d` |
@@ -126,9 +123,8 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Verification | object of checking | Program Verification | SymTEE | [taxonomya0262026](../references/README.md#taxonomya0262026) | `STUDY-6973628da869e47525fb2228` |
 | Verification | object of checking | Program Verification | Preguss | [taxonomya0852026](../references/README.md#taxonomya0852026) | `STUDY-088012d175df9cc0109bf0c0` |
 | Verification | object of checking | Program Verification | Autofy | [taxonomya0922026](../references/README.md#taxonomya0922026) | `STUDY-671cc8b859c8165a3b22a82a` |
-| Verification | object of checking | Program Verification | RunbookFX | taxexp20261006a171 | `STUDY-272072053cfac5b1eb0d0133` |
+| Verification | object of checking | Program Verification | RunbookFX | [taxexp20261006a171](../references/README.md#taxexp20261006a171) | `STUDY-272072053cfac5b1eb0d0133` |
 | Verification | object of checking | Program Verification | SEVerA | [banerjee2026severa](../references/README.md#banerjee2026severa) | `STUDY-696c08a8474f06a05f919a8b` |
-| Verification | object of checking | Program Verification | MPC-Coder | [zhang2026mpccoder](../references/README.md#zhang2026mpccoder) | `STUDY-024ce2b893d4adf3d4afcae9` |
 | Verification | object of checking | Behavioral Verification | AutoIoT | [taxonomya0932025](../references/README.md#taxonomya0932025) | `STUDY-7a815687bd9588be2045c2db` |
 | Verification | object of checking | Behavioral Verification | SymPlanner | [xiong2025symplanner](../references/README.md#xiong2025symplanner) | `STUDY-4d81eb1c2d7eb88da3a89459` |
 | Verification | object of checking | Behavioral Verification | ChatHTN | [munozavila2025chathtn](../references/README.md#munozavila2025chathtn) | `STUDY-6b70538d297ecd70c5a9aff2` |
@@ -148,7 +144,7 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Verification | object of checking | Behavioral Verification | DeepConfig | [taxonomya0202026](../references/README.md#taxonomya0202026) | `STUDY-940143091c9143413d39ad5e` |
 | Verification | object of checking | Behavioral Verification | AutoLegal | [taxonomya0942026](../references/README.md#taxonomya0942026) | `STUDY-dcbaf83689a80266ad8b54b0` |
 | Verification | object of checking | Behavioral Verification | U-Define | [lee2026u](../references/README.md#lee2026u) | `STUDY-507a6fe7eb2d6facc6015731` |
-| Verification | object of checking | Behavioral Verification | Veritas | taxexp20261006a194 | `STUDY-10cde0e13d5c5a6f6a5d013b` |
+| Verification | object of checking | Behavioral Verification | Veritas | [taxexp20261006a194](../references/README.md#taxexp20261006a194) | `STUDY-10cde0e13d5c5a6f6a5d013b` |
 | Verification | object of checking | Behavioral Verification | CG | [tudor2026counterfactualgenerationcg](../references/README.md#tudor2026counterfactualgenerationcg) | `STUDY-41ea8641235824eb1d6d4339` |
 | Verification | object of checking | Behavioral Verification | NSVIF | [su2026neuro](../references/README.md#su2026neuro) | `STUDY-1a85c16aedae4ed8144b4b13` |
 | Diagnosis and Repair | revised object | Representation Repair | BeliefBank | [kassner2021beliefbank](../references/README.md#kassner2021beliefbank) | `STUDY-76474ea0d32dbef7b767531a` |
@@ -168,8 +164,9 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Diagnosis and Repair | revised object | Representation Repair | Event-B Agent | [taxexp20261006a119](../references/README.md#taxexp20261006a119) | `STUDY-838674a271cec68ae974b09d` |
 | Diagnosis and Repair | revised object | Representation Repair | PrefRAG | [taxexp20261006a166](../references/README.md#taxexp20261006a166) | `STUDY-05e48c4108967648065f13a8` |
 | Diagnosis and Repair | revised object | Representation Repair | ShZZaM | [taxexp20261006a176](../references/README.md#taxexp20261006a176) | `STUDY-b5e0c26d8811802066e07038` |
-| Diagnosis and Repair | revised object | Representation Repair | @DTDL/Debug | [taxexp20261006a181](../references/README.md#taxexp20261006a181) | `STUDY-1428293692af537ccd2a00d5` |
 | Diagnosis and Repair | revised object | Representation Repair | REGAL | [rajasekharan2026regal](../references/README.md#rajasekharan2026regal) | `STUDY-33da121c8be5a5b8c3f67c31` |
+| Diagnosis and Repair | revised object | Representation Repair | NeuroSTAR | [saha2026neurostar](../references/README.md#saha2026neurostar) | `STUDY-SEP26-2609.03161` |
+| Diagnosis and Repair | revised object | Representation Repair | TACIT | [bouscary2026tacit](../references/README.md#bouscary2026tacit) | `STUDY-SEP26-2609.38434` |
 | Diagnosis and Repair | revised object | Proof Repair | Baldur | [first2023baldur](../references/README.md#first2023baldur) | `STUDY-08baa11210398c534d44a40b` |
 | Diagnosis and Repair | revised object | Proof Repair | Lyra | [zheng2023lyra](../references/README.md#zheng2023lyra) | `STUDY-addf04e9b4126b2a26734c22` |
 | Diagnosis and Repair | revised object | Proof Repair | Adapt | [lu2025adaptive](../references/README.md#lu2025adaptive) | `STUDY-090cd2691d37a720fe070f32` |
@@ -177,9 +174,13 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Diagnosis and Repair | revised object | Proof Repair | DAISY | [silva2025inferring](../references/README.md#silva2025inferring) | `STUDY-7c46e40574732c551b70e53b` |
 | Diagnosis and Repair | revised object | Proof Repair | EXVERUS | [yang2026exverus](../references/README.md#yang2026exverus) | `STUDY-2e80161c6ca851ef92f6dd93` |
 | Diagnosis and Repair | revised object | Proof Repair | PPDL | [mandel2026ppdl](../references/README.md#mandel2026ppdl) | `STUDY-0d6461f5e9b655b694352a29` |
+| Diagnosis and Repair | revised object | Proof Repair | SLED-IFV | [dai2026sled](../references/README.md#dai2026sled) | `STUDY-SEP26-2609.25637` |
+| Diagnosis and Repair | revised object | Proof Repair | MAGENTA | [leang2026magenta](../references/README.md#leang2026magenta) | `STUDY-SEP26-2609.11319` |
 | Diagnosis and Repair | revised object | Program Repair | SmartHalo | [taxexp20261006a200](../references/README.md#taxexp20261006a200) | `STUDY-1a759258f0d085cbcc5203da` |
 | Diagnosis and Repair | revised object | Program Repair | LusGen | [taxexp20261006a218](../references/README.md#taxexp20261006a218) | `STUDY-3d34db079c6804f415319450` |
 | Diagnosis and Repair | revised object | Program Repair | MENTOR | [taxexp20261006a220](../references/README.md#taxexp20261006a220) | `STUDY-0df22b37a9a58e70d65b321c` |
+| Diagnosis and Repair | revised object | Program Repair | Schwarz | [ke2026schwarz](../references/README.md#ke2026schwarz) | `STUDY-SEP26-2608.30803` |
+| Diagnosis and Repair | revised object | Program Repair | MAGS | [wu2026mags](../references/README.md#wu2026mags) | `STUDY-SEP26-2609.19391` |
 | Diagnosis and Repair | revised object | Plan Repair | PanelShield | [xin2026panelshield](../references/README.md#xin2026panelshield) | `STUDY-09e91914fb2e85f3b3bff67d` |
 | Diagnosis and Repair | revised object | Plan Repair | GCC | [huang2026guesscheckcritiquegcc](../references/README.md#huang2026guesscheckcritiquegcc) | `STUDY-0fafb15e569a89e4c2dfacfb` |
 | Search Control | search intervention | Candidate Pruning | Safety Chip | [taxexp20261006a163](../references/README.md#taxexp20261006a163) | `STUDY-adca60971ad1c804b30888f9` |
@@ -201,8 +202,8 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Search Control | search intervention | State-Space Exploration | VerMCTS | [brandfonbrener2024vermcts](../references/README.md#brandfonbrener2024vermcts) | `STUDY-06e6423026efd467cd20c580` |
 | Search Control | search intervention | State-Space Exploration | DeepSeek-Prover-V1.5 | [xin2024deepseekprover](../references/README.md#xin2024deepseekprover) | `STUDY-d82237413278827d94a24ee1` |
 | Search Control | search intervention | State-Space Exploration | HunyuanProver | [li2024hunyuanprover](../references/README.md#li2024hunyuanprover) | `STUDY-298a505b47ec6d18baf9d2cf` |
-| Search Control | search intervention | State-Space Exploration | LEGO-Prover | wang2024lego | `STUDY-37168620c459aeac98139a1b` |
-| Search Control | search intervention | State-Space Exploration | FGeo-TP | he2024fgeo | `STUDY-ec76921e511384814a75bdb6` |
+| Search Control | search intervention | State-Space Exploration | LEGO-Prover | [wang2024lego](../references/README.md#wang2024lego) | `STUDY-37168620c459aeac98139a1b` |
+| Search Control | search intervention | State-Space Exploration | FGeo-TP | [he2024fgeo](../references/README.md#he2024fgeo) | `STUDY-ec76921e511384814a75bdb6` |
 | Search Control | search intervention | State-Space Exploration | AlphaGeometry2 | [chervonyi2025alphageometry2](../references/README.md#chervonyi2025alphageometry2) | `STUDY-1ebbd5e44d7d5bf0f9a90296` |
 | Search Control | search intervention | State-Space Exploration | SymPlanner | [xiong2025symplanner](../references/README.md#xiong2025symplanner) | `STUDY-4d81eb1c2d7eb88da3a89459` |
 | Search Control | search intervention | State-Space Exploration | RNSP | [shao2024reinforcedplanning](../references/README.md#shao2024reinforcedplanning) | `STUDY-3e56e4b8340dcb69b480d730` |
@@ -210,19 +211,19 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Search Control | search intervention | State-Space Exploration | DNSSE | [koorma2026directed](../references/README.md#koorma2026directed) | `STUDY-22c32cd8fa9122480a0be028` |
 | Search Control | search intervention | State-Space Exploration | IC3Syn | [cao2026synthesizing](../references/README.md#cao2026synthesizing) | `STUDY-3ea3355bd8b30b44b77b0869` |
 | Search Control | search intervention | State-Space Exploration | AquaForte | [lv2026smtguided](../references/README.md#lv2026smtguided) | `STUDY-aa918f80fdd53af2092194ae` |
-| Search Control | search intervention | State-Space Exploration | LLM-Flax | kim2026llm | `STUDY-c56dc94186950336992f2b8f` |
+| Search Control | search intervention | State-Space Exploration | LLM-Flax | [kim2026llm](../references/README.md#kim2026llm) | `STUDY-c56dc94186950336992f2b8f` |
 | Search Control | search intervention | State-Space Exploration | PyPDDLEngine | [gobel2026agentic](../references/README.md#gobel2026agentic) | `STUDY-bee43761c7d6a51844f5c62c` |
-| Search Control | search intervention | State-Space Exploration | FGeo-ISRL | taxonomya0242026 | `STUDY-60b03a7c7e7ee33472a99515` |
 | Search Control | search intervention | State-Space Exploration | TongGeometry | [taxonomya0602026](../references/README.md#taxonomya0602026) | `STUDY-2ecc23c28ef0113a6e98aeea` |
 | Search Control | search intervention | State-Space Exploration | PPDL | [mandel2026ppdl](../references/README.md#mandel2026ppdl) | `STUDY-0d6461f5e9b655b694352a29` |
 | Search Control | search intervention | State-Space Exploration | ProofWala | [thakur2026proofwala](../references/README.md#thakur2026proofwala) | `STUDY-60aa39b081ac2f5ccb515efd` |
+| Search Control | search intervention | State-Space Exploration | Agentic-IC3 | [fan2026agentic](../references/README.md#fan2026agentic) | `STUDY-SEP26-2609.27162` |
 | Learning Supervision | training procedure | Supervised Training | PACT | [han2022proof](../references/README.md#han2022proof) | `STUDY-458f420b3cddce5d538841e7` |
 | Learning Supervision | training procedure | Supervised Training | Baldur | [first2023baldur](../references/README.md#first2023baldur) | `STUDY-08baa11210398c534d44a40b` |
 | Learning Supervision | training procedure | Supervised Training | Plansformer | [taxexp20261006a162](../references/README.md#taxexp20261006a162) | `STUDY-ab86bfd7dd75a9d6e63e32fc` |
 | Learning Supervision | training procedure | Supervised Training | LLM-ARC | [kalyanpur2024llm](../references/README.md#kalyanpur2024llm) | `STUDY-35c0386efa20b3d0a0a2701e` |
-| Learning Supervision | training procedure | Supervised Training | SubgoalXL | zhao2024subgoalxl | `STUDY-07489591a7149aeeeae71f53` |
-| Learning Supervision | training procedure | Supervised Training | DeepSeek-Prover | xin2024deepseek | `STUDY-64a743031c7413ddf3991cd6` |
-| Learning Supervision | training procedure | Supervised Training | THOUGHT-LIKE-PRO | tan2024thought | `STUDY-ecbdf21fd50ebcd3237cf603` |
+| Learning Supervision | training procedure | Supervised Training | SubgoalXL | [zhao2024subgoalxl](../references/README.md#zhao2024subgoalxl) | `STUDY-07489591a7149aeeeae71f53` |
+| Learning Supervision | training procedure | Supervised Training | DeepSeek-Prover | [xin2024deepseek](../references/README.md#xin2024deepseek) | `STUDY-64a743031c7413ddf3991cd6` |
+| Learning Supervision | training procedure | Supervised Training | THOUGHT-LIKE-PRO | [tan2024thought](../references/README.md#tan2024thought) | `STUDY-ecbdf21fd50ebcd3237cf603` |
 | Learning Supervision | training procedure | Supervised Training | PoPilot | [zhang2025building](../references/README.md#zhang2025building) | `STUDY-002cc9da69ce730f0d401bff` |
 | Learning Supervision | training procedure | Supervised Training | Logic-Thinker | [wen2025logicthinker](../references/README.md#wen2025logicthinker) | `STUDY-be383c8729c6b515f314a834` |
 | Learning Supervision | training procedure | Supervised Training | ConstraintLLM | [shi2025constraintllm](../references/README.md#shi2025constraintllm) | `STUDY-322915a72846617a9a3ad436` |
@@ -233,6 +234,8 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Learning Supervision | training procedure | Supervised Training | NormWorlds-CF | [zhang2026normworlds](../references/README.md#zhang2026normworlds) | `STUDY-0435b2823f8a655d5a63cf24` |
 | Learning Supervision | training procedure | Supervised Training | ProofWala | [thakur2026proofwala](../references/README.md#thakur2026proofwala) | `STUDY-60aa39b081ac2f5ccb515efd` |
 | Learning Supervision | training procedure | Supervised Training | SAIR-Comb | [jiang2026saircomb](../references/README.md#jiang2026saircomb) | `STUDY-38045b7eb88ef91b085100e7` |
+| Learning Supervision | training procedure | Supervised Training | LeanPolish | [bourigault2026leanpolish](../references/README.md#bourigault2026leanpolish) | `STUDY-SEP26-2609.38384` |
+| Learning Supervision | training procedure | Supervised Training | GenV | [singh2026solver](../references/README.md#singh2026solver) | `STUDY-SEP26-2609.11085` |
 | Learning Supervision | training procedure | Reinforcement Learning | DeepSeek-Prover-V1.5 | [xin2024deepseekprover](../references/README.md#xin2024deepseekprover) | `STUDY-d82237413278827d94a24ee1` |
 | Learning Supervision | training procedure | Reinforcement Learning | WARP | [koh2025worst](../references/README.md#koh2025worst) | `STUDY-502b6fae6f8057bcf30cc6f3` |
 | Learning Supervision | training procedure | Reinforcement Learning | PREFACE | [jha2025preface](../references/README.md#jha2025preface) | `STUDY-4a12cea38363bb19859e0899` |
@@ -244,3 +247,4 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Learning Supervision | training procedure | Reinforcement Learning | TerraFormer | [taxexp20261006a186](../references/README.md#taxexp20261006a186) | `STUDY-a59c1f08a690fe456ef1de7c` |
 | Learning Supervision | training procedure | Reinforcement Learning | SATQuest | [zhao2026satquest](../references/README.md#zhao2026satquest) | `STUDY-19e1726bfa9b803272d41c16` |
 | Learning Supervision | training procedure | On-Policy Distillation | RWOPD | [zou2026reward](../references/README.md#zou2026reward) | `STUDY-6649cdc7e3ec87cfff344e21` |
+| Learning Supervision | training procedure | On-Policy Distillation | SOLID | [zhu2026verified](../references/README.md#zhu2026verified) | `STUDY-SEP26-2609.09957` |

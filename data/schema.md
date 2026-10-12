@@ -5,7 +5,7 @@
 | Field | Type / allowed values | Meaning |
 | --- | --- | --- |
 | `study_id` | Unique `STUDY-*` string | Stable identity retained from the confirmed corpus |
-| `report_id` | `RPT-*` string | Selected report identity |
+| `report_id` | `RPT-*` or `SEP26-ARXIV-*` string | Selected report identity |
 | `title`, `authors` | Nonempty string | Citation-version metadata; full authors retained |
 | `year` | Integer | Selected report's citation year; not its eligibility date |
 | `venue` | String or `not_reported` | Venue recorded in the source metadata |
@@ -26,3 +26,7 @@
 `taxonomy-methods.json` is a separate placement table: `role`, `grouping_axis`, `direction`, `method`, `bibtex_key`, `study_id`, `report_id`, and `label_type`. It preserves the manuscript's analytical grouping. Multiple rows may concern one study, role names are spelled out, and historical section numbers are omitted. It is not a second eligibility ledger.
 
 Bibliographic and classification metadata are derivatives of existing records. Formal inclusion was confirmed by the author; this does not imply human verification of every exported annotation. [Methodology](../docs/methodology.md) documents the distinction.
+
+The initial 1,301 study IDs remain unchanged. Added studies use `STUDY-SEP26-<arXiv ID>`, a stable companion ID derived from the approved report's unversioned arXiv identity; report IDs preserve `SEP26-ARXIV-<arXiv ID>v<version>` from the source records. This naming does not merge studies.
+
+`analysis/coverage.json` identifies the added cohort and the baseline population of the detailed task/metric tables. Catalogue years use the author-confirmed selected-report metadata; bibliography years use the cited editions and may differ.

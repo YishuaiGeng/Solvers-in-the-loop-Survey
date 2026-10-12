@@ -1,20 +1,12 @@
-# Change log
+# Release changes
 
-## Homepage update — 2026-10-12
+## v0.2.0 — 2026-10-12
 
-- Added the existing Solver development tree as a full-resolution PNG and featured it on the homepage.
-- Reorganized the homepage around paper links, overview, development tree, role navigation and resource downloads; the assurance illustration remains in the taxonomy guide.
-- Centralized arXiv, PDF and publication destinations in `manuscript/links.json`; the homepage and manuscript page derive their links and status from it.
-- Retained the v0.1.0 corpus and bibliography snapshot. No paper links have been asserted before public availability.
+- Extended coverage through September 2026: 1,429 studies and 1,715 reports, including 128 author-confirmed additions.
+- Updated the cited bibliography, selected-report metadata, taxonomy, and current illustrations.
+- Added current-corpus and extension distributions; retained explicit 1,301-study coverage for the detailed task/metric tables.
+- Simplified the homepage and resource documentation around the paper's companion materials.
 
 ## v0.1.0 — 2026-10-12
 
-Initial public companion release, based on the existing author-confirmed review corpus.
-
-- 1,301 included study records, with stable IDs and selected citation reports; the confirmed corpus comprises 1,587 reports.
-- Five role-based catalogues, citation-year views, unresolved role labels and representative method placements.
-- Current manuscript-cited bibliography, distinct from the eligibility corpus.
-- Seven existing survey illustrations, representative benchmarks/protocols and existing task/metric aggregates with provenance notes.
-- Public contribution forms, maintenance policy, citation metadata, deterministic rendering and offline release validation.
-
-Eligibility remains 2020-01-01 to 2026-08-31; report versions used in the synthesis extend through 2026-10-09. This release performs no new search, no new inclusion decisions and no new experiments. No manuscript PDF or open license is included.
+Initial companion: 1,301 studies / 1,587 reports, classified catalogues, cited bibliography, survey illustrations, benchmark resources, and descriptive analysis. The homepage subsequently added the solver development tree.

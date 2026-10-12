@@ -7,8 +7,8 @@
 Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
 
 [![Validation](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml/badge.svg)](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml)
-![Studies](https://img.shields.io/badge/studies-1301-286b75)
-![Eligibility](https://img.shields.io/badge/eligibility-through_Aug_2026-64748b)
+![Studies](https://img.shields.io/badge/studies-1429-286b75)
+![Coverage](https://img.shields.io/badge/literature-through_September_2026-64748b)
 
 **[Paper status](manuscript/README.md) · [Latest release](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/releases/latest)**
 
@@ -18,86 +18,65 @@ Manuscript in preparation · Public paper links will be added when available.
 
 </div>
 
-Language models propose representations, candidates, and actions; symbolic solvers return answers, verdicts, counterexamples, or other structured feedback. This survey connects **solver families**, **the roles of their returned signals**, and **the scope of the resulting verification evidence**.
+Language models propose representations, candidates, and actions; symbolic solvers return answers, verdicts, counterexamples, or structured feedback. This survey connects **solver families**, **the roles of their returned signals**, and **the evidence needed to interpret a formal check as a claim about a task**.
 
 <p align="center">
-  <img src="assets/figures/overview.png" alt="Language models interact with symbolic solvers; returned signals support five distinct roles." width="100%">
+  <img src="assets/figures/overview.png" alt="Solver-in-the-loop reasoning and five uses of solver feedback." width="100%">
 </p>
 
-**1,301 included studies · 1,587 reports · 5 solver roles · 418 manuscript references**
+**1,429 included studies · 1,715 reports · 5 solver roles · 486 cited references**
+
+Literature coverage: **January 2020–September 2026**. [Scope and definitions](docs/methodology.md) · [Papers added in this update](papers/updates/2026-09.md)
 
 ## Solver evolution
 
-A chronological view of selected **formal foundations**, **solver tools**, and **LLM–solver configurations** across ten solver families. Nodes are placed by the publication year of their cited report.
+Selected **formal foundations**, **solver tools**, and **LLM–solver configurations**, arranged by family and the publication year of the cited report.
 
 <a href="assets/figures/solver-evolution.png">
-  <img src="assets/figures/solver-evolution.png" alt="Solver development tree with ten families, formal foundations and tools below, and recent LLM configurations above." width="100%">
+  <img src="assets/figures/solver-evolution.png" alt="Development of ten solver families and their connections to language-model reasoning." width="100%">
 </a>
 
-[Open the development tree at full resolution](assets/figures/solver-evolution.png) · [Browse representative methods](docs/method-index.md)
+[Open at full resolution](assets/figures/solver-evolution.png) · [Explore the full role taxonomy](docs/taxonomy.md) · [Representative methods](docs/method-index.md)
 
-## Explore the five solver roles
+## Five uses of solver feedback
 
 | Role | How the signal is used | Studies |
 | --- | --- | --- |
-| [R1 · Symbolic Solving](papers/roles/symbolic-solving.md) | Use the returned consequence, model, plan, or proof to construct an answer. | 559 |
-| [R2 · Verification](papers/roles/verification.md) | Use the verdict to accept, reject, or qualify a candidate relative to an encoded obligation. | 931 |
-| [R3 · Diagnosis and Repair](papers/roles/diagnosis-repair.md) | Use counterexamples, errors, or other diagnostic feedback to revise a candidate. | 512 |
-| [R4 · Search Control](papers/roles/search-control.md) | Use solver signals to guide expansion, pruning, or selection during search. | 228 |
-| [R5 · Learning Supervision](papers/roles/learning-supervision.md) | Use solver outcomes to construct or select training data, rewards, or learning targets. | 234 |
+| [R1 · Symbolic Solving](papers/roles/symbolic-solving.md) | Use the returned consequence, model, plan, or proof to construct an answer. | 606 |
+| [R2 · Verification](papers/roles/verification.md) | Use the verdict to accept, reject, or qualify a candidate relative to an encoded obligation. | 1,043 |
+| [R3 · Diagnosis and Repair](papers/roles/diagnosis-repair.md) | Use counterexamples, errors, or other diagnostic feedback to revise a candidate. | 574 |
+| [R4 · Search Control](papers/roles/search-control.md) | Use solver signals to guide expansion, pruning, or selection during search. | 275 |
+| [R5 · Learning Supervision](papers/roles/learning-supervision.md) | Use solver outcomes to construct or select training data, rewards, or learning targets. | 262 |
 
-Roles overlap. The counts describe the confirmed corpus's stored role annotations, not disjoint method families or quality scores. [Unassigned labels](papers/roles/unassigned.md) remain explicit. For finer groupings, browse the [representative method index](docs/method-index.md).
+Role assignments overlap; the counts cannot be summed. [Unassigned role labels](papers/roles/unassigned.md) remain explicit.
 
-## Resources
+## Companion resources
 
-| Explore | What you will find |
+| Resource | Contents |
 | --- | --- |
-| [Literature catalogue](papers/README.md) | Studies by solver role and citation year, with source links and stable IDs |
-| [Taxonomy and verification boundaries](docs/taxonomy.md) | Role definitions, representative methods, and the scope of a successful check |
-| [Benchmarks and protocols](analysis/benchmarks.md) | Task settings, solver-use configurations, and their source references |
-| [Descriptive analysis](analysis/README.md) | Task and metric summaries, units, and coding provenance |
-| [Bibliography](references/README.md) | Readable reference list and [BibTeX](references/references.bib) |
-| [Data downloads](data/README.md) | [CSV](data/papers.csv), [JSON](data/papers.json), and the [data dictionary](data/schema.md) |
+| [Literature catalogue](papers/README.md) | Papers by solver role and citation year, with public source links |
+| [Taxonomy](docs/taxonomy.md) | Mechanism groups, representative methods, and verification boundaries |
+| [Benchmarks and protocols](analysis/benchmarks.md) | Evaluation resources, solver configurations, and source references |
+| [Analysis](analysis/README.md) | Corpus distributions and task/metric summaries with their coverage units |
+| [Bibliography](references/README.md) | The manuscript's cited references and downloadable [BibTeX](references/references.bib) |
+| [Data](data/README.md) | [CSV](data/papers.csv), [JSON](data/papers.json), and [field definitions](data/schema.md) |
 
-<details>
-<summary><strong>Review scope and snapshot dates</strong></summary>
+## Contribute
 
-| Resource | Snapshot |
-| --- | --- |
-| Included corpus | **1,301 studies / 1,587 reports** |
-| Eligibility classes | 1,129 core-method studies; 172 evaluation/diagnostic studies |
-| Research eligibility | Earliest evaluable public report: **1 Jan 2020 – 31 Aug 2026** |
-| Report versions used in the review | Available through **9 Oct 2026** |
-| Manuscript bibliography | **418 cited entries**, including background and resources |
-| First public companion release | **12 Oct 2026 · v0.1.0** |
+Suggest a paper or report a correction through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose). Include a public source and explain the solver interaction or proposed correction. [Contribution guide](CONTRIBUTING.md) · [Maintenance policy](docs/maintenance.md) · [Release changes](CHANGELOG.md)
 
-The eligibility cutoff, actual search dates, and report-version cutoff describe different things. The first public release reuses existing records; it does not extend the literature search. See [methodology and limitations](docs/methodology.md).
+## Cite
 
-</details>
-
-## Updates and contributions
-
-**2026-10-12:** Added the Solver development tree and refreshed the homepage navigation and paper-link entry. The initial corpus and bibliography are available in [v0.1.0](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/releases/tag/v0.1.0). [Change log](CHANGELOG.md).
-
-Suggestions for new papers, version updates, and metadata or classification corrections are welcome through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose) or pull requests. Please include a public source and explain the relevant solver interaction. Suggestions are reviewed before entering a released corpus. See [contribution guidance](CONTRIBUTING.md) and the [maintenance policy](docs/maintenance.md).
-
-## Citation and rights
-
-Until a public paper citation is available, cite the companion repository and specify the release you used. GitHub's **Cite this repository** button reads [CITATION.cff](CITATION.cff).
-
-<details>
-<summary><strong>Companion repository BibTeX</strong></summary>
+Until a public paper citation is available, cite the companion repository and specify the release you used. GitHub's **Cite this repository** button uses [CITATION.cff](CITATION.cff).
 
 ```bibtex
 @misc{geng2026solvers_companion,
   author = {Yishuai Geng},
   title = {Solvers in the Loop: Survey Companion Repository},
   year = {2026},
-  howpublished = {GitHub repository, version v0.1.0},
+  howpublished = {GitHub repository, version v0.2.0},
   url = {https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey}
 }
 ```
 
-</details>
-
-Copyright is retained; no open-source or open-content license is granted at this stage. Bibliographic records identify works owned by their respective rights holders. See [LICENSE](LICENSE) and [figure credits](assets/README.md).
+Copyright is retained; no open license is granted at this stage. See [LICENSE](LICENSE) and [figure credits](assets/README.md).
