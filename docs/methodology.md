@@ -17,7 +17,7 @@ The catalogue contains **1,429 studies / 1,715 reports**: **1,235 core-method st
 
 The September-window extension adds 128 author-confirmed studies, including boundary recoveries. It is not a list restricted to papers first published in September. A selected citation report can postdate the eligibility window. Catalogue metadata follows the author-confirmed selected-report register; the bibliography follows the editions cited in the manuscript, which can differ in year or venue.
 
-The current manuscript cites 479 references. Removing a citation or a method from its diagram changes the selected presentation, while the confirmed eligibility catalogue retains the underlying study records.
+The [manuscript bibliography](../references/README.md) follows the current citation set. Changing a citation or a method placement affects the selected presentation; the confirmed eligibility catalogue retains the underlying study records.
 
 ## Classification and analysis
 

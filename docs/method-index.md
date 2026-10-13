@@ -184,15 +184,15 @@ Representative method placements from the manuscript taxonomy source. A study ma
 | Diagnosis and Repair | revised object | Program Repair | MAGS | [wu2026mags](../references/README.md#wu2026mags) | `STUDY-SEP26-2609.19391` |
 | Diagnosis and Repair | revised object | Plan Repair | PanelShield | [xin2026panelshield](../references/README.md#xin2026panelshield) | `STUDY-09e91914fb2e85f3b3bff67d` |
 | Diagnosis and Repair | revised object | Plan Repair | GCC | [huang2026guesscheckcritiquegcc](../references/README.md#huang2026guesscheckcritiquegcc) | `STUDY-0fafb15e569a89e4c2dfacfb` |
-| Search Control | search intervention | Candidate Pruning | Safety Chip | [taxexp20261006a163](../references/README.md#taxexp20261006a163) | `STUDY-adca60971ad1c804b30888f9` |
-| Search Control | search intervention | Candidate Pruning | D&P | [ni2026draft](../references/README.md#ni2026draft) | `STUDY-2f64acf4553e451a1409e3dc` |
-| Search Control | search intervention | Candidate Pruning | Hypothesis Frontier | [batzoglou2026hypothesis](../references/README.md#batzoglou2026hypothesis) | `STUDY-becbb9d37a89713107ec11dc` |
-| Search Control | search intervention | Candidate Pruning | Expecto | [lee2026expecto](../references/README.md#lee2026expecto) | `STUDY-cd3dd5957737fe6ff2a1cfd3` |
 | Search Control | search intervention | Constrained Generation | LogicGuide | [poesia2023certified](../references/README.md#poesia2023certified) | `STUDY-091b6d350b2808f25320cbb1` |
 | Search Control | search intervention | Constrained Generation | Agent-C | [kamath2025enforcing](../references/README.md#kamath2025enforcing) | `STUDY-062bd1fda8f15c7b94545174` |
 | Search Control | search intervention | Constrained Generation | DECIDER | [xu2025decider](../references/README.md#xu2025decider) | `STUDY-b1c242ae74a06f64dd5b8e2b` |
 | Search Control | search intervention | Constrained Generation | ChopChop | [nagy2026chopchop](../references/README.md#nagy2026chopchop) | `STUDY-48f22d29e0c871bce0ffd8ee` |
 | Search Control | search intervention | Constrained Generation | Syntropy | [li2026specification](../references/README.md#li2026specification) | `STUDY-00e63ba74309c80f2c9e2234` |
+| Search Control | search intervention | Candidate Pruning | Safety Chip | [taxexp20261006a163](../references/README.md#taxexp20261006a163) | `STUDY-adca60971ad1c804b30888f9` |
+| Search Control | search intervention | Candidate Pruning | D&P | [ni2026draft](../references/README.md#ni2026draft) | `STUDY-2f64acf4553e451a1409e3dc` |
+| Search Control | search intervention | Candidate Pruning | Hypothesis Frontier | [batzoglou2026hypothesis](../references/README.md#batzoglou2026hypothesis) | `STUDY-becbb9d37a89713107ec11dc` |
+| Search Control | search intervention | Candidate Pruning | Expecto | [lee2026expecto](../references/README.md#lee2026expecto) | `STUDY-cd3dd5957737fe6ff2a1cfd3` |
 | Search Control | search intervention | State-Space Exploration | GPT-f | [polu2020generative](../references/README.md#polu2020generative) | `STUDY-f5cdd766589a7ebf284582a2` |
 | Search Control | search intervention | State-Space Exploration | Thor | [jiang2022thor](../references/README.md#jiang2022thor) | `STUDY-17af4ef559d1b970eb9c95c9` |
 | Search Control | search intervention | State-Space Exploration | HTPS | [lample2022hypertree](../references/README.md#lample2022hypertree) | `STUDY-523fa3c6299d61d3f96aece6` |

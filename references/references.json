@@ -73,7 +73,7 @@
   {
     "key": "aniva2025pantograph",
     "title": "Pantograph: A Machine-to-Machine Interaction Interface for Advanced Theorem Proving, High Level Reasoning, and Data Extraction in Lean 4",
-    "authors": "Aniva, Leni and Sun, Chuyue and Miranda, Brando and others",
+    "authors": "Leni Aniva and Chuyue Sun and Brando Miranda and Clark Barrett and Sanmi Koyejo",
     "year": "2025",
     "venue": "Tools and Algorithms for the Construction and Analysis of Systems (TACAS)",
     "url": "not_reported",
@@ -180,7 +180,7 @@
     "title": "Show Me The Money: An Exercise in Proof-Driven Software Understanding",
     "authors": "Tafese, Joseph and Nukala, Karthik and Saïdi, Hassen and Shankar, Natarajan and Gurfinkel, Arie and Losa, Giuliano",
     "year": "2026",
-    "venue": "Lecture Notes in Computer Science",
+    "venue": "Computer Aided Verification (CAV)",
     "url": "https://doi.org/10.1007/978-3-032-32537-2_11",
     "study_ids": []
   },
@@ -196,7 +196,7 @@
   {
     "key": "azerbayev2023proofnet",
     "title": "ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics",
-    "authors": "Azerbayev, Zhangir and Piotrowski, Bartosz and Schoelkopf, Hailey and others",
+    "authors": "Zhangir Azerbayev and Bartosz Piotrowski and Hailey Schoelkopf and Edward W. Ayers and Dragomir Radev and Jeremy Avigad",
     "year": "2023",
     "venue": "not_reported",
     "url": "https://arxiv.org/abs/2302.12433",
@@ -271,7 +271,7 @@
   {
     "key": "barbosa2022cvc5",
     "title": "cvc5: A Versatile and Industrial-Strength SMT Solver",
-    "authors": "Barbosa, Haniel and Barrett, Clark and Brain, Martin and others",
+    "authors": "Barbosa, H. and Barrett, C. W. and Brain, M. and Kremer, G. and Lachnitt, H. and Mann, M. and Mohamed, A. and Mohamed, M. and Niemetz, A. and Nötzli, A. and Ozdemir, A. and Preiner, M. and Reynolds, A. and Sheng, Y. and Tinelli, C. and Zohar, Y.",
     "year": "2022",
     "venue": "Tools and Algorithms for the Construction and Analysis of Systems (TACAS)",
     "url": "not_reported",
@@ -605,7 +605,7 @@
   {
     "key": "cheng2025empowering",
     "title": "Empowering LLMs with Logical Reasoning: A Comprehensive Survey",
-    "authors": "Cheng, Fengxiang and Li, Haoxuan and Liu, Fenrong and others",
+    "authors": "Fengxiang Cheng and Haoxuan Li and Fenrong Liu and Robert van Rooij and Kun Zhang and Zhouchen Lin",
     "year": "2025",
     "venue": "International Joint Conference on Artificial Intelligence (IJCAI), Survey Track",
     "url": "not_reported",
@@ -892,7 +892,7 @@
   },
   {
     "key": "corpus202610099324ad891be5",
-    "title": "NL2ACSL: Interactively translating natural language to ANSI C specification language with large language models",
+    "title": "NL2ACSL: Interactively Translating Natural Language to ANSI C Specification Language with Large Language Models",
     "authors": "Su, W. and Wu, X. and Zhao, Y.",
     "year": "2026",
     "venue": "Knowledge-Based Systems",
@@ -1018,7 +1018,7 @@
     "title": "Large Language Models Imitate Logical Reasoning, but at What Cost?",
     "authors": "Lachlan McGinness and Peter Baumgartner",
     "year": "2026",
-    "venue": "Lecture Notes in Computer Science",
+    "venue": "Australasian Joint Conference on Artificial Intelligence (AJCAI)",
     "url": "https://doi.org/10.1007/978-981-95-4969-6_7",
     "study_ids": []
   },
@@ -1072,7 +1072,7 @@
     "title": "Embedding Safe AI Assistants into Web Apps with LLMASP",
     "authors": "Mario Alviano and Matteo Capalbo and Georg Gottlob and Irfan Kareem",
     "year": "2026",
-    "venue": "CEUR Workshop Proceedings",
+    "venue": "Italian Conference on Computational Logic (CILC)",
     "url": "not_reported",
     "study_ids": []
   },
@@ -1172,6 +1172,15 @@
     ]
   },
   {
+    "key": "daros2025large",
+    "title": "Large Language Models for Combinatorial Optimization: A Systematic Review",
+    "authors": "Da Ros, Francesca and Soprano, Michael and Di Gaspero, Luca and Roitero, Kevin",
+    "year": "2026",
+    "venue": "ACM Computing Surveys",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "davis1960computing",
     "title": "A Computing Procedure for Quantification Theory",
     "authors": "Davis, Martin and Putnam, Hilary",
@@ -1206,6 +1215,15 @@
     "authors": "de Moura, Leonardo and Ullrich, Sebastian",
     "year": "2021",
     "venue": "Automated Deduction – CADE 28 (CADE)",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
+    "key": "deraedt2020from",
+    "title": "From Statistical Relational to Neuro-Symbolic Artificial Intelligence",
+    "authors": "De Raedt, Luc and Dumančić, Sebastijan and Manhaeve, Robin and Marra, Giuseppe",
+    "year": "2020",
+    "venue": "Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI)",
     "url": "not_reported",
     "study_ids": []
   },
@@ -1444,7 +1462,7 @@
   {
     "key": "han2024folio",
     "title": "FOLIO: Natural Language Reasoning with First-Order Logic",
-    "authors": "Han, Simeng and Schoelkopf, Hailey and Zhao, Yilun and others",
+    "authors": "Simeng Han and Hailey Schoelkopf and Yilun Zhao and Zhenting Qi and Martin Riddell and Wenfei Zhou and James Coady and David Peng and Yujie Qiao and Luke Benson and Lucy Sun and Alexander Wardle-Solano and Hannah Szabó and Ekaterina Zubova and Matthew Burtell and Jonathan Fan and Yixin Liu and Brian Wong and Malcolm Sailor and Ansong Ni and Linyong Nan and Jungo Kasai and Tao Yu and Rui Zhang and Alexander Richard Fabbri and Wojciech Maciej Kryscinski and Semih Yavuz and Ye Liu and Xi Victoria Lin and Shafiq Joty and Yingbo Zhou and Caiming Xiong and Rex Ying and Arman Cohan and Dragomir Radev",
     "year": "2024",
     "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "url": "not_reported",
@@ -1841,7 +1859,7 @@
   },
   {
     "key": "jiang2026saircomb",
-    "title": "SAIR-Comb : A Structure-Aware Iterative Refinement Framework for Combinatorics Autoformalization",
+    "title": "SAIR-Comb: A Structure-Aware Iterative Refinement Framework for Combinatorics Autoformalization",
     "authors": "Weijie Jiang and Gaolei He and Beibei Xiong and Jianlin Wang and Zhengfeng Yang",
     "year": "2026",
     "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
@@ -1928,6 +1946,15 @@
     ]
   },
   {
+    "key": "kautz2022third",
+    "title": "The Third AI Summer: AAAI Robert S. Engelmore Memorial Lecture",
+    "authors": "Kautz, Henry",
+    "year": "2022",
+    "venue": "AI Magazine",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "kawada2026residual",
     "title": "Residual Drift Dominates Contradiction in Multi-Turn Constraint Reasoning",
     "authors": "Sebastien Kawada",
@@ -1941,7 +1968,7 @@
   {
     "key": "kazemi2023boardgameqa",
     "title": "BoardgameQA: A Dataset for Natural Language Reasoning with Contradictory Information",
-    "authors": "Kazemi, Mehran and Yuan, Quan and Bhatia, Deepti and others",
+    "authors": "Mehran Kazemi and Quan Yuan and Deepti Bhatia and Najoung Kim and Xin Xu and Vaiva Imbrasaite and Deepak Ramachandran",
     "year": "2023",
     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
     "url": "not_reported",
@@ -1982,7 +2009,7 @@
   },
   {
     "key": "kim2026llm",
-    "title": "LLM-Flax : Generalizable Robotic Task Planning via Neuro-Symbolic Approaches with Large Language Models",
+    "title": "LLM-Flax: Generalizable Robotic Task Planning via Neuro-Symbolic Approaches with Large Language Models",
     "authors": "Seongmin Kim and Daegyu Lee",
     "year": "2026",
     "venue": "not_reported",
@@ -2168,6 +2195,15 @@
     "study_ids": []
   },
   {
+    "key": "li2024deeplearningtp",
+    "title": "A Survey on Deep Learning for Theorem Proving",
+    "authors": "Zhaoyu Li and Jialiang Sun and Logan Murphy and Qidong Su and Zenan Li and Xian Zhang and Kaiyu Yang and Xujie Si",
+    "year": "2024",
+    "venue": "Conference on Language Modeling (COLM)",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "li2024hunyuanprover",
     "title": "HunyuanProver: A Scalable Data Synthesis Framework and Guided Tree Search for Automated Theorem Proving",
     "authors": "Yang Li and Dong Du and Linfeng Song and Chen Li and Weikang Wang and Tao Yang and Haitao Mi",
@@ -2192,7 +2228,7 @@
     "title": "PatchPilot: A Cost-Efficient Software Engineering Agent with Early Attempts on Formal Verification",
     "authors": "Hongwei Li and Yuheng Tang and Shiqi Wang and Wenbo Guo",
     "year": "2025",
-    "venue": "Proceedings of Machine Learning Research",
+    "venue": "International Conference on Machine Learning (ICML)",
     "url": "https://www.scopus.com/pages/publications/105023828073?origin=resultslist",
     "study_ids": [
       "STUDY-101a5da72ce9ec71489dc309"
@@ -2333,7 +2369,7 @@
   {
     "key": "liu2023llmp",
     "title": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
-    "authors": "Liu, Bo and Jiang, Yuqian and Zhang, Xiaohan and others",
+    "authors": "Bo Liu and Yuqian Jiang and Xiaohan Zhang and Qiang Liu and Shiqi Zhang and Joydeep Biswas and Peter Stone",
     "year": "2023",
     "venue": "not_reported",
     "url": "https://arxiv.org/abs/2304.11477",
@@ -2487,7 +2523,7 @@
   {
     "key": "lyu2023faithful",
     "title": "Faithful Chain-of-Thought Reasoning",
-    "authors": "Lyu, Qing and Havaldar, Shreya and Stein, Adam and others",
+    "authors": "Qing Lyu and Shreya Havaldar and Adam Stein and Li Zhang and Delip Rao and Eric Wong and Marianna Apidianaki and Chris Callison-Burch",
     "year": "2023",
     "venue": "International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)",
     "url": "https://doi.org/10.18653/v1/2023.ijcnlp-main.20",
@@ -2528,7 +2564,7 @@
   },
   {
     "key": "malik2026policyguard",
-    "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+    "title": "PolicyGuard: From Organizational Policies to Neuro-Symbolic Compliance Review Engines",
     "authors": "Sameer Malik and Ayush Singh and Amar Prakash Azad",
     "year": "2026",
     "venue": "not_reported",
@@ -2549,6 +2585,15 @@
     ]
   },
   {
+    "key": "manhaeve2018deepproblog",
+    "title": "DeepProbLog: Neural Probabilistic Logic Programming",
+    "authors": "Robin Manhaeve and Sebastijan Dumančić and Angelika Kimmig and Thomas Demeester and Luc De Raedt",
+    "year": "2018",
+    "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "mao2026does",
     "title": "Does the Proof Prove It That Way? Faithful Formalization of Elements Proofs",
     "authors": "Tadd Mao and Tianjun Zhong and Dhruva Arekar and Yuming Feng and One An and Jiani Huang and Xujie Si and Ziyang Li",
@@ -2560,9 +2605,18 @@
     ]
   },
   {
+    "key": "mcconnell2011certifying",
+    "title": "Certifying Algorithms",
+    "authors": "Ross M. McConnell and Kurt Mehlhorn and Stefan Näher and Pascal Schweitzer",
+    "year": "2011",
+    "venue": "Computer Science Review",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "mcdermott1998pddl",
     "title": "PDDL—The Planning Domain Definition Language",
-    "authors": "McDermott, Drew and Ghallab, Malik and Howe, Adele and others",
+    "authors": "McDermott, D. and Ghallab, M. and Howe, A. and Knoblock, C. and Ram, A. and Veloso, M. and Weld, D. and Wilkins, D.",
     "year": "1998",
     "venue": "not_reported",
     "url": "not_reported",
@@ -2719,7 +2773,7 @@
   {
     "key": "nethercote2007minizinc",
     "title": "MiniZinc: Towards a Standard CP Modelling Language",
-    "authors": "Nethercote, Nicholas and Stuckey, Peter J. and Becket, Ralph and others",
+    "authors": "Nethercote, N. and Stuckey, P. J. and Becket, R. and Brand, S. and Duck, G. J. and Tack, G.",
     "year": "2007",
     "venue": "Principles and Practice of Constraint Programming (CP)",
     "url": "not_reported",
@@ -2823,7 +2877,7 @@
   {
     "key": "page2021prisma",
     "title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
-    "authors": "Page, Matthew J. and McKenzie, Joanne E. and Bossuyt, Patrick M. and Boutron, Isabelle and Hoffmann, Tammy C. and Mulrow, Cynthia D. and others",
+    "authors": "Page, M. J. and McKenzie, J. E. and Bossuyt, P. M. and Boutron, I. and Hoffmann, T. C. and Mulrow, C. D. and Shamseer, L. and Tetzlaff, J. M. and Akl, E. A. and Brennan, S. E. and Chou, R. and Glanville, J. and Grimshaw, J. M. and Hróbjartsson, A. and Lalu, M. M. and Li, T. and Loder, E. W. and Mayo-Wilson, E. and McDonald, S. and McGuinness, L. A. and Stewart, L. A. and Thomas, J. and Tricco, A. C. and Welch, V. A. and Whiting, P. and Moher, D.",
     "year": "2021",
     "venue": "BMJ",
     "url": "not_reported",
@@ -2900,15 +2954,6 @@
     "year": "2023",
     "venue": "International Conference on Principles and Practice of Constraint Programming (CP)",
     "url": "not_reported",
-    "study_ids": []
-  },
-  {
-    "key": "ping2026uav",
-    "title": "LLM-Enabled Low-Altitude UAV Natural Language Navigation via Signal Temporal Logic Specification Translation and Repair",
-    "authors": "Yuqi Ping and Huahao Ding and Tianhao Liang and Longyu Zhou and Guangyu Lei and Xinglin Chen and Junwei Wu and Jieyu Zhou and Tingting Zhang",
-    "year": "2026",
-    "venue": "IEEE Transactions on Cognitive Communications and Networking",
-    "url": "https://doi.org/10.1109/tccn.2026.3717937",
     "study_ids": []
   },
   {
@@ -3020,7 +3065,7 @@
   {
     "key": "ramamonjison2023nl4opt",
     "title": "NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions",
-    "authors": "Ramamonjison, Rindranirina and Yu, Timothy T. and Li, Raymond and others",
+    "authors": "Rindranirina Ramamonjison and Timothy T. L. Yu and Raymond Li and Haley Li and Giuseppe Carenini and Bissan Ghaddar and Shiqi He and Mahdi Mostajabdaveh and Amin Banitalebi-Dehkordi and Zirui Zhou and Yong Zhang",
     "year": "2023",
     "venue": "Advances in Neural Information Processing Systems, Competitions Track (NeurIPS)",
     "url": "not_reported",
@@ -3259,7 +3304,7 @@
   {
     "key": "sinha2019clutrr",
     "title": "CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text",
-    "authors": "Sinha, Koustuv and Sodhani, Shagun and Dong, Jin and others",
+    "authors": "Koustuv Sinha and Shagun Sodhani and Jin Dong and Joelle Pineau and William L. Hamilton",
     "year": "2019",
     "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "url": "not_reported",
@@ -3435,6 +3480,15 @@
     ]
   },
   {
+    "key": "tantakoun2025llms",
+    "title": "LLMs as Planning Formalizers: A Survey for Leveraging Large Language Models to Construct Automated Planning Models",
+    "authors": "Tantakoun, Marcus and Muise, Christian and Zhu, Xiaodan",
+    "year": "2025",
+    "venue": "Findings of the Association for Computational Linguistics 2025 (ACL)",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
     "key": "taxexp20261006a119",
     "title": "Event-B Agent: Towards LLM Agent for Formal Model Synthesis and Repair",
     "authors": "Hongshu Wang and Xinyue Zuo and Yuhan Sun and Qin Li and Yamine Ait Ameur and Jin Song Dong",
@@ -3505,7 +3559,7 @@
     "title": "LLMASP: A Framework for Mitigating Hallucinations and Supporting Symbolic Reasoning in Large Language Models",
     "authors": "Lorenzo Grillo",
     "year": "2025",
-    "venue": "ICLP Workshops, CEUR Workshop Proceedings",
+    "venue": "Joint Workshops and Doctoral Consortium of the International Conference on Logic Programming (ICLP-WS-DC)",
     "url": "https://www.scopus.com/pages/publications/105034222789?origin=resultslist",
     "study_ids": [
       "STUDY-87c97d7512b0122f0742cc53"
@@ -3791,7 +3845,7 @@
     "title": "Generative Agents for Multi-Agent Autoformalization of Interaction Scenarios",
     "authors": "Agnieszka Mensfelt and Kostas Stathis and Vince Trencsenyi",
     "year": "2025",
-    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "venue": "European Conference on Artificial Intelligence (ECAI)",
     "url": "https://doi.org/10.3233/faia251256",
     "study_ids": [
       "STUDY-b84cdd2505ccc00624683b1d"
@@ -3920,7 +3974,7 @@
   },
   {
     "key": "taxonomya0682025",
-    "title": "SYSTEM-1.x: LEARNING TO BALANCE FAST AND SLOW PLANNING WITH LANGUAGE MODELS",
+    "title": "System-1.x: Learning to Balance Fast and Slow Planning with Language Models",
     "authors": "Swarnadeep Saha and Archiki Prasad and Justin Chih-Yao Chen and Peter Hase and Elias Stengel-Eskin and Mohit Bansal",
     "year": "2025",
     "venue": "International Conference on Learning Representations (ICLR)",
@@ -3976,7 +4030,7 @@
   {
     "key": "taxonomya0882026",
     "title": "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems Using LLM-Based Agents",
-    "authors": "Zihan Liu and Ruinan Zeng and Dongxia Wang and Gengyun Peng and Jingyi Wang and Qiang Liu and Peiyu Liu and Wenhai Wang",
+    "authors": "Zihan Liu and Ruinan Zeng and Dongxia Wang and Gengyun Peng and Xiaoxia Liu and Qiang Liu and Peiyu Liu and Wenhai Wang and Jingyi Wang",
     "year": "2026",
     "venue": "IEEE Transactions on Software Engineering",
     "url": "https://doi.org/10.1109/tse.2026.3667895",
@@ -4075,7 +4129,7 @@
   {
     "key": "tsoukalas2024putnambench",
     "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
-    "authors": "Tsoukalas, George and Lee, Jasper and Jennings, John and others",
+    "authors": "Tsoukalas, G. and Lee, J. and Jennings, J. and Xin, J. and Ding, M. and Jennings, M. and Thakur, A. and Chaudhuri, S.",
     "year": "2024",
     "venue": "Advances in Neural Information Processing Systems, Datasets and Benchmarks Track (NeurIPS)",
     "url": "not_reported",
@@ -4095,7 +4149,7 @@
   {
     "key": "valmeekam2023planbench",
     "title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
-    "authors": "Valmeekam, Karthik and Marquez, Matthew and Olmo, Alberto and others",
+    "authors": "Karthik Valmeekam and Matthew Marquez and Alberto Olmo and Sarath Sreedharan and Subbarao Kambhampati",
     "year": "2023",
     "venue": "Advances in Neural Information Processing Systems, Datasets and Benchmarks Track (NeurIPS)",
     "url": "not_reported",
@@ -4149,7 +4203,7 @@
   {
     "key": "wang2024lego",
     "title": "LEGO-Prover: Neural Theorem Proving with Growing Libraries",
-    "authors": "Wang, Haiming and Xin, Huajian and Zheng, Chuanyang and others",
+    "authors": "Haiming Wang and Huajian Xin and Chuanyang Zheng and Lin Li and Zhengying Liu and Qingxing Cao and Yinya Huang and Jing Xiong and Han Shi and Enze Xie and Jian Yin and Zhenguo Li and Heng Liao and Xiaodan Liang",
     "year": "2024",
     "venue": "International Conference on Learning Representations (ICLR)",
     "url": "https://www.scopus.com/pages/publications/85191726756?origin=resultslist",
@@ -4244,6 +4298,15 @@
     "study_ids": [
       "STUDY-be383c8729c6b515f314a834"
     ]
+  },
+  {
+    "key": "weng2025autoformalization",
+    "title": "Autoformalization in the Era of Large Language Models: A Survey",
+    "authors": "Ke Weng and Lun Du and Sirui Li and Wangyue Lu and Haozhe Sun and Hengyu Liu and Tiancheng Zhang",
+    "year": "2025",
+    "venue": "not_reported",
+    "url": "https://arxiv.org/abs/2505.23486",
+    "study_ids": []
   },
   {
     "key": "wielemaker2012swiprolog",
@@ -4374,7 +4437,7 @@
   {
     "key": "xin2024deepseek",
     "title": "DeepSeek-Prover: Advancing Theorem Proving in LLMs through Large-Scale Synthetic Data",
-    "authors": "Xin, Huajian and Guo, Daya and Shao, Zhihong and others",
+    "authors": "Huajian Xin and Daya Guo and Zhihong Shao and Zhizhou Ren and Qihao Zhu and Bo Liu and Chong Ruan and Wenda Li and Xiaodan Liang",
     "year": "2024",
     "venue": "not_reported",
     "url": "https://arxiv.org/abs/2405.14333",
@@ -4480,6 +4543,15 @@
     "study_ids": [
       "STUDY-SEP26-2609.37175"
     ]
+  },
+  {
+    "key": "yang2020neurasp",
+    "title": "NeurASP: Embracing Neural Networks into Answer Set Programming",
+    "authors": "Yang, Zhun and Ishay, Adam and Lee, Joohyung",
+    "year": "2020",
+    "venue": "Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI)",
+    "url": "not_reported",
+    "study_ids": []
   },
   {
     "key": "yang2023coupling",
@@ -4873,7 +4945,7 @@
   {
     "key": "zheng2024processbench",
     "title": "ProcessBench: Identifying Process Errors in Mathematical Reasoning",
-    "authors": "Chujie Zheng and Zhenru Zhang and Beichen Zhang and others",
+    "authors": "Zheng, C. and Zhang, Z. and Zhang, B. and Lin, R. and Lu, K. and Yu, B. and Liu, D. and Zhou, J. and Lin, J.",
     "year": "2024",
     "venue": "not_reported",
     "url": "https://arxiv.org/abs/2412.06559",
@@ -4882,9 +4954,18 @@
   {
     "key": "zhong2022analytical",
     "title": "Analytical Reasoning of Text",
-    "authors": "Zhong, Wanjun and Wang, Siyuan and Tang, Duyu and others",
+    "authors": "Wanjun Zhong and Siyuan Wang and Duyu Tang and Zenan Xu and Daya Guo and Yining Chen and Jiahai Wang and Jian Yin and Ming Zhou and Nan Duan",
     "year": "2022",
     "venue": "Findings of the Association for Computational Linguistics (NAACL)",
+    "url": "not_reported",
+    "study_ids": []
+  },
+  {
+    "key": "zhou2019abductive",
+    "title": "Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning",
+    "authors": "Zhou, Zhi-Hua",
+    "year": "2019",
+    "venue": "Science China Information Sciences",
     "url": "not_reported",
     "study_ids": []
   },

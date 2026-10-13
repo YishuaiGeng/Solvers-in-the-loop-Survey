@@ -1,5 +1,11 @@
 # Release changes
 
+## v0.2.2 — 2026-10-13
+
+- Aligned the companion with the author-confirmed first draft: 488 cited references.
+- Updated the bibliography, taxonomy ordering, and five display illustrations to match the current manuscript.
+- Retained the 1,429-study / 1,715-report catalogue and the stated analysis populations.
+
 ## v0.2.1 — 2026-10-13
 
 - Synchronized the bibliography with the revised manuscript: 479 cited references, seven fewer than v0.2.0.

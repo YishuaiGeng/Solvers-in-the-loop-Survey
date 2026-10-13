@@ -1782,46 +1782,6 @@
   {
     "role": "Search Control",
     "grouping_axis": "search intervention",
-    "direction": "Candidate Pruning",
-    "method": "Safety Chip",
-    "bibtex_key": "taxexp20261006a163",
-    "study_id": "STUDY-adca60971ad1c804b30888f9",
-    "report_id": "RPT-247b1b22fa2db92930f600ef",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Candidate Pruning",
-    "method": "D&P",
-    "bibtex_key": "ni2026draft",
-    "study_id": "STUDY-2f64acf4553e451a1409e3dc",
-    "report_id": "RPT-f8ea2da808e616cc49380125",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Candidate Pruning",
-    "method": "Hypothesis Frontier",
-    "bibtex_key": "batzoglou2026hypothesis",
-    "study_id": "STUDY-becbb9d37a89713107ec11dc",
-    "report_id": "RPT-4e040ed1bc511c8dea217cc3",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
-    "direction": "Candidate Pruning",
-    "method": "Expecto",
-    "bibtex_key": "lee2026expecto",
-    "study_id": "STUDY-cd3dd5957737fe6ff2a1cfd3",
-    "report_id": "RPT-63a7ffe7a1c2916a9992c37d",
-    "label_type": "original_paper_name"
-  },
-  {
-    "role": "Search Control",
-    "grouping_axis": "search intervention",
     "direction": "Constrained Generation",
     "method": "LogicGuide",
     "bibtex_key": "poesia2023certified",
@@ -1867,6 +1827,46 @@
     "bibtex_key": "li2026specification",
     "study_id": "STUDY-00e63ba74309c80f2c9e2234",
     "report_id": "RPT-77ac224b5a93c8ef297253f3",
+    "label_type": "original_paper_name"
+  },
+  {
+    "role": "Search Control",
+    "grouping_axis": "search intervention",
+    "direction": "Candidate Pruning",
+    "method": "Safety Chip",
+    "bibtex_key": "taxexp20261006a163",
+    "study_id": "STUDY-adca60971ad1c804b30888f9",
+    "report_id": "RPT-247b1b22fa2db92930f600ef",
+    "label_type": "original_paper_name"
+  },
+  {
+    "role": "Search Control",
+    "grouping_axis": "search intervention",
+    "direction": "Candidate Pruning",
+    "method": "D&P",
+    "bibtex_key": "ni2026draft",
+    "study_id": "STUDY-2f64acf4553e451a1409e3dc",
+    "report_id": "RPT-f8ea2da808e616cc49380125",
+    "label_type": "original_paper_name"
+  },
+  {
+    "role": "Search Control",
+    "grouping_axis": "search intervention",
+    "direction": "Candidate Pruning",
+    "method": "Hypothesis Frontier",
+    "bibtex_key": "batzoglou2026hypothesis",
+    "study_id": "STUDY-becbb9d37a89713107ec11dc",
+    "report_id": "RPT-4e040ed1bc511c8dea217cc3",
+    "label_type": "original_paper_name"
+  },
+  {
+    "role": "Search Control",
+    "grouping_axis": "search intervention",
+    "direction": "Candidate Pruning",
+    "method": "Expecto",
+    "bibtex_key": "lee2026expecto",
+    "study_id": "STUDY-cd3dd5957737fe6ff2a1cfd3",
+    "report_id": "RPT-63a7ffe7a1c2916a9992c37d",
     "label_type": "original_paper_name"
   },
   {

@@ -24,7 +24,7 @@ Language models propose representations, candidates, and actions; symbolic solve
   <img src="assets/figures/overview.png" alt="Solver-in-the-loop reasoning and five uses of solver feedback." width="100%">
 </p>
 
-**1,429 included studies · 1,715 reports · 5 solver roles · 479 cited references**
+**1,429 included studies · 1,715 reports · 5 solver roles · 488 cited references**
 
 Literature coverage: **January 2020–September 2026**. [Scope and definitions](docs/methodology.md) · [Papers added in this update](papers/updates/2026-09.md)
 
@@ -74,7 +74,7 @@ Until a public paper citation is available, cite the companion repository and sp
   author = {Yishuai Geng},
   title = {Solvers in the Loop: Survey Companion Repository},
   year = {2026},
-  howpublished = {GitHub repository, version v0.2.1},
+  howpublished = {GitHub repository, version v0.2.2},
   url = {https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey}
 }
 ```
