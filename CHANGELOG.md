@@ -1,4 +1,10 @@
-# Release changes
+# Updates
+
+## 2026-10-13 — Paper-list organization
+
+- Reorganized the homepage around the survey, solver development tree, and classified paper examples.
+- Changed the full catalogues to readable paper lists and kept detailed metadata in CSV/JSON.
+- Adopted routine updates through commits; reserved tagged snapshots for paper or data milestones.
 
 ## v0.2.2 — 2026-10-13
 

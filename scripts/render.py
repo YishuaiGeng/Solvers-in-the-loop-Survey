@@ -37,12 +37,38 @@ def short_authors(s):
     return '; '.join(names[:3]) + (' et al.' if len(names) > 3 else '')
 
 
-def table(papers):
-    lines = ['| Year | Study | Authors | Roles / status | Class |', '| --- | --- | --- | --- | --- |']
-    for p in sorted(papers, key=lambda p:(-p['year'],p['title'].casefold(),p['study_id'])):
-        roles = ', '.join(p['solver_roles']) or p['role_status']
-        lines.append(f"| {p['year']} | {source_link(p['title'],p['url'])}<br><sub>{p['study_id']}</sub> | {md(short_authors(p['authors']))} | {roles} | {p['literature_class']} |")
-    return '\n'.join(lines) + '\n'
+def paper_list(papers):
+    sections = []
+    for label, category in [('Core methods', 'core_method'),
+                            ('Evaluation and diagnostic studies', 'evaluation_diagnostic')]:
+        subset = [p for p in papers if p['literature_class'] == category]
+        if not subset:
+            continue
+        lines = ['## ' + label, '']
+        for p in sorted(subset, key=lambda p:(-p['year'],p['title'].casefold(),p['study_id'])):
+            lines.append(f"- {source_link(p['title'],p['url'])} ({p['year']}) — {md(short_authors(p['authors']).rstrip('.'))}.")
+        sections.append('\n'.join(lines))
+    return '\n\n'.join(sections) + '\n'
+
+
+def featured_papers(methods, papers):
+    by_id = {p['study_id']: p for p in papers}
+    groups = defaultdict(lambda: defaultdict(list))
+    for method in methods:
+        groups[method['role']][method['direction']].append(method)
+    sections = []
+    for role, (slug, name, definition) in ROLES.items():
+        count = sum(role in p['solver_roles'] for p in papers)
+        lines = [f'### {name}', '', definition, '']
+        for direction, entries in groups[name].items():
+            lines += ['**' + md(direction) + '**', '']
+            for method in entries[:2]:
+                p = by_id[method['study_id']]
+                lines.append(f"- **{md(method['method'])}** · {source_link(p['title'],p['url'])} ({p['year']}).")
+            lines.append('')
+        lines += [f'[Browse all {count:,} studies →](papers/roles/{slug}.md)', '']
+        sections.append('\n'.join(lines))
+    return '\n'.join(sections)
 
 
 def render():
@@ -60,24 +86,25 @@ def render():
         subset = [p for p in papers if role in p['solver_roles']]
         role_rows.append(f'| [{role} · {name}](papers/roles/{slug}.md) | {definition} | {len(subset):,} |')
         outputs[f'papers/roles/{slug}.md'] = (f'# {role} · {name}\n\n'
-            f'[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md)\n\n'
+            f'[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)\n\n'
             f'{definition}\n\n![{name}](../../assets/figures/{slug}.png)\n\n'
             f'{len(subset):,} studies in the confirmed corpus snapshot. Role assignments overlap; '
-            'a diagnostic study carrying a role label is not thereby a deployed method.\n\n' + table(subset))
+            'a diagnostic study carrying a role label is not thereby a deployed method.\n\n' + paper_list(subset))
     years = sorted({p['year'] for p in papers}, reverse=True)
     year_rows = []
     for year in years:
         subset = [p for p in papers if p['year']==year]
         year_rows.append(f'| [{year}](years/{year}.md) | {len(subset):,} |')
         outputs[f'papers/years/{year}.md'] = (f'# Citation year {year}\n\n[All papers](../README.md)\n\n'
-            'Citation year describes the selected report, not the earliest eligible report.\n\n' + table(subset))
+            'Citation year describes the selected report, not the earliest eligible report. '
+            '[Full metadata](../../data/papers.csv).\n\n' + paper_list(subset))
     other = [p for p in papers if not p['solver_roles']]
     outputs['papers/roles/unassigned.md'] = ('# Studies without an assigned R1–R5 label\n\n'
         '[All papers](../README.md)\n\n'
-        '`unclear` and `not_applicable` are preserved from the source snapshot; they are not negative findings.\n\n' + table(other))
+        '`unclear` and `not_applicable` are preserved in the [metadata](../../data/papers.csv); they are not negative findings.\n\n' + paper_list(other))
     outputs['papers/README.md'] = ('# Literature catalogue\n\n'
         f"**{len(papers):,} included studies**, represented by {snap['reports']:,} reports in the confirmed review corpus. "
-        'Each row below identifies a study and links to its selected citation report where a source is recorded. '
+        'Browse the paper lists by solver role or citation year. Each entry links to its selected report where a source is recorded. '
         'Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).\n\n'
         '## Browse by solver role\n\n| Role | Signal use | Studies |\n| --- | --- | --- |\n' +
         '\n'.join(row.replace('](papers/roles/','](roles/') for row in role_rows) + '\n\n'
@@ -96,7 +123,7 @@ def render():
     outputs['papers/updates/2026-09.md'] = ('# Papers added in the September-window update\n\n'
         '[All papers](../README.md) · [Scope](../../docs/methodology.md)\n\n'
         f'{len(added)} author-confirmed additions. This cohort includes boundary recoveries; '
-        'it is not restricted to studies first made public in September. Role annotations overlap.\n\n' + table(added))
+        'it is not restricted to studies first made public in September. Role annotations overlap.\n\n' + paper_list(added))
     outputs['papers/README.md'] += f'\n[Browse the {len(added)} studies added in this update](updates/2026-09.md).\n'
     for filename, cohort in [('corpus-summary.csv', papers), ('catalogue-extension.csv', added)]:
         buf = io.StringIO(newline='')
@@ -118,10 +145,9 @@ def render():
         'preprint':'Preprint available · See the paper links above for the current public version.',
         'published':'Published paper · See the paper links above for the publication and available versions.',
     }[links['status']]
-    paper_nav = ' · '.join(paper_links + ['[Paper status](manuscript/README.md)',
-        '[Latest release](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/releases/latest)'])
-    citation_status = ('Until a public paper citation is available, cite the companion repository and specify the release you used.'
-        if not paper_links else 'For the paper, use the citation provided by its public record. For companion data and resources, also cite this repository and specify the release used.')
+    paper_nav = ' · '.join(paper_links) if paper_links else 'Paper link forthcoming · [Manuscript information](manuscript/README.md)'
+    citation_status = ('A paper citation will be added when the manuscript is public. For now, you can cite this companion repository.'
+        if not paper_links else 'Please cite the survey using its public paper record. The companion repository can be cited separately when using its catalogue or data.')
     manuscript = ['# Manuscript','',
         '**Solvers in the Loop: A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**','',
         'Yishuai Geng, Guohui Xiao, Guilin Qi, Huajun Chen, and Haofen Wang.','',paper_status,'']
@@ -134,7 +160,7 @@ def render():
     outputs['manuscript/README.md'] = '\n'.join(manuscript)
 
     template = (ROOT/'scripts/README.template').read_text(encoding='utf-8')
-    for key,val in {'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}','STUDIES_RAW':str(len(papers)),'VERSION':snap['version'],
+    for key,val in {'FEATURED_PAPERS':featured_papers(methods,papers),'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}','STUDIES_RAW':str(len(papers)),'VERSION':snap['version'],
                     'REPORTS':f"{snap['reports']:,}",'REFERENCES':str(len(refs)),
                     'CORE':f"{snap['literature_classes']['core_method']:,}",
                     'DIAGNOSTIC':str(snap['literature_classes']['evaluation_diagnostic']),

@@ -11,7 +11,7 @@ New suggestions remain candidates until reviewed. They do not automatically chan
 1. Open an issue describing the source and proposed correction, or reference an existing issue in a pull request.
 2. Edit the relevant JSON source or documentation. Preserve stable study/report IDs. Do not hand-edit generated CSV or catalogue Markdown.
 3. Increment the affected `record_version` and append an entry to `data/changes.csv` for record changes. Explain before/after values and evidence. Do not silently remove or merge studies.
-4. For an approved release update, adjust snapshot counts/dates, citation metadata and `CHANGELOG.md` consistently. A metadata-only correction need not advance eligibility dates.
+4. Update counts and descriptions when their underlying data change. Routine updates are committed to `main`; no new Release is required. Reserve tagged snapshots for a paper posting, publication, or specifically cited dataset. A metadata-only correction need not advance eligibility dates.
 5. Regenerate and check locally with Python 3.10 or newer:
 
 ```sh

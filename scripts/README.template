@@ -6,73 +6,65 @@
 
 Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
 
-[![Validation](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml/badge.svg)](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/actions/workflows/validate.yml)
-![Studies](https://img.shields.io/badge/studies-@STUDIES_RAW@-286b75)
-![Coverage](https://img.shields.io/badge/literature-through_September_2026-64748b)
+@PAPER_LINKS@
 
-**@PAPER_LINKS@**
-
-@PAPER_STATUS@
-
-**[Literature](papers/README.md) · [Solver evolution](#solver-evolution) · [Taxonomy](docs/taxonomy.md) · [Benchmarks & analysis](analysis/README.md) · [Bibliography](references/README.md)**
+**[Paper lists](#paper-lists) · [Solver evolution](#solver-evolution) · [Full catalogue](papers/README.md) · [Resources](#resources) · [Citation](#citation)**
 
 </div>
 
-Language models propose representations, candidates, and actions; symbolic solvers return answers, verdicts, counterexamples, or structured feedback. This survey connects **solver families**, **the roles of their returned signals**, and **the evidence needed to interpret a formal check as a claim about a task**.
+This repository accompanies *Solvers in the Loop*, a survey of how symbolic solvers support reasoning with large language models. We organize the literature around five uses of solver feedback: **symbolic solving, verification, diagnosis and repair, search control, and learning supervision**.
+
+The review covers **@STUDIES@ studies** from January 2020 through September 2026. Start with the classified examples below, or browse the [complete literature catalogue](papers/README.md).
 
 <p align="center">
-  <img src="assets/figures/overview.png" alt="Solver-in-the-loop reasoning and five uses of solver feedback." width="100%">
+  <img src="assets/figures/overview.png" alt="Overview of language models, symbolic solvers, and five uses of solver feedback." width="100%">
 </p>
-
-**@STUDIES@ included studies · @REPORTS@ reports · 5 solver roles · @REFERENCES@ cited references**
-
-Literature coverage: **January 2020–September 2026**. [Scope and definitions](docs/methodology.md) · [Papers added in this update](papers/updates/2026-09.md)
 
 ## Solver evolution
 
-Selected **formal foundations**, **solver tools**, and **LLM–solver configurations**, arranged by family and the publication year of the cited report.
+Formal foundations, solver tools, and LLM–solver configurations across ten solver families.
 
-<a href="assets/figures/solver-evolution.png">
-  <img src="assets/figures/solver-evolution.png" alt="Development of ten solver families and their connections to language-model reasoning." width="100%">
-</a>
+[![Solver development tree](assets/figures/solver-evolution.png)](assets/figures/solver-evolution.png)
 
-[Open at full resolution](assets/figures/solver-evolution.png) · [Explore the full role taxonomy](docs/taxonomy.md) · [Representative methods](docs/method-index.md)
+[Open at full resolution](assets/figures/solver-evolution.png) · [Role taxonomy](docs/taxonomy.md) · [Full method index](docs/method-index.md)
 
-## Five uses of solver feedback
+## Paper lists
 
-| Role | How the signal is used | Studies |
-| --- | --- | --- |
-@ROLE_ROWS@
+Examples from the survey's taxonomy, grouped by how solver feedback is used. A study can appear under more than one role.
 
-Role assignments overlap; the counts cannot be summed. [Unassigned role labels](papers/roles/unassigned.md) remain explicit.
+[Symbolic Solving](#symbolic-solving) · [Verification](#verification) · [Diagnosis and Repair](#diagnosis-and-repair) · [Search Control](#search-control) · [Learning Supervision](#learning-supervision)
 
-## Companion resources
+@FEATURED_PAPERS@
 
-| Resource | Contents |
-| --- | --- |
-| [Literature catalogue](papers/README.md) | Papers by solver role and citation year, with public source links |
-| [Taxonomy](docs/taxonomy.md) | Mechanism groups, representative methods, and verification boundaries |
-| [Benchmarks and protocols](analysis/benchmarks.md) | Evaluation resources, solver configurations, and source references |
-| [Analysis](analysis/README.md) | Corpus distributions and task/metric summaries with their coverage units |
-| [Bibliography](references/README.md) | The manuscript's cited references and downloadable [BibTeX](references/references.bib) |
-| [Data](data/README.md) | [CSV](data/papers.csv), [JSON](data/papers.json), and [field definitions](data/schema.md) |
+[Browse all papers by role or year](papers/README.md) · [September-window additions](papers/updates/2026-09.md)
 
-## Contribute
+## Resources
 
-Suggest a paper or report a correction through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose). Include a public source and explain the solver interaction or proposed correction. [Contribution guide](CONTRIBUTING.md) · [Maintenance policy](docs/maintenance.md) · [Release changes](CHANGELOG.md)
+- **[Complete paper catalogue](papers/README.md)** — all @STUDIES@ studies, organized by role and citation year; download [CSV](data/papers.csv) or [JSON](data/papers.json).
+- **[Taxonomy and method index](docs/taxonomy.md)** — finer mechanism groups and the scope of verification claims.
+- **[Benchmarks and analysis](analysis/README.md)** — evaluation resources and descriptive summaries, with their coverage stated.
+- **[Manuscript bibliography](references/README.md)** — @REFERENCES@ cited references; download [BibTeX](references/references.bib).
 
-## Cite
+[Scope and interpretation](docs/methodology.md) · [Data field definitions](data/schema.md)
 
-@CITATION_STATUS@ GitHub's **Cite this repository** button uses [CITATION.cff](CITATION.cff).
+## Contributing
+
+Suggestions and corrections are welcome through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose). Include a paper link and explain the relevant solver interaction or correction. See the [contribution guide](CONTRIBUTING.md).
+
+## Citation
+
+@CITATION_STATUS@
 
 ```bibtex
 @misc{geng2026solvers_companion,
   author = {Yishuai Geng},
   title = {Solvers in the Loop: Survey Companion Repository},
   year = {2026},
-  howpublished = {GitHub repository, version @VERSION@},
+  howpublished = {GitHub repository},
   url = {https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey}
 }
 ```
 
-Copyright is retained; no open license is granted at this stage. See [LICENSE](LICENSE) and [figure credits](assets/README.md).
+For a specific state of the catalogue, include an access date or commit in your citation. GitHub's **Cite this repository** button uses [CITATION.cff](CITATION.cff).
+
+Copyright is retained; see [LICENSE](LICENSE) and [figure credits](assets/README.md).

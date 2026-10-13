@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite this companion repository and the release used. A paper citation will be added after public release of the manuscript."
-type: software
+message: "Please cite the survey when its paper record is available. Cite the companion catalogue with an access date or commit when needed."
+type: dataset
 title: "Solvers in the Loop: Survey Companion Repository"
 authors:
   - family-names: Geng

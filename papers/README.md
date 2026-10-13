@@ -1,6 +1,6 @@
 # Literature catalogue
 
-**1,429 included studies**, represented by 1,715 reports in the confirmed review corpus. Each row below identifies a study and links to its selected citation report where a source is recorded. Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).
+**1,429 included studies**, represented by 1,715 reports in the confirmed review corpus. Browse the paper lists by solver role or citation year. Each entry links to its selected report where a source is recorded. Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).
 
 ## Browse by solver role
 

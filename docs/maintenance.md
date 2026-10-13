@@ -1,31 +1,30 @@
-# Literature and release maintenance
+# Maintaining the paper lists
 
-The public repository tracks released companion material. Its initial release preserves a confirmed review baseline; incoming suggestions are discussed in Issues until evidence review supports a release change.
+Routine updates are reviewed and committed to `main`. Git history records each change; a new Release or version number is not required for every paper, correction, or documentation edit.
 
-## Supported update types
+## Papers and corrections
 
-| Update | Required evidence | Effect |
-| --- | --- | --- |
-| Metadata correction | Public source and exact field / version | Correct the record; retain its identity |
-| New report version | Source link and explicit relation to an existing study | Link versions; select the citation version deliberately |
-| Classification correction | Solver interaction and page / section supporting the proposed label | Review the source coding and affected discussion |
-| New study suggestion | Actual source, eligibility date and relevant solver mechanism | Treat as a candidate until eligibility review is complete |
-| Corpus-window extension | Explicit maintainer-started update with a protocol and dates | Review and synthesize new evidence before changing the released population |
+Suggestions arrive through [Issues](https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey/issues/new/choose). Include a public source, the relevant study ID when known, and a page or section supporting a classification correction. A suggestion remains a candidate until reviewed.
 
-## Review and publication
+Preserve stable study/report identities and missing-value statuses. Inclusion, identity merges and substantive reclassification require maintainer review against the underlying evidence. Metadata corrections do not automatically extend the eligibility window. Keep original evidence and review events in the research records; publish approved metadata and summaries here.
 
-1. Record the suggestion and its source in an issue; do not fabricate missing metadata or claim full-text review from an abstract.
-2. Reconcile study/report identity with the existing corpus. Keep raw evidence and review events in the research records; only approved derivatives belong in the public release.
-3. Verify the affected fields against an identified report version and source locator. Separate author claims, experimental evidence and the review's analysis. AI recommendations remain recommendations until the required author decision occurs.
-4. For a corpus update, reassess the affected synthesis, task counts, taxonomy, citations and manuscript statements together. A monthly paper list alone is not a revised review.
-5. Prepare an update branch and a concrete public diff. Preserve stable IDs; record corrections, withdrawals and merges in the change ledger with before/after values. Retain superseded release history.
-6. Run rendering, validation and tests. Review the changed sources and aggregate units; automated checks cannot decide eligibility or verify substantive claims.
-7. Merge after maintainer review, update `CHANGELOG.md`, and create a dated or semantic release tag. Do not rewrite published tags. Record separate eligibility, search, evidence-version and release dates.
+## Updating the repository
 
-No automated literature searches or unattended inclusion decisions are enabled by this repository. No source API, full-text collection or website deployment is part of its validation workflow.
+1. Edit the relevant JSON or documentation. The homepage template is `scripts/README.template`; full lists are generated from `data/papers.json`.
+2. Homepage examples come from the first two method placements in each existing taxonomy subgroup, preserving manuscript order. They illustrate the groups rather than rank papers. Changing examples does not change corpus membership.
+3. For a changed study record, increment `record_version` and append its before/after values to `data/changes.csv`. Presentation-only changes leave those records unchanged.
+4. Run the renderer, validation, and tests, inspect the diff, then commit the reviewed update.
 
-## Updating paper links
+```sh
+python3 -B scripts/render.py --refresh-manifest
+python3 -B scripts/validate.py
+python3 -B -m unittest discover -s tests
+```
 
-Maintain public paper destinations in [`manuscript/links.json`](../manuscript/links.json). Use `not_reported` until a verified URL exists. Set `status` to `in_preparation`, `preprint`, or `published` as appropriate, and fill `arxiv_url`, `pdf_url`, and/or `doi_url` with the actual public destinations. Never guess an arXiv ID or DOI.
+The CSV and readable lists reproduce the released metadata. Automated checks verify structure and consistency; they do not decide eligibility, establish scientific correctness, or enable literature searches.
 
-Run `python3 -B scripts/render.py --refresh-manifest` and `python3 -B scripts/validate.py` after editing. The homepage's paper links and status, its citation guidance, and the manuscript page update together. For a paper release, also add the verified paper citation to `CITATION.cff` and update the change log.
+## Paper links and fixed snapshots
+
+Store verified paper destinations in [`manuscript/links.json`](../manuscript/links.json), using `not_reported` until an actual URL exists. Regeneration updates the homepage and manuscript page together. Add the formal paper citation when it becomes public.
+
+A tagged snapshot is useful alongside an arXiv posting, formal publication, or a specifically cited dataset. It is optional for ordinary maintenance. Keep existing tags and releases unchanged. `data/snapshot.json` and the version in `CITATION.cff` identify the retained data snapshot; routine presentation edits are identified by their commits. When a new data snapshot is needed, update its counts, dates, citation metadata and change notes consistently.

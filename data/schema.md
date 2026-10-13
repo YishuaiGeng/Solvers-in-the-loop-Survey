@@ -30,3 +30,5 @@ Bibliographic and classification metadata are derivatives of existing records. F
 The initial 1,301 study IDs remain unchanged. Added studies use `STUDY-SEP26-<arXiv ID>`, a stable companion ID derived from the approved report's unversioned arXiv identity; report IDs preserve `SEP26-ARXIV-<arXiv ID>v<version>` from the source records. This naming does not merge studies.
 
 `analysis/coverage.json` identifies the added cohort and the baseline population of the detailed task/metric tables. Catalogue years use the author-confirmed selected-report metadata; bibliography years use the cited editions and may differ.
+
+The snapshot version identifies the retained data edition. Routine documentation and presentation updates use Git commits and do not require a new tagged version. Readable paper lists omit internal identifiers for ease of reading; the CSV and JSON retain every study/report ID and annotation.
