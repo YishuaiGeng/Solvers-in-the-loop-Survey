@@ -1,6 +1,6 @@
 # Studies without an assigned R1–R5 label
 
-[All papers](../README.md)
+[All papers](../catalogue.md)
 
 `unclear` and `not_applicable` are preserved in the [metadata](../../data/papers.csv); they are not negative findings.
 

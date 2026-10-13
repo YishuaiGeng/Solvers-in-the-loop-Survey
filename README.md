@@ -8,7 +8,7 @@ Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
 
 Paper link forthcoming · [Manuscript information](manuscript/README.md)
 
-**[Find papers](#find-papers) · [Solver evolution](#solver-evolution) · [Benchmarks & analysis](analysis/README.md) · [Citation](#citation)**
+**[Paper list](papers/) · [Solver evolution](#solver-evolution) · [Benchmarks & analysis](analysis/README.md) · [Citation](#citation)**
 
 </div>
 
@@ -30,11 +30,13 @@ Formal foundations, solver tools, and LLM–solver configurations across ten sol
 
 ## Find papers
 
+**[Open the classified paper list →](papers/)** — papers grouped by solver role and subcategory, with authors, source links and years.
+
 | Looking for | Open |
 | --- | --- |
 | A method named in the survey | [Methods → papers](docs/method-index.md) — method names, categories, paper titles and source links |
 | A reference cited in the manuscript | [References](references/README.md) — 488 entries; [BibTeX](references/references.bib) |
-| Papers by role or year | [Full catalogue](papers/README.md) — all 1,429 studies |
+| Papers by role or year | [Full catalogue](papers/catalogue.md) — all 1,429 studies |
 | Searchable metadata | [CSV](data/papers.csv) / [JSON](data/papers.json) — titles, authors, identifiers and classifications |
 
 Use **Ctrl+F / ⌘F** on an index page to find a method, title or author. For the full catalogue, download the CSV and filter it in a spreadsheet.

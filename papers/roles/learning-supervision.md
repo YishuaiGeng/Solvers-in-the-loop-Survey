@@ -1,6 +1,6 @@
 # R5 · Learning Supervision
 
-[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
+[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
 
 Use solver outcomes to construct or select training data, rewards, or learning targets.
 

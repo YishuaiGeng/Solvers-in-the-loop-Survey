@@ -11,7 +11,7 @@ Preserve stable study/report identities and missing-value statuses. Inclusion, i
 ## Updating the repository
 
 1. Edit the relevant JSON or documentation. The homepage template is `scripts/README.template`; full lists are generated from `data/papers.json`.
-2. Keep the homepage concise: introduce the survey, show its overview and development figures, and link to the paper indexes. Do not add selected paper lists to the homepage. The method index preserves the existing taxonomy placements and links them to the cited paper records.
+2. Keep the repository homepage concise and link to `papers/`. Its directory README contains the classified paper list, generated from all current taxonomy placements and the cited reference metadata. `papers/catalogue.md` leads to all included studies. Do not add selected paper lists to the root README. The method index preserves the same placements and links them to the cited paper records.
 3. For a changed study record, increment `record_version` and append its before/after values to `data/changes.csv`. Presentation-only changes leave those records unchanged.
 4. Run the renderer, validation, and tests, inspect the diff, then commit the reviewed update.
 

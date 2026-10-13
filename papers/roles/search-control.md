@@ -1,6 +1,6 @@
 # R4 · Search Control
 
-[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
+[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
 
 Use solver signals to guide expansion, pruning, or selection during search.
 

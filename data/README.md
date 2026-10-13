@@ -8,4 +8,4 @@
 | [schema.md](schema.md) | Field definitions, identity conventions, and missing-value rules |
 | [changes.csv](changes.csv) | Additions and corrections to released records |
 
-For readable views, use the [literature catalogue](../papers/README.md). For analytical units and cohort coverage, see [analysis](../analysis/README.md).
+For readable views, use the [classified paper list](../papers/README.md) or the [full literature catalogue](../papers/catalogue.md). For analytical units and cohort coverage, see [analysis](../analysis/README.md).

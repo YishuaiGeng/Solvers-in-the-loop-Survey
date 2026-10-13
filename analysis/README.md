@@ -1,6 +1,6 @@
 # Benchmarks and analysis
 
-[Benchmark guide](benchmarks.md) · [Literature catalogue](../papers/README.md) · [Scope](../docs/methodology.md)
+[Benchmark guide](benchmarks.md) · [Literature catalogue](../papers/catalogue.md) · [Scope](../docs/methodology.md)
 
 The benchmark guide groups representative resources by task solutions and formal models, checked-artifact construction, and correspondence/verification diagnostics. It distinguishes the resource's original publication from the paper documenting a solver-use configuration.
 

@@ -1,5 +1,10 @@
 # Updates
 
+## 2026-10-13 — Classified paper-list directory
+
+- Added the complete taxonomy paper list in `papers/`, with role/subcategory headings, authors and source/year badges.
+- Linked the repository homepage to that directory and kept full-catalogue navigation in `papers/catalogue.md`.
+
 ## 2026-10-13 — Simplified homepage and paper lookup
 
 - Removed selected paper lists from the homepage and added concise links for finding methods, references and catalogue entries.

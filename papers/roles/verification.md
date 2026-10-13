@@ -1,6 +1,6 @@
 # R2 · Verification
 
-[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
+[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
 
 Use the verdict to accept, reject, or qualify a candidate relative to an encoded obligation.
 

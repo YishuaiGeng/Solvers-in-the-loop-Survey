@@ -1,6 +1,6 @@
 # Methods and papers
 
-[Role definitions](taxonomy.md) · [Manuscript references](../references/README.md) · [Full catalogue](../papers/README.md)
+[Role definitions](taxonomy.md) · [Manuscript references](../references/README.md) · [Full catalogue](../papers/catalogue.md)
 
 Use **Ctrl+F / ⌘F** to find a method name or paper title. A paper title links to its recorded source; a method name links to the full reference entry.
 

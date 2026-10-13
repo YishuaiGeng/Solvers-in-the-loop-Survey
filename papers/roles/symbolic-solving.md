@@ -1,6 +1,6 @@
 # R1 · Symbolic Solving
 
-[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
+[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
 
 Use the returned consequence, model, plan, or proof to construct an answer.
 

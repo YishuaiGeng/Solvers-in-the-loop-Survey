@@ -1,6 +1,6 @@
 # Manuscript references
 
-[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/README.md)
+[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/catalogue.md)
 
 Use **Ctrl+F / ⌘F** to find a paper title, author or citation key. Follow a linked title to its recorded source.
 

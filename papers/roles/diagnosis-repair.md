@@ -1,6 +1,6 @@
 # R3 · Diagnosis and Repair
 
-[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
+[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)
 
 Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 

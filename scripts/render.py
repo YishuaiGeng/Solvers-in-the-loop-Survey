@@ -7,6 +7,7 @@ import io
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
+from urllib.parse import quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ROLES = {
@@ -51,10 +52,45 @@ def paper_list(papers):
     return '\n\n'.join(sections) + '\n'
 
 
+def classified_paper_list(methods, refs):
+    by_key = {r['key']: r for r in refs}
+    groups = defaultdict(lambda: defaultdict(list))
+    for method in methods:
+        groups[method['role']][method['direction']].append(method)
+    unique = len({m['bibtex_key'] for m in methods})
+    lines = ['# Paper list', '',
+        '[Repository home](../README.md) · [Full catalogue](catalogue.md) · [All manuscript references](../references/README.md) · [Method index](../docs/method-index.md)', '',
+        f"Papers organized by the survey's five solver roles and subcategories: **{len(methods)} method placements**, corresponding to **{unique} distinct cited papers**. "
+        'A paper can appear in several groups. Titles and years follow the manuscript-cited edition.', '',
+        'Use **Ctrl+F / ⌘F** to find a title, author or method. Follow a title or source badge to its recorded paper link. '
+        'The [full catalogue](catalogue.md) provides all included studies by role and year.', '',
+        ' · '.join(f'[{name}](#{name.lower().replace(" ", "-")})' for _,name,_ in ROLES.values()), '']
+    for _, name, definition in ROLES.values():
+        lines += ['## '+name, '', definition, '']
+        for direction, entries in groups[name].items():
+            lines += ['### '+direction, '']
+            for method in entries:
+                ref = by_key[method['bibtex_key']]
+                names = ref['authors'].split(';') if ';' in ref['authors'] else ref['authors'].split(' and ')
+                author = names[0].strip() + (' et al.' if len(names)>1 else '')
+                url = ref['url']
+                host = urlsplit(url).hostname if url!='not_reported' else ''
+                label, color = ('arXiv', 'b31b1b') if host in ('arxiv.org','www.arxiv.org') else ('DOI','286b75') if host in ('doi.org','dx.doi.org') else ('Paper','286b75')
+                if url == 'not_reported':
+                    label, color = 'Reference', '64748b'
+                    url = '../references/README.md#'+ref['key']
+                year = str(ref['year']) if ref['year']!='not_reported' else 'year not reported'
+                badge_url = 'https://img.shields.io/badge/'+label+'-'+quote(year.replace('-','--'),safe='')+'-'+color+'?style=flat-square'
+                badge = f'[![{label} · {md(year)}]({badge_url})](<{url}>)'
+                lines.append(f"- **{source_link(ref['title'],ref['url'])}**, {md(author)} {badge} <sub>{md(method['method'])}</sub>")
+            lines.append('')
+    return '\n'.join(lines)
+
+
 def render():
     papers, snap = load('data/papers.json'), load('data/snapshot.json')
     refs, methods = load('references/references.json'), load('data/taxonomy-methods.json')
-    outputs = {}
+    outputs = {'papers/README.md': classified_paper_list(methods,refs)}
     buf = io.StringIO(newline='')
     writer = csv.DictWriter(buf, fieldnames=FIELDS, lineterminator='\n')
     writer.writeheader()
@@ -66,7 +102,7 @@ def render():
         subset = [p for p in papers if role in p['solver_roles']]
         role_rows.append(f'| [{role} · {name}](papers/roles/{slug}.md) | {definition} | {len(subset):,} |')
         outputs[f'papers/roles/{slug}.md'] = (f'# {role} · {name}\n\n'
-            f'[All papers](../README.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)\n\n'
+            f'[All papers](../catalogue.md) · [Taxonomy](../../docs/taxonomy.md) · [CSV metadata](../../data/papers.csv)\n\n'
             f'{definition}\n\n![{name}](../../assets/figures/{slug}.png)\n\n'
             f'{len(subset):,} studies in the confirmed corpus snapshot. Role assignments overlap; '
             'a diagnostic study carrying a role label is not thereby a deployed method.\n\n' + paper_list(subset))
@@ -75,14 +111,15 @@ def render():
     for year in years:
         subset = [p for p in papers if p['year']==year]
         year_rows.append(f'| [{year}](years/{year}.md) | {len(subset):,} |')
-        outputs[f'papers/years/{year}.md'] = (f'# Citation year {year}\n\n[All papers](../README.md)\n\n'
+        outputs[f'papers/years/{year}.md'] = (f'# Citation year {year}\n\n[All papers](../catalogue.md)\n\n'
             'Citation year describes the selected report, not the earliest eligible report. '
             '[Full metadata](../../data/papers.csv).\n\n' + paper_list(subset))
     other = [p for p in papers if not p['solver_roles']]
     outputs['papers/roles/unassigned.md'] = ('# Studies without an assigned R1–R5 label\n\n'
-        '[All papers](../README.md)\n\n'
+        '[All papers](../catalogue.md)\n\n'
         '`unclear` and `not_applicable` are preserved in the [metadata](../../data/papers.csv); they are not negative findings.\n\n' + paper_list(other))
-    outputs['papers/README.md'] = ('# Literature catalogue\n\n'
+    outputs['papers/catalogue.md'] = ('# Literature catalogue\n\n'
+        '[Classified paper list](README.md) · [Repository home](../README.md)\n\n'
         f"**{len(papers):,} included studies**, represented by {snap['reports']:,} reports in the confirmed review corpus. "
         'Browse the paper lists by solver role or citation year. Each entry links to its selected report where a source is recorded. '
         'Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).\n\n'
@@ -104,10 +141,10 @@ def render():
     added_ids = set(coverage['extension_study_ids'])
     added = [p for p in papers if p['study_id'] in added_ids]
     outputs['papers/updates/2026-09.md'] = ('# Papers added in the September-window update\n\n'
-        '[All papers](../README.md) · [Scope](../../docs/methodology.md)\n\n'
+        '[All papers](../catalogue.md) · [Scope](../../docs/methodology.md)\n\n'
         f'{len(added)} author-confirmed additions. This cohort includes boundary recoveries; '
         'it is not restricted to studies first made public in September. Role annotations overlap.\n\n' + paper_list(added))
-    outputs['papers/README.md'] += f'\n[Browse the {len(added)} studies added in this update](updates/2026-09.md).\n'
+    outputs['papers/catalogue.md'] += f'\n[Browse the {len(added)} studies added in this update](updates/2026-09.md).\n'
     for filename, cohort in [('corpus-summary.csv', papers), ('catalogue-extension.csv', added)]:
         buf = io.StringIO(newline='')
         writer = csv.writer(buf, lineterminator='\n')
@@ -151,7 +188,7 @@ def render():
         template = template.replace('@'+key+'@',val)
     outputs['README.md'] = template
     ref_lookup = {r['key']:r for r in refs}
-    ref_lines = ['# Manuscript references','', '[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/README.md)', '',
+    ref_lines = ['# Manuscript references','', '[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/catalogue.md)', '',
         'Use **Ctrl+F / ⌘F** to find a paper title, author or citation key. Follow a linked title to its recorded source.', '',
         f'{len(refs)} entries cited by the current manuscript snapshot. This includes background, resources and related surveys, '
         f"so it differs from the {len(papers):,}-study eligibility corpus. An absent study link does not establish exclusion.", '',
@@ -165,7 +202,7 @@ def render():
 
     def ref_link(key):
         return f'[{md(key)}](../references/README.md#{key})' if key in ref_lookup else md(key)
-    mlines = ['# Methods and papers','', '[Role definitions](taxonomy.md) · [Manuscript references](../references/README.md) · [Full catalogue](../papers/README.md)', '',
+    mlines = ['# Methods and papers','', '[Role definitions](taxonomy.md) · [Manuscript references](../references/README.md) · [Full catalogue](../papers/catalogue.md)', '',
         'Use **Ctrl+F / ⌘F** to find a method name or paper title. A paper title links to its recorded source; '
         'a method name links to the full reference entry.', '',
         'Names and categories follow the manuscript taxonomy. A study may appear in several categories. '
