@@ -8,13 +8,13 @@ Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
 
 @PAPER_LINKS@
 
-**[Paper lists](#paper-lists) · [Solver evolution](#solver-evolution) · [Full catalogue](papers/README.md) · [Resources](#resources) · [Citation](#citation)**
+**[Find papers](#find-papers) · [Solver evolution](#solver-evolution) · [Benchmarks & analysis](analysis/README.md) · [Citation](#citation)**
 
 </div>
 
 This repository accompanies *Solvers in the Loop*, a survey of how symbolic solvers support reasoning with large language models. We organize the literature around five uses of solver feedback: **symbolic solving, verification, diagnosis and repair, search control, and learning supervision**.
 
-The review covers **@STUDIES@ studies** from January 2020 through September 2026. Start with the classified examples below, or browse the [complete literature catalogue](papers/README.md).
+The review covers **@STUDIES@ studies** from January 2020 through September 2026.
 
 <p align="center">
   <img src="assets/figures/overview.png" alt="Overview of language models, symbolic solvers, and five uses of solver feedback." width="100%">
@@ -26,26 +26,20 @@ Formal foundations, solver tools, and LLM–solver configurations across ten sol
 
 [![Solver development tree](assets/figures/solver-evolution.png)](assets/figures/solver-evolution.png)
 
-[Open at full resolution](assets/figures/solver-evolution.png) · [Role taxonomy](docs/taxonomy.md) · [Full method index](docs/method-index.md)
+[Open at full resolution](assets/figures/solver-evolution.png) · [Role taxonomy](docs/taxonomy.md)
 
-## Paper lists
+## Find papers
 
-Examples from the survey's taxonomy, grouped by how solver feedback is used. A study can appear under more than one role.
+| Looking for | Open |
+| --- | --- |
+| A method named in the survey | [Methods → papers](docs/method-index.md) — method names, categories, paper titles and source links |
+| A reference cited in the manuscript | [References](references/README.md) — @REFERENCES@ entries; [BibTeX](references/references.bib) |
+| Papers by role or year | [Full catalogue](papers/README.md) — all @STUDIES@ studies |
+| Searchable metadata | [CSV](data/papers.csv) / [JSON](data/papers.json) — titles, authors, identifiers and classifications |
 
-[Symbolic Solving](#symbolic-solving) · [Verification](#verification) · [Diagnosis and Repair](#diagnosis-and-repair) · [Search Control](#search-control) · [Learning Supervision](#learning-supervision)
+Use **Ctrl+F / ⌘F** on an index page to find a method, title or author. For the full catalogue, download the CSV and filter it in a spreadsheet.
 
-@FEATURED_PAPERS@
-
-[Browse all papers by role or year](papers/README.md) · [September-window additions](papers/updates/2026-09.md)
-
-## Resources
-
-- **[Complete paper catalogue](papers/README.md)** — all @STUDIES@ studies, organized by role and citation year; download [CSV](data/papers.csv) or [JSON](data/papers.json).
-- **[Taxonomy and method index](docs/taxonomy.md)** — finer mechanism groups and the scope of verification claims.
-- **[Benchmarks and analysis](analysis/README.md)** — evaluation resources and descriptive summaries, with their coverage stated.
-- **[Manuscript bibliography](references/README.md)** — @REFERENCES@ cited references; download [BibTeX](references/references.bib).
-
-[Scope and interpretation](docs/methodology.md) · [Data field definitions](data/schema.md)
+[Benchmarks and analysis](analysis/README.md) · [Scope and interpretation](docs/methodology.md) · [Data field definitions](data/schema.md)
 
 ## Contributing
 

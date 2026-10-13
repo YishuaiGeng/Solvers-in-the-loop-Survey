@@ -1,5 +1,10 @@
 # Updates
 
+## 2026-10-13 — Simplified homepage and paper lookup
+
+- Removed selected paper lists from the homepage and added concise links for finding methods, references and catalogue entries.
+- Made the method index show paper titles, source links and citation years alongside each method and category.
+
 ## 2026-10-13 — Paper-list organization
 
 - Reorganized the homepage around the survey, solver development tree, and classified paper examples.

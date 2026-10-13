@@ -2,6 +2,8 @@
 
 **1,429 included studies**, represented by 1,715 reports in the confirmed review corpus. Browse the paper lists by solver role or citation year. Each entry links to its selected report where a source is recorded. Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).
 
+For a method named in the survey, use the [methods → papers index](../docs/method-index.md). For a manuscript citation, use the [reference index](../references/README.md). Search an index page with **Ctrl+F / ⌘F**, or download the CSV to filter the full catalogue by title, author, year or role.
+
 ## Browse by solver role
 
 | Role | Signal use | Studies |

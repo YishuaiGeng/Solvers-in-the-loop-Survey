@@ -51,26 +51,6 @@ def paper_list(papers):
     return '\n\n'.join(sections) + '\n'
 
 
-def featured_papers(methods, papers):
-    by_id = {p['study_id']: p for p in papers}
-    groups = defaultdict(lambda: defaultdict(list))
-    for method in methods:
-        groups[method['role']][method['direction']].append(method)
-    sections = []
-    for role, (slug, name, definition) in ROLES.items():
-        count = sum(role in p['solver_roles'] for p in papers)
-        lines = [f'### {name}', '', definition, '']
-        for direction, entries in groups[name].items():
-            lines += ['**' + md(direction) + '**', '']
-            for method in entries[:2]:
-                p = by_id[method['study_id']]
-                lines.append(f"- **{md(method['method'])}** · {source_link(p['title'],p['url'])} ({p['year']}).")
-            lines.append('')
-        lines += [f'[Browse all {count:,} studies →](papers/roles/{slug}.md)', '']
-        sections.append('\n'.join(lines))
-    return '\n'.join(sections)
-
-
 def render():
     papers, snap = load('data/papers.json'), load('data/snapshot.json')
     refs, methods = load('references/references.json'), load('data/taxonomy-methods.json')
@@ -106,6 +86,9 @@ def render():
         f"**{len(papers):,} included studies**, represented by {snap['reports']:,} reports in the confirmed review corpus. "
         'Browse the paper lists by solver role or citation year. Each entry links to its selected report where a source is recorded. '
         'Full author lists, identifiers and metadata are in [CSV](../data/papers.csv) / [JSON](../data/papers.json).\n\n'
+        'For a method named in the survey, use the [methods → papers index](../docs/method-index.md). '
+        'For a manuscript citation, use the [reference index](../references/README.md). '
+        'Search an index page with **Ctrl+F / ⌘F**, or download the CSV to filter the full catalogue by title, author, year or role.\n\n'
         '## Browse by solver role\n\n| Role | Signal use | Studies |\n| --- | --- | --- |\n' +
         '\n'.join(row.replace('](papers/roles/','](roles/') for row in role_rows) + '\n\n'
         f'[{len(other)} studies without an assigned role](roles/unassigned.md). Roles overlap and cannot be summed.\n\n'
@@ -160,7 +143,7 @@ def render():
     outputs['manuscript/README.md'] = '\n'.join(manuscript)
 
     template = (ROOT/'scripts/README.template').read_text(encoding='utf-8')
-    for key,val in {'FEATURED_PAPERS':featured_papers(methods,papers),'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}','STUDIES_RAW':str(len(papers)),'VERSION':snap['version'],
+    for key,val in {'ROLE_ROWS':'\n'.join(role_rows),'STUDIES':f'{len(papers):,}','STUDIES_RAW':str(len(papers)),'VERSION':snap['version'],
                     'REPORTS':f"{snap['reports']:,}",'REFERENCES':str(len(refs)),
                     'CORE':f"{snap['literature_classes']['core_method']:,}",
                     'DIAGNOSTIC':str(snap['literature_classes']['evaluation_diagnostic']),
@@ -168,7 +151,8 @@ def render():
         template = template.replace('@'+key+'@',val)
     outputs['README.md'] = template
     ref_lookup = {r['key']:r for r in refs}
-    ref_lines = ['# Manuscript references','', '[BibTeX](references.bib) · [JSON](references.json) · [Included studies](../papers/README.md)', '',
+    ref_lines = ['# Manuscript references','', '[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/README.md)', '',
+        'Use **Ctrl+F / ⌘F** to find a paper title, author or citation key. Follow a linked title to its recorded source.', '',
         f'{len(refs)} entries cited by the current manuscript snapshot. This includes background, resources and related surveys, '
         f"so it differs from the {len(papers):,}-study eligibility corpus. An absent study link does not establish exclusion.", '',
         'Bibliographic fields are exported from the manuscript library; study associations use retained key mappings and exact arXiv identifiers. '
@@ -181,13 +165,18 @@ def render():
 
     def ref_link(key):
         return f'[{md(key)}](../references/README.md#{key})' if key in ref_lookup else md(key)
-    mlines = ['# Taxonomy method index','', '[Role definitions](taxonomy.md) · [Literature catalogue](../papers/README.md)', '',
-        'Representative method placements from the manuscript taxonomy source. A study may have multiple placements; '
-        'these rows are analytical groupings, not a performance ranking. Names and placements follow the current diagram; study links preserve source identities.', '',
-        '| Role | Grouping axis | Direction | Method | Reference | Study |', '| --- | --- | --- | --- | --- | --- |']
+    mlines = ['# Methods and papers','', '[Role definitions](taxonomy.md) · [Manuscript references](../references/README.md) · [Full catalogue](../papers/README.md)', '',
+        'Use **Ctrl+F / ⌘F** to find a method name or paper title. A paper title links to its recorded source; '
+        'a method name links to the full reference entry.', '',
+        'Names and categories follow the manuscript taxonomy. A study may appear in several categories. '
+        'Titles and years describe the manuscript-cited edition; the catalogue can select a different report. '
+        'Study/report identities and grouping axes remain in [taxonomy metadata](../data/taxonomy-methods.json).', '',
+        '| Method | Role / category | Paper | Year |', '| --- | --- | --- | --- |']
     for m in methods:
-        mlines.append('| ' + ' | '.join([md(m[k]) for k in ('role','grouping_axis','direction','method')] +
-                      [ref_link(m['bibtex_key']), '`'+m['study_id']+'`']) + ' |')
+        ref = ref_lookup[m['bibtex_key']]
+        method_link = f"[{md(m['method'])}](../references/README.md#{m['bibtex_key']})"
+        mlines.append('| ' + ' | '.join([method_link, md(m['role'] + ' · ' + m['direction']),
+                      source_link(ref['title'],ref['url']), md(ref['year'])]) + ' |')
     outputs['docs/method-index.md'] = '\n'.join(mlines) + '\n'
     blines = ['# Benchmarks and protocols','', '[Analysis notes](README.md) · [References](../references/README.md)', '',
         'Representative resources from the manuscript evaluation table. The solver column describes a documented use configuration; '

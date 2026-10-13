@@ -1,6 +1,8 @@
 # Manuscript references
 
-[BibTeX](references.bib) · [JSON](references.json) · [Included studies](../papers/README.md)
+[BibTeX](references.bib) · [JSON](references.json) · [Methods → papers](../docs/method-index.md) · [Included studies](../papers/README.md)
+
+Use **Ctrl+F / ⌘F** to find a paper title, author or citation key. Follow a linked title to its recorded source.
 
 488 entries cited by the current manuscript snapshot. This includes background, resources and related surveys, so it differs from the 1,429-study eligibility corpus. An absent study link does not establish exclusion.
 
