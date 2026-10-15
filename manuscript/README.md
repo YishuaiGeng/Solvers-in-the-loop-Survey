@@ -2,7 +2,7 @@
 
 **Solvers in the Loop: A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**
 
-Yishuai Geng, Guohui Xiao, Guilin Qi, Huajun Chen, and Haofen Wang.
+Yishuai Geng, Guohui Xiao, Guilin Qi, Tianxing Wu, Huajun Chen, and Haofen Wang.
 
 Manuscript in preparation · Public paper links will be added when available.
 

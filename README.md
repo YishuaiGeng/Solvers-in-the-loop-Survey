@@ -4,7 +4,7 @@
 
 **A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**
 
-Yishuai Geng · Guohui Xiao · Guilin Qi · Huajun Chen · Haofen Wang
+Yishuai Geng · Guohui Xiao · Guilin Qi · Tianxing Wu · Huajun Chen · Haofen Wang
 
 Paper link forthcoming · [Manuscript information](manuscript/README.md)
 

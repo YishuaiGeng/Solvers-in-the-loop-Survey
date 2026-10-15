@@ -1,5 +1,9 @@
 # Updates
 
+## 2026-10-15 — Survey author list
+
+- Added Tianxing Wu after Guilin Qi in the survey author list on the homepage and manuscript information page.
+
 ## 2026-10-13 — Classified paper-list directory
 
 - Added the complete taxonomy paper list in `papers/`, with role/subcategory headings, authors and source/year badges.
