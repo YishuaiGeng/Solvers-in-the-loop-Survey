@@ -1,6 +1,6 @@
 <div align="center">
 
-# Solvers in the Loop
+<h1><img src="assets/branding/solvers-in-the-loop-logo.png" alt="Solvers in the Loop" width="720"></h1>
 
 **A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**
 

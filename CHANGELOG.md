@@ -1,5 +1,10 @@
 # Updates
 
+## 2026-10-15 — Mascot logo
+
+- Replaced the homepage text title with the author-supplied Solvers in the Loop mascot logo.
+- Added the renamed original and a cropped, transparent display copy under `assets/branding/`.
+
 ## 2026-10-15 — Survey author list
 
 - Added Tianxing Wu after Guilin Qi in the survey author list on the homepage and manuscript information page.
