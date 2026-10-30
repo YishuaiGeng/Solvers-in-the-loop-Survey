@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the survey when its paper record is available. Cite the companion catalogue with an access date or commit when needed."
 type: dataset
-title: "Solvers in the Loop: Survey Companion Repository"
+title: "Symbolic Solvers for Large Language Model Reasoning: Survey Companion Repository"
 authors:
   - family-names: Geng
     given-names: Yishuai
@@ -9,7 +9,7 @@ version: v0.2.2
 date-released: 2026-10-13
 repository-code: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
 url: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
-abstract: "Classified literature, manuscript references, illustrations, and descriptive evaluation summaries accompanying the Solvers in the Loop survey."
+abstract: "Classified literature, manuscript references, illustrations, and descriptive evaluation summaries accompanying Symbolic Solvers for Large Language Model Reasoning: A Survey."
 keywords:
   - neuro-symbolic reasoning
   - large language models

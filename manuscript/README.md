@@ -1,6 +1,6 @@
 # Manuscript
 
-**Solvers in the Loop: A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**
+**Symbolic Solvers for Large Language Model Reasoning: A Survey**
 
 Yishuai Geng, Guohui Xiao, Guilin Qi, Tianxing Wu, Huajun Chen, and Haofen Wang.
 

@@ -1,6 +1,6 @@
 # Scope and interpretation
 
-This companion accompanies *Solvers in the Loop*. It provides the literature catalogue, taxonomy, cited bibliography, illustrations, and descriptive analyses supporting the review.
+This companion accompanies *Symbolic Solvers for Large Language Model Reasoning: A Survey*. It provides the literature catalogue, taxonomy, cited bibliography, illustrations, and descriptive analyses supporting the review.
 
 ## Review scope
 

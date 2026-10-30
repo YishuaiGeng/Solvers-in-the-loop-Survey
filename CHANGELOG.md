@@ -1,5 +1,10 @@
 # Updates
 
+## 2026-10-30 — Survey title
+
+- Updated the survey title to *Symbolic Solvers for Large Language Model Reasoning: A Survey* in the homepage, manuscript information, and companion citation.
+- The homepage now displays the new title as text; the existing branding assets remain available.
+
 ## 2026-10-15 — Mascot logo
 
 - Replaced the homepage text title with the author-supplied Solvers in the Loop mascot logo.

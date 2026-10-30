@@ -169,7 +169,7 @@ def render():
     citation_status = ('A paper citation will be added when the manuscript is public. For now, you can cite this companion repository.'
         if not paper_links else 'Please cite the survey using its public paper record. The companion repository can be cited separately when using its catalogue or data.')
     manuscript = ['# Manuscript','',
-        '**Solvers in the Loop: A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**','',
+        '**Symbolic Solvers for Large Language Model Reasoning: A Survey**','',
         'Yishuai Geng, Guohui Xiao, Guilin Qi, Tianxing Wu, Huajun Chen, and Haofen Wang.','',paper_status,'']
     if paper_links:
         manuscript += [' · '.join(paper_links),'']

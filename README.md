@@ -1,8 +1,6 @@
 <div align="center">
 
-<h1><img src="assets/branding/solvers-in-the-loop-logo.png" alt="Solvers in the Loop" width="360"></h1>
-
-**A Survey of Verifiable Neuro-Symbolic Reasoning with Large Language Models**
+<h1>Symbolic Solvers for Large Language Model Reasoning: A Survey</h1>
 
 Yishuai Geng · Guohui Xiao · Guilin Qi · Tianxing Wu · Huajun Chen · Haofen Wang
 
@@ -12,7 +10,7 @@ Paper link forthcoming · [Manuscript information](manuscript/README.md)
 
 </div>
 
-This repository accompanies *Solvers in the Loop*, a survey of how symbolic solvers support reasoning with large language models. We organize the literature around five uses of solver feedback: **symbolic solving, verification, diagnosis and repair, search control, and learning supervision**.
+This repository accompanies *Symbolic Solvers for Large Language Model Reasoning: A Survey*. We organize the literature around five uses of solver feedback: **symbolic solving, verification, diagnosis and repair, search control, and learning supervision**.
 
 The review covers **1,429 studies** from January 2020 through September 2026.
 
@@ -54,7 +52,7 @@ A paper citation will be added when the manuscript is public. For now, you can c
 ```bibtex
 @misc{geng2026solvers_companion,
   author = {Yishuai Geng},
-  title = {Solvers in the Loop: Survey Companion Repository},
+  title = {Symbolic Solvers for Large Language Model Reasoning: Survey Companion Repository},
   year = {2026},
   howpublished = {GitHub repository},
   url = {https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey}
