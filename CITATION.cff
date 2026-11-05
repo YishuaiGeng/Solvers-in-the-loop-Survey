@@ -11,8 +11,7 @@ repository-code: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
 url: "https://github.com/YishuaiGeng/Solvers-in-the-loop-Survey"
 abstract: "Classified literature, manuscript references, illustrations, and descriptive evaluation summaries accompanying Symbolic Solvers for Verifiable Large Language Model Reasoning: A Survey."
 keywords:
-  - neuro-symbolic reasoning
-  - large language models
   - symbolic solvers
-  - formal verification
-  - survey
+  - large language models
+  - verifiable reasoning
+  - neuro-symbolic reasoning
