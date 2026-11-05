@@ -18,13 +18,19 @@
 ## Evaluation and diagnostic studies
 
 - [A framework for assessing the capabilities of code generation of constraint domain-specific languages with large language models.](<https://doi.org/10.1016/j.jss.2026.112871>) (2026) — David Delgado 0003;  Lola Burgueño;  Robert Clarisó.
+- [Aligning Faithfulness for Theory-Scale Autoformalization](<https://arxiv.org/abs/2610.18498>) (2026) — Feng, Yuming;  Mao, Tadd;  Arekar, Dhruva et al.
+- [Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation](<https://arxiv.org/abs/2610.32053>) (2026) — Wang, Wenhan;  Chen, Shiming;  Sun, Zeyu et al.
 - [Automated Constraint Specification for Job Scheduling by Regulating Generative Model With Domain-Specific Representation](<https://doi.org/10.1109/tase.2025.3596540>) (2026) — Shi Y.-Z.;  Xu Q.;  Li Y. et al.
 - [Automatic translation of natural language requirements into CTL specifications using Large Language Models: A multi-approach evaluation](<https://doi.org/10.1016/j.jss.2026.112941>) (2026) — Zrelli R.;  Misson H.A.;  Attia M.B. et al.
+- [Beyond Correctness: Attribution of Natural-Language Documentation for Formal Libraries](<https://arxiv.org/abs/2610.33094>) (2026) — Jiang, Sirui;  Xiang, Dongming;  Wu, Shichao et al.
+- [Beyond Type-checking: Towards Holistic Evaluation of Formal Specification Generation](<https://arxiv.org/abs/2610.10604>) (2026) — Nair, Srijith;  Vempaty, Aditya;  Liu, Jia et al.
 - [CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic Schemes.](<https://doi.org/10.1145/3808184>) (2026) — Zhaoxuan Li;  Qionglu Zhang;  Hengyuan Liu et al.
+- [DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms](<https://arxiv.org/abs/2610.38175>) (2026) — Cheng, Sikai;  Ye, Tinghan;  Deza, Arnaud et al.
 - [Expecto: Extracting Formal Specifications from Natural Language Description for Trustworthy Oracles](<https://doi.org/10.1145/3808332>) (2026) — Lee D.;  Heo K.
 - [Fact-Checking with Large Language Models via Cost-Effective First-Order Logic Reformulation](<https://doi.org/10.1007/978-3-032-14107-1_6>) (2026) — Asghari S.;  Lakshmanan L.V.S.;  Srinivasan V. et al.
 - [From Correctness to Consistency: Redefining Reliability for the Agentware Era](<https://doi.org/10.1145/3805760.3814904>) (2026) — Qin X.;  Gruppi M.
 - [Generating Domain Models for Automated Planning from Natural Language Descriptions](<https://doi.org/10.1109/cai68641.2026.11536232>) (2026) — Acitelli G.;  Marrella A.;  Rossi J. et al.
+- [How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation](<https://arxiv.org/abs/2610.36328>) (2026) — Mandiga, Aravind;  Li, Guoming.
 - [Impact analysis of regulatory requirement changes on business process compliance](<https://doi.org/10.1016/j.infsof.2026.108079>) (2026) — Barrientos M.;  Winter K.;  Rinderle-Ma S.
 - [Intent-Invariant Mutation Testing: A Coverage Criterion for Large Language Model Safety Contracts.](<https://doi.org/10.1109/mc.2026.3696017>) (2026) — Antonio Mastropaolo;  Saima Afrin;  Sophia Shahnami et al.
 - [Large Language Models for translating contract-related texts to logical predicates: Prompting, fine-tuning or dedicated library?](<https://doi.org/10.1016/j.eswa.2025.131031>) (2026) — Navas-Loro M.;  Takeda H.;  Satoh K.
@@ -32,12 +38,17 @@
 - [LLM-Assisted Cause-Effect Graph Generation for Requirements-Based Test Design](<https://doi.org/10.1109/icstw72326.2026.00032>) (2026) — Kirinuki H.
 - [LLM2Alloy: Investigating LLM-Generated Formal Specifications for Automated Test Derivation in Production Software](<https://doi.org/10.1109/icst69053.2026.00092>) (2026) — Rashid T.;  Malik M.Z.
 - [Low-Hallucination RAG for Mathematical Question Answering: A Trustworthy Generation Method Based on Retrieval Hygiene, Step-Tree Reasoning, and Symbolic-Solver Feedback](<https://doi.org/10.1145/3803730.3803757>) (2026) — Wang J.
+- [MechAlign: Evaluating Semantic Alignment at the Project Level in Mathematical Formalization](<https://arxiv.org/abs/2610.35269>) (2026) — Shen, Hao;  Qiu, Ruichen;  Zhi, Lihong et al.
 - [Performance of Large Language Models in Automatic Generation of Logic Programs](<https://doi.org/10.1007/978-3-032-24513-7_16>) (2026) — Karamousalidis N.;  Kefalas P.;  Stamatopoulou I.
+- [Repair, Retry, and the Cost of Hindsight: Verifier Feedback in Formal Theorem Proving](<https://arxiv.org/abs/2610.22698>) (2026) — Li, Jack;  Li, Sophia.
 - [SEMA: Self-Evolving Multi-Agent Auditing for Smart Contracts †](<https://doi.org/10.3390/electronics15102187>) (2026) — Ding Y.;  Twabi A.;  Yu J. et al.
+- [SqueezeBench: Saturation-Resilient Evaluation of Mathematical Capability](<https://arxiv.org/abs/2610.13461>) (2026) — Manrique, Pablo;  Xia, Hai;  Szeider, Stefan.
 - [Towards Machine-Readable Traffic Laws: Formalizing Traffic Rules into PROLOG Using LLMs](<https://doi.org/10.1145/3769126.3769222>) (2026) — Zin M.M.;  Borges G.;  Satoh K. et al.
 - [Transforming Natural Language Requirements to Formalism Using LLMs](<https://doi.org/10.1002/sys.70023>) (2026) — Meng B.;  Lorch R.;  Siu K. et al.
 - [Validating Design Models for Their Application in Model-based Safety Assessment with Large Language Models](<https://doi.org/10.1109/rams50514.2026.11424511>) (2026) — Gonschorek T.;  Outzen W.;  Ortmeier F. et al.
 - [Verification abundance, adjudication scarcity: what happens to mathematical knowledge when proof checking becomes free](<https://arxiv.org/abs/2608.28997>) (2026) — Maher Kallel;  Mohamed El Louadi.
+- [What Has Actually Been Proved? Auditable Paper-to-Lean Alignment with LeanTrail](<https://arxiv.org/abs/2610.35926>) (2026) — Venturim, Fabricio;  Estrada, Leighton;  Silva, Claudio et al.
+- [When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus](<https://arxiv.org/abs/2610.20676>) (2026) — Agrawal, Adarsh.
 - [A Lean Dataset for International Math Olympiad: Small Steps towards Writing Math Proofs for Hard Problems](<https://www.scopus.com/pages/publications/85219561940?origin=resultslist>) (2025) — Yousefzadeh R.;  Cao X.;  Ospanov A.
 - [Autoformalisation answer set programs for scheduling problems using few-shot learning and chain-of-Thought: Preliminary results](<https://www.scopus.com/pages/publications/105020570858?origin=resultslist>) (2025) — Heyninck J.;  Van Gool B.;  Bromuri S. et al.
 - [Benchmarking Solver-agnostic Constraint Modeling Frameworks](<https://doi.org/10.1109/fllm67465.2025.11390901>) (2025) — Penco R.;  Žuljević P.;  Pintar D. et al.

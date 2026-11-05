@@ -5,7 +5,7 @@
 | Field | Type / allowed values | Meaning |
 | --- | --- | --- |
 | `study_id` | Unique `STUDY-*` string | Stable identity retained from the confirmed corpus |
-| `report_id` | `RPT-*` or `SEP26-ARXIV-*` string | Selected report identity |
+| `report_id` | `RPT-*`, `SEP26-ARXIV-*`, or `OCT26-ARXIV-*` string | Selected report identity |
 | `title`, `authors` | Nonempty string | Citation-version metadata; full authors retained |
 | `year` | Integer | Selected report's citation year; not its eligibility date |
 | `venue` | String or `not_reported` | Venue recorded in the source metadata |
@@ -32,3 +32,7 @@ The initial 1,301 study IDs remain unchanged. Added studies use `STUDY-SEP26-<ar
 `analysis/coverage.json` identifies the added cohort and the baseline population of the detailed task/metric tables. Catalogue years use the author-confirmed selected-report metadata; bibliography years use the cited editions and may differ.
 
 The snapshot version identifies the retained data edition. Routine documentation and presentation updates use Git commits and do not require a new tagged version. Readable paper lists omit internal identifiers for ease of reading; the CSV and JSON retain every study/report ID and annotation.
+
+October additions retain `STUDY-OCT26-<arXiv ID>` and `OCT26-ARXIV-<arXiv ID>` from the confirmed records. An unversioned report ID is not a claim about which arXiv revision was consulted. `data/review-flow.json` contains aggregate counts for the completed selection cohort shown in Figure 2; it is distinct from the included-study catalogue.
+
+The retained `version` and `release_date` identify the last tagged release. `companion_snapshot_date` identifies the current main-branch data refresh, which can include later confirmed records. Existing tags are unchanged.

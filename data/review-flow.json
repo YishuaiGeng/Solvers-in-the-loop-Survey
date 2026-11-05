@@ -1,0 +1,70 @@
+{
+  "eligibility_start": "2020-01-01",
+  "eligibility_end": "2026-10-31",
+  "reporting_scope": "Completed selection cohort within the review window; not all captured raw records.",
+  "counts": {
+    "identified": 60206,
+    "duplicates": 9116,
+    "screened": 51090,
+    "title_abstract_excluded": 46732,
+    "reports_sought": 4358,
+    "not_retrieved": 234,
+    "reports_assessed": 4124,
+    "fulltext_excluded": 2379,
+    "included_reports": 1745,
+    "included_studies": 1459
+  },
+  "source_counts": {
+    "Scopus": 5719,
+    "Web of Science": 3066,
+    "DBLP": 23799,
+    "ACL Anthology": 1034,
+    "arXiv": 26588
+  },
+  "fulltext_exclusion_reasons": [
+    {
+      "reason": "No qualifying solver",
+      "count": 1304
+    },
+    {
+      "reason": "Outside review scope",
+      "count": 554
+    },
+    {
+      "reason": "No in-scope LM",
+      "count": 160
+    },
+    {
+      "reason": "No qualifying solver use",
+      "count": 87
+    },
+    {
+      "reason": "Non-primary research",
+      "count": 89
+    },
+    {
+      "reason": "Insufficient evidence",
+      "count": 146
+    },
+    {
+      "reason": "Unverified report identity",
+      "count": 9
+    },
+    {
+      "reason": "Background-only use",
+      "count": 29
+    },
+    {
+      "reason": "No clear comparison value",
+      "count": 1
+    }
+  ],
+  "synthesis_role": {
+    "narrative_anchors": 366,
+    "comparison_evidence": 1093
+  },
+  "study_track": {
+    "core_method": 1254,
+    "evaluation_diagnostic": 205
+  }
+}

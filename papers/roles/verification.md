@@ -6,7 +6,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 
 ![Verification](../../assets/figures/verification.png)
 
-1,043 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
+1,059 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
 
 ## Core methods
 
@@ -45,10 +45,12 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [Agentic Proof Automation: A Case Study](<https://arxiv.org/abs/2601.03768>) (2026) — Yichen Xu;  Martin Odersky.
 - [Agentic Proving for Program Verification](<https://arxiv.org/abs/2605.23772>) (2026) — Alessandro Sosso;  Akhil Arora;  Bas Spitters.
 - [Agentic Taxation Optimization via LLM SMT-Constraint Reasoning](<https://doi.org/10.1145/3786583.3786917>) (2026) — Hwang T.-C.;  Yu F.;  Jiang J.-H.R.
+- [Agentic Verified Optimization of Real-World Software](<https://arxiv.org/abs/2610.30188>) (2026) — Ye, Zhe;  Ghai, Udaya;  Qin, Zhizhen et al.
 - [Agentic-IC3: Enabling Semantic Proof Search in IC3 Model Checking](<https://arxiv.org/abs/2609.27162>) (2026) — Yu-Wei Fan;  SooHyuk Cho;  Aarti Gupta et al.
 - [AGREE-Dog Copilot: A Neuro-Symbolic Approach to Enhanced Model-Based Systems Engineering](<https://doi.org/10.1007/978-3-032-07132-3_8>) (2026) — Tahat A.;  Amundson I.;  Hardin D. et al.
 - [AI-Assisted Completion of CertiGC Proofs: An Experience Report](<https://arxiv.org/abs/2606.21167>) (2026) — Shengyi Wang.
 - [ALEXChat: a Generative - Symbolic Approach to Legal eXplainability](<https://doi.org/10.1145/3769126.3769234>) (2026) — Billi M.;  Parenti A.;  Pisano G. et al.
+- [Algebraic World Model: From Exploration to Proofs](<https://arxiv.org/abs/2610.40503>) (2026) — Pan, Guancheng;  Tan, Qixin;  Yuan, Yang et al.
 - [AlgoVeri: An Aligned Benchmark for Verified Code Generation on Classical Algorithms](<https://arxiv.org/abs/2602.09464>) (2026) — Haoyu Zhao;  Ziran Yang;  Jiawei Li et al.
 - [An AI Approach to Verified Production Cryptographic Libraries](<https://arxiv.org/abs/2608.00965>) (2026) — Chuyue Sun;  Su Fong;  Zhiyi Kuang et al.
 - [An Environment-Aware Verification Framework for LLM-Generated Robot Control Programs.](<https://doi.org/10.23919/date69613.2026.11539304>) (2026) — ZhanShang Nie;  Wenbo Wang;  Xuanming Liu et al.
@@ -56,6 +58,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [An Integrated Framework for Smart Contract Vulnerability Management using Tri-Modal Active Learning and Explainable AI](<https://doi.org/10.1109/ecai69016.2026.11613694>) (2026) — Hanthanapitiya K.M.H.D.D.;  Rathnayaka R.D.D.H.;  Rajapakse P.S.S. et al.
 - [AoA: Theorem Proving Agent over Abstract Syntax Tree of Redesigned Language](<https://arxiv.org/abs/2607.16372>) (2026) — Qiyuan Xu;  Joshua Ong Jun Leang;  Renxi Wang et al.
 - [As You Wish: Mission Planning with Formal Verification using LLMs in Precision Agriculture](<https://arxiv.org/abs/2606.18519>) (2026) — Marcos Abel Zuzuárregui;  Stefano Carpin.
+- [AssureCode: Structured Justification for Trustworthy Agentic Coding](<https://arxiv.org/abs/2610.29758>) (2026) — Murphy, Logan;  Sy, Wilson;  Balevicius, Rhys et al.
 - [Aurora: Neuro-Symbolic AI Driven Advising Agent](<https://doi.org/10.1145/3748522.3779850>) (2026) — Quincoso Lugones L.A.;  Kverne C.L.;  Bhimani N.S. et al.
 - [Auto formalisation of Chaitin and of the surprise incompleteness Theorem](<https://arxiv.org/abs/2606.12462>) (2026) — Thierry Coquand.
 - [Auto formalisation of Goedel's Second Incompleteness Theorem in Binary Recursive Arithmetic](<https://arxiv.org/abs/2606.01898>) (2026) — Thierry Coquand.
@@ -182,6 +185,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [FIDES: A Neuro-Symbolic Conversational Tool for Faithful Production Process Intelligence](<https://doi.org/10.1007/978-3-032-27997-2_22>) (2026) — Casciani A.;  Italia F.;  Lestingi L. et al.
 - [Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution](<https://doi.org/10.1145/3793655.3793740>) (2026) — Ma C.;  Shi J.;  Han R. et al.
 - [FLARE: Verifying MILP Reformulations with LLM-Based Theorem Proving](<https://arxiv.org/abs/2608.25220>) (2026) — Henry Robbins;  Connor Lawless;  Madeleine Udell et al.
+- [FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification](<https://arxiv.org/abs/2610.00885>) (2026) — Lwin, Naing Oo.
 - [Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof](<https://doi.org/10.1073/pnas.2531760123>) (2026) — Alexeev B.;  Mixon D.G.
 - [Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs](<https://arxiv.org/abs/2607.04631>) (2026) — Gabriel Poesia;  Simon Henniger;  Tzu-Han Hsu et al.
 - [Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems](<https://doi.org/10.1145/3805689.3812339>) (2026) — Alamdari P.A.;  Klassen T.Q.;  McIlraith S.A.
@@ -205,6 +209,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [From LLM-Generated Conjectures to Lean Formalizations: Automated Polynomial Inequality Proving via Sum-of-Squares Certificates](<https://arxiv.org/abs/2605.15445>) (2026) — Ruobing Zuo;  Hanrui Zhao;  Gaolei He et al.
 - [From LLM-Generated Specifications to Learned Quadruped Locomotion](<https://arxiv.org/abs/2609.07111>) (2026) — Merve Atasever;  Keyan Azbijari;  Cagan Bakirci et al.
 - [From Natural Language to Executable Narsese: A Neuro-Symbolic Benchmark and Pipeline for Reasoning with NARS](<https://arxiv.org/abs/2604.18873>) (2026) — Mina Gabriel;  Pei Wang.
+- [From Natural Language to Verified C: Verification-Guided Generation with ACSL Specifications](<https://arxiv.org/abs/2610.30725>) (2026) — Wang, Zian;  Li, Qin;  Sun, Weisong et al.
 - [From Natural Language to Verified Code: Toward AI Assisted Problem-to-Code Generation with Dafny-Based Formal Verification](<https://arxiv.org/abs/2604.22601>) (2026) — Md Erfan;  Md Kamal Hossain Chowdhury;  Ahmed Ryan et al.
 - [From Semantic Decisions to Feasible Trajectories: Self-Evolving LLM-Guided Optimal Control for Narrow-Space Parking](<https://arxiv.org/abs/2609.24631>) (2026) — Zhengbao Yao;  Yuanfu Luo;  Kehan Xue.
 - [From Solver Feedback to Faithful Plans: Multi-Role Reinforcement Learning for Symbolic Planning](<https://arxiv.org/abs/2608.21897>) (2026) — Chenghao Zhang;  Yikai Mao;  Shanqi Liu et al.
@@ -265,8 +270,10 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory](<https://arxiv.org/abs/2606.06523>) (2026) — Ruida Wang;  Jerry Huang;  Pengcheng Wang et al.
 - [LeanFlow: A Case Study in Workflow-Driven Lean Autoformalization](<https://arxiv.org/abs/2607.20503>) (2026) — Lazar Milikic;  Simon Guilloud;  Khanh Nguyen et al.
 - [LeanPolish: Verified Supervision for Lean Proof Compression](<https://arxiv.org/abs/2609.38384>) (2026) — Pauline Bourigault.
+- [LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs](<https://arxiv.org/abs/2610.00760>) (2026) — Guo, Chenjun;  Patel, Manooshree;  Mehta, Arnav et al.
 - [LeanTutor: Towards a Verified AI Mathematical Proof Tutor](<https://doi.org/10.1609/aaai.v40i47.41514>) (2026) — Patel M.;  Bhattacharyya R.;  Lu T. et al.
 - [LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](<https://arxiv.org/abs/2606.03303>) (2026) — Po-Nien Kung;  Linfeng Song;  Dawsen Hwang et al.
+- [Learning Lean Feedback for Efficient Proof-Candidate Evaluation on GPUs](<https://arxiv.org/abs/2610.21881>) (2026) — Milikic, Lazar;  Bamas, Etienne;  Abbe, Emmanuel et al.
 - [Learning to Discover Interesting Mathematics](<https://arxiv.org/abs/2609.28603>) (2026) — Niket Patel;  Ahmad Rammal;  Amaury Hayat et al.
 - [Learning to Disprove: Formal Counterexample Generation with Large Language Models](<https://arxiv.org/abs/2603.19514>) (2026) — Zenan Li;  Zhaoyu Li;  Kaiyu Yang et al.
 - [Learning to Generate Formally Verifiable Step-by-Step Logic Reasoning via Structured Formal Intermediaries](<https://arxiv.org/abs/2603.29500>) (2026) — Luoxin Chen;  Yichi Zhou;  Huishuai Zhang.
@@ -276,6 +283,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [Lexical-Prior-Free Planning: A Symbol-Agnostic Pipeline that Enables LLMs and LRMs to Plan under Obfuscated Interfaces](<https://doi.org/10.32604/cmc.2025.074520>) (2026) — Du Z.;  Wang H.;  Hashimoto K.
 - [LiveFMBench: Unveiling the Power and Limits of Agentic Workflows in Specification Generation](<https://arxiv.org/abs/2605.01394>) (2026) — Dong Xu;  Jialun Cao;  Guozhao Mo et al.
 - [LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis](<https://arxiv.org/abs/2607.28632>) (2026) — Alizer Wong;  Zixin Zeng;  Yi Tan et al.
+- [LLM-Assisted Bi-Approximate CHC Solving](<https://arxiv.org/abs/2610.23771>) (2026) — Jiang, Baiting.
 - [LLM-assisted Verification of Protocol Implementations for Logic Flaws Using TLA+](<https://doi.org/10.1109/cscwd68734.2026.11582755>) (2026) — Tian K.;  Chen X.;  Wei F. et al.
 - [LLM-based Framework for Generating and Verifying Parallel DEVS Statecharts](<https://arxiv.org/abs/2608.14956>) (2026) — Vamsi Krishna Vasa;  Hessam S. Sarjoughian;  Edward J. Yellig.
 - [LLM-Based Grid-World Path Planning With Probabilistic Model Checking](<https://doi.org/10.1145/3803437.3806714>) (2026) — Arya A.T.;  Babikian A.A.;  Jit S. et al.
@@ -287,6 +295,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [LLM-Powered Automatic Theorem Proving and Synthesis for Hybrid Systems and Game](<https://arxiv.org/abs/2603.00737>) (2026) — Aditi Kabra;  Jonathan Laurent;  Ruben Martins et al.
 - [LLM-SYM: Integrating Symbolic Methods and Large Language Models for Automated Theorem Proving](<https://doi.org/10.1007/978-981-95-4213-0_3>) (2026) — Wu Y.;  Huang Y.;  Shi J.
 - [LLM-VeriOpt: Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization](<https://doi.org/10.1109/cgo68049.2026.11395239>) (2026) — Fang X.;  Kang J.;  Rocha R. et al.
+- [LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification](<https://arxiv.org/abs/2610.30524>) (2026) — Cao, Zhipeng;  Song, Peiyang;  Vertovec, Nikolaus et al.
 - [LLVM Translation Validation Automated with Large Language Models and Lean](<https://arxiv.org/abs/2609.19583>) (2026) — Chunhao Liao;  Hongxu Xu;  Xintong Zhou et al.
 - [Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems](<https://doi.org/10.1109/wodes69290.2026.11598152>) (2026) — Lim J.;  Anbarani M.T.;  Meira-Goes R. et al.
 - [Logic-Guided Data Extraction with Answer Set Programming and Large Language Models](<https://doi.org/10.1017/s1471068426100635>) (2026) — Alviano M.;  Grillo L.;  Leone N. et al.
@@ -312,6 +321,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [MechGeo: Autoformalizing and Proving Euclidean Geometry in Lean 4](<https://arxiv.org/abs/2608.02295>) (2026) — Hao Shen;  Junyu Guo;  Tian Cui et al.
 - [MechMath: Sorrifier-Driven Formal Decomposition Workflow for Automated Theorem Proving](<https://arxiv.org/abs/2603.24465>) (2026) — Ruichen Qiu;  Yichuan Cao;  Junqi Liu et al.
 - [Medvedev logic is undecidable](<https://arxiv.org/abs/2609.13359>) (2026) — Rodrigo Nicolau Almeida;  Søren Brinck Knudstorp.
+- [MENTOR: Procedural Shielding of Tool-Using LLM Agents](<https://arxiv.org/abs/2610.17039>) (2026) — Anand, Ashwani;  Chatzi, Ivi;  Raha, Ritam et al.
 - [MIPA: Multi-Agent Interval Analysis via Value-Flow and LLM-Solver Co-Reasoning](<https://doi.org/10.1109/isctis70043.2026.11571895>) (2026) — Yang X.;  Yue G.;  Liu G.
 - [MisCC: Misinformation Detection on Counterfactual Claims](<https://doi.org/10.1007/978-3-032-09087-4_18>) (2026) — Li X.;  Belle V.;  Ross B.
 - [Mizzle: A Complete Concurrent Incorrectness Logic for Preventing False Alarms in Agentic Bug Finding](<https://arxiv.org/abs/2607.11611>) (2026) — Alexandre Moine;  Sam Westrick;  Joseph Tassarotti.
@@ -378,6 +388,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [PrologMCP: A Standardized Prolog Tool Interface for LLM Agents](<https://www.scopus.com/pages/publications/105045919020?origin=resultslist>) (2026) — Mensfelt A.;  Prabhakaran A.;  Haret A. et al.
 - [PROMISE: Proof Automation as Structural Imitation of Human Reasoning](<https://arxiv.org/abs/2604.05399>) (2026) — Youngjoo Ahn;  Sangyeop Yeo;  Gijung Im et al.
 - [Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture](<https://arxiv.org/abs/2605.16407>) (2026) — George Koomullil.
+- [Proof-Carrying Evolution: Black-Box Search, White-Box Flight](<https://arxiv.org/abs/2610.42043>) (2026) — Jain, Amit;  Sanchez-Hurtado, Sergio;  Rodriguez-Fernandez, Victor et al.
 - [Proof-Refactor: Refactoring Generated Formal Proofs into Modular Artifacts](<https://arxiv.org/abs/2606.03743>) (2026) — Yiming Fu;  Peixuan Liu;  Zichen Wang et al.
 - [ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving](<https://arxiv.org/abs/2608.26334>) (2026) — Wenqian Ye;  Ziwei Guan;  Eric Xie et al.
 - [ProofGap: Benchmarking Step-Level Formal Reasoning with Local Obligations Derived from Natural-Language Solutions](<https://arxiv.org/abs/2609.29296>) (2026) — Lihan Xie;  Zhicheng Hui;  Yingjun Lan et al.
@@ -394,12 +405,15 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [Reducing the Costs of Proof Synthesis on Rust Systems by Scaling Up a Seed Training Set](<https://arxiv.org/abs/2602.04910>) (2026) — Nongyu Di;  Tianyu Chen;  Shan Lu et al.
 - [Research on Formal Specification Generation Methods forAirborne Software Testing](<https://doi.org/10.1145/3803633.3803662>) (2026) — Wen J.;  Wu L.;  Chen X. et al.
 - [Research on network configuration analysis technology empowered by large language models; \[大语言模型赋能的网络配置分析技术研究\]](<https://doi.org/10.11959/j.issn.1000-436x.2026014>) (2026) — Li P.;  Liu Y.;  Su J. et al.
+- [RESOLVE: Language-Agnostic Validation of GPU Kernels Through Testing, Reduction, and Proof](<https://arxiv.org/abs/2610.05683>) (2026) — Gargary, Ashkan Vedadi;  Martínez, Guido;  Burckhardt, Sebastian et al.
 - [Resource-Aware Neuro-Symbolic Reasoning for Local Small Language Models](<https://arxiv.org/abs/2606.27281>) (2026) — Carlos Ramírez Ovalle;  Abel Alvarez.
 - [Rethinking Supervision Granularity: Segment-Level Learning for LLM-Based Theorem Proving](<https://arxiv.org/abs/2605.11905>) (2026) — Shuo Xu;  Jiakun Zhang;  Junyu Lai et al.
+- [Reusable LLM-Based Plans with Probabilistic Guarantees for Self-Adaptive Systems](<https://arxiv.org/abs/2610.38039>) (2026) — Arya, Asher Tempest;  Maghera, Rajan;  Jiang, Nicholas Wu et al.
 - [Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing](<https://arxiv.org/abs/2608.28639>) (2026) — Bodla Krishna Vamshi;  Haizhao Yang.
 - [Reward-Weighted On-Policy Distillation with an Open Property-Equivalence Verifier for NL-to-SVA Generation](<https://arxiv.org/abs/2605.13501>) (2026) — Qingyun Zou;  Yingze Li;  Tianen Liu et al.
 - [Rewarding Novel Deductions: Solver-guided Process Rewards for Logical Reasoning](<https://arxiv.org/abs/2609.34660>) (2026) — Muhammad Asif Ali;  Wenqing Wang;  Huan Wang et al.
 - [RunbookFX: Type- and Effect-Safe LLM Synthesis for Executable Incident Diagnosis and Mitigation](<https://doi.org/10.1145/3828675>) (2026) — Xiao Y.;  Li S.;  Ge Y.
+- [SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning](<https://arxiv.org/abs/2610.11223>) (2026) — Xu, Weizhe;  Fan, Jialiang;  Liu, Mengyu et al.
 - [SafePilot: A Framework for Assuring LLM-enabled Cyber-Physical Systems](<https://arxiv.org/abs/2603.21523>) (2026) — Weizhe Xu;  Mengyu Liu;  Fanxin Kong.
 - [Sage: Formalization with Semantic Correction](<https://arxiv.org/abs/2609.35790>) (2026) — Thomas Hirtz;  Farzad Jafarrahmani;  Abdelmouksit Sagueni et al.
 - [SAIL: Sound Abstract Interpreters with LLMs](<https://doi.org/10.1145/3808308>) (2026) — Gu Q.;  Singh A.;  Singh G.
@@ -427,6 +441,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [Sorries Are Not the Hard Part: An Expert-Review Case Study of a Semi-Autonomous Formalization](<https://arxiv.org/abs/2606.13925>) (2026) — Vasily Ilin;  Brian Nugent.
 - [SorryDB: Can AI Provers Complete Real-World Lean Theorems?](<https://arxiv.org/abs/2603.02668>) (2026) — Austin Letson;  Leopoldo Sarra;  Auguste Poiroux et al.
 - [SOVER: Formal Certification of Optimization Reformulations via LLM-Assisted SMT Verification](<https://arxiv.org/abs/2609.00728>) (2026) — Swapnil Bhattacharyya;  Mayank Baranwal.
+- [SpecGuard: Proving a Task Is Broken Before the Agent Cheats](<https://arxiv.org/abs/2610.09159>) (2026) — Biyani, Param;  Dvijotham, Krishnamurthy.
 - [Specification-Guided Repair of Arithmetic Errors in Dafny Programs Using LLMs](<https://doi.org/10.1007/978-3-032-10444-1_16>) (2026) — Wu V.;  Mendes A.;  Abreu A.
 - [Specification-Guided Synthesis of Deadlock-Free Communication Protocol Refinements with Large Language Models](<https://arxiv.org/abs/2607.27964>) (2026) — Yang Li;  Ping Hou;  Nobuko Yoshida.
 - [SpecPylot: Python Specification Generation with Large Language Models](<https://doi.org/10.1145/3803437.3806427>) (2026) — Ayon R.S.;  Ahmed S.
@@ -438,6 +453,7 @@ Use the verdict to accept, reject, or qualify a candidate relative to an encoded
 - [StepFun-Formalizer: Unlocking the Autoformalization Potential of LLMs Through Knowledge-Reasoning Fusion](<https://doi.org/10.1609/aaai.v40i40.40691>) (2026) — Wu, Yutong;  Huang, Di;  Wan, Ruosi et al.
 - [Stratified Consistency Distillation for Natural Language Formalization](<https://arxiv.org/abs/2608.30258>) (2026) — Zhichao Hou;  Ferhat Erata;  Joe Lilien et al.
 - [SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](<https://arxiv.org/abs/2609.21190>) (2026) — George Ma;  Benjamin Mikek;  Haoyu Li et al.
+- [Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors](<https://arxiv.org/abs/2610.25552>) (2026) — Lee, Jinu;  Barke, Shraddha.
 - [SymbolicAnalysis and LLM-Guided Debugging of Digital Twin Models with ASP Chef and DTDL †](<https://doi.org/10.3390/info17050506>) (2026) — Alviano M.;  Guarasci P.
 - [SymboUQ: Symbolic Uncertainty Quantification for Spatial Reasoning in LLMs](<https://arxiv.org/abs/2608.00417>) (2026) — Dahai Yu;  Lin Jiang;  Rongchao Xu et al.
 - [SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification](<https://arxiv.org/abs/2608.08786>) (2026) — Wenyao Cui;  Huaping Zhang;  Yongyi Huang et al.

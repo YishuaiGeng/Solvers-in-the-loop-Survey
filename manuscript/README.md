@@ -1,6 +1,6 @@
 # Manuscript
 
-**Symbolic Solvers for Large Language Model Reasoning: A Survey**
+**Symbolic Solvers for Verifiable Large Language Model Reasoning: A Survey**
 
 Yishuai Geng, Guohui Xiao, Guilin Qi, Tianxing Wu, Huajun Chen, and Haofen Wang.
 

@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from validate import ValidationError, load, validate_papers, valid_url
+from validate import ValidationError, load, validate_papers, validate_flow, valid_url
 
 
 class PublicationValidationTests(unittest.TestCase):
@@ -31,6 +31,12 @@ class PublicationValidationTests(unittest.TestCase):
     def test_stale_population_is_rejected(self):
         with self.assertRaises(ValidationError):
             validate_papers(self.papers[:-1],self.snapshot)
+
+    def test_unbalanced_selection_flow_is_rejected(self):
+        flow=copy.deepcopy(load('data/review-flow.json'))
+        flow['counts']['reports_assessed']+=1
+        with self.assertRaises(ValidationError):
+            validate_flow(flow,self.snapshot)
 
     def test_credentials_and_nonweb_links_are_rejected(self):
         for url in ['https://user:pass@example.org/paper','file'+ ':///tmp/paper','https://example.org/?token=secret','javascript:alert(1)']:

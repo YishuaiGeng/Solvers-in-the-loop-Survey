@@ -18133,6 +18133,664 @@
     "record_version": 1
   },
   {
+    "study_id": "STUDY-OCT26-2610.00760",
+    "report_id": "OCT26-ARXIV-2610.00760",
+    "title": "LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs",
+    "authors": "Guo, Chenjun; Patel, Manooshree; Mehta, Arnav; Kothari, Krishiv; Lu, Thomas; Voss, Niels; Bhattacharyya, Rayna; Donovan, Peter; Hartmann, Bjoern; Ranade, Gireeja",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.00760",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.00760",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "guo2026leanside"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.00885",
+    "report_id": "OCT26-ARXIV-2610.00885",
+    "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
+    "authors": "Lwin, Naing Oo",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.00885",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.00885",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "lwin2026forall"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.01519",
+    "report_id": "OCT26-ARXIV-2610.01519",
+    "title": "Auto-Formalizing Neuro-Symbolic Predictors",
+    "authors": "Bortolotti, Samuele; Chen, Weixin; Zhao, Han; Passerini, Andrea; Teso, Stefano; Vergari, Antonio",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.01519",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R5"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.01519",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "bortolotti2026auto"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.05683",
+    "report_id": "OCT26-ARXIV-2610.05683",
+    "title": "RESOLVE: Language-Agnostic Validation of GPU Kernels Through Testing, Reduction, and Proof",
+    "authors": "Gargary, Ashkan Vedadi; Martínez, Guido; Burckhardt, Sebastian; Ebner, Gabriel; Jangda, Abhinav; Musuvathi, Madan; Sorensen, Tyler",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.05683",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.05683",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "gargary2026resolve"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.09159",
+    "report_id": "OCT26-ARXIV-2610.09159",
+    "title": "SpecGuard: Proving a Task Is Broken Before the Agent Cheats",
+    "authors": "Biyani, Param; Dvijotham, Krishnamurthy",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.09159",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.09159",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "biyani2026specguard"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.10604",
+    "report_id": "OCT26-ARXIV-2610.10604",
+    "title": "Beyond Type-checking: Towards Holistic Evaluation of Formal Specification Generation",
+    "authors": "Nair, Srijith; Vempaty, Aditya; Liu, Jia; Jagmohan, Ashish",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.10604",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.10604",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "nair2026beyond"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.11223",
+    "report_id": "OCT26-ARXIV-2610.11223",
+    "title": "SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning",
+    "authors": "Xu, Weizhe; Fan, Jialiang; Liu, Mengyu; Kong, Fanxin",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.11223",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.11223",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "xu2026safeinfercom"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.13461",
+    "report_id": "OCT26-ARXIV-2610.13461",
+    "title": "SqueezeBench: Saturation-Resilient Evaluation of Mathematical Capability",
+    "authors": "Manrique, Pablo; Xia, Hai; Szeider, Stefan",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.13461",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.13461",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "manrique2026squeezebench"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.17039",
+    "report_id": "OCT26-ARXIV-2610.17039",
+    "title": "MENTOR: Procedural Shielding of Tool-Using LLM Agents",
+    "authors": "Anand, Ashwani; Chatzi, Ivi; Raha, Ritam; Schmuck, Anne-Kathrin",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.17039",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.17039",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "anand2026mentor"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.18498",
+    "report_id": "OCT26-ARXIV-2610.18498",
+    "title": "Aligning Faithfulness for Theory-Scale Autoformalization",
+    "authors": "Feng, Yuming; Mao, Tadd; Arekar, Dhruva; Zhong, Tianjun; Huang, Jiani; Si, Xujie; Li, Ziyang",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.18498",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.18498",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "feng2026aligning"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.20676",
+    "report_id": "OCT26-ARXIV-2610.20676",
+    "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+    "authors": "Agrawal, Adarsh",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.20676",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.20676",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "agrawal2026correctness"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.21881",
+    "report_id": "OCT26-ARXIV-2610.21881",
+    "title": "Learning Lean Feedback for Efficient Proof-Candidate Evaluation on GPUs",
+    "authors": "Milikic, Lazar; Bamas, Etienne; Abbe, Emmanuel; Kunčak, Viktor",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.21881",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R5"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.21881",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "milikic2026learning"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.22568",
+    "report_id": "OCT26-ARXIV-2610.22568",
+    "title": "Repairing LLM-Generated Specifications with Deterministic Diagnosis",
+    "authors": "Vaccarino, Giovanni; La Malfa, Emanuele; Min, Dehai; Zhang, Hanrong; Lanzi, Pier Luca; Cheng, Lu; Wooldridge, Michael J.; Yu, Philip S.; Bernardini, Sara",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.22568",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.22568",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "vaccarino2026repairing"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.22698",
+    "report_id": "OCT26-ARXIV-2610.22698",
+    "title": "Repair, Retry, and the Cost of Hindsight: Verifier Feedback in Formal Theorem Proving",
+    "authors": "Li, Jack; Li, Sophia",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.22698",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.22698",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "li2026repair"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.23771",
+    "report_id": "OCT26-ARXIV-2610.23771",
+    "title": "LLM-Assisted Bi-Approximate CHC Solving",
+    "authors": "Jiang, Baiting",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.23771",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.23771",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "jiang2026llm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.25552",
+    "report_id": "OCT26-ARXIV-2610.25552",
+    "title": "Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors",
+    "authors": "Lee, Jinu; Barke, Shraddha",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.25552",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.25552",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "lee2026symbolic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.29758",
+    "report_id": "OCT26-ARXIV-2610.29758",
+    "title": "AssureCode: Structured Justification for Trustworthy Agentic Coding",
+    "authors": "Murphy, Logan; Sy, Wilson; Balevicius, Rhys; Fung, Kelsie; Kung, Karenna; Babikian, Aren A.; Chechik, Marsha",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.29758",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.29758",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "murphy2026assurecode"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.30188",
+    "report_id": "OCT26-ARXIV-2610.30188",
+    "title": "Agentic Verified Optimization of Real-World Software",
+    "authors": "Ye, Zhe; Ghai, Udaya; Qin, Zhizhen; Song, Dawn; Kong, Soonho",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.30188",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.30188",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "ye2026agentic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.30524",
+    "report_id": "OCT26-ARXIV-2610.30524",
+    "title": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
+    "authors": "Cao, Zhipeng; Song, Peiyang; Vertovec, Nikolaus; Cui, Weiru; Yang, Zhihao; Liu, Mingkang; Lin, Luxia; Xue, Bai; Abate, Alessandro",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.30524",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.30524",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "cao2026llm2cert"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.30725",
+    "report_id": "OCT26-ARXIV-2610.30725",
+    "title": "From Natural Language to Verified C: Verification-Guided Generation with ACSL Specifications",
+    "authors": "Wang, Zian; Li, Qin; Sun, Weisong; Cai, Haibin",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.30725",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.30725",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "wang2026natural"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.32053",
+    "report_id": "OCT26-ARXIV-2610.32053",
+    "title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+    "authors": "Wang, Wenhan; Chen, Shiming; Sun, Zeyu; Feng, Shenghua",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.32053",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.32053",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "wang2026llm"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.33094",
+    "report_id": "OCT26-ARXIV-2610.33094",
+    "title": "Beyond Correctness: Attribution of Natural-Language Documentation for Formal Libraries",
+    "authors": "Jiang, Sirui; Xiang, Dongming; Wu, Shichao; Zhou, Yuxuan; Wu, Yihong; Zhu, Fangze; Lin, Wang; Liu, Guanjun",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.33094",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.33094",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "jiang2026beyond"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.35269",
+    "report_id": "OCT26-ARXIV-2610.35269",
+    "title": "MechAlign: Evaluating Semantic Alignment at the Project Level in Mathematical Formalization",
+    "authors": "Shen, Hao; Qiu, Ruichen; Zhi, Lihong; Gao, Xiao-Shan",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.35269",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.35269",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "shen2026mechalign"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.35926",
+    "report_id": "OCT26-ARXIV-2610.35926",
+    "title": "What Has Actually Been Proved? Auditable Paper-to-Lean Alignment with LeanTrail",
+    "authors": "Venturim, Fabricio; Estrada, Leighton; Silva, Claudio; Poco, Jorge",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.35926",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.35926",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "venturim2026has"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.36328",
+    "report_id": "OCT26-ARXIV-2610.36328",
+    "title": "How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation",
+    "authors": "Mandiga, Aravind; Li, Guoming",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.36328",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.36328",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "mandiga2026stable"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.38039",
+    "report_id": "OCT26-ARXIV-2610.38039",
+    "title": "Reusable LLM-Based Plans with Probabilistic Guarantees for Self-Adaptive Systems",
+    "authors": "Arya, Asher Tempest; Maghera, Rajan; Jiang, Nicholas Wu; Mora, Federico; Babikian, Aren A.; Chechik, Marsha",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.38039",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.38039",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "arya2026reusable"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.38175",
+    "report_id": "OCT26-ARXIV-2610.38175",
+    "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
+    "authors": "Cheng, Sikai; Ye, Tinghan; Deza, Arnaud; Qi, Xiaonan; Li, Miao; Liu, Litong; Guan, Changkun",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.38175",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "evaluation_diagnostic",
+    "solver_roles": [],
+    "role_status": "not_applicable",
+    "url": "https://arxiv.org/abs/2610.38175",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "cheng2026decompgym"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.40503",
+    "report_id": "OCT26-ARXIV-2610.40503",
+    "title": "Algebraic World Model: From Exploration to Proofs",
+    "authors": "Pan, Guancheng; Tan, Qixin; Yuan, Yang; Yao, Andrew Chi-Chih",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.40503",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.40503",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "pan2026algebraic"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.41511",
+    "report_id": "OCT26-ARXIV-2610.41511",
+    "title": "Specification-Guided Generation for Large Language Models",
+    "authors": "Previti, Alessandro; Vandikas, Konstantinos; Alviano, Mario; Carlsson, Mats; Forsberg, Albin Larsson; Nikou, Alexandros; Karapantelakis, Athanasios; Feljan, Aneta Vulgarakis",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.41511",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.41511",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "previti2026specification"
+    ],
+    "record_version": 1
+  },
+  {
+    "study_id": "STUDY-OCT26-2610.42043",
+    "report_id": "OCT26-ARXIV-2610.42043",
+    "title": "Proof-Carrying Evolution: Black-Box Search, White-Box Flight",
+    "authors": "Jain, Amit; Sanchez-Hurtado, Sergio; Rodriguez-Fernandez, Victor; Linares, Richard",
+    "venue": "CoRR",
+    "doi": "not_reported",
+    "arxiv_id": "2610.42043",
+    "report_type": "preprint",
+    "year": 2026,
+    "literature_class": "core_method",
+    "solver_roles": [
+      "R2",
+      "R4"
+    ],
+    "role_status": "classified",
+    "url": "https://arxiv.org/abs/2610.42043",
+    "url_basis": "citation_arxiv",
+    "bibtex_keys": [
+      "jain2026proof"
+    ],
+    "record_version": 1
+  },
+  {
     "study_id": "STUDY-SEP26-2608.25194",
     "report_id": "SEP26-ARXIV-2608.25194v1",
     "title": "Designability of RNA Targets with Up to Two Length-2 Helices",

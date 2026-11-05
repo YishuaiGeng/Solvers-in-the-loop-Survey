@@ -1,32 +1,34 @@
 {
   "version": "v0.2.2",
   "release_date": "2026-10-13",
+  "companion_snapshot_date": "2026-11-05",
+  "snapshot_status": "Current main-branch data; retained tag identifies the earlier fixed release",
   "eligibility_start": "2020-01-01",
-  "eligibility_end": "2026-09-30",
-  "evidence_snapshot_date": "2026-10-12",
-  "manuscript_snapshot_date": "2026-10-13",
+  "eligibility_end": "2026-10-31",
+  "evidence_snapshot_date": "2026-11-04",
+  "manuscript_snapshot_date": "2026-11-05",
   "historical_search_dates": [
     "2026-09-09",
     "2026-10-11"
   ],
-  "studies": 1429,
-  "reports": 1715,
-  "manuscript_references": 488,
-  "taxonomy_method_placements": 240,
+  "studies": 1459,
+  "reports": 1745,
+  "manuscript_references": 513,
+  "taxonomy_method_placements": 254,
   "literature_classes": {
-    "core_method": 1235,
-    "evaluation_diagnostic": 194
+    "core_method": 1254,
+    "evaluation_diagnostic": 205
   },
   "roles": {
-    "R1": 606,
-    "R2": 1043,
-    "R3": 574,
-    "R4": 275,
-    "R5": 262
+    "R1": 609,
+    "R2": 1059,
+    "R3": 585,
+    "R4": 282,
+    "R5": 264
   },
   "role_status": {
-    "classified": 1369,
-    "not_applicable": 25,
+    "classified": 1388,
+    "not_applicable": 36,
     "unclear": 35
   },
   "citation_years": {
@@ -36,13 +38,13 @@
     "2023": 56,
     "2024": 186,
     "2025": 463,
-    "2026": 710
+    "2026": 740
   },
   "missing_source_links": 0,
   "manuscript_citation_snapshot": {
-    "compiled_pdf_sha256": "811414771f237ddee1ca327721f813b4dc76b1ef14ac2a31185dcebe1b8d3404",
-    "bibliography_sha256": "9e37539bcc756207f6a6203b9fff3bfc5c17eab018e558de8c16dadcb90970d2",
-    "active_keys_sha256": "a0fd0703342529f7338104a49f78bbbb6214b1f13d31dbe327323c1b323efc4b",
+    "compiled_pdf_sha256": "bff679ba71ed5df4927f407ed2f23b90ddbbdf6b50da80b939f7ff96b7726778",
+    "bibliography_sha256": "367605023887d2bbe1b8ed678eaf6827fc29f1ee0deefe86d73188c224edea5f",
+    "active_keys_sha256": "b15975cf55aff9badde9470eb6a69e46ef060f5269b7e1c5d37dde74a958a220",
     "basis": "Current compiled manuscript, including figure and table citations"
   },
   "source_snapshots": [
@@ -68,15 +70,15 @@
     },
     {
       "name": "taxonomy_map",
-      "sha256": "3abd384c88295b92044c4b8f894f2080d4baf58802f7dadb98c99c1744763ab3"
+      "sha256": "7f3fcaae26cce3bf4a8fdb566d2df8a64b92bed1e692e2971eabbcd3791b9a8f"
     },
     {
       "name": "manuscript_bibliography",
-      "sha256": "9e37539bcc756207f6a6203b9fff3bfc5c17eab018e558de8c16dadcb90970d2"
+      "sha256": "367605023887d2bbe1b8ed678eaf6827fc29f1ee0deefe86d73188c224edea5f"
     },
     {
       "name": "benchmark_overview",
-      "sha256": "9032fcae204eb722761be7c6551ea326a75fb83bda65b3d387e6236c0bf83833"
+      "sha256": "e6062aa6b2cf8fb94aecc8efa84e8f754a616176b8e9a6d3e5762dcec065e98b"
     },
     {
       "name": "task_relevance",
@@ -108,15 +110,31 @@
     },
     {
       "name": "current_taxonomy",
-      "sha256": "28cda3d768894dbd9c10e6b069fe9881e2e06646e9e6c51d453a8010b3313bae"
+      "sha256": "b116c35caaa8dc74dc45533304f42ed44ec6c442784436282ae086810056f17f"
     },
     {
       "name": "current_taxonomy_data",
-      "sha256": "eb53fdc3ed1bfe22537e13672ba858708f35f0ae78e577827aaca419e68e5234"
+      "sha256": "3156d1032db10cddd2a3d50143ae07fdbdcfff644d4e66369b3d0006e249dfba"
     },
     {
       "name": "current_benchmark_table",
-      "sha256": "ea400d94717bd6b2149c860f29f590ada41e9bb1816cc0e88d99f1bfc92c2159"
+      "sha256": "0252f1ea4258592a8895acd823c3edcaf48df7e868ad78b228f68a664242776a"
+    },
+    {
+      "name": "october_confirmed_studies",
+      "sha256": "420864aa4aa93d6bd9c6124e8b981309c76a6aeaaa6c9c995c7f9cd72e781f1a"
+    },
+    {
+      "name": "october_confirmed_reports",
+      "sha256": "6bf9bf7e1fa19349e22a02f1cea1038a7c2dade592aae4b82419ad6cef919aec"
+    },
+    {
+      "name": "october_author_confirmation",
+      "sha256": "f3d226211ef405ee1398d854c751cbf59fb4e1a69a45aa59195012c908351c8a"
+    },
+    {
+      "name": "review_flow",
+      "sha256": "da0211a7c004e4153fff6995149d197496258a915c2290b37621d64375dba0e8"
     }
   ],
   "figures": [
@@ -132,7 +150,7 @@
     },
     {
       "asset": "assets/figures/symbolic-solving.png",
-      "source_sha256": "14a92a2ee733041c2eca80ca3714776d08e4dbcc1ebd3b96626126a08f4033bc",
+      "source_sha256": "cc2f9e9d2898b412933f461a157c5cf65ad949400b95307040ecd44ad539221b",
       "operation": "Existing standalone PDF rendered to RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
     },
     {
@@ -161,8 +179,18 @@
       "operation": "Existing standalone PDF rendered to RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
     },
     {
+      "asset": "assets/figures/search-provenance.png",
+      "source_sha256": "4bd431d545327f9d796fd2d59397b01b23f1e623fe696025d1b0aacc25da27d5",
+      "operation": "Existing standalone PDF rendered to RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
+      "asset": "assets/figures/study-selection.png",
+      "source_sha256": "4a37da9e95b961bfa3d5d9d9a1a00cc906ae26a3e04f9b7733f601216762b584",
+      "operation": "Existing standalone PDF rendered to RGB PNG; aspect ratio preserved; maximum dimension 2000 px"
+    },
+    {
       "asset": "assets/figures/taxonomy.png",
-      "source_sha256": "28cda3d768894dbd9c10e6b069fe9881e2e06646e9e6c51d453a8010b3313bae",
+      "source_sha256": "b116c35caaa8dc74dc45533304f42ed44ec6c442784436282ae086810056f17f",
       "operation": "Current compiled taxonomy artwork cropped above its caption and rendered to RGB PNG; maximum height 3200 px"
     }
   ]

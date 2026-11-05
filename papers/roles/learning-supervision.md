@@ -6,7 +6,7 @@ Use solver outcomes to construct or select training data, rewards, or learning t
 
 ![Learning Supervision](../../assets/figures/learning-supervision.png)
 
-262 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
+264 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
 
 ## Core methods
 
@@ -15,6 +15,7 @@ Use solver outcomes to construct or select training data, rewards, or learning t
 - [Abstraction Generation for Generalized Planning with Pretrained Large Language Models.](<https://arxiv.org/abs/2602.10485>) (2026) — Zhenhe Cui;  Huaxiang Xia;  Hangjun Shen et al.
 - [ADVENT: LLM-Driven Automatic Predicate Invention for ILP](<https://arxiv.org/abs/2607.01585>) (2026) — Tingting Yu;  Pei-Cing Huang;  Chan Hsu et al.
 - [Agentic Taxation Optimization via LLM SMT-Constraint Reasoning](<https://doi.org/10.1145/3786583.3786917>) (2026) — Hwang T.-C.;  Yu F.;  Jiang J.-H.R.
+- [Auto-Formalizing Neuro-Symbolic Predictors](<https://arxiv.org/abs/2610.01519>) (2026) — Bortolotti, Samuele;  Chen, Weixin;  Zhao, Han et al.
 - [Automatic Theorem Proving Based on Pre-trained Language Models and Unification; \[基于预训练语言模型和合一算法的自动定理证明\]](<https://doi.org/10.11896/jsjkx.251000066>) (2026) — Chen H.;  Zeng X.;  Liu Z. et al.
 - [Automating Formal Verification with Reinforcement Learning and Recursive Inference](<https://arxiv.org/abs/2605.30914>) (2026) — Max Tan.
 - [AutoOR: Scalably Post-training LLMs to Autoformulate Operations Research Problems](<https://arxiv.org/abs/2604.16804>) (2026) — Sumeet Ramesh Motwani;  Chuan Du;  Aleksander Petrov et al.
@@ -48,6 +49,7 @@ Use solver outcomes to construct or select training data, rewards, or learning t
 - [LAMP: Lean-based Agentic framework with MCP and Proof Repair](<https://arxiv.org/abs/2606.28841>) (2026) — Santhana Srinivasan R;  Maithilee Patawar.
 - [LCR-RAG: Enhancing Logical Consistency in Retrieval-Augmented Generation via Neuro-symbolic Reinforcement Learning](<https://doi.org/10.18653/v1/2026.acl-long.814>) (2026) — Zheng, Wenxiang; Tang, Guo; Jiang, Shixin et al.
 - [LeanPolish: Verified Supervision for Lean Proof Compression](<https://arxiv.org/abs/2609.38384>) (2026) — Pauline Bourigault.
+- [Learning Lean Feedback for Efficient Proof-Candidate Evaluation on GPUs](<https://arxiv.org/abs/2610.21881>) (2026) — Milikic, Lazar;  Bamas, Etienne;  Abbe, Emmanuel et al.
 - [Learning to Discover Interesting Mathematics](<https://arxiv.org/abs/2609.28603>) (2026) — Niket Patel;  Ahmad Rammal;  Amaury Hayat et al.
 - [Learning to Disprove: Formal Counterexample Generation with Large Language Models](<https://arxiv.org/abs/2603.19514>) (2026) — Zenan Li;  Zhaoyu Li;  Kaiyu Yang et al.
 - [Learning to Generate Formally Verifiable Step-by-Step Logic Reasoning via Structured Formal Intermediaries](<https://arxiv.org/abs/2603.29500>) (2026) — Luoxin Chen;  Yichi Zhou;  Huishuai Zhang.

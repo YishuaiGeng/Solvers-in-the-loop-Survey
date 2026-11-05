@@ -140,11 +140,13 @@ def render():
     coverage = load('analysis/coverage.json')
     added_ids = set(coverage['extension_study_ids'])
     added = [p for p in papers if p['study_id'] in added_ids]
-    outputs['papers/updates/2026-09.md'] = ('# Papers added in the September-window update\n\n'
-        '[All papers](../catalogue.md) · [Scope](../../docs/methodology.md)\n\n'
-        f'{len(added)} author-confirmed additions. This cohort includes boundary recoveries; '
-        'it is not restricted to studies first made public in September. Role annotations overlap.\n\n' + paper_list(added))
-    outputs['papers/catalogue.md'] += f'\n[Browse the {len(added)} studies added in this update](updates/2026-09.md).\n'
+    for month, prefix in [('2026-09','STUDY-SEP26-'),('2026-10','STUDY-OCT26-')]:
+        cohort = [p for p in added if p['study_id'].startswith(prefix)]
+        outputs[f'papers/updates/{month}.md'] = (f'# Confirmed additions: {month}\n\n'
+            '[All papers](../catalogue.md) · [Scope](../../docs/methodology.md)\n\n'
+            f'{len(cohort)} author-confirmed additions. This identifies the catalogue update, '
+            'not necessarily the month of first publication. Role annotations overlap.\n\n' + paper_list(cohort))
+        outputs['papers/catalogue.md'] += f'\n[Browse {month} additions: {len(cohort)} studies](updates/{month}.md).\n'
     for filename, cohort in [('corpus-summary.csv', papers), ('catalogue-extension.csv', added)]:
         buf = io.StringIO(newline='')
         writer = csv.writer(buf, lineterminator='\n')
@@ -169,7 +171,7 @@ def render():
     citation_status = ('A paper citation will be added when the manuscript is public. For now, you can cite this companion repository.'
         if not paper_links else 'Please cite the survey using its public paper record. The companion repository can be cited separately when using its catalogue or data.')
     manuscript = ['# Manuscript','',
-        '**Symbolic Solvers for Large Language Model Reasoning: A Survey**','',
+        '**Symbolic Solvers for Verifiable Large Language Model Reasoning: A Survey**','',
         'Yishuai Geng, Guohui Xiao, Guilin Qi, Tianxing Wu, Huajun Chen, and Haofen Wang.','',paper_status,'']
     if paper_links:
         manuscript += [' · '.join(paper_links),'']
@@ -229,6 +231,26 @@ def render():
             blines.append(f"| {title} | {md(b['category'])} | {protocols} | {md(b['modality'])} |")
         blines.append('')
     outputs['analysis/benchmarks.md'] = '\n'.join(blines)
+    flow = load('data/review-flow.json')
+    counts = flow['counts']
+    lines = ['# Search and study selection', '',
+        '[Scope and interpretation](methodology.md) · [Machine-readable counts](../data/review-flow.json)', '',
+        'The review covers January 2020–October 2026. Counts refer to the cohort with completed selection outcomes within this window. '
+        'Records outside this reporting cohort remain in the research records; they are not reclassified as eligibility exclusions.', '',
+        '| (a) Search concepts and source records | (b) PRISMA 2020-based selection flow |',
+        '| --- | --- |',
+        '| ![Search sources](../assets/figures/search-provenance.png) | ![Study selection](../assets/figures/study-selection.png) |', '',
+        '## Sources before deduplication', '', '| Source | Records |', '| --- | ---: |']
+    lines += [f'| {name} | {n:,} |' for name,n in flow['source_counts'].items()]
+    lines += [f"| Total | {counts['identified']:,} |", '', '## Selection flow', '', '| Stage | Count |', '| --- | ---: |']
+    labels = [('identified','Records identified'),('duplicates','Duplicate records removed'),('screened','Records screened'),
+        ('title_abstract_excluded','Records excluded'),('reports_sought','Reports sought for retrieval'),
+        ('not_retrieved','Reports not retrieved'),('reports_assessed','Reports assessed for eligibility'),
+        ('fulltext_excluded','Reports excluded'),('included_reports','Reports included'),('included_studies','Studies included')]
+    lines += [f'| {label} | {counts[key]:,} |' for key,label in labels]
+    lines += ['', 'Source counts sum to the flow input; each subsequent stage balances with its corresponding removal count. '
+        'Reports and studies are different units. Exclusion reasons and study partitions are retained in the machine-readable counts.', '']
+    outputs['docs/review-flow.md'] = '\n'.join(lines)
     return outputs
 
 

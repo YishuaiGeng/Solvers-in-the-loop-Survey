@@ -6,7 +6,7 @@ Use the returned consequence, model, plan, or proof to construct an answer.
 
 ![Symbolic Solving](../../assets/figures/symbolic-solving.png)
 
-606 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
+609 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
 
 ## Core methods
 
@@ -28,10 +28,12 @@ Use the returned consequence, model, plan, or proof to construct an answer.
 - [Agentic Taxation Optimization via LLM SMT-Constraint Reasoning](<https://doi.org/10.1145/3786583.3786917>) (2026) — Hwang T.-C.;  Yu F.;  Jiang J.-H.R.
 - [Agentic-IC3: Enabling Semantic Proof Search in IC3 Model Checking](<https://arxiv.org/abs/2609.27162>) (2026) — Yu-Wei Fan;  SooHyuk Cho;  Aarti Gupta et al.
 - [ALEXChat: a Generative - Symbolic Approach to Legal eXplainability](<https://doi.org/10.1145/3769126.3769234>) (2026) — Billi M.;  Parenti A.;  Pisano G. et al.
+- [Algebraic World Model: From Exploration to Proofs](<https://arxiv.org/abs/2610.40503>) (2026) — Pan, Guancheng;  Tan, Qixin;  Yuan, Yang et al.
 - [An LLM-Based Assistance System for Intuitive and Flexible Capability-Based Planning](<https://arxiv.org/abs/2605.28666>) (2026) — Luis Miguel Vieira da Silva;  Nicolas König;  Felix Gehlhoff.
 - [Any House Any Task: Scalable Long-Horizon Planning for Abstract Human Tasks](<https://arxiv.org/abs/2602.12244>) (2026) — Zhihong Liu;  Yang Li;  Rengming Huang et al.
 - [Are LLMs Stable Formal Logic Translators in Logical Reasoning Across Linguistically Diversified Texts?](<https://doi.org/10.1145/3774904.3792161>) (2026) — Li Q.;  Li J.;  Liu Z. et al.
 - [Aurora: Neuro-Symbolic AI Driven Advising Agent](<https://doi.org/10.1145/3748522.3779850>) (2026) — Quincoso Lugones L.A.;  Kverne C.L.;  Bhimani N.S. et al.
+- [Auto-Formalizing Neuro-Symbolic Predictors](<https://arxiv.org/abs/2610.01519>) (2026) — Bortolotti, Samuele;  Chen, Weixin;  Zhao, Han et al.
 - [Autoformalizing Argumentative Material Inferences](<https://arxiv.org/abs/2609.16991>) (2026) — Xin Quan;  Reto Gubelmann;  André Freitas.
 - [Automated Lemma Discovery in Agentic Program Verification](<https://arxiv.org/abs/2603.22114>) (2026) — Huan Zhao;  Haoxin Tu;  Zhengyao Liu et al.
 - [Automating Attack Graph Construction for Agentic Pentesting. Towards Neuro-Symbolic Vulnerability Hunting.](<https://arxiv.org/abs/2609.15523>) (2026) — Oliver Stevanovic;  Jasmin Wachter.
@@ -135,6 +137,7 @@ Use the returned consequence, model, plan, or proof to construct an answer.
 - [Learning Abstractions for Hierarchical Planning in Program-Synthesis Agents](<https://arxiv.org/abs/2602.00929>) (2026) — Zergham Ahmed;  Kazuki Irie;  Joshua B. Tenenbaum et al.
 - [Learning to Optimize through Solver-Grounded Self-Play](<https://arxiv.org/abs/2609.34205>) (2026) — Xia Jiang;  Yaoxin Wu;  Chenyu Zhou et al.
 - [Leveraging pre-trained large language models with refined prompting for online task and motion planning](<https://doi.org/10.1016/j.neucom.2026.132873>) (2026) — Guo H.;  Pi H.;  Qin Y. et al.
+- [LLM-Assisted Bi-Approximate CHC Solving](<https://arxiv.org/abs/2610.23771>) (2026) — Jiang, Baiting.
 - [LLM-assisted formalization for deterministic detection of statutory inconsistency in tax law](<https://doi.org/10.1007/s10506-026-09525-6>) (2026) — Yadamsuren B.;  Platt S.K.;  Diaz M.
 - [LLM-Assisted PDDL Modeling for Reliable Network Configuration Synthesis](<https://doi.org/10.1109/icc59461.2026.11587622>) (2026) — Fukuda N.;  Ito Y.;  Nozue H.
 - [LLM-Assisted Plan Execution for Robots in Dynamic Environments](<https://doi.org/10.3390/robotics15040080>) (2026) — Peña-Narvaez J.D.;  Pérez-Rodríguez R.;  Manzanares J.C. et al.

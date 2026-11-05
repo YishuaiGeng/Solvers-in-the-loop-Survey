@@ -375,6 +375,22 @@
     ]
   },
   {
+    "part": "Task solutions and formal models",
+    "name": "DecompGym",
+    "category": "Decomposition algorithm design",
+    "source": "Solver-backed output tests; GPT method judge",
+    "modality": "Numerical quality and judged method conformance",
+    "citations": [
+      "cheng2026decompgym"
+    ],
+    "protocols": [
+      {
+        "text": "Solver-backed output tests; GPT method judge",
+        "citations": []
+      }
+    ]
+  },
+  {
     "part": "Construction of checked formal artifacts",
     "name": "miniF2F",
     "category": "Theorem proving",
@@ -614,6 +630,38 @@
     ]
   },
   {
+    "part": "Construction of checked formal artifacts",
+    "name": "SqueezeBench",
+    "category": "Extremal mathematical bounds",
+    "source": "Comparator; Lean; nanoda",
+    "modality": "Trusted challenges; certified bound improvement",
+    "citations": [
+      "manrique2026squeezebench"
+    ],
+    "protocols": [
+      {
+        "text": "Comparator; Lean; nanoda",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "part": "Construction of checked formal artifacts",
+    "name": "DynaCertBench",
+    "category": "Dynamical-system certificates",
+    "source": "SMT; Lean",
+    "modality": "All stated certificate obligations",
+    "citations": [
+      "cao2026llm2cert"
+    ],
+    "protocols": [
+      {
+        "text": "SMT; Lean",
+        "citations": []
+      }
+    ]
+  },
+  {
     "part": "Correspondence and verifier diagnostics",
     "name": "ProofNet#",
     "category": "Statement formalization",
@@ -647,7 +695,7 @@
   },
   {
     "part": "Correspondence and verifier diagnostics",
-    "name": "Beyond Compilation",
+    "name": "Beyond Compilation (v1)",
     "category": "Statement formalization",
     "source": "Lean compilation",
     "modality": "Semantic judges; strict consensus",
@@ -755,6 +803,70 @@
     "protocols": [
       {
         "text": "Dafny; tests; docstring judgments",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "part": "Correspondence and verifier diagnostics",
+    "name": "FaithAlign",
+    "category": "Theory-scale formalization",
+    "source": "Lean context; link-level assessment",
+    "modality": "Expert-reviewed verdicts and defect links",
+    "citations": [
+      "feng2026aligning"
+    ],
+    "protocols": [
+      {
+        "text": "Lean context; link-level assessment",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "part": "Correspondence and verifier diagnostics",
+    "name": "MechAlign",
+    "category": "Project-level alignment",
+    "source": "Lean build; definition context",
+    "modality": "Provisional model alignment labels",
+    "citations": [
+      "shen2026mechalign"
+    ],
+    "protocols": [
+      {
+        "text": "Lean build; definition context",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "part": "Correspondence and verifier diagnostics",
+    "name": "LeanTrail",
+    "category": "Paper-to-Lean coverage",
+    "source": "Transitive sorry audit; axiom listing",
+    "modality": "Consensus alignment; same-audit proof status",
+    "citations": [
+      "venturim2026has"
+    ],
+    "protocols": [
+      {
+        "text": "Transitive sorry audit; axiom listing",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "part": "Correspondence and verifier diagnostics",
+    "name": "RefactorProof",
+    "category": "Proof stability after refactoring",
+    "source": "Separate Lean equivalence certificate",
+    "modality": "Fixed specification and proof; unchanged survival",
+    "citations": [
+      "mandiga2026stable"
+    ],
+    "protocols": [
+      {
+        "text": "Separate Lean equivalence certificate",
         "citations": []
       }
     ]

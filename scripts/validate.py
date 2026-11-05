@@ -38,8 +38,8 @@ def validate_papers(papers, snap):
     for p in papers:
         sid = p['study_id']
         require(set(p) == set(FIELDS), f'{sid}: unexpected or missing public fields')
-        require(re.fullmatch(r'(?:STUDY-[a-f0-9]{24}|STUDY-SEP26-\d{4}\.\d{4,5})',sid), f'{sid}: malformed study ID')
-        require(re.fullmatch(r'(?:RPT-[a-f0-9]{24}|SEP26-ARXIV-\d{4}\.\d{4,5}v\d+)',p['report_id']), f'{sid}: malformed report ID')
+        require(re.fullmatch(r'(?:STUDY-[a-f0-9]{24}|STUDY-(?:SEP26|OCT26)-\d{4}\.\d{4,5})',sid), f'{sid}: malformed study ID')
+        require(re.fullmatch(r'(?:RPT-[a-f0-9]{24}|SEP26-ARXIV-\d{4}\.\d{4,5}v\d+|OCT26-ARXIV-\d{4}\.\d{4,5})',p['report_id']), f'{sid}: malformed report ID')
         require(all(isinstance(p[k],str) and p[k].strip() for k in ('title','authors','venue')), f'{sid}: empty metadata')
         require(isinstance(p['year'],int) and 1900 <= p['year'] <= 2100, f'{sid}: invalid year')
         require(isinstance(p['solver_roles'],list) and set(p['solver_roles']) <= set(ROLES), f'{sid}: unknown role')
@@ -62,6 +62,22 @@ def validate_papers(papers, snap):
         ('citation_years',Counter(str(p['year']) for p in papers))]:
         require(dict(actual) == snap[field], f'{field}: stale snapshot counts')
     require(sum(p['url']=='not_reported' for p in papers)==snap['missing_source_links'], 'Stale missing-source count')
+
+
+def validate_flow(flow, snap):
+    c = flow['counts']
+    require(all(isinstance(n,int) and n>=0 for n in c.values()), 'Invalid flow count')
+    require(sum(flow['source_counts'].values())==c['identified'], 'Source/flow totals differ')
+    for upstream, removed, downstream in [('identified','duplicates','screened'),
+            ('screened','title_abstract_excluded','reports_sought'),
+            ('reports_sought','not_retrieved','reports_assessed'),
+            ('reports_assessed','fulltext_excluded','included_reports')]:
+        require(c[upstream]-c[removed]==c[downstream], f'Unbalanced selection stage: {upstream}')
+    require(c['included_reports']==snap['reports'] and c['included_studies']==snap['studies'], 'Flow/catalogue totals differ')
+    require(sum(r['count'] for r in flow['fulltext_exclusion_reasons'])==c['fulltext_excluded'], 'Exclusion reasons do not sum')
+    require(sum(flow['synthesis_role'].values())==sum(flow['study_track'].values())==snap['studies'], 'Study partitions do not sum')
+    require(flow['study_track']==snap['literature_classes'], 'Study tracks differ')
+    require(all(flow[k]==snap[k] for k in ('eligibility_start','eligibility_end')), 'Flow/catalogue windows differ')
 
 
 def validate_csv(papers, path):
@@ -119,6 +135,7 @@ def main():
     require(all(valid_url(links[k]) for k in ('arxiv_url','pdf_url','doi_url')), 'Unsafe manuscript URL')
     require(links['status']=='in_preparation' or any(links[k]!='not_reported' for k in ('arxiv_url','pdf_url','doi_url')), 'Public manuscript status requires a source link')
     validate_papers(papers,snap)
+    validate_flow(load('data/review-flow.json'),snap)
     validate_csv(papers,ROOT/'data/papers.csv')
     ids = {p['study_id'] for p in papers}
     coverage = load('analysis/coverage.json')

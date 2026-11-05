@@ -29,6 +29,7 @@ Representative resources from the manuscript evaluation table. The solver column
 | ALFWorld [shridhar2020alfworld](../references/README.md#shridhar2020alfworld) | Embodied planning | NeSyC; ASP [choi2025nesyc](../references/README.md#choi2025nesyc) | Task success under dynamics |
 | VirtualHome [puig2018virtualhome](../references/README.md#puig2018virtualhome) | Embodied safety | SENTINEL; LTL [zhan2025sentinel](../references/README.md#zhan2025sentinel) | Reference constraints; agreement and plan safety |
 | RuleArena [zhou2025rulearena](../references/README.md#zhou2025rulearena) | Policy reasoning | ASP / Clingo [nair2026policy](../references/README.md#nair2026policy) | Decision accuracy; robustness |
+| DecompGym [cheng2026decompgym](../references/README.md#cheng2026decompgym) | Decomposition algorithm design | Solver-backed output tests; GPT method judge  | Numerical quality and judged method conformance |
 
 ## Construction of checked formal artifacts
 
@@ -48,6 +49,8 @@ Representative resources from the manuscript evaluation table. The solver column
 | Alloy4Fun [macedo2021alloy4fun](../references/README.md#macedo2021alloy4fun) | Relational-specification repair | Alloy Analyzer repair [coverage20261009s251](../references/README.md#coverage20261009s251) | Repair validation |
 | OSVBench [li2026osvbench](../references/README.md#li2026osvbench) | OS specification generation | Z3 / state model  | Specification Pass@1 |
 | Vericoding benchmark [bursuc2025benchmark](../references/README.md#bursuc2025benchmark) | Verified implementation synthesis | Dafny; Verus; Lean  | Verified implementation |
+| SqueezeBench [manrique2026squeezebench](../references/README.md#manrique2026squeezebench) | Extremal mathematical bounds | Comparator; Lean; nanoda  | Trusted challenges; certified bound improvement |
+| DynaCertBench [cao2026llm2cert](../references/README.md#cao2026llm2cert) | Dynamical-system certificates | SMT; Lean  | All stated certificate obligations |
 
 ## Correspondence and verifier diagnostics
 
@@ -55,10 +58,14 @@ Representative resources from the manuscript evaluation table. The solver column
 | --- | --- | --- | --- |
 | ProofNet# [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Statement formalization | Lean statements  | Reference statements; equivalence assessment |
 | RLM25 [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Statement formalization | Lean statements  | Reference statements; equivalence assessment |
-| Beyond Compilation [zhang2026beyond2](../references/README.md#zhang2026beyond2) | Statement formalization | Lean compilation  | Semantic judges; strict consensus |
+| Beyond Compilation (v1) [zhang2026beyond2](../references/README.md#zhang2026beyond2) | Statement formalization | Lean compilation  | Semantic judges; strict consensus |
 | ITPEval [wu2026itpeval](../references/README.md#wu2026itpeval) | Cross-prover translation | Lean; Rocq; Isabelle; HOL Light  | Native acceptance; BEq |
 | ProofNetVerif [poiroux2406reliable](../references/README.md#poiroux2406reliable) | Metric calibration | BEqL / BEq+ assessment  | Human semantic labels; precision/recall |
 | FaithformBench [cornish2026faithformbench](../references/README.md#cornish2026faithformbench) | Validity preservation | Formal validity checks  | Error induction; correction |
 | ProcessBench [zheng2024processbench](../references/README.md#zheng2024processbench) | Step-error diagnosis | Coq / formal critic [zhou2025step](../references/README.md#zhou2025step) | Detection F1 |
 | SAT-Menu [hazra2024can](../references/README.md#hazra2024can) | Constraint difficulty diagnosis | MiniSat  | Accuracy; phase transition |
 | CloverBench [sun2024clover](../references/README.md#sun2024clover) | Acceptance-gate diagnosis | Dafny; tests; docstring judgments  | Correct/adversarial examples; acceptance |
+| FaithAlign [feng2026aligning](../references/README.md#feng2026aligning) | Theory-scale formalization | Lean context; link-level assessment  | Expert-reviewed verdicts and defect links |
+| MechAlign [shen2026mechalign](../references/README.md#shen2026mechalign) | Project-level alignment | Lean build; definition context  | Provisional model alignment labels |
+| LeanTrail [venturim2026has](../references/README.md#venturim2026has) | Paper-to-Lean coverage | Transitive sorry audit; axiom listing  | Consensus alignment; same-audit proof status |
+| RefactorProof [mandiga2026stable](../references/README.md#mandiga2026stable) | Proof stability after refactoring | Separate Lean equivalence certificate  | Fixed specification and proof; unchanged survival |

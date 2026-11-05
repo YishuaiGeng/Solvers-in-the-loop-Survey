@@ -6,7 +6,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 
 ![Diagnosis and Repair](../../assets/figures/diagnosis-repair.png)
 
-574 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
+585 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
 
 ## Core methods
 
@@ -35,7 +35,9 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [Agentic-IC3: Enabling Semantic Proof Search in IC3 Model Checking](<https://arxiv.org/abs/2609.27162>) (2026) — Yu-Wei Fan;  SooHyuk Cho;  Aarti Gupta et al.
 - [AGREE-Dog Copilot: A Neuro-Symbolic Approach to Enhanced Model-Based Systems Engineering](<https://doi.org/10.1007/978-3-032-07132-3_8>) (2026) — Tahat A.;  Amundson I.;  Hardin D. et al.
 - [AI-Assisted Completion of CertiGC Proofs: An Experience Report](<https://arxiv.org/abs/2606.21167>) (2026) — Shengyi Wang.
+- [Algebraic World Model: From Exploration to Proofs](<https://arxiv.org/abs/2610.40503>) (2026) — Pan, Guancheng;  Tan, Qixin;  Yuan, Yang et al.
 - [An exponential lower bound for the bit pigeonhole principle in resolution over parities](<https://arxiv.org/abs/2609.23015>) (2026) — Kamil Braun.
+- [AssureCode: Structured Justification for Trustworthy Agentic Coding](<https://arxiv.org/abs/2610.29758>) (2026) — Murphy, Logan;  Sy, Wilson;  Balevicius, Rhys et al.
 - [AutoACSL: Synthesizing ACSL Specifications by Integrating LLMs with CPG-Based Static Analysis](<https://arxiv.org/abs/2606.20969>) (2026) — Han Zhou;  Yu Luo;  Dianxiang Xu.
 - [AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis](<https://arxiv.org/abs/2607.03656>) (2026) — Adarsh Vatsa;  Sachi Shome;  Yingming Zhou et al.
 - [Autoformalization of Agent Instructions into Policy-as-Code](<https://arxiv.org/abs/2606.26649>) (2026) — Adam Mondl;  Matthew Maisel;  John H. Brock.
@@ -103,6 +105,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [Faithful Autoformalization via Roundtrip Verification and Repair](<https://arxiv.org/abs/2604.25031>) (2026) — Daneshvar Amrollahi;  Jerry Lopez;  Clark Barrett.
 - [Feedback Granularity in Bounded Repair of LLM-Generated PDDL Domains](<https://doi.org/10.1109/caibda70336.2026.11621110>) (2026) — Zhang Y.;  Li N.;  Zhou Z. et al.
 - [Fewer Assumptions by Design: A Reusable Skill for LLM-Assisted Verus Verification](<https://arxiv.org/abs/2609.34886>) (2026) — Andrada-Livia Antoneac;  Dorel Lucanu;  Dragoş Teodor Gavriluţ.
+- [FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification](<https://arxiv.org/abs/2610.00885>) (2026) — Lwin, Naing Oo.
 - [Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs](<https://arxiv.org/abs/2607.04631>) (2026) — Gabriel Poesia;  Simon Henniger;  Tzu-Han Hsu et al.
 - [Formal Model Construction Guided by Model-Based Proof Sketches](<https://arxiv.org/abs/2609.29870>) (2026) — Hongshu Wang;  Xinyue Zuo;  Yufan Cai et al.
 - [Formal Verification of Agentic Systems over Operational Data](<https://arxiv.org/abs/2608.03609>) (2026) — Alejandro J. Mercado;  Alessio Lomuscio.
@@ -113,6 +116,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [FormalTCS: Benchmarking End-to-End Frontier Formal Theoretical Computer Science Research of Large Language Models](<https://arxiv.org/abs/2608.20153>) (2026) — Dingzirui Wang;  Xuanliang Zhang;  Keyan Xu et al.
 - [From Errors to Proofs: Minimal-Core-Guided Repair for Neuro-Symbolic Constraint Solving](<https://arxiv.org/abs/2608.14771>) (2026) — Dipankar Sarkar.
 - [From LLM Suggestions to Lean Proofs: Verified Redundant Constraints for MiniZinc](<https://doi.org/10.4230/lipics.cp.2026.17>) (2026) — Danzinger P.;  Musliu N.
+- [From Natural Language to Verified C: Verification-Guided Generation with ACSL Specifications](<https://arxiv.org/abs/2610.30725>) (2026) — Wang, Zian;  Li, Qin;  Sun, Weisong et al.
 - [From Natural Language to Verified Code: Toward AI Assisted Problem-to-Code Generation with Dafny-Based Formal Verification](<https://arxiv.org/abs/2604.22601>) (2026) — Md Erfan;  Md Kamal Hossain Chowdhury;  Ahmed Ryan et al.
 - [From Semantic Decisions to Feasible Trajectories: Self-Evolving LLM-Guided Optimal Control for Narrow-Space Parking](<https://arxiv.org/abs/2609.24631>) (2026) — Zhengbao Yao;  Yuanfu Luo;  Kehan Xue.
 - [From Solver Feedback to Faithful Plans: Multi-Role Reinforcement Learning for Symbolic Planning](<https://arxiv.org/abs/2608.21897>) (2026) — Chenghao Zhang;  Yikai Mao;  Shanqi Liu et al.
@@ -147,6 +151,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [LCR-RAG: Enhancing Logical Consistency in Retrieval-Augmented Generation via Neuro-symbolic Reinforcement Learning](<https://doi.org/10.18653/v1/2026.acl-long.814>) (2026) — Zheng, Wenxiang; Tang, Guo; Jiang, Shixin et al.
 - [Lean Pool: An AI-Maintained Archive of Formalized Mathematics](<https://arxiv.org/abs/2609.25199>) (2026) — Vasily Ilin.
 - [Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory](<https://arxiv.org/abs/2606.06523>) (2026) — Ruida Wang;  Jerry Huang;  Pengcheng Wang et al.
+- [LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs](<https://arxiv.org/abs/2610.00760>) (2026) — Guo, Chenjun;  Patel, Manooshree;  Mehta, Arnav et al.
 - [LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](<https://arxiv.org/abs/2606.03303>) (2026) — Po-Nien Kung;  Linfeng Song;  Dawsen Hwang et al.
 - [Learning to Disprove: Formal Counterexample Generation with Large Language Models](<https://arxiv.org/abs/2603.19514>) (2026) — Zenan Li;  Zhaoyu Li;  Kaiyu Yang et al.
 - [Learning to Optimize through Solver-Grounded Self-Play](<https://arxiv.org/abs/2609.34205>) (2026) — Xia Jiang;  Yaoxin Wu;  Chenyu Zhou et al.
@@ -161,6 +166,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [LLM-Flax : Generalizable Robotic Task Planning via Neuro-Symbolic Approaches with Large Language Models](<https://arxiv.org/abs/2604.26569>) (2026) — Seongmin Kim;  Daegyu Lee.
 - [LLM-Grounded Dynamic Task Planning with Hierarchical Temporal Logic for Human-Aware Multi-Robot Handover](<https://arxiv.org/abs/2602.09472>) (2026) — Shuyuan Hu;  Tao Lin;  Kai Ye et al.
 - [LLM-Guided Quantified SMT Solving over Uninterpreted Functions](<https://doi.org/10.1609/aaai.v40i17.38445>) (2026) — Lv K.;  Dong Y.;  Han R. et al.
+- [LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification](<https://arxiv.org/abs/2610.30524>) (2026) — Cao, Zhipeng;  Song, Peiyang;  Vertovec, Nikolaus et al.
 - [LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning](<https://doi.org/10.18653/v1/2026.findings-acl.1151>) (2026) — Ishay, Adam; Lee, Joohyung.
 - [LLVM Translation Validation Automated with Large Language Models and Lean](<https://arxiv.org/abs/2609.19583>) (2026) — Chunhao Liao;  Hongxu Xu;  Xintong Zhou et al.
 - [Logic-Parametric Neuro-Symbolic NLI: Controlling Logical Formalisms for Verifiable LLM Reasoning](<https://arxiv.org/abs/2601.05705>) (2026) — Ali Farjami;  Luca Redondi;  Marco Valentino.
@@ -178,6 +184,7 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [MechGeo: Autoformalizing and Proving Euclidean Geometry in Lean 4](<https://arxiv.org/abs/2608.02295>) (2026) — Hao Shen;  Junyu Guo;  Tian Cui et al.
 - [MechMath: Sorrifier-Driven Formal Decomposition Workflow for Automated Theorem Proving](<https://arxiv.org/abs/2603.24465>) (2026) — Ruichen Qiu;  Yichuan Cao;  Junqi Liu et al.
 - [MENTOR: Fixing introductory programming assignments with formula-based fault localization and LLM-driven program repair](<https://doi.org/10.1016/j.jss.2025.112690>) (2026) — Orvalho P.;  Janota M.;  Manquinho V.
+- [MENTOR: Procedural Shielding of Tool-Using LLM Agents](<https://arxiv.org/abs/2610.17039>) (2026) — Anand, Ashwani;  Chatzi, Ivi;  Raha, Ritam et al.
 - [MIPA: Multi-Agent Interval Analysis via Value-Flow and LLM-Solver Co-Reasoning](<https://doi.org/10.1109/isctis70043.2026.11571895>) (2026) — Yang X.;  Yue G.;  Liu G.
 - [MoCS: Modular configuration synthesis via large language models and graph neural network-augmented recommendation](<https://doi.org/10.1016/j.comcom.2026.108428>) (2026) — Dai Y.;  Zhang H.;  Wang J. et al.
 - [Model Space Reasoning as Search in Feedback Space for Planning Domain Generation](<https://arxiv.org/abs/2604.08712>) (2026) — James Oswald;  Daniel Obolensky;  Volodymyr Varha et al.
@@ -226,9 +233,11 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [Reachability-based Temporal Logic Verification for Reliable LLM-guided Human-Autonomy Teaming](<https://arxiv.org/abs/2603.08633>) (2026) — Joonwon Choi;  Kartik Anand Pant;  Karthik Nune et al.
 - [REGAL: Extracting Implicit Rules in Text Using LLMs with Logic Program Feedback](<https://doi.org/10.1007/978-3-032-15981-6_10>) (2026) — Rajasekharan A.;  Gupta G.
 - [Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems](<https://arxiv.org/abs/2609.00859>) (2026) — Yi Chen;  Zikang Yu;  Jiahai Wang et al.
+- [Repairing LLM-Generated Specifications with Deterministic Diagnosis](<https://arxiv.org/abs/2610.22568>) (2026) — Vaccarino, Giovanni;  La Malfa, Emanuele;  Min, Dehai et al.
 - [Research on Formal Specification Generation Methods forAirborne Software Testing](<https://doi.org/10.1145/3803633.3803662>) (2026) — Wen J.;  Wu L.;  Chen X. et al.
 - [Research on network configuration analysis technology empowered by large language models; \[大语言模型赋能的网络配置分析技术研究\]](<https://doi.org/10.11959/j.issn.1000-436x.2026014>) (2026) — Li P.;  Liu Y.;  Su J. et al.
 - [Rethinking Supervision Granularity: Segment-Level Learning for LLM-Based Theorem Proving](<https://arxiv.org/abs/2605.11905>) (2026) — Shuo Xu;  Jiakun Zhang;  Junyu Lai et al.
+- [Reusable LLM-Based Plans with Probabilistic Guarantees for Self-Adaptive Systems](<https://arxiv.org/abs/2610.38039>) (2026) — Arya, Asher Tempest;  Maghera, Rajan;  Jiang, Nicholas Wu et al.
 - [RunbookFX: Type- and Effect-Safe LLM Synthesis for Executable Incident Diagnosis and Mitigation](<https://doi.org/10.1145/3828675>) (2026) — Xiao Y.;  Li S.;  Ge Y.
 - [SafePilot: A Framework for Assuring LLM-enabled Cyber-Physical Systems](<https://arxiv.org/abs/2603.21523>) (2026) — Weizhe Xu;  Mengyu Liu;  Fanxin Kong.
 - [Safety Guardrails for LLM-Enabled Robots](<https://doi.org/10.1109/lra.2026.3667488>) (2026) — Ravichandran Z.;  Robey A.;  Kumar V. et al.
@@ -250,12 +259,14 @@ Use counterexamples, errors, or other diagnostic feedback to revise a candidate.
 - [SKILLFORGE: Compositional Skill Synthesis with Verification-in-the-Loop for Generating Formally Verified Dafny Programs](<https://arxiv.org/abs/2608.29841>) (2026) — Yanming Liu;  Xinyue Peng;  Jiannan Cao et al.
 - [SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification](<https://arxiv.org/abs/2609.25637>) (2026) — Liangtao Dai;  Yimin Gao;  Melika Morsali et al.
 - [SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models](<https://www.scopus.com/pages/publications/105037206085?origin=resultslist>) (2026) — Monti S.;  Nicolini C.;  Pellegrini G. et al.
+- [SpecGuard: Proving a Task Is Broken Before the Agent Cheats](<https://arxiv.org/abs/2610.09159>) (2026) — Biyani, Param;  Dvijotham, Krishnamurthy.
 - [Specification-Guided Repair of Arithmetic Errors in Dafny Programs Using LLMs](<https://doi.org/10.1007/978-3-032-10444-1_16>) (2026) — Wu V.;  Mendes A.;  Abreu A.
 - [SpecPylot: Python Specification Generation with Large Language Models](<https://doi.org/10.1145/3803437.3806427>) (2026) — Ayon R.S.;  Ahmed S.
 - [Specula: Scaling formal specifications for autonomous model checking of system code](<https://arxiv.org/abs/2607.25333>) (2026) — Qian Cheng;  Saad Mohammad Rafid Pial;  Ruize Tang et al.
 - [SPL: Orchestrating Workflows with Declarative Deterministic-Probabilistic Composition](<https://arxiv.org/abs/2607.07727>) (2026) — Wen G. Gong.
 - [Statistical Theory in the Age of Machine-Assisted Mathematics: Rethinking How Theory Is Made and Taught](<https://arxiv.org/abs/2609.04481>) (2026) — Pietro Coretto.
 - [SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](<https://arxiv.org/abs/2609.21190>) (2026) — George Ma;  Benjamin Mikek;  Haoyu Li et al.
+- [Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors](<https://arxiv.org/abs/2610.25552>) (2026) — Lee, Jinu;  Barke, Shraddha.
 - [SymbolicAnalysis and LLM-Guided Debugging of Digital Twin Models with ASP Chef and DTDL †](<https://doi.org/10.3390/info17050506>) (2026) — Alviano M.;  Guarasci P.
 - [SymbolLKG: Towards Verifiable Logical Reasoning via Logical Knowledge Graph and Symbolic Solvers](<https://arxiv.org/abs/2608.26836>) (2026) — Haizhao Fan;  Yuchi Xiong;  Jize Wang et al.
 - [SymStep: Symbolic Step Verification for Logical Reasoning](<https://arxiv.org/abs/2607.23055>) (2026) — Aida Usmanova;  Rui Gao;  Dilshod Azizov et al.

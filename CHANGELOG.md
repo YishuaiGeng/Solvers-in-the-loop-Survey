@@ -1,5 +1,14 @@
 # Updates
 
+## Current main — 2026-11-05
+
+- Align the title and review window with the current manuscript through October 2026.
+- Append 30 author-confirmed studies: 1,459 studies / 1,745 reports, with stable existing identities.
+- Refresh manuscript references, taxonomy placements, role lists and display figures.
+- Add both Figure 2 panels and balanced aggregate selection counts for the completed cohort.
+- Retain the 1,301-study population of detailed task/metric tables and all existing tagged releases.
+
+
 ## 2026-10-30 — Survey title
 
 - Updated the survey title to *Symbolic Solvers for Large Language Model Reasoning: A Survey* in the homepage, manuscript information, and companion citation.

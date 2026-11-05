@@ -6,7 +6,7 @@ Use solver signals to guide expansion, pruning, or selection during search.
 
 ![Search Control](../../assets/figures/search-control.png)
 
-275 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
+282 studies in the confirmed corpus snapshot. Role assignments overlap; a diagnostic study carrying a role label is not thereby a deployed method.
 
 ## Core methods
 
@@ -21,6 +21,7 @@ Use solver signals to guide expansion, pruning, or selection during search.
 - [Agent-Driven Verification of Memory Safety for liblzma Decoder Components with VST](<https://arxiv.org/abs/2608.29716>) (2026) — Prokhor Shlyakhtun;  Alexander Gryzlov;  Vladimir Kukharenko et al.
 - [Agentic Concolic Execution](<https://doi.org/10.1109/sp63933.2026.00003>) (2026) — Luo Z.;  Zhao H.;  Wolff D. et al.
 - [Agentic Taxation Optimization via LLM SMT-Constraint Reasoning](<https://doi.org/10.1145/3786583.3786917>) (2026) — Hwang T.-C.;  Yu F.;  Jiang J.-H.R.
+- [Agentic Verified Optimization of Real-World Software](<https://arxiv.org/abs/2610.30188>) (2026) — Ye, Zhe;  Ghai, Udaya;  Qin, Zhizhen et al.
 - [Agentic-IC3: Enabling Semantic Proof Search in IC3 Model Checking](<https://arxiv.org/abs/2609.27162>) (2026) — Yu-Wei Fan;  SooHyuk Cho;  Aarti Gupta et al.
 - [An AI Approach to Verified Production Cryptographic Libraries](<https://arxiv.org/abs/2608.00965>) (2026) — Chuyue Sun;  Su Fong;  Zhiyi Kuang et al.
 - [An exponential lower bound for the bit pigeonhole principle in resolution over parities](<https://arxiv.org/abs/2609.23015>) (2026) — Kamil Braun.
@@ -74,6 +75,7 @@ Use solver signals to guide expansion, pruning, or selection during search.
 - [LeanPolish: Verified Supervision for Lean Proof Compression](<https://arxiv.org/abs/2609.38384>) (2026) — Pauline Bourigault.
 - [LeanTutor: Towards a Verified AI Mathematical Proof Tutor](<https://doi.org/10.1609/aaai.v40i47.41514>) (2026) — Patel M.;  Bhattacharyya R.;  Lu T. et al.
 - [Learning to Discover Interesting Mathematics](<https://arxiv.org/abs/2609.28603>) (2026) — Niket Patel;  Ahmad Rammal;  Amaury Hayat et al.
+- [LLM-Assisted Bi-Approximate CHC Solving](<https://arxiv.org/abs/2610.23771>) (2026) — Jiang, Baiting.
 - [LLM-Based Grid-World Path Planning With Probabilistic Model Checking](<https://doi.org/10.1145/3803437.3806714>) (2026) — Arya A.T.;  Babikian A.A.;  Jit S. et al.
 - [LLM-Flax : Generalizable Robotic Task Planning via Neuro-Symbolic Approaches with Large Language Models](<https://arxiv.org/abs/2604.26569>) (2026) — Seongmin Kim;  Daegyu Lee.
 - [LLM-Grounded Dynamic Task Planning with Hierarchical Temporal Logic for Human-Aware Multi-Robot Handover](<https://arxiv.org/abs/2602.09472>) (2026) — Shuyuan Hu;  Tao Lin;  Kai Ye et al.
@@ -90,6 +92,7 @@ Use solver signals to guide expansion, pruning, or selection during search.
 - [MAPLE: Memory-Augmented Planning with Language and Evolution](<https://arxiv.org/abs/2609.11636>) (2026) — Kesheng Chen;  Yamin Hu;  Wenjian Luo.
 - [MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics](<https://arxiv.org/abs/2602.02561>) (2026) — Xinyu Liu;  Zixuan Xie;  Amir Moeini et al.
 - [MechMath: Sorrifier-Driven Formal Decomposition Workflow for Automated Theorem Proving](<https://arxiv.org/abs/2603.24465>) (2026) — Ruichen Qiu;  Yichuan Cao;  Junqi Liu et al.
+- [MENTOR: Procedural Shielding of Tool-Using LLM Agents](<https://arxiv.org/abs/2610.17039>) (2026) — Anand, Ashwani;  Chatzi, Ivi;  Raha, Ritam et al.
 - [MisCC: Misinformation Detection on Counterfactual Claims](<https://doi.org/10.1007/978-3-032-09087-4_18>) (2026) — Li X.;  Belle V.;  Ross B.
 - [Model Space Reasoning as Search in Feedback Space for Planning Domain Generation](<https://arxiv.org/abs/2604.08712>) (2026) — James Oswald;  Daniel Obolensky;  Volodymyr Varha et al.
 - [Monotonic Reference-Free Refinement for Autoformalization](<https://arxiv.org/abs/2601.23166>) (2026) — Lan Zhang;  Marco Valentino;  André Freitas.
@@ -108,13 +111,16 @@ Use solver signals to guide expansion, pruning, or selection during search.
 - [PRIMUS: Identity, Governance, and Verification for Multi-Agent Federations](<https://arxiv.org/abs/2609.07910>) (2026) — Sasank Annapureddy;  Anjaneya Prasad Thamatani.
 - [Projectional Decoding: Towards Semantic-Aware LLM Generation](<https://doi.org/10.1145/3803437.3805571>) (2026) — Chen B.;  López J.A.H.;  Babikian A.A.
 - [Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture](<https://arxiv.org/abs/2605.16407>) (2026) — George Koomullil.
+- [Proof-Carrying Evolution: Black-Box Search, White-Box Flight](<https://arxiv.org/abs/2610.42043>) (2026) — Jain, Amit;  Sanchez-Hurtado, Sergio;  Rodriguez-Fernandez, Victor et al.
 - [ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving](<https://arxiv.org/abs/2608.26334>) (2026) — Wenqian Ye;  Ziwei Guan;  Eric Xie et al.
 - [ProofGap: Benchmarking Step-Level Formal Reasoning with Local Obligations Derived from Natural-Language Solutions](<https://arxiv.org/abs/2609.29296>) (2026) — Lihan Xie;  Zhicheng Hui;  Yingjun Lan et al.
 - [ProofLoom: Proof-Obligation-Driven Theory Construction for Autoformalizing Research-Level Stochastic Optimization](<https://arxiv.org/abs/2609.34960>) (2026) — Feiming Wang;  Daibo Li;  Kun Yuan.
 - [Proposing and solving olympiad geometry with guided tree search](<https://doi.org/10.1038/s42256-025-01164-x>) (2026) — Zhang C.;  Song J.;  Li S. et al.
 - [Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems](<https://arxiv.org/abs/2609.00859>) (2026) — Yi Chen;  Zikang Yu;  Jiahai Wang et al.
+- [Reusable LLM-Based Plans with Probabilistic Guarantees for Self-Adaptive Systems](<https://arxiv.org/abs/2610.38039>) (2026) — Arya, Asher Tempest;  Maghera, Rajan;  Jiang, Nicholas Wu et al.
 - [Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing](<https://arxiv.org/abs/2608.28639>) (2026) — Bodla Krishna Vamshi;  Haizhao Yang.
 - [RunbookFX: Type- and Effect-Safe LLM Synthesis for Executable Incident Diagnosis and Mitigation](<https://doi.org/10.1145/3828675>) (2026) — Xiao Y.;  Li S.;  Ge Y.
+- [SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning](<https://arxiv.org/abs/2610.11223>) (2026) — Xu, Weizhe;  Fan, Jialiang;  Liu, Mengyu et al.
 - [SAILOR: Solver-Assisted Interactive LLM-based Optimization Recovery](<https://arxiv.org/abs/2609.13945>) (2026) — Shaghayegh Sadeghi;  Stephen L. Smith;  David C. Del Rey Fernández.
 - [Schwarz: Solver-Aware Agentic Program Verification](<https://arxiv.org/abs/2608.30803>) (2026) — Jingyu Ke;  Ling-I Wu;  Guoqiang Li.
 - [SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search](<https://arxiv.org/abs/2609.37361>) (2026) — Zetong Zhou;  Wentao Zhang;  Jingyuan Wang et al.
@@ -122,6 +128,7 @@ Use solver signals to guide expansion, pruning, or selection during search.
 - [SKILLFORGE: Compositional Skill Synthesis with Verification-in-the-Loop for Generating Formally Verified Dafny Programs](<https://arxiv.org/abs/2608.29841>) (2026) — Yanming Liu;  Xinyue Peng;  Jiannan Cao et al.
 - [SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification](<https://arxiv.org/abs/2609.25637>) (2026) — Liangtao Dai;  Yimin Gao;  Melika Morsali et al.
 - [SorryDB: Can AI Provers Complete Real-World Lean Theorems?](<https://arxiv.org/abs/2603.02668>) (2026) — Austin Letson;  Leopoldo Sarra;  Auguste Poiroux et al.
+- [Specification-Guided Generation for Large Language Models](<https://arxiv.org/abs/2610.41511>) (2026) — Previti, Alessandro;  Vandikas, Konstantinos;  Alviano, Mario et al.
 - [Specula: Scaling formal specifications for autonomous model checking of system code](<https://arxiv.org/abs/2607.25333>) (2026) — Qian Cheng;  Saad Mohammad Rafid Pial;  Ruize Tang et al.
 - [SPL: Orchestrating Workflows with Declarative Deterministic-Probabilistic Composition](<https://arxiv.org/abs/2607.07727>) (2026) — Wen G. Gong.
 - [SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](<https://arxiv.org/abs/2609.21190>) (2026) — George Ma;  Benjamin Mikek;  Haoyu Li et al.
